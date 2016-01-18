@@ -18,6 +18,17 @@ import org.apache.uima.resource.metadata.ResourceMetaData;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
 import org.apache.uima.util.CasCreationUtils;
 
+import cz.brmlab.yodaqa.flow.asb.ParallelEngineFactory;
+import cz.brmlab.yodaqa.io.interactive.InteractiveAnswerPrinter;
+import cz.brmlab.yodaqa.io.interactive.InteractiveQuestionReader;
+import cz.brmlab.yodaqa.pipeline.YodaQA;
+
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
+
+// Interface definition
+import QPMThrift.QPM;
+
 /**
  * By "Philipp W".
  * 
@@ -41,7 +52,56 @@ import org.apache.uima.util.CasCreationUtils;
  *
  * XXX: This code could probably do with quite a few cleanups. */
 
-public final class MultiCASPipeline {
+public final class MultiCASPipeline implements QPM.Iface {
+
+	private static List<ResourceMetaData> _analysisComponentsMetadata;
+	private static List<AnalysisEngine> _analysisEngines;
+
+	public MultiCASPipeline() throws Exception {
+		CollectionReaderDescription reader = createReaderDescription(
+				InteractiveQuestionReader.class,
+				InteractiveQuestionReader.PARAM_LANGUAGE, "en");
+
+		AnalysisEngineDescription pipeline = YodaQA.createEngineDescription();
+
+		AnalysisEngineDescription printer = createEngineDescription(
+				InteractiveAnswerPrinter.class);
+
+		ParallelEngineFactory.registerFactory(); // comment out for a linear single-thread flow
+		/* XXX: Later, we will want to create an actual flow
+		 * to support scaleout. */
+		runPipeline(reader,
+				pipeline,
+				printer);
+	}
+
+	public String handleQuery(String query) {
+		/*
+		 * Run the pipeline
+		 */
+		try {
+			CAS cas = null;
+
+			cas = CasCreationUtils.createCas(_analysisComponentsMetadata);
+
+			cas.setDocumentText(query);
+
+			runAnalysisEngines(_analysisEngines, 0, cas);
+		} catch (Exception e) {
+		}
+
+		return "Yoda is done:)";
+
+	}
+
+    public void ping() {
+    	System.out.println("pinged");
+    }
+
+
+
+
+
 	public static void runPipeline(
 			CollectionReaderDescription collectionReaderDescription,
 			AnalysisEngineDescription ... analysisEngineDescriptions
@@ -81,35 +141,38 @@ public final class MultiCASPipeline {
 		}
 
 
-		/*
-		 * Run the pipeline
-		 */
-		CAS cas = null;
-		while( collectionReader.hasNext() ) {
-			if( cas == null ) // create a new CAS
-				cas = CasCreationUtils.createCas(analysisComponentsMetadata);
-			else // reuse the existing CAS to save resources
-				cas.reset();
+		_analysisComponentsMetadata = analysisComponentsMetadata; // intiialize the static member variable
+		_analysisEngines = analysisEngines;
 
-			collectionReader.getNext(cas);
-			runAnalysisEngines(analysisEngines, 0, cas);
-		}
-		if( cas != null ) {
-			cas.release();
-		}
+		// /*
+		//  * Run the pipeline
+		//  */
+		// CAS cas = null;
+		// while( collectionReader.hasNext() ) {
+		// 	if( cas == null ) // create a new CAS
+		// 		cas = CasCreationUtils.createCas(analysisComponentsMetadata);
+		// 	else // reuse the existing CAS to save resources
+		// 		cas.reset();
 
-		/*
-		 * Clean up: not completely sure if all of these need to be called, documentation on the calling
-		 * protocols for UIMA interfaces is pretty spotty.
-		 */
-		collectionReader.close();
-		collectionReader.destroy();
+		// 	collectionReader.getNext(cas);
+		// 	runAnalysisEngines(analysisEngines, 0, cas);
+		// }
+		// if( cas != null ) {
+		// 	cas.release();
+		// }
 
-		for( AnalysisEngine analysisEngine : analysisEngines ) {
-			analysisEngine.batchProcessComplete();
-			analysisEngine.collectionProcessComplete();
-			analysisEngine.destroy();
-		}
+		// /*
+		//  * Clean up: not completely sure if all of these need to be called, documentation on the calling
+		//  * protocols for UIMA interfaces is pretty spotty.
+		//  */
+		// collectionReader.close();
+		// collectionReader.destroy();
+
+		// for( AnalysisEngine analysisEngine : analysisEngines ) {
+		// 	analysisEngine.batchProcessComplete();
+		// 	analysisEngine.collectionProcessComplete();
+		// 	analysisEngine.destroy();
+		// }
 	}
 
 	private static void runAnalysisEngines(List<AnalysisEngine> analysisEngines, int index, CAS cas)

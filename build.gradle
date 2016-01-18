@@ -111,6 +111,7 @@ repositories {
 }
 
 dependencies {
+  compile 'org.apache.thrift:libthrift:0.9.3'
   compile 'eu.ailao:gloveDict:1.0-stanford'
   compile 'org.apache.uima:uimaj-core:2.6.0'
   compile 'org.apache.uima:uimafit-core:2.1.0'
