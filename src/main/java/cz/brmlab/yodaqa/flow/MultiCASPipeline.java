@@ -26,8 +26,6 @@ import cz.brmlab.yodaqa.pipeline.YodaQA;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 
-
-
 import org.apache.uima.UimaContext;
 import org.apache.uima.cas.CAS;
 import org.apache.uima.cas.CASException;
@@ -42,23 +40,6 @@ import org.apache.uima.util.ProgressImpl;
 import cz.brmlab.yodaqa.flow.dashboard.Question;
 import cz.brmlab.yodaqa.flow.dashboard.QuestionDashboard;
 import cz.brmlab.yodaqa.model.Question.QuestionInfo;
-
-
-
-
-
-
-import java.io.FileReader;
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
-
-
-
-
-
 
 // Interface definition
 import QPMThrift.QPM;
@@ -105,15 +86,18 @@ public final class MultiCASPipeline implements QPM.Iface {
 		ParallelEngineFactory.registerFactory(); // comment out for a linear single-thread flow
 		/* XXX: Later, we will want to create an actual flow
 		 * to support scaleout. */
+		System.out.println("Start running the Yoda pipeline...");
 		runPipeline(reader,
 				pipeline,
 				printer);
 	}
 
+
 	public String handleQuery(String query) {
 		/*
 		 * Run the pipeline
 		 */
+
 		++index;
 
 		Question q = new Question(Integer.toString(index), query);
@@ -121,37 +105,36 @@ public final class MultiCASPipeline implements QPM.Iface {
 		QuestionDashboard.getInstance().getQuestionToAnswer();
 
 		try {
+			// send the query to the CAS object
 			CAS cas = null;
-
 			cas = CasCreationUtils.createCas(_analysisComponentsMetadata);
-
 			JCas jcas = cas.getJCas();
 			jcas.setDocumentLanguage("en");
-
 			QuestionInfo qInfo = new QuestionInfo(jcas);
 			qInfo.setSource("interactive");
 			qInfo.setQuestionId(Integer.toString(index));
 			qInfo.addToIndexes(jcas);
 			jcas.setDocumentText(query);
 
+			System.out.println("Query: " + query);
+			System.out.println("Please wait. Thanks for your patience.");
+
+			// start running the complicated engines
 			runAnalysisEngines(_analysisEngines, 0, cas);
 		} catch (Exception e) {
 		}
 
+		String answer = InteractiveAnswerPrinter.final_answer; // static field
 
-		String answer = InteractiveAnswerPrinter.final_answer;
-       
+		System.out.println("******************** Completed. ********************");
 
 		return answer;
-
 	}
+
 
     public void ping() {
     	System.out.println("pinged");
     }
-
-
-
 
 
 	public static void runPipeline(
@@ -226,6 +209,7 @@ public final class MultiCASPipeline implements QPM.Iface {
 		// 	analysisEngine.destroy();
 		// }
 	}
+
 
 	private static void runAnalysisEngines(List<AnalysisEngine> analysisEngines, int index, CAS cas)
 			throws AnalysisEngineProcessException {

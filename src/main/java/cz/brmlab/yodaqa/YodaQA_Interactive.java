@@ -78,6 +78,7 @@ public class YodaQA_Interactive {
 			.transportFactory(new TFramedTransport.Factory());
 			TNonblockingServer server = new TNonblockingServer(args);
 			System.out.println("Starting Yoda at port " + port + "...");
+			System.out.println("You can run the client program now.");
 			server.serve();
 		} catch (Exception e) {
 			e.printStackTrace();

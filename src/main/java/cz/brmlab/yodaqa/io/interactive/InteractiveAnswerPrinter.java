@@ -35,7 +35,7 @@ import java.util.List;
 
 public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 
-	public static String final_answer;
+	public static String final_answer; // the final answer sent back to the QPM client
 
 	public void initialize(UimaContext context)
 			throws ResourceInitializationException {
@@ -90,8 +90,6 @@ public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 				}
 				System.out.println(sb.toString());
 
-				System.out.println("@@@@@@@@@@");
-
 				rtn = rtn + sb.toString() + "\n";
 			}
 		} else {
@@ -99,14 +97,9 @@ public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 
 			rtn = "No answer found.";
 		}
-		System.out.println("#####");
 		Question q = QuestionDashboard.getInstance().get(qi.getQuestionId());
 		// q.setAnswers(answers); XXX
-
-
-		System.out.println("$$$$$");
 		QuestionDashboard.getInstance().finishQuestion(q);
-		System.out.println("%%%%%");
 
 		final_answer = rtn;
 	}
