@@ -1,3 +1,5 @@
+namespace java QPMstubs
+
 service QPM
 {
 	# QPM <--> client API

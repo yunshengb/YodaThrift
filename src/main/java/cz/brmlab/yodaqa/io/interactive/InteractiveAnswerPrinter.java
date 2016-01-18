@@ -16,6 +16,16 @@ import cz.brmlab.yodaqa.model.AnswerHitlist.Answer;
 import cz.brmlab.yodaqa.model.CandidateAnswer.AnswerResource;
 import cz.brmlab.yodaqa.model.Question.QuestionInfo;
 
+
+// Java packages
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.net.URL;
+import java.util.Date;
+import java.util.List;
+
+
 /**
  * A trivial consumer that will extract the final answer and print it
  * on the standard output for the user to "officially" see.
@@ -31,6 +41,8 @@ public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 	}
 
 	public void process(JCas jcas) throws AnalysisEngineProcessException {
+		String rtn = "";
+
 		JCas questionView, answerHitlist;
 		try {
 			questionView = jcas.getView("Question");
@@ -75,12 +87,46 @@ public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 					}
 				}
 				System.out.println(sb.toString());
+
+				System.out.println("@@@@@@@@@@");
+
+				rtn += sb.toString();
 			}
 		} else {
 			System.out.println("No answer found.");
+
+			rtn = "No answer found.";
 		}
+		System.out.println("#####");
 		Question q = QuestionDashboard.getInstance().get(qi.getQuestionId());
 		// q.setAnswers(answers); XXX
+
+
+		System.out.println("$$$$$");
 		QuestionDashboard.getInstance().finishQuestion(q);
+		System.out.println("%%%%%");
+
+		writeToFile(rtn);
+	}
+
+	private void writeToFile(String answer) {
+		System.out.println("^^^^^^^");
+		String temp_path = "/Users/yba/Documents/U/Sirius/yodaqa-master/";
+		File file = new File(temp_path);
+		file.mkdirs();
+		try {
+			String temp_file_path = temp_path + "answer.txt";
+			System.out.println("***********");
+
+			// write the parsed text to a temporary file
+			FileWriter fileWriter = new FileWriter(temp_file_path);
+			// wrap FileWriter in BufferedWriter
+			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+			bufferedWriter.write(answer);
+			// close files
+			bufferedWriter.close();   
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }

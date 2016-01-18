@@ -26,6 +26,40 @@ import cz.brmlab.yodaqa.pipeline.YodaQA;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 
+
+
+import org.apache.uima.UimaContext;
+import org.apache.uima.cas.CAS;
+import org.apache.uima.cas.CASException;
+import org.apache.uima.collection.CollectionException;
+import org.apache.uima.fit.component.CasCollectionReader_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.apache.uima.util.Progress;
+import org.apache.uima.util.ProgressImpl;
+
+import cz.brmlab.yodaqa.flow.dashboard.Question;
+import cz.brmlab.yodaqa.flow.dashboard.QuestionDashboard;
+import cz.brmlab.yodaqa.model.Question.QuestionInfo;
+
+
+
+
+
+
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+
+
+
+
+
+
 // Interface definition
 import QPMThrift.QPM;
 
@@ -56,6 +90,7 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 	private static List<ResourceMetaData> _analysisComponentsMetadata;
 	private static List<AnalysisEngine> _analysisEngines;
+	private static int index = -1;
 
 	public MultiCASPipeline() throws Exception {
 		CollectionReaderDescription reader = createReaderDescription(
@@ -79,18 +114,75 @@ public final class MultiCASPipeline implements QPM.Iface {
 		/*
 		 * Run the pipeline
 		 */
+		++index;
+
+
+
+		Question q = new Question(Integer.toString(index), query);
+		QuestionDashboard.getInstance().askQuestion(q);
+		QuestionDashboard.getInstance().getQuestionToAnswer();
+
+
+
+
 		try {
 			CAS cas = null;
 
 			cas = CasCreationUtils.createCas(_analysisComponentsMetadata);
 
-			cas.setDocumentText(query);
+			JCas jcas = cas.getJCas();
+			jcas.setDocumentLanguage("en");
+
+			QuestionInfo qInfo = new QuestionInfo(jcas);
+			qInfo.setSource("interactive");
+			qInfo.setQuestionId(Integer.toString(index));
+			qInfo.addToIndexes(jcas);
+			jcas.setDocumentText(query);
+
+
+
+
+
+
 
 			runAnalysisEngines(_analysisEngines, 0, cas);
 		} catch (Exception e) {
 		}
 
-		return "Yoda is done:)";
+
+
+		String answer = "";
+
+		// The name of the file to open.
+		String fileName = "/Users/yba/Documents/U/Sirius/yodaqa-master/answer.txt";
+
+		// This will reference one line at a time
+		String line = null;
+
+		try {
+			// FileReader reads text files in the default encoding.
+			FileReader fileReader = 
+			    new FileReader(fileName);
+
+			// Always wrap FileReader in BufferedReader.
+			BufferedReader bufferedReader = 
+			    new BufferedReader(fileReader);
+
+			while((line = bufferedReader.readLine()) != null) {
+			    answer += line;
+			}   
+
+			// Always close files.
+			bufferedReader.close();  
+		} catch (Exception e) {
+
+		}
+       
+
+
+
+
+		return answer;
 
 	}
 
