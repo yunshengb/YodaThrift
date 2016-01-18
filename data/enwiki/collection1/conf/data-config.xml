@@ -1,0 +1,33 @@
+<dataConfig>
+  <dataSource type="FileDataSource" encoding="UTF-8" />
+  <script><![CDATA[
+    /* Ignore disambiguation pages. */
+    function skipDisambiguation(row) {
+      /* This is much better than using RegexTransformer,
+       * as in-text regex matching slows import down by
+       * two orders of magnitude! */
+      // XXX: This is not perfect, catches e.g. [[Anaconda]]
+      if (row.get('text').indexOf('may refer to:') >= 0)
+        row.put('$skipDoc', 'true');
+      return row;
+    }
+    ]]></script>
+
+  <document>
+    <entity name="doc"
+      processor="XPathEntityProcessor"
+      stream="true"
+      forEach="/wikitext/doc"
+      url="enwiki/enwiki-20150112-text.xml"
+      transformer="RegexTransformer,script:skipDisambiguation"
+      >
+      <field column="id"    xpath="/wikitext/doc/@id" />
+      <field column="url"   xpath="/wikitext/doc/@url" />
+      <field column="title" xpath="/wikitext/doc/@title" />
+      <field column="text"  xpath="/wikitext/doc" />
+      <!-- Redirects are skipped in WikiExtractor -->
+      <!-- In-namespace pages are skipped in WikiExtractor -->
+      <!-- Disambiguation pages are skipped by skipDisambiguation() above. -->
+    </entity>
+  </document>
+</dataConfig>

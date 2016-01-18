@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <fsIndexCollection xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>AnswerHitlistIndexes</name>
+    <description>AnswerHitlistCAS index structures</description>
+    <vendor>yodaqa</vendor>
+    <version>1.0</version>
+    <fsIndexes>
+      <fsIndexDescription>
+        <label>SortedAnswers</label>
+        <typeName>cz.brmlab.yodaqa.model.AnswerHitlist.Answer</typeName>
+        <kind>sorted</kind>
+        <keys>
+          <fsIndexKey>
+            <featureName>confidence</featureName>
+            <comparator>reverse</comparator>
+          </fsIndexKey>
+          <fsIndexKey>
+            <featureName>text</featureName>
+            <comparator>standard</comparator>
+          </fsIndexKey>
+        </keys>
+      </fsIndexDescription>
+    </fsIndexes>
+  </fsIndexCollection>

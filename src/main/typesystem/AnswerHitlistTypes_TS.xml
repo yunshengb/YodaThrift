@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>AnswerHitlistTypes</name>
+    <description>AnswerHitlistCAS type system</description>
+    <vendor>yodaqa</vendor>
+    <version>1.0</version>
+    <imports>
+      <import name="CandidateAnswerTypes_TS"/>
+      <import name="TyCorTypes_TS"/>
+    </imports>
+    <types>
+      <typeDescription>
+        <name>cz.brmlab.yodaqa.model.AnswerHitlist.Answer</name>
+        <description>Generated candidate answer</description>
+        <supertypeName>uima.cas.TOP</supertypeName>
+        <features>
+          <featureDescription>
+            <name>text</name>
+            <description>Text of the answer</description>
+            <rangeTypeName>uima.cas.String</rangeTypeName>
+          </featureDescription>
+          <featureDescription>
+            <name>canonText</name>
+	    <description>Syntactically canonical form of the answer (without leading/trailing interpunction and the- and such)</description>
+            <rangeTypeName>uima.cas.String</rangeTypeName>
+          </featureDescription>
+          <featureDescription>
+            <name>answerID</name>
+	     <description>ID of the candidateAnswer</description>
+            <rangeTypeName>uima.cas.Integer</rangeTypeName>
+          </featureDescription>
+          <featureDescription>
+            <name>snippetIDs</name>
+            <description>List of snippetIDs's used.</description>
+            <rangeTypeName>uima.cas.IntegerArray</rangeTypeName>
+          </featureDescription>
+          <featureDescription>
+            <name>source</name>
+            <description>Source of the candidate answer, either structured/fulltext search of wiki or freebase</description>
+            <rangeTypeName>uima.cas.String</rangeTypeName>
+          </featureDescription>
+          <featureDescription>
+            <name>resources</name>
+	    <description>Set of resources corresponding to this answer. (There may be multiple, of course.) Duplicates should not appear, order should not matter.</description>
+            <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+            <elementType>cz.brmlab.yodaqa.model.CandidateAnswer.AnswerResource</elementType>
+          </featureDescription>
+          <featureDescription>
+            <name>confidence</name>
+            <description>Confidence of the answer; this is an estimate of the probability that the answer is right</description>
+            <rangeTypeName>uima.cas.Double</rangeTypeName>
+          </featureDescription>
+          <featureDescription>
+            <name>features</name>
+            <description>A set of features of this answer, see CandidateAnswerTypes.</description>
+            <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+            <elementType>cz.brmlab.yodaqa.model.CandidateAnswer.AnswerFeature</elementType>
+          </featureDescription>
+          <featureDescription>
+            <name>lats</name>
+            <description>A set of LATs associated with this answer. These are simply LAT annotations copied from the candidate answer CAS.</description>
+            <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+            <elementType>cz.brmlab.yodaqa.model.TyCor.LAT</elementType>
+          </featureDescription>
+          <featureDescription>
+            <name>focus</name>
+            <description>The focus portion of the answer; typically a single word like the root noun or such.</description>
+            <rangeTypeName>uima.cas.String</rangeTypeName>
+          </featureDescription>
+        </features>
+      </typeDescription>
+    </types>
+  </typeSystemDescription>
