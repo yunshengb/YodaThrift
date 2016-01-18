@@ -116,14 +116,9 @@ public final class MultiCASPipeline implements QPM.Iface {
 		 */
 		++index;
 
-
-
 		Question q = new Question(Integer.toString(index), query);
 		QuestionDashboard.getInstance().askQuestion(q);
 		QuestionDashboard.getInstance().getQuestionToAnswer();
-
-
-
 
 		try {
 			CAS cas = null;
@@ -139,48 +134,13 @@ public final class MultiCASPipeline implements QPM.Iface {
 			qInfo.addToIndexes(jcas);
 			jcas.setDocumentText(query);
 
-
-
-
-
-
-
 			runAnalysisEngines(_analysisEngines, 0, cas);
 		} catch (Exception e) {
 		}
 
 
-
-		String answer = "";
-
-		// The name of the file to open.
-		String fileName = "/Users/yba/Documents/U/Sirius/yodaqa-master/answer.txt";
-
-		// This will reference one line at a time
-		String line = null;
-
-		try {
-			// FileReader reads text files in the default encoding.
-			FileReader fileReader = 
-			    new FileReader(fileName);
-
-			// Always wrap FileReader in BufferedReader.
-			BufferedReader bufferedReader = 
-			    new BufferedReader(fileReader);
-
-			while((line = bufferedReader.readLine()) != null) {
-			    answer += line;
-			}   
-
-			// Always close files.
-			bufferedReader.close();  
-		} catch (Exception e) {
-
-		}
+		String answer = InteractiveAnswerPrinter.final_answer;
        
-
-
-
 
 		return answer;
 

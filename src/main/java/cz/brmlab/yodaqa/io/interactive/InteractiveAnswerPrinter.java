@@ -35,6 +35,8 @@ import java.util.List;
 
 public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 
+	public static String final_answer;
+
 	public void initialize(UimaContext context)
 			throws ResourceInitializationException {
 		super.initialize(context);
@@ -90,7 +92,7 @@ public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 
 				System.out.println("@@@@@@@@@@");
 
-				rtn += sb.toString();
+				rtn = rtn + sb.toString() + "\n";
 			}
 		} else {
 			System.out.println("No answer found.");
@@ -106,27 +108,6 @@ public class InteractiveAnswerPrinter extends JCasConsumer_ImplBase {
 		QuestionDashboard.getInstance().finishQuestion(q);
 		System.out.println("%%%%%");
 
-		writeToFile(rtn);
-	}
-
-	private void writeToFile(String answer) {
-		System.out.println("^^^^^^^");
-		String temp_path = "/Users/yba/Documents/U/Sirius/yodaqa-master/";
-		File file = new File(temp_path);
-		file.mkdirs();
-		try {
-			String temp_file_path = temp_path + "answer.txt";
-			System.out.println("***********");
-
-			// write the parsed text to a temporary file
-			FileWriter fileWriter = new FileWriter(temp_file_path);
-			// wrap FileWriter in BufferedWriter
-			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-			bufferedWriter.write(answer);
-			// close files
-			bufferedWriter.close();   
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		final_answer = rtn;
 	}
 }
