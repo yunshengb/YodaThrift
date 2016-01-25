@@ -128,6 +128,8 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 		System.out.println("******************** Completed. ********************");
 
+		System.out.println(answer);
+
 		return answer;
 	}
 
@@ -236,6 +238,29 @@ public final class MultiCASPipeline implements QPM.Iface {
 				// Do one recursive call on the rest of the pipeline for each CAS
 				// that the analysis engine produces.
 				CAS newCAS = casIterator.next();
+
+
+
+				System.out.println("############################################");
+				System.out.println("############################################");
+				System.out.println("############################################");
+				System.out.println("############################################");
+				System.out.println("********************************************");
+				System.out.println("********************************************");
+				System.out.println("############################################");
+				System.out.println("############################################");
+				System.out.println("############################################");
+				System.out.println("####################runAnalysisEngines########################");
+				System.out.println("####################analysisEngines########################");
+				System.out.println(analysisEngines);
+				System.out.println("####################index+1########################");
+				System.out.println(index+1);
+				System.out.println("####################newCAS########################");
+				System.out.println(newCAS);
+				System.out.println("####################analysisEngines.size()########################");
+				System.out.println(analysisEngines.size());
+
+
 				runAnalysisEngines(analysisEngines, index+1, newCAS);
 				if( newCAS != cas ) {
 					// If this is a new CAS produced by this analysis engine, we consider
