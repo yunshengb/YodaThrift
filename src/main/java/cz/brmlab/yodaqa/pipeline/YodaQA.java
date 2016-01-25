@@ -54,8 +54,8 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 			 * instructions on how to obtain an example one. */
 
 			//SolrNamedSource.register("guten", "data/guten", null);
-			SolrNamedSource.register("enwiki", "collection1", "http://localhost:8983/solr/");
-			// SolrNamedSource.register("enwiki", "collection1", "http://enwiki.ailao.eu:8983/solr/"); previously, connect to the author
+			//SolrNamedSource.register("enwiki", "collection1", "http://localhost:8983/solr/");
+			SolrNamedSource.register("enwiki", "collection1", "http://enwiki.ailao.eu:8983/solr/"); // previously, connect to the author
 			System.out.println("****************************connect to http://localhost:8983/solr/!");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -140,7 +140,7 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 			AnalysisEngineDescription answerCASMerger = AnalysisEngineFactory.createEngineDescription(
 					AnswerCASMerger.class,
 					AnswerCASMerger.PARAM_ISLAST_BARRIER, 4,
-					// AnswerCASMerger.PARAM_ISLAST_BARRIER, 7, !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+					// AnswerCASMerger.PARAM_ISLAST_BARRIER, 7, !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 					AnswerCASMerger.PARAM_PHASE, 0,
 					ParallelEngineFactory.PARAM_NO_MULTIPROCESSING, 1);
 			builder.add(answerCASMerger);
@@ -289,7 +289,7 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 		 * PARAM_ISLAST_BARRIER. */
 
 		/* Structured search: */
-		// uncomment...................................................................................
+		// uncomment.....................................................................................................
 		// AnalysisEngineDescription dbpOnt = DBpediaOntologyAnswerProducer.createEngineDescription();
 		// builder.add(dbpOnt);
 		// AnalysisEngineDescription dbpProp = DBpediaPropertyAnswerProducer.createEngineDescription();
