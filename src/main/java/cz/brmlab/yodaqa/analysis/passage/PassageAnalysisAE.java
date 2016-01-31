@@ -74,16 +74,16 @@ public class PassageAnalysisAE /* XXX: extends AggregateBuilder ? */ {
 
 		/* CandidateAnswer from each NP constituent that does not match
 		 * any of the clues. */
-		builder.add(createPrimitiveDescription(CanByNPSurprise.class));
+		// builder.add(createPrimitiveDescription(CanByNPSurprise.class)); // .......................................
 		/* CandidateAnswer from each named entity that does not match
 		 * any of the clues. */
-		builder.add(createPrimitiveDescription(CanByNESurprise.class));
+		// builder.add(createPrimitiveDescription(CanByNESurprise.class)); // .......................................
 		/* Passages like: The <question focus> is <CandidateAnswer>. */
-		builder.add(createPrimitiveDescription(CanByLATSubject.class));
+		// builder.add(createPrimitiveDescription(CanByLATSubject.class)); // .......................................
 		/* CandidateAnswer based on token sequence tagging with B-I-O
 		 * labels; basically a custom answer-specific named entity
 		 * recognizer. */
-		builder.add(CanByBIOTaggerAE.createEngineDescription());
+		// builder.add(CanByBIOTaggerAE.createEngineDescription()); // .......................................
 
 		/* Blacklist some answers that are just linguistic artifacts */
 		builder.add(createPrimitiveDescription(CanBlacklist.class),

@@ -126,9 +126,7 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 		String answer = InteractiveAnswerPrinter.final_answer; // static field
 
-		System.out.println("******************** Completed. ********************");
-
-		System.out.println(answer);
+		System.out.println("****************************** Completed. ******************************");
 
 		return answer;
 	}
@@ -241,24 +239,24 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 
 
-				System.out.println("############################################");
-				System.out.println("############################################");
-				System.out.println("############################################");
-				System.out.println("############################################");
-				System.out.println("********************************************");
-				System.out.println("********************************************");
-				System.out.println("############################################");
-				System.out.println("############################################");
-				System.out.println("############################################");
-				System.out.println("####################runAnalysisEngines########################");
-				System.out.println("####################analysisEngines########################");
-				System.out.println(analysisEngines);
-				System.out.println("####################index+1########################");
-				System.out.println(index+1);
-				System.out.println("####################newCAS########################");
-				System.out.println(newCAS);
-				System.out.println("####################analysisEngines.size()########################");
-				System.out.println(analysisEngines.size());
+				// System.out.println("############################################");
+				// System.out.println("############################################");
+				// System.out.println("############################################");
+				// System.out.println("############################################");
+				// System.out.println("********************************************");
+				// System.out.println("********************************************");
+				// System.out.println("############################################");
+				// System.out.println("############################################");
+				// System.out.println("############################################");
+				// System.out.println("####################runAnalysisEngines########################");
+				// System.out.println("####################analysisEngines########################");
+				// System.out.println(analysisEngines);
+				// System.out.println("####################index+1########################");
+				// System.out.println(index+1);
+				// System.out.println("####################newCAS########################");
+				// System.out.println(newCAS);
+				// System.out.println("####################analysisEngines.size()########################");
+				// System.out.println(analysisEngines.size());
 
 
 				runAnalysisEngines(analysisEngines, index+1, newCAS);

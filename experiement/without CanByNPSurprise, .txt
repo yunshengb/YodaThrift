@@ -1,0 +1,621 @@
+Query: Who wrote the book Walden?
+Please wait. Thanks for your patience.
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from [jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-sentence-en-maxent/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-sentence-en-maxent-20120616.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/sentence-en-maxent.bin] redirected from [jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-model-sentence-en-maxent/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-model-sentence-en-maxent-20120616.1.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/sentence-en-maxent.properties]
+INFO ResourceObjectProviderBase - Producing resource took 19ms
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from [jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-token-en-maxent/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-token-en-maxent-20120616.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/token-en-maxent.bin] redirected from [jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-model-token-en-maxent/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-model-token-en-maxent-20120616.1.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/token-en-maxent.properties]
+INFO ResourceObjectProviderBase - Producing resource took 88ms
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from [jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.stanfordnlp-upstream-parser-en-rnn/jars/de.tudarmstadt.ukp.dkpro.core.stanfordnlp-upstream-parser-en-rnn-20140104.jar!/de/tudarmstadt/ukp/dkpro/core/stanfordnlp/lib/parser-en-rnn.ser.gz] redirected from [jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-parser-en-rnn/jars/de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-parser-en-rnn-20140104.1.jar!/de/tudarmstadt/ukp/dkpro/core/stanfordnlp/lib/parser-en-rnn.properties]
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl/1.7.0/660e6a99e1d68595970d004988310949685ff957/de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl-1.7.0.jar!/de/tudarmstadt/ukp/dkpro/core/api/lexmorph/tagset/en-ptb-pos.map
+INFO ResourceObjectProviderBase - Producing resource took 1ms
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.syntax-asl/1.7.0/5c91e9a53843bf951188e6f3c4fe67986bbf5a6e/de.tudarmstadt.ukp.dkpro.core.api.syntax-asl-1.7.0.jar!/de/tudarmstadt/ukp/dkpro/core/api/syntax/tagset/en-ptb-constituency.map
+INFO ResourceObjectProviderBase - Producing resource took 0ms
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-date/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-date-20100907.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-date.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-location/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-location-20100907.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-location.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-money/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-money-20100907.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-money.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-organization/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-organization-20100907.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-organization.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-percentage/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-percentage-20100907.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-percentage.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-person/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-person-20130624.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-person.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO ResourceObjectProviderBase - :: loading settings :: url = jar:file:/Users/yba/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+INFO ResourceObjectProviderBase - Producing resource from jar:file:/Users/yba/.ivy2/cache/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-time/jars/de.tudarmstadt.ukp.dkpro.core.opennlp-upstream-ner-en-time-20100907.jar!/de/tudarmstadt/ukp/dkpro/core/opennlp/lib/ner-en-time.bin
+INFO ResourceObjectProviderBase - Used resource from cache
+INFO SolrDocPrimarySearch -  QUERY: +("wrote")^1.0 ("Mark Walden")^1.1 +("book Walden")^1.1 +("The Book")^1.11 ("The Time Warp Trio")^1.11 ("Proofs from THE BOOK")^1.11 ("The Books")^1.11 +("Walden")^2.1  ("wrote book Walden The Book Walden "~8)^5.3100000000000005 ("wrote book Walden The Book Walden "~24)^2.6550000000000002 ("wrote book Walden The Book Walden "~72)^1.3275000000000001
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 278 active Years End Year -- 2006  :: prop score=null, GloVe score=0.008369680677165264
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 279 name -- Mark Walden  :: prop score=null, GloVe score=0.014860324983459225
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 280 name -- Walden, Mark  :: prop score=null, GloVe score=0.014860324983459225
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 281 notable Work -- H.I.V.E.  :: prop score=null, GloVe score=0.024975489419105622
+INFO SolrFullPrimarySearch -  QUERY: id:17758717 id:4500115 id:41207181 id:1573283 id:26074355 id:291978 id:1227485 
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 282 Gender -- Male  :: prop score=null, GloVe score=0.004705185036829668
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 283 Date of birth -- 1972-10-03  :: prop score=null, GloVe score=0.01242008830690741
+INFO SolrFullPrimarySearch -  FOUND: 1227485 The Time Warp Trio (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 291978 Walden (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 1573283 The Books (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 4500115 Proofs from THE BOOK (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 17758717 The Book (short story) (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 26074355 Mark Walden (0.8446270227432251)
+INFO SolrFullPrimarySearch -  QUERY: +("wrote" OR titleText:"wrote")^1.0 ("Mark Walden" OR titleText:"Mark Walden")^1.1 +("book Walden" OR titleText:"book Walden")^1.1 +("The Book" OR titleText:"The Book")^1.11 ("The Time Warp Trio" OR titleText:"The Time Warp Trio")^1.11 ("Proofs from THE BOOK" OR titleText:"Proofs from THE BOOK")^1.11 ("The Books" OR titleText:"The Books")^1.11 +("Walden" OR titleText:"Walden")^2.1  ("wrote book Walden The Book Walden "~8)^5.3100000000000005 (titleText:"wrote book Walden The Book Walden "~8)^5.3100000000000005 ("wrote book Walden The Book Walden "~24)^2.6550000000000002 (titleText:"wrote book Walden The Book Walden "~24)^2.6550000000000002 ("wrote book Walden The Book Walden "~72)^1.3275000000000001 (titleText:"wrote book Walden The Book Walden "~72)^1.3275000000000001
+INFO SolrFullPrimarySearch -  FOUND: 154989 Walden Two (0.1967712640762329)
+INFO SolrFullPrimarySearch -  FOUND: 43667044 Lois Walden (0.19430983066558838)
+INFO SolrFullPrimarySearch -  FOUND: 43421 Henry David Thoreau (0.013047916814684868)
+INFO SolrFullPrimarySearch -  FOUND: 5633082 Kat Kinkade (0.011112933978438377)
+INFO SolrFullPrimarySearch -  FOUND: 1937465 New Holland (Australia) (0.009723817929625511)
+INFO SolrFullPrimarySearch -  FOUND: 1908571 Frederik van Eeden (0.00833470094949007)
+INFO SolrFullPrimarySearch -  QUERY: id:17758717 id:4500115 id:41207181 id:1573283 id:26074355 id:291978 id:1227485 
+INFO SolrFullPrimarySearch -  FOUND: 1227485 The Time Warp Trio (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 291978 Walden (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 1573283 The Books (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 4500115 Proofs from THE BOOK (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 17758717 The Book (short story) (0.8446270227432251)
+INFO SolrFullPrimarySearch -  FOUND: 26074355 Mark Walden (0.8446270227432251)
+INFO SolrFullPrimarySearch -  QUERY: (titleText:"wrote")^1.0 (titleText:"Mark Walden")^1.1 (titleText:"book Walden")^1.1 (titleText:"The Book")^1.11 (titleText:"The Time Warp Trio")^1.11 (titleText:"Proofs from THE BOOK")^1.11 (titleText:"The Books")^1.11 (titleText:"Walden")^2.1  (titleText:"wrote book Walden The Book Walden "~8)^5.3100000000000005 (titleText:"wrote book Walden The Book Walden "~24)^2.6550000000000002 (titleText:"wrote book Walden The Book Walden "~72)^1.3275000000000001
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 1227485 The Time Warp Trio
+INFO SolrFullPrimarySearch -  REDUNDANT: 4500115
+INFO SolrFullPrimarySearch -  REDUNDANT: 26074355
+INFO SolrFullPrimarySearch -  REDUNDANT: 1227485
+INFO SolrFullPrimarySearch -  FOUND: 7289165 He Wrote a Book (0.12993298470973969)
+INFO SolrFullPrimarySearch -  FOUND: 19096555 The Book That Wrote Itself (0.12993298470973969)
+INFO SolrFullPrimarySearch -  FOUND: 30954593 I Wrote the Book (0.12993298470973969)
+INFO SolrDocPrimarySearch -  FOUND: 154989 Walden Two
+INFO SolrDocPrimarySearch -  FOUND: 43667044 Lois Walden
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 1227485 The Time Warp Trio
+INFO LATByWordnet - ?! word active years end year of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word creative work of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work by b.f.skinner of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work by b.f.skinner of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 290 Open Library ID -- OL2822951A  :: prop score=null, GloVe score=0.006765908266465102
+INFO LATByWordnet - ?! word date of birth of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 291 Languages -- English Language  :: prop score=null, GloVe score=0.0035350400718597757
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 292 Languages -- English Language  :: prop score=null, GloVe score=0.0035350400718597757
+INFO LATByWordnet - ?! word open library id of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 293 Languages -- English Language  :: prop score=null, GloVe score=0.0035350400718597757
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 294 Series Written (or Contributed To) -- H.I.V.E.  :: prop score=null, GloVe score=0.017623571099818637
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 295 Games Designed -- Mercury Meltdown  :: prop score=null, GloVe score=0.00666727543829894
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 296 Genres -- Horror  :: prop score=null, GloVe score=0.01748444715628474
+INFO LATByWordnet - ?! word game designed of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word game designed of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 297 Directed by -- Luigi Cozzi  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word series written or contributed to) of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word series written or contributed to) of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 298 Directed by -- Aldo Lado  :: prop score=null, GloVe score=0.055303438412506595
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 291978 Walden
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 291978 Walden
+INFO FocusGenerator - ?. No focus in: 
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 1573283 The Books
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 4500115 Proofs from THE BOOK
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 17758717 The Book (short story)
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 26074355 Mark Walden
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 7289165 He Wrote a Book
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 19096555 The Book That Wrote Itself
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 30954593 I Wrote the Book
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 1573283 The Books
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 4500115 Proofs from THE BOOK
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 17758717 The Book (short story)
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 26074355 Mark Walden
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 154989 Walden Two
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 43667044 Lois Walden
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 43421 Henry David Thoreau
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 5633082 Kat Kinkade
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 1937465 New Holland (Australia)
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO SolrFullPrimarySearch -  ** SearchResultCAS: 1908571 Frederik van Eeden
+INFO FocusGenerator - ?. No focus in: 
+INFO FocusGenerator - ?. No focus in: 
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 337 Directed by -- Sergio Stivaletti  :: prop score=null, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 338 Directed by -- Ruggero Deodato  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 339 Directed by -- Lamberto Bava  :: prop score=null, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 340 Directed by -- Alberto De Martino  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 341 Directed by -- Enzo G. Castellari  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 342 Directed by -- Sergio Martino  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 343 Directed by -- Edoardo Margheriti  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 344 Directed by -- Umberto Lenzi  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 345 Directed by -- Antonio Bido  :: prop score=null, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 346 Directed by -- Tonino Valerii  :: prop score=null, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 347 Country of origin -- Italy  :: prop score=null, GloVe score=0.012367629830279154
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 348 Music by -- Goblin  :: prop score=null, GloVe score=0.04325792782972586
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 349 Music by -- Claudio Simonetti  :: prop score=null, GloVe score=0.04325792782972586
+INFO LATByWordnet - ?! word music by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 350 Music by -- Goblin  :: prop score=0.5169973010303944, GloVe score=0.04325792782972586
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 351 Music by -- Claudio Simonetti  :: prop score=0.5169973010303944, GloVe score=0.04325792782972586
+INFO LATByWordnet - ?! word music by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 352 Directed by -- Luigi Cozzi  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word music by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 353 Directed by -- Aldo Lado  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word music by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 354 Directed by -- Sergio Stivaletti  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 355 Directed by -- Ruggero Deodato  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 356 Directed by -- Lamberto Bava  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 357 Directed by -- Alberto De Martino  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 358 Directed by -- Enzo G. Castellari  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 359 Directed by -- Sergio Martino  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 360 Directed by -- Edoardo Margheriti  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 361 Directed by -- Umberto Lenzi  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 362 Directed by -- Antonio Bido  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 363 Directed by -- Tonino Valerii  :: prop score=0.33142432174162806, GloVe score=0.055303438412506595
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 364 Name ID -- nm3383937  :: prop score=null, GloVe score=0.006225292488386912
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 365 Musical Genres -- Folk music  :: prop score=null, GloVe score=0.026675118130689415
+INFO LATByWordnet - ?! word name id of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word direct by of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 366 Musical Genres -- Experimental music  :: prop score=null, GloVe score=0.026675118130689415
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 367 Musical Genres -- Experimental rock  :: prop score=null, GloVe score=0.026675118130689415
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 368 Musical Genres -- Electronic music  :: prop score=null, GloVe score=0.026675118130689415
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 369 Musical Genres -- Folktronica  :: prop score=null, GloVe score=0.026675118130689415
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 370 Musical Genres -- Avant-garde  :: prop score=null, GloVe score=0.026675118130689415
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 371 Musical Genres -- Sound collage  :: prop score=null, GloVe score=0.026675118130689415
+INFO FocusGenerator - ?. No focus in: Avant-garde
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 372 Place Musical Career Began -- New York City  :: prop score=null, GloVe score=0.018066827124249864
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 373 Place Musical Career Began -- North Adams  :: prop score=null, GloVe score=0.018066827124249864
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 374 Record Labels -- Temporary Residence Limited  :: prop score=null, GloVe score=0.02274294414659396
+INFO LATByWordnet - ?! word place musical career began of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 375 Record Labels -- Tomlab  :: prop score=null, GloVe score=0.02274294414659396
+INFO LATByWordnet - ?! word place musical career began of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 376 Active as Musical Artist (start) -- 2000  :: prop score=null, GloVe score=0.020425454333089482
+INFO LATByWordnet - ?! word record label of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word record label of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 377 Musical Artist Home Page -- Official home page  :: prop score=null, GloVe score=0.028274553667753808
+INFO LATByWordnet - ?! word active as musical artist start) of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word start) of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word active as musical artist start) of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 378 Author -- Martin Aigner  :: prop score=null, GloVe score=0.11504071328340364
+INFO LATByWordnet - ?! word record label of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word record label of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 379 Subjects -- Mathematics  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 380 Author -- Martin Aigner  :: prop score=0.3114201751954282, GloVe score=0.11504071328340364
+INFO LATByWordnet - ?! word musical artist home page of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 381 Author(s) -- Jon Scieszka  :: prop score=null, GloVe score=0.03238410199466391
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 382 Works in this series -- Tut, Tut  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word author(s) of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 383 Works in this series -- See you later, gladiator  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 384 Works in this series -- Knights of the Kitchen Table  :: prop score=null, GloVe score=0.011867871020304685
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 385 Works in this series -- Da wild, da crazy, da Vinci  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 386 Works in this series -- Your Mother Was a Neanderthal  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 387 Works in this series -- Sam Samurai  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 388 Works in this series -- Me oh Maya!  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 389 Works in this series -- Oh say, I can't see  :: prop score=null, GloVe score=0.011867871020304685
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 390 Works in this series -- It's All Greek to Me  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 391 Works in this series -- The not-so-jolly Roger  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 392 Works in this series -- The good, the bad, and the goofy  :: prop score=null, GloVe score=0.011867871020304685
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 393 Works in this series -- 2095  :: prop score=null, GloVe score=0.011867871020304685
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 394 Works in this series -- Hey kid, want to buy a bridge?  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 395 Works in this series -- Summer Reading Is Killing Me  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 396 Works in this series -- Marco? Polo!  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 397 Works in this series -- Viking It and Liking It  :: prop score=null, GloVe score=0.011867871020304685
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 398 ISFDB ID -- 12554  :: prop score=null, GloVe score=0.0025946860920105235
+INFO LATByWordnet - ?! word isfdb id of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word isfdb of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 399 Author(s) -- Jon Scieszka  :: prop score=0.1530663664331411, GloVe score=0.03238410199466391
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 400 Author -- H. P. Lovecraft  :: prop score=null, GloVe score=0.11504071328340364
+INFO LATByWordnet - ?! word work in this series of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 401 Original language -- English Language  :: prop score=null, GloVe score=0.005933599072153605
+INFO LATByWordnet - ?! word author(s) of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word original language of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 402 Original language -- English Language  :: prop score=null, GloVe score=0.005933599072153605
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 403 Original language -- English Language  :: prop score=null, GloVe score=0.005933599072153605
+INFO LATByWordnet - ?! word original language of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 404 Genre -- Horror  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 405 Genre -- Fantasy  :: prop score=null, GloVe score=0.009366191523918098
+INFO LATByWordnet - ?! word original language of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 406 Genre -- Horror fiction  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 407 Author -- H. P. Lovecraft  :: prop score=0.3114201751954282, GloVe score=0.11504071328340364
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 408 Author -- Henry David Thoreau  :: prop score=null, GloVe score=0.11504071328340364
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 409 Genre -- Children's literature  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 410 Genre -- Autobiography  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 411 Genre -- Philosophy  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 412 Genre -- Memoir  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 413 Genre -- Memoir  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 414 Genre -- Fiction  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 415 Genre -- Speculative fiction  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 416 Genre -- Inspirational  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 417 Genre -- Nature  :: prop score=null, GloVe score=0.009366191523918098
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 418 Original language -- English Language  :: prop score=null, GloVe score=0.005933599072153605
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 419 Original language -- English Language  :: prop score=null, GloVe score=0.005933599072153605
+INFO LATByWordnet - ?! word original language of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 420 Original language -- English Language  :: prop score=null, GloVe score=0.005933599072153605
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 421 Subjects -- Music  :: prop score=null, GloVe score=0.024025159778582373
+INFO LATByWordnet - ?! word original language of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 422 Subjects -- History  :: prop score=null, GloVe score=0.024025159778582373
+INFO LATByWordnet - ?! word original language of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 423 Subjects -- Literature  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 424 Subjects -- Religion  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 425 Subjects -- Massachusetts  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 426 Subjects -- Classics  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 427 Subjects -- Literary  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 428 Subjects -- Literary  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 429 Subjects -- Literary criticism  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 430 Subjects -- Literary criticism  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 431 Subjects -- Natural history  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 432 Subjects -- 19th century  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 433 Subjects -- House  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 434 Subjects -- Ecology  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 435 Subjects -- Henry David Thoreau  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 436 Subjects -- Ethics  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 437 Subjects -- Home  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 438 Subjects -- Self-sufficiency  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 439 Subjects -- Walden Pond  :: prop score=null, GloVe score=0.024025159778582373
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 440 Date of first publication -- 1854  :: prop score=null, GloVe score=0.011895690526502667
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 441 Copyright date -- 2004-03  :: prop score=null, GloVe score=0.009379432221756752
+INFO LATByWordnet - ?! word date of first publication of POS NNS not in Wordnet
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 442 ISFDB ID -- 155082  :: prop score=null, GloVe score=0.0025946860920105235
+INFO FreebaseOntologyPrimarySearch -  FOUND: Property 443 Author -- Henry David Thoreau  :: prop score=0.3114201751954282, GloVe score=0.11504071328340364
+INFO LATByWordnet - ?! word copyright date of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word isfdb id of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word isfdb of POS NNS not in Wordnet
+INFO SolrDocPrimarySearch -  FOUND: 43421 Henry David Thoreau
+INFO SolrDocPrimarySearch -  FOUND: 5633082 Kat Kinkade
+INFO SolrDocPrimarySearch -  FOUND: 1937465 New Holland (Australia)
+INFO LATByWordnet - ?! word american activist of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word american activist of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word natural person of POS NNS not in Wordnet
+INFO SolrDocPrimarySearch -  FOUND: 1908571 Frederik van Eeden
+INFO SolrDocPrimarySearch -  FOUND: 37845411 Upstream Color
+INFO LATByWordnet - ?! word creative work of POS NNS not in Wordnet
+INFO SolrDocPrimarySearch -  FOUND: 4868 B. F. Skinner
+INFO SolrDocPrimarySearch -  FOUND: 14543688 Webb Miller (journalist)
+INFO SolrDocPrimarySearch -  FOUND: 31619520 Existentialist anarchism
+INFO SolrDocPrimarySearch -  FOUND: 179735 Anarcho-pacifism
+INFO SolrDocPrimarySearch -  FOUND: 98514 Green anarchism
+INFO SolrDocPrimarySearch -  FOUND: 43620339 Anarchist schools of thought
+INFO SolrDocPrimarySearch -  FOUND: 5879835 Individualist anarchism in the United States
+INFO LATByWordnet - ?! word animal right of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word animal right of POS NNS not in Wordnet
+INFO SolrDocPrimarySearch -  FOUND: 1866009 Environmentalism
+INFO SolrDocPrimarySearch -  FOUND: 15181 Individualism
+INFO SolrDocPrimarySearch -  FOUND: 45434 Environmental movement
+INFO SolrDocPrimarySearch -  FOUND: 98405 Anarcho-primitivism
+INFO SolrDocPrimarySearch -  FOUND: 2274182 Anarchism in the United States
+INFO LATByWordnet - ?! word environmental movement of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word environmental movement of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word political ideology of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word political ideology of POS NNS not in Wordnet
+INFO SolrDocPrimarySearch -  FOUND: 22882894 Individualist anarchism in Europe
+INFO LATByWordnet - ?! word american anarchist of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word american anarchist of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 462 nationality -- British  :: prop score=null, GloVe score=0.007992792836745897
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 463 SHORT DESCRIPTION -- English writer  :: prop score=null, GloVe score=0.012842789233002945
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 464 DATE OF BIRTH -- 1973  :: prop score=null, GloVe score=0.01242008830690741
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 465 birth date -- 1972-10-03  :: prop score=null, GloVe score=0.010751606921831962
+INFO LATByWordnet - ?! word short description of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word date of birth of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 466 spouse -- Sarah Walden  :: prop score=null, GloVe score=0.0392816550581291
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 467 children -- Megan Walden  :: prop score=null, GloVe score=0.011151810524341828
+INFO LATByWordnet - ?! word birth date of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 468 language -- English  :: prop score=null, GloVe score=0.0048989796975237275
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 469 genre -- Action  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 470 genre -- Fantasy  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 471 genre -- Evil  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 472 occupation -- Writer, Video games designer/producer  :: prop score=null, GloVe score=0.003988788736088353
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 473 id -- Mark_Walden  :: prop score=null, GloVe score=0.0025946860920105235
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 474 ethnicity -- White British  :: prop score=null, GloVe score=0.004128646930271604
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 475 period -- 2006  :: prop score=null, GloVe score=0.0018969581233257138
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 476 notableworks -- H.I.V.E. (series), Earthfall  :: prop score=null, GloVe score=0.023149600378819087
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 477 awards -- Richard and Judy's 'Best Kids' books ever 9+  :: prop score=null, GloVe score=0.11788359327150226
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 478 relatives -- Susan Walden  :: prop score=null, GloVe score=0.13035667760182623
+INFO LATByWordnet - ?! word notableworks of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 479 education -- BA in English Literature, MA in Twentieth Century Literature, Film and Television.  :: prop score=null, GloVe score=0.007349520243944774
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 480 name -- The Books  :: prop score=null, GloVe score=0.014860324983459225
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 481 Caption -- Left to right: Nick Zammuto, Paul de Jong  :: prop score=null, GloVe score=0.006745233280736929
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 482 Website --   :: prop score=null, GloVe score=0.027477687157425535
+INFO FocusGenerator - ?. No focus in: 
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 483 genre -- Sound collage  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 484 genre -- Avant-garde  :: prop score=null, GloVe score=0.009366191523918098
+INFO FocusGenerator - ?. No focus in: Avant-garde
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 485 genre -- Experimental music  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 486 genre -- Folktronica  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 487 years active -- 2000  :: prop score=null, GloVe score=0.013147042346313191
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 488 label -- Temporary Residence Limited  :: prop score=null, GloVe score=0.019932240282998306
+INFO LATByWordnet - ?! word year active of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word year active of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 489 label -- Tomlab  :: prop score=null, GloVe score=0.019932240282998306
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 490 background -- group_or_band  :: prop score=null, GloVe score=0.012228300705637919
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 491 origin -- New York City  :: prop score=null, GloVe score=0.0102412453309478
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 492 origin -- New York  :: prop score=null, GloVe score=0.0102412453309478
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 493 origin -- United States  :: prop score=null, GloVe score=0.0102412453309478
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 494 current members -- Nick Zammuto  :: prop score=null, GloVe score=0.017263918741949644
+INFO LATByWordnet - ?! word current member of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word current member of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 495 current members -- Paul de Jong  :: prop score=null, GloVe score=0.017263918741949644
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 496 Artist -- Books, The  :: prop score=null, GloVe score=0.08425264742897731
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 497 formed -- 2000  :: prop score=null, GloVe score=0.010359151378646174
+INFO LATByWordnet - ?! word current member of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word current member of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 498 name -- The Time Warp Trio  :: prop score=null, GloVe score=0.014860324983459225
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 499 author -- Jon Scieszka  :: prop score=null, GloVe score=0.11504071328340364
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 500 illustrator -- Lane Smith  :: prop score=null, GloVe score=0.01213743574043708
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 501 illustrator -- Adam_McCauley  :: prop score=null, GloVe score=0.01213743574043708
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 502 country -- United States  :: prop score=null, GloVe score=0.011144526761117875
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 503 language -- English  :: prop score=null, GloVe score=0.0048989796975237275
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 504 genre -- Children's literature  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 505 publisher -- Puffin Books  :: prop score=null, GloVe score=0.06032880018300629
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 506 media type -- Print  :: prop score=null, GloVe score=0.009081751856527242
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 507 pub date -- May 1991 - Present  :: prop score=null, GloVe score=0.0050892726276968985
+INFO LATByWordnet - ?! word media type of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 508 cover artist -- Lane Smith  :: prop score=null, GloVe score=0.0254622417176312
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 509 cover artist -- Adam McCauley  :: prop score=null, GloVe score=0.0254622417176312
+INFO LATByWordnet - ?! word cover artist of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 510 name -- Walden  :: prop score=null, GloVe score=0.014860324983459225
+INFO LATByWordnet - ?! word pub date of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 511 Caption -- Original title page of Walden featuring a picture drawn by Thoreau's sister Sophia.  :: prop score=null, GloVe score=0.006745233280736929
+INFO LATByWordnet - ?! word cover artist of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 512 author -- Henry David Thoreau  :: prop score=null, GloVe score=0.11504071328340364
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 513 country -- United States  :: prop score=null, GloVe score=0.011144526761117875
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 514 language -- English  :: prop score=null, GloVe score=0.0048989796975237275
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 515 genre -- Autobiography  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 516 media type -- Print  :: prop score=null, GloVe score=0.009081751856527242
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 517 title orig -- Walden; or, Life in the Woods  :: prop score=null, GloVe score=0.012072435588170408
+INFO LATByWordnet - ?! word media type of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word title orig of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word orig of POS NNS not in Wordnet
+INFO DBpediaPropertyPrimarySearch -  FOUND: Property 518 published -- 1854-08-09  :: prop score=null, GloVe score=0.01224954181537216
+INFO LATByWordnet - ?! word publish of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word publish of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word notable work of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 519 genre -- Fantasy  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 520 genre -- Evil  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 521 viaf Id -- 67605714  :: prop score=null, GloVe score=0.0025946860920105235
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 522 active Years Start Year -- 2006  :: prop score=null, GloVe score=0.008893481451180789
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 523 birth Year -- 1973  :: prop score=null, GloVe score=0.01133554503090357
+INFO LATByWordnet - ?! word viaf id of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word viaf of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word active year start year of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word active year start year of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 524 birth Date -- 1972-10-03  :: prop score=null, GloVe score=0.010751606921831962
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 525 active Years End Year -- 2012  :: prop score=null, GloVe score=0.008369680677165264
+INFO LATByWordnet - ?! word birth year of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word birth date of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 526 genre -- Sound collage  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 527 genre -- Avant-garde  :: prop score=null, GloVe score=0.009366191523918098
+INFO LATByWordnet - ?! word active years end year of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 528 genre -- Experimental music  :: prop score=null, GloVe score=0.009366191523918098
+INFO FocusGenerator - ?. No focus in: Avant-garde
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 529 genre -- Folktronica  :: prop score=null, GloVe score=0.009366191523918098
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 530 background -- group_or_band  :: prop score=null, GloVe score=0.012228300705637919
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 531 hometown -- New York City  :: prop score=null, GloVe score=0.05944480801262668
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 532 hometown -- New York  :: prop score=null, GloVe score=0.05944480801262668
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 533 hometown -- United States  :: prop score=null, GloVe score=0.05944480801262668
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 534 active Years Start Year -- 2000  :: prop score=null, GloVe score=0.008893481451180789
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 535 record Label -- Temporary Residence Limited  :: prop score=null, GloVe score=0.023644816456279815
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 536 record Label -- Tomlab  :: prop score=null, GloVe score=0.023644816456279815
+INFO LATByWordnet - ?! word active year start year of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word active year start year of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 537 format -- Animated series  :: prop score=null, GloVe score=0.003096022900066897
+INFO LATByWordnet - ?! word record label of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word record label of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 538 network -- NBC  :: prop score=null, GloVe score=0.016906226364898892
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 539 network -- Discovery Kids  :: prop score=null, GloVe score=0.016906226364898892
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 540 release Date -- 2005-07-09  :: prop score=null, GloVe score=0.01190641705079085
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 541 starring -- Scott McCord  :: prop score=null, GloVe score=0.07855124486453817
+INFO LATByWordnet - ?! word release date of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 542 starring -- Laurie Elliott  :: prop score=null, GloVe score=0.07855124486453817
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 543 starring -- Mark Rendall  :: prop score=null, GloVe score=0.07855124486453817
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 544 starring -- Darren Frost  :: prop score=null, GloVe score=0.07855124486453817
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 545 starring -- Sarah Gadon  :: prop score=null, GloVe score=0.07855124486453817
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 546 starring -- Tajja Isen  :: prop score=null, GloVe score=0.07855124486453817
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 547 starring -- Sunday Muse  :: prop score=null, GloVe score=0.07855124486453817
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 548 country -- United States  :: prop score=null, GloVe score=0.011144526761117875
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 549 completion Date -- 2006-09-30  :: prop score=null, GloVe score=0.007775651729271154
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 550 status -- Ended  :: prop score=null, GloVe score=0.015218869728712042
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 551 executive Producer -- Jim Rapsas  :: prop score=null, GloVe score=0.07300744859065346
+INFO LATByWordnet - ?! word completion date of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 552 number Of Episodes -- 26  :: prop score=null, GloVe score=0.010302285869933953
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 553 runtime -- 1320.0  :: prop score=null, GloVe score=0.0016001112096640023
+INFO LATByWordnet - ?! word executive producer of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 554 runtime -- 22.0  :: prop score=null, GloVe score=0.0016001112096640023
+INFO LATByWordnet - ?! word number of episodes of POS NNS not in Wordnet
+INFO DBpediaOntologyPrimarySearch -  FOUND: Property 555 author -- Henry David Thoreau  :: prop score=null, GloVe score=0.11504071328340364
+INFO LATByWordnet - ?! word runtime of POS NNS not in Wordnet
+INFO LATByWordnet - ?! word runtime of POS NNS not in Wordnet
+INFO SolrHitsCounter -  QUERY:  ("Henry David Thoreau "~3)^10.0 (titleText:"Henry David Thoreau "~3)^10.0 ("Henry David Thoreau "~9)^5.0 (titleText:"Henry David Thoreau "~9)^5.0
+INFO SolrHitsCounter -  QUERY:  ("Jon Scieszka "~3)^10.0 (titleText:"Jon Scieszka "~3)^10.0 ("Jon Scieszka "~9)^5.0 (titleText:"Jon Scieszka "~9)^5.0
+INFO SolrHitsCounter -  QUERY:  ("wrote book Walden The Book Walden Jon Scieszka "~15)^15.31 (titleText:"wrote book Walden The Book Walden Jon Scieszka "~15)^15.31 ("wrote book Walden The Book Walden Jon Scieszka "~45)^7.655 (titleText:"wrote book Walden The Book Walden Jon Scieszka "~45)^7.655
+INFO SolrHitsCounter -  QUERY:  ("Darren Frost "~3)^10.0 (titleText:"Darren Frost "~3)^10.0 ("Darren Frost "~9)^5.0 (titleText:"Darren Frost "~9)^5.0
+INFO SolrHitsCounter -  QUERY:  ("wrote book Walden The Book Walden Darren Frost "~15)^15.31 (titleText:"wrote book Walden The Book Walden Darren Frost "~15)^15.31 ("wrote book Walden The Book Walden Darren Frost "~45)^7.655 (titleText:"wrote book Walden The Book Walden Darren Frost "~45)^7.655
+INFO SolrHitsCounter -  QUERY:  ("Webb Miller "~3)^10.0 (titleText:"Webb Miller "~3)^10.0 ("Webb Miller "~9)^5.0 (titleText:"Webb Miller "~9)^5.0
+INFO SolrHitsCounter -  QUERY:  ("wrote book Walden The Book Walden Webb Miller "~15)^15.31 (titleText:"wrote book Walden The Book Walden Webb Miller "~15)^15.31 ("wrote book Walden The Book Walden Webb Miller "~45)^7.655 (titleText:"wrote book Walden The Book Walden Webb Miller "~45)^7.655
+INFO SolrHitsCounter -  QUERY:  ("Discovery Kids "~3)^10.0 (titleText:"Discovery Kids "~3)^10.0 ("Discovery Kids "~9)^5.0 (titleText:"Discovery Kids "~9)^5.0
+INFO SolrHitsCounter -  QUERY:  ("wrote book Walden The Book Walden Henry David Thoreau "~15)^15.31 (titleText:"wrote book Walden The Book Walden Henry David Thoreau "~15)^15.31 ("wrote book Walden The Book Walden Henry David Thoreau "~45)^7.655 (titleText:"wrote book Walden The Book Walden Henry David Thoreau "~45)^7.655
+INFO SolrHitsCounter -  QUERY:  ("wrote book Walden The Book Walden Discovery Kids "~15)^15.31 (titleText:"wrote book Walden The Book Walden Discovery Kids "~15)^15.31 ("wrote book Walden The Book Walden Discovery Kids "~45)^7.655 (titleText:"wrote book Walden The Book Walden Discovery Kids "~45)^7.655
+############################################
+############################################
+############################################
+############################################
+********************************************
+********************************************
+############################################
+############################################
+############################################
+####################runAnalysisEngines########################
+####################analysisEngines########################
+[cz.brmlab.yodaqa.flow.asb.ParallelAnalysisEngine@6e11605b, cz.brmlab.yodaqa.flow.asb.MultiprocessingAnalysisEngine_MultiplierOk@214bd927]
+####################index+1########################
+1
+####################newCAS########################
+org.apache.uima.cas.impl.CASImpl@407d389e
+####################analysisEngines.size()########################
+2
+1. Henry David Thoreau (conf. 0.9390281399685492) http://rdf.freebase.com/ns/m.0bwx3 http://en.wikipedia.org/wiki/Henry_David_Thoreau http://dbpedia.org/resource/Henry_David_Thoreau
+2. Webb Miller (conf. 0.3861139005676439) http://en.wikipedia.org/wiki/Webb_Miller_(journalist)
+3. Discovery Kids (conf. 0.32014685482916544) http://dbpedia.org/resource/Discovery_Kids
+4. Darren Frost (conf. 0.2541259010801438) http://dbpedia.org/resource/Darren_Frost
+5. Original title page of Walden featuring a picture drawn by Thoreau's sister Sophia. (conf. 0.10561112006131586)
+6. Jon Scieszka (conf. 0.09762584291645794) http://rdf.freebase.com/ns/m.04xrb2 http://dbpedia.org/resource/Jon_Scieszka
+7. B. F. Skinner (conf. 0.03976018598738764) http://en.wikipedia.org/wiki/B._F._Skinner
+8. Paul de Jong (conf. 0.033868747847439096)
+9. United States (conf. 0.030240764435096747) http://dbpedia.org/resource/United_States
+10. Lois Walden (conf. 0.029286150587024516) http://en.wikipedia.org/wiki/Lois_Walden
+11. Nick Zammuto (conf. 0.027645244194663136)
+12. Susan Walden (conf. 0.02738382547668461)
+13. Megan Walden (conf. 0.026922876236814268)
+14. Walden Two (conf. 0.026677187448372112) http://en.wikipedia.org/wiki/Walden_Two
+15. Walden, Mark (conf. 0.02658231811691886)
+16. Mark Rendall (conf. 0.024539705933806878) http://dbpedia.org/resource/Mark_Rendall
+17. Sarah Gadon (conf. 0.024539705933806878) http://dbpedia.org/resource/Sarah_Gadon
+18. Walden Pond (conf. 0.024202550817747002) http://rdf.freebase.com/ns/m.02lzfx
+19. Mark Walden (conf. 0.023971948337088253)
+20. Sarah Walden (conf. 0.022177129163260364)
+21. Adam McCauley (conf. 0.022123196951313963)
+22. Kat Kinkade (conf. 0.021812738321454948) http://en.wikipedia.org/wiki/Kat_Kinkade
+23. Walden; or, Life in the Woods (conf. 0.02139528973819419)
+24. Lane Smith (conf. 0.02137645407463548) http://dbpedia.org/resource/Lane_Smith_(illustrator)
+25. Jim Rapsas (conf. 0.019648753905607) http://dbpedia.org/resource/Jim_Rapsas
+26. Laurie Elliott (conf. 0.01817516169687072) http://dbpedia.org/resource/Laurie_Elliott
+******************** Completed. ********************
+1. Henry David Thoreau (conf. 0.9390281399685492) http://rdf.freebase.com/ns/m.0bwx3 http://en.wikipedia.org/wiki/Henry_David_Thoreau http://dbpedia.org/resource/Henry_David_Thoreau
+2. Webb Miller (conf. 0.3861139005676439) http://en.wikipedia.org/wiki/Webb_Miller_(journalist)
+3. Discovery Kids (conf. 0.32014685482916544) http://dbpedia.org/resource/Discovery_Kids
+4. Darren Frost (conf. 0.2541259010801438) http://dbpedia.org/resource/Darren_Frost
+5. Original title page of Walden featuring a picture drawn by Thoreau's sister Sophia. (conf. 0.10561112006131586)
+6. Jon Scieszka (conf. 0.09762584291645794) http://rdf.freebase.com/ns/m.04xrb2 http://dbpedia.org/resource/Jon_Scieszka
+7. B. F. Skinner (conf. 0.03976018598738764) http://en.wikipedia.org/wiki/B._F._Skinner
+8. Paul de Jong (conf. 0.033868747847439096)
+9. United States (conf. 0.030240764435096747) http://dbpedia.org/resource/United_States
+10. Lois Walden (conf. 0.029286150587024516) http://en.wikipedia.org/wiki/Lois_Walden
+11. Nick Zammuto (conf. 0.027645244194663136)
+12. Susan Walden (conf. 0.02738382547668461)
+13. Megan Walden (conf. 0.026922876236814268)
+14. Walden Two (conf. 0.026677187448372112) http://en.wikipedia.org/wiki/Walden_Two
+15. Walden, Mark (conf. 0.02658231811691886)
+16. Mark Rendall (conf. 0.024539705933806878) http://dbpedia.org/resource/Mark_Rendall
+17. Sarah Gadon (conf. 0.024539705933806878) http://dbpedia.org/resource/Sarah_Gadon
+18. Walden Pond (conf. 0.024202550817747002) http://rdf.freebase.com/ns/m.02lzfx
+19. Mark Walden (conf. 0.023971948337088253)
+20. Sarah Walden (conf. 0.022177129163260364)
+21. Adam McCauley (conf. 0.022123196951313963)
+22. Kat Kinkade (conf. 0.021812738321454948) http://en.wikipedia.org/wiki/Kat_Kinkade
+23. Walden; or, Life in the Woods (conf. 0.02139528973819419)
+24. Lane Smith (conf. 0.02137645407463548) http://dbpedia.org/resource/Lane_Smith_(illustrator)
+25. Jim Rapsas (conf. 0.019648753905607) http://dbpedia.org/resource/Jim_Rapsas
+26. Laurie Elliott (conf. 0.01817516169687072) http://dbpedia.org/resource/Laurie_Elliott
