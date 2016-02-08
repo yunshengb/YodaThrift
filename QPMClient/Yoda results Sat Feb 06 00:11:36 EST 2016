@@ -1,0 +1,1221 @@
+*****************************************
+Query 1
+Question: Who is the current president of the United States of America?
+Answer: 
+1. John C. Calhoun (conf. 0.8762006491987693) http://rdf.freebase.com/ns/m.0dq2k
+2. Sam Gibbons (conf. 0.7328054097017822) http://rdf.freebase.com/ns/m.03t85w
+3. W. Chapman Revercomb (conf. 0.7178421435240065) http://rdf.freebase.com/ns/m.05ff0d
+4. William Henry Harrison (conf. 0.6678890572994727) http://rdf.freebase.com/ns/m.0835q
+5. Aaron Ogden (conf. 0.544492751446462) http://rdf.freebase.com/ns/m.070cr1
+6. Alexander Martin (conf. 0.544492751446462) http://rdf.freebase.com/ns/m.02j2c6
+7. John Armstrong, Jr. (conf. 0.544492751446462) http://rdf.freebase.com/ns/m.02j18m
+8. Russell A. Alger (conf. 0.544492751446462) http://rdf.freebase.com/ns/m.03kwm5
+9. Yasser Arafat (conf. 0.34845508366451466) http://dbpedia.org/resource/Yasser_Arafat
+10. Benjamin Harrison (conf. 0.21818633273029006) http://rdf.freebase.com/ns/m.01b61
+11. Hubert Humphrey (conf. 0.08288133374945093) http://rdf.freebase.com/ns/m.0bq6m
+12. George H. W. Bush (conf. 0.07606615855452897) http://rdf.freebase.com/ns/m.034ls
+13. Thomas Jefferson (conf. 0.07606615855452897) http://rdf.freebase.com/ns/m.07cbs
+14. John Roberts (conf. 0.07151898464780358) http://dbpedia.org/resource/John_Roberts
+15. List of United States quangos (conf. 0.065499050291494) http://en.wikipedia.org/wiki/List_of_United_States_quangos
+16. Executive Office of the President of the United States (conf. 0.05771846280820726) http://rdf.freebase.com/ns/m.0c0cs
+17. Federal judiciary of the United States (conf. 0.05771846280820726) http://rdf.freebase.com/ns/m.05jkmt
+18. Supreme Court of the United States (conf. 0.05771846280820726) http://rdf.freebase.com/ns/m.07sz1
+19. Flag of the United States.svg (conf. 0.02966777709979489)
+20. Does not include insular areas and United States Minor Outlying Islands, which have their own ISO 3166 codes. (conf. 0.02342112791262992)
+21. Great Seal of the United States .svg (conf. 0.02342112791262992)
+22. Projection of North America with the United States in green (conf. 0.02342112791262992)
+23. Whether the United States or China is larger has been disputed. The figure given is from the U.S. Central Intelligence Agency's The World Factbook. Other sources give smaller figures. All authoritative calculations of the country's size include only the 50 states and the District of Columbia, not the territories. (conf. 0.02342112791262992)
+24. Washington, D.C. (conf. 0.023416325151792677) http://dbpedia.org/resource/Washington,_D.C. http://rdf.freebase.com/ns/m.0rh6k
+25. Rawhi Fattouh (conf. 0.01859418776312269)
+26. Abbas, Mahmoud (conf. 0.015283544658963541)
+
+
+Duration: 0 min 55 sec
+
+
+
+*****************************************
+Query 2
+Question: Who wrote the Walden?
+Answer: 
+1. Henry David Thoreau (conf. 0.8873079273747696) http://dbpedia.org/resource/Henry_David_Thoreau http://rdf.freebase.com/ns/m.0bwx3
+2. Walden (conf. 0.6568691557500279) http://en.wikipedia.org/wiki/Walden
+3. Patrick Walden (conf. 0.5667769211006285) http://en.wikipedia.org/wiki/Patrick_Walden
+4. Literary criticism (conf. 0.4557964553050486) http://rdf.freebase.com/ns/m.0dh53
+5. Print (conf. 0.16122291598590743)
+6. 19th century (conf. 0.14643413160201169) http://rdf.freebase.com/ns/m.08b3m
+7. Natural history (conf. 0.14643413160201169) http://rdf.freebase.com/ns/m.01664_
+8. Walden Two (conf. 0.10950405193452818) http://en.wikipedia.org/wiki/Walden_Two
+9. 1854 (conf. 0.10912044175246763)
+10. Celia Walden (conf. 0.10821674511995456) http://en.wikipedia.org/wiki/Celia_Walden
+11. George Walden (conf. 0.10821674511995456) http://en.wikipedia.org/wiki/George_Walden
+12. Carla Bianco (conf. 0.10650897841470662) http://en.wikipedia.org/wiki/Carla_Bianco
+13. Don't Ever Leave Me (conf. 0.09375820256261322) http://en.wikipedia.org/wiki/Don't_Ever_Leave_Me_(song)
+14. So Emotional (conf. 0.09375820256261322) http://en.wikipedia.org/wiki/So_Emotional
+15. Heinrich Strecker (conf. 0.08115123734834234) http://en.wikipedia.org/wiki/Heinrich_Strecker
+16. Ken Kifer (conf. 0.06636926057361484) http://en.wikipedia.org/wiki/Ken_Kifer
+17. Walden Pond (conf. 0.05433051945810444) http://rdf.freebase.com/ns/m.02lzfx
+18. Sadie Jemmett (conf. 0.053608585925608826) http://en.wikipedia.org/wiki/Sadie_Jemmett
+19. Block Party (conf. 0.031826655013070436) http://en.wikipedia.org/wiki/Block_Party_(Stacy_Lattisaw_and_Johnny_Gill_song)
+20. The Dance of Life (conf. 0.03051410174918013) http://en.wikipedia.org/wiki/The_Dance_of_Life_(album)
+21. I Don't Wanna Cry (conf. 0.03043757489861717) http://en.wikipedia.org/wiki/I_Don't_Wanna_Cry
+22. Original title page of Walden featuring a picture drawn by Thoreau's sister Sophia. (conf. 0.027217059774386154)
+23. Amelia Elizabeth Walden Award (conf. 0.02569577548491785) http://en.wikipedia.org/wiki/Amelia_Elizabeth_Walden_Award
+24. Walden; or, Life in the Woods (conf. 0.025489045211965735)
+25. Love Is the Gift (conf. 0.025020108624957953) http://en.wikipedia.org/wiki/Love_Is_the_Gift
+26. United States (conf. 0.01181923911666108)
+
+
+Duration: 0 min 15 sec
+
+
+
+*****************************************
+Query 3
+Question: Who founded Apple, Inc.?
+Answer: 
+1. Steve Wozniak (conf. 0.8104678490180912) http://rdf.freebase.com/ns/m.06y1l http://dbpedia.org/resource/Steve_Wozniak
+2. Ronald Wayne (conf. 0.7876408053777787) http://rdf.freebase.com/ns/m.02z496 http://en.wikipedia.org/wiki/Ronald_Wayne http://dbpedia.org/resource/Ronald_Wayne
+3. Steve Jobs (conf. 0.5924934954098837) http://rdf.freebase.com/ns/m.06y3r http://dbpedia.org/resource/Steve_Jobs
+4. 1976-04-01 (conf. 0.43232854672910814)
+5. Apple Store (conf. 0.194989909665067) http://rdf.freebase.com/ns/m.01fytn http://dbpedia.org/resource/Apple_Store http://dbpedia.org/resource/Apple_Store_(online)
+6. App Store (conf. 0.1173449064689392) http://rdf.freebase.com/ns/m.03wc248 http://dbpedia.org/resource/App_Store_(iOS)
+7. Public company (conf. 0.07060079212606499) http://dbpedia.org/resource/Public_company
+8. Apple Computer Logo rainbow.svg (conf. 0.0367205504515011)
+9. Apple logo black.svg (conf. 0.0367205504515011)
+10. Easy Software Products (conf. 0.030466509117349157) http://en.wikipedia.org/wiki/Easy_Software_Products
+11. ITunes Store (conf. 0.03035858452399913) http://dbpedia.org/resource/ITunes_Store
+12. Mac App Store (conf. 0.02943891225274646) http://dbpedia.org/resource/Mac_App_Store
+13. Jean-Marie Hullot (conf. 0.024759206706529792) http://en.wikipedia.org/wiki/Jean-Marie_Hullot
+14. Mac OS (conf. 0.024203731685207022) http://rdf.freebase.com/ns/m.0511f
+15. Mac OS X Tiger (conf. 0.024203731685207022) http://rdf.freebase.com/ns/m.02zrx4
+16. Robert Pera (conf. 0.02296127918690423) http://en.wikipedia.org/wiki/Robert_Pera
+17. Apple Inc. litigation (conf. 0.021716928408535945) http://en.wikipedia.org/wiki/Apple_Inc._litigation
+18. Laurene Powell Jobs (conf. 0.02103625976597274) http://en.wikipedia.org/wiki/Laurene_Powell_Jobs
+19. Obi Worldphone (conf. 0.01905873609425381) http://en.wikipedia.org/wiki/Obi_Worldphone
+20. *Arthur D. Levinson 
+*Tim Cook (conf. 0.0184851942058767)
+21. Nabih's Inc. (conf. 0.016958085797904754) http://en.wikipedia.org/wiki/Nabih's_Inc.
+22. FileMaker Inc. (conf. 0.014636430769146115) http://dbpedia.org/resource/FileMaker_Inc.
+23. Arthur D. Levinson (conf. 0.013563628351891992) http://dbpedia.org/resource/Arthur_D._Levinson
+24. *Steve Jobs
+*Steve Wozniak
+*Ronald Wayne (conf. 0.013399642812769444)
+25. Braeburn Capital (conf. 0.010508185164823438) http://dbpedia.org/resource/Braeburn_Capital
+26. Tim Cook (conf. 0.009803955709494376) http://dbpedia.org/resource/Tim_Cook
+
+
+Duration: 0 min 29 sec
+
+
+
+*****************************************
+Query 4
+Question: Who is the first man on the moon?
+Answer: 
+1. Frase de Neil Armstrong.ogg (conf. 0.7761922830179422)
+2. Neil Armstrong (conf. 0.6397693038990566) http://dbpedia.org/resource/Neil_Armstrong http://rdf.freebase.com/ns/m.05b6w http://rdf.freebase.com/ns/m.0h72_t8
+3. Patrick Moore (conf. 0.49398104076404736) http://en.wikipedia.org/wiki/Patrick_Moore
+4. Michael Collins (conf. 0.4416823764079398) http://dbpedia.org/resource/Michael_Collins_(astronaut) http://rdf.freebase.com/ns/m.0p45s
+5. Stephen Armstrong (conf. 0.3889145852723127) http://rdf.freebase.com/ns/m.0cv9kt7
+6. Christopher Riley (conf. 0.1889776282680084) http://en.wikipedia.org/wiki/Christopher_Riley
+7. Manned lunar landing (conf. 0.11821669512791876)
+8. Fred Haise (conf. 0.11724137101654046) http://dbpedia.org/resource/Fred_Haise
+9. William Anders (conf. 0.11724137101654046) http://dbpedia.org/resource/William_Anders
+10. Jim Lovell (conf. 0.11702110455572097) http://dbpedia.org/resource/Jim_Lovell
+11. British television Apollo 11 coverage (conf. 0.09267541715665434) http://rdf.freebase.com/ns/m.03nwxtq
+12. Man on the Moon (conf. 0.08447848330614638) http://rdf.freebase.com/ns/m.09v750d
+13. Buzz Aldrin (conf. 0.08088840925159392) http://dbpedia.org/resource/Buzz_Aldrin http://rdf.freebase.com/ns/m.0hfml
+14. NASA Apollo 11 command module.jpg (conf. 0.05135087611042831)
+15. Earth from Apollo 11 after translunar injection.jpg (conf. 0.050398213336881305)
+16. The Eagle Has Landed : The Flight of Apollo 11 & Neil Armstrong Landing on the Moon - NASA Documentary (conf. 0.04974043451681385)
+17. Earth seen from Apollo 11 just after leaving Earth orbit (conf. 0.03220972438152753)
+18. Saturn V carrying Apollo 11 rises past the launch tower camera (conf. 0.03220972438152753)
+19. Apollo 11 "For All of Mankind" : Neil Armstrong Landing On The Moon - NASA Documentary (conf. 0.029757726333938066)
+20. Neil Armstrong descends a ladder to become the first human to step onto the surface of the Moon (conf. 0.028467351647070795)
+21. Eric Armstrong (conf. 0.02651228486689051) http://rdf.freebase.com/ns/m.0j0fkjt
+22. Karen Armstrong (conf. 0.02651228486689051) http://rdf.freebase.com/ns/m.0j0fkk0
+23. Mark Armstrong (conf. 0.02651228486689051) http://rdf.freebase.com/ns/m.0j0fkk7
+24. Armstrong, Neil Alden (conf. 0.02634632176852633)
+25. Photo of Neil Armstrong, July 1969, in space suit with the helmet off (conf. 0.026135007080104813)
+26. Neil Alden Armstrong (conf. 0.02152169750104765)
+
+
+Duration: 1 min 38 sec
+
+
+
+*****************************************
+Query 5
+Question: Who founded the Black Panthers organization?
+Answer: 
+1. Bobby Seale (conf. 0.9146821551629478) http://rdf.freebase.com/ns/m.0gkyy
+2. Huey P. Newton (conf. 0.9122756755859815) http://rdf.freebase.com/ns/m.018y0w http://dbpedia.org/resource/Huey_P._Newton
+3. 1966-10-15 (conf. 0.6214066442045298)
+4. Black Panther Party (conf. 0.40042442087759006) http://en.wikipedia.org/wiki/Black_Panther_Party
+5. Marxism–Leninism (conf. 0.22470816567812757) http://dbpedia.org/resource/Marxism%E2%80%93Leninism
+6. Black Power movement (conf. 0.10075470055463587) http://en.wikipedia.org/wiki/Black_Power_movement
+7. Sekou Odinga (conf. 0.09402960069080292) http://en.wikipedia.org/wiki/Sekou_Odinga
+8. Dayal Bahadure (conf. 0.08700959272010891) http://en.wikipedia.org/wiki/Dayal_Bahadure
+9. Reggie Schell (conf. 0.07938174724101185) http://en.wikipedia.org/wiki/Reggie_Schell
+10. New Black Panther Party (conf. 0.07883827614222762) http://en.wikipedia.org/wiki/New_Black_Panther_Party
+11. Richard Aoki (conf. 0.06252597385049963) http://en.wikipedia.org/wiki/Richard_Aoki
+12. Tim Hayes (conf. 0.061616616926379514) http://en.wikipedia.org/wiki/Tim_Hayes_(Black_Panther_Party)
+13. Askia M. Touré (conf. 0.05879152220068933) http://en.wikipedia.org/wiki/Askia_M._Touré
+14. Democratic socialism (conf. 0.04283882404193451) http://rdf.freebase.com/ns/m.0b_39
+15. Left-wing nationalism (conf. 0.04283882404193451) http://rdf.freebase.com/ns/m.03qn3yw
+16. Black Panther Party, Winston-Salem, North Carolina Chapter (conf. 0.04017727764833582) http://en.wikipedia.org/wiki/Black_Panther_Party,_Winston-Salem,_North_Carolina_Chapter
+17. Black, light blue, green (conf. 0.03430532907106625)
+18. Black Liberation Army (conf. 0.0299253523228815) http://en.wikipedia.org/wiki/Black_Liberation_Army
+19. Black United Front (conf. 0.0299253523228815) http://en.wikipedia.org/wiki/Black_United_Front
+20. Far-left politics (conf. 0.02767240694562791) http://dbpedia.org/resource/Far-left_politics
+21. Freedom Party of New York (conf. 0.023944355032855042) http://en.wikipedia.org/wiki/Freedom_Party_of_New_York_(2010)
+22. Dalit Panthers (conf. 0.02377665918684679) http://en.wikipedia.org/wiki/Dalit_Panthers
+23. Seattle Black Panther Party History and Memory Project (conf. 0.02317763530858006) http://en.wikipedia.org/wiki/Seattle_Black_Panther_Party_History_and_Memory_Project
+24. Black nationalism  Maoism (conf. 0.013122896338327594)
+25. Revolutionary socialism (conf. 0.013122896338327594) http://dbpedia.org/resource/Revolutionary_socialism
+26. Algeria, Cuba, France (conf. 0.009656247427409522)
+
+
+Duration: 1 min 3 sec
+
+
+
+*****************************************
+Query 6
+Question: Who discovered prions?
+Answer: 
+1. Stanley B. Prusiner (conf. 0.6941839063484024) http://en.wikipedia.org/wiki/Stanley_B._Prusiner
+2. Prion Diseases (conf. 0.6736791809565177)
+3. Prion (conf. 0.5342793901450711) http://en.wikipedia.org/wiki/Prion
+4. Chronic wasting disease (conf. 0.1905767432808699) http://rdf.freebase.com/ns/m.01l04h http://en.wikipedia.org/wiki/Chronic_wasting_disease
+5. A81 (conf. 0.15257746456792495)
+6. Frank O. Bastian (conf. 0.09885990383689348) http://en.wikipedia.org/wiki/Frank_O._Bastian
+7. Kuru (conf. 0.09824247563328177) http://rdf.freebase.com/ns/m.02636c
+8. Scrapie (conf. 0.09824247563328177) http://rdf.freebase.com/ns/m.01gc6_
+9. Sup35p (conf. 0.09824247563328177) http://rdf.freebase.com/ns/m.044sfr
+10. E. J. Field (conf. 0.09729774123943975) http://en.wikipedia.org/wiki/E._J._Field
+11. Bovine spongiform encephalopathy (conf. 0.08683260699235931) http://rdf.freebase.com/ns/m.0jy66
+12. Creutzfeldt–Jakob disease (conf. 0.0688079018796226) http://rdf.freebase.com/ns/m.01ptn
+13. 046 (conf. 0.06329055710631393)
+14. Protease-sensitive prionopathy (conf. 0.06204354776173902) http://rdf.freebase.com/ns/m.05b_j7f
+15. Fatal familial insomnia (conf. 0.05762118704091635) http://rdf.freebase.com/ns/m.0b_bf
+16. Transmissible mink encephalopathy (conf. 0.05762118704091635) http://rdf.freebase.com/ns/m.07y_vf
+17. Blue petrel (conf. 0.031609521632232365) http://en.wikipedia.org/wiki/Blue_petrel
+18. Slow virus (conf. 0.028476756521702763) http://en.wikipedia.org/wiki/Slow_virus
+19. Transmissible spongiform encephalopathy (conf. 0.028476756521702763) http://en.wikipedia.org/wiki/Transmissible_spongiform_encephalopathy
+20. Microscopic "holes" are characteristic in prion-affected tissue sections, causing the tissue to develop a "spongy" architecture. (conf. 0.028291704979402515)
+21. Gerstmann–Sträussler–Scheinker syndrome (conf. 0.020228299431321244) http://en.wikipedia.org/wiki/Gerstmann–Sträussler–Scheinker_syndrome
+22. Structural inheritance (conf. 0.020228299431321244) http://en.wikipedia.org/wiki/Structural_inheritance
+23. Surround Optical Fiber Immunoassay (conf. 0.020228299431321244) http://en.wikipedia.org/wiki/Surround_Optical_Fiber_Immunoassay
+24. Shag Rocks, South Georgia (conf. 0.01960949652021665) http://en.wikipedia.org/wiki/Shag_Rocks,_South_Georgia
+25. Cooper Island (conf. 0.014065609996360917) http://en.wikipedia.org/wiki/Cooper_Island
+26. William Gerhardie (conf. 0.0137995043707417) http://en.wikipedia.org/wiki/William_Gerhardie
+
+
+Duration: 0 min 43 sec
+
+
+
+*****************************************
+Query 7
+Question: Who are the members of the Rat Pack?
+Answer: 
+1. Frank Sinatra & The Rat Pack (conf. 0.745382103266297)
+2. Clive Parker (conf. 0.7130601158729212) http://dbpedia.org/resource/Clive_Parker
+3. Skip Martin (conf. 0.5782279095471486) http://en.wikipedia.org/wiki/Skip_Martin
+4. Peter Lawford (conf. 0.37209329048477935) http://en.wikipedia.org/wiki/Peter_Lawford
+5. Joey Bishop (conf. 0.3651855896167042) http://en.wikipedia.org/wiki/Joey_Bishop
+6. Matt Osborne (conf. 0.33179072203399174) http://en.wikipedia.org/wiki/Matt_Osborne
+7. Brian Tobin (conf. 0.22460191273663516) http://en.wikipedia.org/wiki/Brian_Tobin
+8. Alexander Construction Company (conf. 0.21164018691850484) http://en.wikipedia.org/wiki/Alexander_Construction_Company
+9. Rat Scabies (conf. 0.19127960208552314) http://dbpedia.org/resource/Rat_Scabies
+10. JC Carroll (conf. 0.18316391231610518) http://dbpedia.org/resource/JC_Carroll
+11. Sheila Copps (conf. 0.15566316953179143) http://en.wikipedia.org/wiki/Sheila_Copps
+12. Royal Flush Gang (conf. 0.09101808296928762) http://en.wikipedia.org/wiki/Royal_Flush_Gang
+13. Nigel Bennett (conf. 0.08249071183754797)
+14. Dean Martin Sings Songs from "The Silencers" (conf. 0.07070716453714153) http://en.wikipedia.org/wiki/Dean_Martin_Sings_Songs_from_"The_Silencers"
+15. Adam Maitland (conf. 0.05573034419558311)
+16. Rudi Thompson (conf. 0.05573034419558311)
+17. Simon Lloyd (conf. 0.05573034419558311)
+18. Steve Morley (conf. 0.05573034419558311)
+19. Nick Cash (conf. 0.0426975843219401)
+20. Cliff Foenander (conf. 0.02919985158997961) http://en.wikipedia.org/wiki/Cliff_Foenander
+21. Chris Payne (conf. 0.025735862702195793)
+22. Adrian Lillywhite (conf. 0.023846858309071458)
+23. Chuck Sabo (conf. 0.023846858309071458)
+24. Gary Baker (conf. 0.023846858309071458)
+25. Steve Maycock (conf. 0.023846858309071458)
+26. Nicky Tesco (conf. 0.02120496306242453)
+
+
+Duration: 1 min 26 sec
+
+
+
+*****************************************
+Query 8
+Question: Who did Queen Victoria marry?
+Answer: 
+1. Albert, Prince Consort (conf. 0.9568912188193909) http://dbpedia.org/resource/Albert,_Prince_Consort http://rdf.freebase.com/ns/m.0k5z2
+2. William Boone Douglass (conf. 0.4579453432392718) http://en.wikipedia.org/wiki/William_Boone_Douglass
+3. Charles Lindsay (conf. 0.34367334205723815) http://en.wikipedia.org/wiki/Charles_Lindsay
+4. Princess Helena of Waldeck and Pyrmont (conf. 0.15038214223076338) http://en.wikipedia.org/wiki/Princess_Helena_of_Waldeck_and_Pyrmont_(1899–1948)
+5. Augusta Stanley (conf. 0.13018013424325794) http://en.wikipedia.org/wiki/Augusta_Stanley
+6. Edward VII (conf. 0.11246788423997184) http://dbpedia.org/resource/Edward_VII http://rdf.freebase.com/ns/m.0cm03
+7. Princess Victoria of Saxe-Coburg-Saalfeld (conf. 0.0935951919625224) http://dbpedia.org/resource/Princess_Victoria_of_Saxe-Coburg-Saalfeld http://rdf.freebase.com/ns/m.024hvp
+8. Georg Donatus, Hereditary Grand Duke of Hesse (conf. 0.08225563382271754) http://en.wikipedia.org/wiki/Georg_Donatus,_Hereditary_Grand_Duke_of_Hesse
+9. Jeanne Campbell (conf. 0.05817098798347274) http://en.wikipedia.org/wiki/Jeanne_Campbell
+10. Prince Edward, Duke of Kent and Strathearn (conf. 0.04949287208964844) http://dbpedia.org/resource/Prince_Edward,_Duke_of_Kent_and_Strathearn http://rdf.freebase.com/ns/m.01c50q
+11. Alexandrina Victoria (conf. 0.03448533931416929)
+12. William IV of the United Kingdom (conf. 0.030723055776053637) http://dbpedia.org/resource/William_IV_of_the_United_Kingdom
+13. Photograph of Queen Victoria, 1882 (conf. 0.028418715770110504)
+14. List of Prime Ministers of Queen Victoria (conf. 0.026723705120009655) http://dbpedia.org/resource/List_of_Prime_Ministers_of_Queen_Victoria
+15. John Selwyn (conf. 0.024399584232625757) http://en.wikipedia.org/wiki/John_Selwyn_(bishop)
+16. Emich, 5th Prince of Leiningen (conf. 0.019770282953487362) http://en.wikipedia.org/wiki/Emich,_5th_Prince_of_Leiningen
+17. Titles Deprivation Act 1917 (conf. 0.019770282953487362) http://en.wikipedia.org/wiki/Titles_Deprivation_Act_1917
+18. William Brabazon, 11th Earl of Meath (conf. 0.019770282953487362) http://en.wikipedia.org/wiki/William_Brabazon,_11th_Earl_of_Meath
+19. Infante Alfonso, Duke of Calabria (conf. 0.019234704636195504) http://en.wikipedia.org/wiki/Infante_Alfonso,_Duke_of_Calabria
+20. Norton Knatchbull, 8th Baron Brabourne (conf. 0.019234704636195504) http://en.wikipedia.org/wiki/Norton_Knatchbull,_8th_Baron_Brabourne
+21. Sara Forbes Bonetta (conf. 0.019034447132832866) http://en.wikipedia.org/wiki/Sara_Forbes_Bonetta
+22. Alexander Duff, 1st Duke of Fife (conf. 0.018327825391033968) http://en.wikipedia.org/wiki/Alexander_Duff,_1st_Duke_of_Fife
+23. William Corden the Elder (conf. 0.018327825391033968) http://en.wikipedia.org/wiki/William_Corden_the_Elder
+24. Princess Elise of Hohenlohe-Langenburg (conf. 0.017958906120825856) http://en.wikipedia.org/wiki/Princess_Elise_of_Hohenlohe-Langenburg
+25. William Edmonstone (conf. 0.015610206301451204) http://en.wikipedia.org/wiki/William_Edmonstone
+26. Lady Alexandra Etherington (conf. 0.0151855788630333) http://en.wikipedia.org/wiki/Lady_Alexandra_Etherington
+
+
+Duration: 0 min 50 sec
+
+
+
+*****************************************
+Query 9
+Question: Who were the leaders of the French Revolution?
+Answer: 
+1. Jacques Cathelineau (conf. 0.8740181177295243) http://en.wikipedia.org/wiki/Jacques_Cathelineau
+2. Prise de la Bastille (conf. 0.5297256541836624) http://rdf.freebase.com/ns/m.04x_gx0
+3. François Buzot (conf. 0.513205178479844) http://en.wikipedia.org/wiki/François_Buzot
+4. Death-causing event (conf. 0.34384478952013303) http://rdf.freebase.com/ns/base.disaster2.death_causing_event
+5. Conference subject (conf. 0.22709688004800263) http://rdf.freebase.com/ns/conferences.conference_subject
+6. Exhibition subject (conf. 0.21092029878246463) http://rdf.freebase.com/ns/exhibitions.exhibition_subject
+7. Film subject (conf. 0.21092029878246463) http://rdf.freebase.com/ns/film.film_subject
+8. Literature Subject (conf. 0.21092029878246463) http://rdf.freebase.com/ns/book.book_subject
+9. Declaration of Human Rights (conf. 0.1781507327376669) http://rdf.freebase.com/ns/m.02bd5_w
+10. Sketch by Jacques-Louis David of the Tennis Court Oath. David later became a deputy in the National Convention in 1792 (conf. 0.1781507327376669) http://rdf.freebase.com/ns/m.02bdwrw
+11. Johann Amadeus Francis de Paula, Baron of Thugut (conf. 0.09526867184437465) http://en.wikipedia.org/wiki/Johann_Amadeus_Francis_de_Paula,_Baron_of_Thugut
+12. French battleship Mirabeau (conf. 0.03357905469701733) http://en.wikipedia.org/wiki/French_battleship_Mirabeau
+13. La Marseillaise.ogg (conf. 0.03172359079459212)
+14. The French national anthem La Marseillaise was written during the revolution in 1792. (conf. 0.03140416203453271)
+15. Anonymous - Prise de la Bastille.jpg (conf. 0.03038184833733995)
+16. * Abolition of the French monarchy 
+* Establishment of a secular and democratic republic that became increasingly authoritarian and militaristic
+* Radical social change based on liberalism and other Enlightenment principles
+* Rise of Napoleon Bonaparte.
+* Armed conflicts with other European countries. (conf. 0.029642742133319182)
+17. French society (conf. 0.028126403219787634)
+18. Charles-Philippe Ronsin (conf. 0.026373526749546333) http://en.wikipedia.org/wiki/Charles-Philippe_Ronsin
+19. Marie Anne Lenormand (conf. 0.02392169560595729) http://en.wikipedia.org/wiki/Marie_Anne_Lenormand
+20. Le bleu-blanc-rouge et le noir (conf. 0.022865680630878286) http://rdf.freebase.com/ns/m.049dlzv
+21. Vittorio Alfieri (conf. 0.02252147552496069) http://en.wikipedia.org/wiki/Vittorio_Alfieri
+22. La Marseillaise (conf. 0.02157630669680493)
+23. 18th century (conf. 0.01991498215948739) http://rdf.freebase.com/ns/m.08b33
+24. Georgian era (conf. 0.01991498215948739) http://rdf.freebase.com/ns/m.01z25g
+25. Geschichte des Revolutionszeitalters (J. Burckhardt / Uni Basel 1867-1882) (conf. 0.01991498215948739) http://rdf.freebase.com/ns/m.011lt8hg
+26. Revolution! The Atlantic World Reborn (conf. 0.01991498215948739) http://rdf.freebase.com/ns/m.0hdzz0h
+
+
+Duration: 1 min 7 sec
+
+
+
+*****************************************
+Query 10
+Question: Who ended the Vietnam War?
+Answer: 
+1. John Reardon (conf. 0.9424345004901817) http://en.wikipedia.org/wiki/John_Reardon_(banker)
+2. Australians Missing in Action in the Vietnam War (conf. 0.7718017591864719) http://en.wikipedia.org/wiki/Australians_Missing_in_Action_in_the_Vietnam_War
+3. Khmer Rouge (conf. 0.6299315093999428)
+4. List of combat losses of United States military aircraft since the Vietnam War (conf. 0.6183411072749732) http://en.wikipedia.org/wiki/List_of_combat_losses_of_United_States_military_aircraft_since_the_Vietnam_War
+5. Leaders of the Vietnam War (conf. 0.3889644950428545) http://dbpedia.org/resource/Leaders_of_the_Vietnam_War
+6. 1975 in the Vietnam War (conf. 0.10356122626676721) http://en.wikipedia.org/wiki/1975_in_the_Vietnam_War
+7. Jerome Grossman (conf. 0.09034111542529955) http://en.wikipedia.org/wiki/Jerome_Grossman
+8. Pierre Brochand (conf. 0.08737809891508137) http://en.wikipedia.org/wiki/Pierre_Brochand
+9. Harold Holt (conf. 0.0672188433079166) http://dbpedia.org/resource/Harold_Holt
+10. John F. Kennedy (conf. 0.0672188433079166) http://dbpedia.org/resource/John_F._Kennedy
+11. Keith Holyoake (conf. 0.0672188433079166) http://dbpedia.org/resource/Keith_Holyoake
+12. Robert McNamara (conf. 0.0672188433079166) http://dbpedia.org/resource/Robert_McNamara
+13. Robert Menzies (conf. 0.0672188433079166) http://dbpedia.org/resource/Robert_Menzies
+14. Tạ Tỵ (conf. 0.06365494765633505) http://en.wikipedia.org/wiki/Tạ_Tỵ
+15. Ho Chi Minh (conf. 0.061594070977651766) http://dbpedia.org/resource/Ho_Chi_Minh
+16. Lyndon B. Johnson (conf. 0.061594070977651766) http://dbpedia.org/resource/Lyndon_B._Johnson
+17. Richard Nixon (conf. 0.061594070977651766) http://dbpedia.org/resource/Richard_Nixon
+18. Harry G. Summers, Jr. (conf. 0.05870083830848434) http://en.wikipedia.org/wiki/Harry_G._Summers,_Jr.
+19. Creighton Abrams (conf. 0.04585738051320492) http://dbpedia.org/resource/Creighton_Abrams
+20. Trần Văn Trà (conf. 0.04585738051320492) http://dbpedia.org/resource/Tr%E1%BA%A7n_V%C4%83n_Tr%C3%A0
+21. Vo Nguyen Giap (conf. 0.04585738051320492) http://dbpedia.org/resource/Vo_Nguyen_Giap
+22. Văn Tiến Dũng (conf. 0.04585738051320492) http://dbpedia.org/resource/V%C4%83n_Ti%E1%BA%BFn_D%C5%A9ng
+23. William Westmoreland (conf. 0.04585738051320492) http://dbpedia.org/resource/William_Westmoreland
+24. Les Kosem (conf. 0.03181772024768586) http://dbpedia.org/resource/Les_Kosem
+25. Nguyen Van Linh (conf. 0.03181772024768586) http://dbpedia.org/resource/Nguyen_Van_Linh
+26. Trader Horn (conf. 0.030399528593568422) http://en.wikipedia.org/wiki/Trader_Horn_(1973_film)
+
+
+Duration: 0 min 57 sec
+
+
+
+*****************************************
+Query 11
+Question: When did Xi JinPing born?
+Answer: 
+1. 1953-06-15 (conf. 0.9358164854686145)
+2. 1953-06-01 (conf. 0.49290872551480486)
+3. Li Yuanchao (conf. 0.3908246888973207) http://dbpedia.org/resource/Li_Yuanchao
+4. Chinese language (conf. 0.2119156181244763) http://rdf.freebase.com/ns/m.01r2l
+5. 2013-03-14 (conf. 0.20986704791908595)
+6. Liu Yunshan (conf. 0.14457289972420384) http://dbpedia.org/resource/Liu_Yunshan
+7. 2012-11-15 (conf. 0.13869672060985785)
+8. Li Keqiang (conf. 0.1276223391676542) http://dbpedia.org/resource/Li_Keqiang
+9. 1953 (conf. 0.11103059755489787)
+10. Chairman of the National Security Commission (conf. 0.10117587883663137)
+11. First Secretary of the Central Secretariat of the Communist Party of China (conf. 0.10117587883663137)
+12. General Secretary of the Central Committee of the Communist Party of China (conf. 0.10117587883663137)
+13. 2013-01-15 (conf. 0.0663996295728778)
+14. Chemical engineering (conf. 0.05662640422076496) http://dbpedia.org/resource/Chemical_engineering
+15. Fan Changlong (conf. 0.05662640422076496) http://dbpedia.org/resource/Fan_Changlong
+16. Peng Liyuan (conf. 0.037421255623307295) http://dbpedia.org/resource/Peng_Liyuan http://en.wikipedia.org/wiki/Peng_Liyuan
+17. Xi Mingze (conf. 0.02705338705814972) http://dbpedia.org/resource/Xi_Mingze http://rdf.freebase.com/ns/m.0nd4x98 http://en.wikipedia.org/wiki/Xi_Mingze
+18. Tsinghua University (conf. 0.025194383272496214) http://dbpedia.org/resource/Tsinghua_University
+19. 1999 (conf. 0.023877138689690044)
+20. 2002 (conf. 0.023877138689690044)
+21. 2003 (conf. 0.023877138689690044)
+22. 2007 (conf. 0.023877138689690044)
+23. 2010 (conf. 0.023877138689690044)
+24. Xi Jinping sign.svg (conf. 0.0234556903721939)
+25. Hu Jintao (conf. 0.016447184992025632) http://dbpedia.org/resource/Hu_Jintao http://en.wikipedia.org/wiki/Hu_Jintao
+26. Zhou Guotai (conf. 0.01254712770651419) http://en.wikipedia.org/wiki/Zhou_Guotai
+
+
+Duration: 0 min 42 sec
+
+
+
+*****************************************
+Query 12
+Question: When did Albert Einstein die?
+Answer: 
+1. 1879-03-14 (conf. 0.8937843437894221)
+2. 1955-04-18 (conf. 0.8593682796731619)
+3. Weimar Republic (conf. 0.7027970667018716) http://rdf.freebase.com/ns/m.084n_ http://dbpedia.org/resource/Weimar_Republic
+4. Kingdom of Württemberg (conf. 0.4797942600387614) http://rdf.freebase.com/ns/m.03m3qw2 http://dbpedia.org/resource/Kingdom_of_W%C3%BCrttemberg
+5. German Empire (conf. 0.3634903106109151) http://rdf.freebase.com/ns/m.03b79 http://dbpedia.org/resource/German_Empire
+6. Alfred Kleiner (conf. 0.27276937452899813) http://dbpedia.org/resource/Alfred_Kleiner
+7. Ernst G. Straus (conf. 0.20010359789513946) http://dbpedia.org/resource/Ernst_G._Straus
+8. Leó Szilárd (conf. 0.20010359789513946) http://dbpedia.org/resource/Le%C3%B3_Szil%C3%A1rd
+9. University of Zurich (conf. 0.20010359789513946) http://dbpedia.org/resource/University_of_Zurich
+10. Heinrich Friedrich Weber (conf. 0.18741166711616064) http://dbpedia.org/resource/Heinrich_Friedrich_Weber
+11. Albert Einstein signature 1934.svg (conf. 0.16176728156665293)
+12. n/79/22889 (conf. 0.16059239017186325)
+13. Mileva Marić (conf. 0.14977625462904143) http://dbpedia.org/resource/Mileva_Mari%C4%87
+14. ETH Zurich (conf. 0.09011619593104248) http://dbpedia.org/resource/ETH_Zurich
+15. 1955 (conf. 0.07961885028320942)
+16. Hans Albert Einstein (conf. 0.07840363894729722) http://rdf.freebase.com/ns/m.04xmkm http://dbpedia.org/resource/Hans_Albert_Einstein
+17. 20110608004818 (conf. 0.06385311649907084)
+18. Albert Einstein during a lecture in Vienna in 1921. (conf. 0.04998299674997062) http://rdf.freebase.com/ns/m.04s38b9
+19. Author:Albert Einstein (conf. 0.026894596810410995)
+20. Albert Einstein violin.jpg (conf. 0.025762203021134657)
+21. Introduction to Astrophysics/Albert Einstein (conf. 0.024776839540556008)
+22. Albert Einstein playing violin (conf. 0.023731439101307043)
+23. Albert Einstein in 1921 (conf. 0.018930721476929226)
+24. Albert Einstein Head (conf. 0.018472135419703325) http://rdf.freebase.com/ns/m.028zldx
+25. Niels Bohr Albert Einstein by Ehrenfest (conf. 0.015063434318556942) http://rdf.freebase.com/ns/m.02dq2kr
+26. Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen (conf. 0.009915834807637332) http://en.wikipedia.org/wiki/Über_die_von_der_molekularkinetischen_Theorie_der_Wärme_geforderte_Bewegung_von_in_ruhenden_Flüssigkeiten_suspendierten_Teilchen
+
+
+Duration: 0 min 53 sec
+
+
+
+*****************************************
+Query 13
+Question: When will the next iPhone come out?
+Answer: 
+1. Badaboo (conf. 0.9136937159012245) http://rdf.freebase.com/ns/m.0kyph8m
+2. HueShift (conf. 0.9136937159012245) http://rdf.freebase.com/ns/m.0kyqgfq
+3. 135.0 (conf. 0.4149966805415641)
+4. Dark Nebula: Episode Two (conf. 0.2634764928434834) http://rdf.freebase.com/ns/m.0kymkk1
+5. iPhone 3G (conf. 0.2382701230083412) http://rdf.freebase.com/ns/m.0cc8kq4
+6. iPhone 4 (conf. 0.2382701230083412) http://rdf.freebase.com/ns/m.0c0bg9c
+7. *1st gen and 3G:
+*
+*3:2 aspect ratio, scratch-resistant glossy glass covered screen, 262,144-color  TN LCD, 480×320 px  at 163 ppi, 200:1 contrast ratio
+*3GS:
+*In addition to prior, features a fingerprint-resistant oleophobic coating, and 262,144-color  TN LCD with hardware spatial dithering
+*4 and 4S:
+*, 3:2 aspect ratio, aluminosilicate glass covered 16,777,216-color  IPS LCD screen, 960×640 px at 326 ppi, 800:1 contrast ratio, 500  max brightness
+*5 / 5C / 5S:
+*;16:9 aspect ratio;1136 x 640 px screen resolution at 326 ppi (conf. 0.21710338186920905)
+8. Bas Ording (conf. 0.2135014927639953) http://rdf.freebase.com/ns/m.011njkr0
+9. Imran Chaudhri (conf. 0.2135014927639953) http://rdf.freebase.com/ns/m.011njl05
+10. Marcel van Os (conf. 0.2135014927639953) http://rdf.freebase.com/ns/m.011njkms
+11. September 2013 (conf. 0.18538105323501156)
+12. ASH II: Shadows (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kz2s2y
+13. Assassin's Creed: Altaïr's Chronicles (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kyrcc3
+14. Letters from Nowhere (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kyml86
+15. Pistols at Dawn (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kyrhy8
+16. Prey Invasion (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kypdcw
+17. Space Invaders (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kymmf7
+18. Zombie Ace (conf. 0.12326946024200335) http://rdf.freebase.com/ns/m.0kysymt
+19. iPhone 5s (conf. 0.10403098904927875) http://rdf.freebase.com/ns/m.0w_ghcf
+20. *iPad
+*iPod Touch
+* (conf. 0.10400023424929951)
+21. Multi-core processor (conf. 0.07283148408181946) http://dbpedia.org/resource/Multi-core_processor
+22. Come Out (conf. 0.06884122750588974)
+23. A Business Tycoon (conf. 0.06056297804469139) http://rdf.freebase.com/ns/m.0kyr249
+24. *1st gen and 3G:
+*Samsung 32-bit RISC ARM 1176JZ-S v1.0
+*3GS: 600 MHz ARM Cortex-A8
+*4: 800 MHz ARM Cortex-A8
+*4S: 800 MHz dual-core ARM Cortex-A9
+*5 / 5C: 1.3 GHz dual core Apple A6
+*5S: 1.3 GHz 64bit dual core Apple A7 (conf. 0.04712019927559023)
+25. *1st gen and 3GS:
+*
+*3G: 
+*4: 
+*4S:
+*5 and 5S:
+*
+*5C: (conf. 0.04189917021242632)
+26. *1st gen:
+* H
+* W
+* D
+*3G and 3GS:
+* H
+* W
+* D
+*4 and 4S:
+* H
+* W
+* D
+*5 / 5C / 5S:
+* H
+* W
+* D (conf. 0.03882295225992682)
+
+
+Duration: 0 min 40 sec
+
+
+
+*****************************************
+Query 14
+Question: When was the Munich agreement made?
+Answer: 
+1. May Crisis 1938 (conf. 0.8780254325289737) http://en.wikipedia.org/wiki/May_Crisis_1938
+2.  (conf. 0.6875549199452432)
+3. The Collapse of the Third Republic (conf. 0.564027293146218) http://rdf.freebase.com/ns/m.0dyd4_
+4. The Oster Conspiracy of 1938 (conf. 0.564027293146218) http://rdf.freebase.com/ns/m.06m92qw
+5. World War II (conf. 0.5225828752361449) http://en.wikipedia.org/wiki/World_War_II
+6. Hlučín (conf. 0.5114687380241641) http://en.wikipedia.org/wiki/Hlučín
+7. 7th Armoured Division (conf. 0.2112866840846639) http://en.wikipedia.org/wiki/7th_Armoured_Division_(United_Kingdom)
+8. Juan Negrín (conf. 0.1449220032462755) http://en.wikipedia.org/wiki/Juan_Negrín
+9. Marcel Déat (conf. 0.12162009316884044) http://en.wikipedia.org/wiki/Marcel_Déat
+10. Munich Agreement (conf. 0.1159015808799439)
+11. Order of the Falcon (conf. 0.1134649181713864) http://en.wikipedia.org/wiki/Order_of_the_Falcon_(Czechoslovakia)
+12. Schwarze Kapelle (conf. 0.1134649181713864) http://en.wikipedia.org/wiki/Schwarze_Kapelle
+13. Administrative divisions of Nazi Germany (conf. 0.10818200790250491) http://en.wikipedia.org/wiki/Administrative_divisions_of_Nazi_Germany
+14. Winston Churchill's October 5th Speech to the House of Commons (conf. 0.10818200790250491) http://en.wikipedia.org/wiki/Winston_Churchill's_October_5th_Speech_to_the_House_of_Commons
+15. Paul Bryers (conf. 0.10117678823346223) http://en.wikipedia.org/wiki/Paul_Bryers
+16. Bratislava bridgehead (conf. 0.08348993221063428) http://en.wikipedia.org/wiki/Bratislava_bridgehead
+17. László Hudec (conf. 0.08277270137884657) http://en.wikipedia.org/wiki/László_Hudec
+18. Why Britain is at War (conf. 0.08277270137884657) http://en.wikipedia.org/wiki/Why_Britain_is_at_War
+19. Lewisham West by-election, 1938 (conf. 0.07981766461445271) http://en.wikipedia.org/wiki/Lewisham_West_by-election,_1938
+20. Duff Cooper (conf. 0.07380372278808775) http://en.wikipedia.org/wiki/Duff_Cooper
+21. Jean Pierre-Bloch (conf. 0.05778757316119565) http://en.wikipedia.org/wiki/Jean_Pierre-Bloch
+22. Peace Gardens (conf. 0.04976170867261723) http://en.wikipedia.org/wiki/Peace_Gardens
+23. Red in the Face (conf. 0.026743739772605534) http://en.wikipedia.org/wiki/Red_in_the_Face
+24. Cairine Wilson (conf. 0.026406414476684317) http://en.wikipedia.org/wiki/Cairine_Wilson
+
+
+Duration: 0 min 32 sec
+
+
+
+*****************************************
+Query 15
+Question: When is Easter Sunday in 2014?
+Answer: 
+1. Easter (conf. 0.7946527861872066) http://en.wikipedia.org/wiki/Easter
+2. First Sunday after the first full moon on or after March 21 (conf. 0.5415943999802149) http://rdf.freebase.com/ns/m.02h7_k9
+3. Easter Week (conf. 0.3574619761614672) http://rdf.freebase.com/ns/m.02pcf8q
+4. 2014-06-12 (conf. 0.17633083146388268)
+5. 2014-07-13 (conf. 0.17633083146388268)
+6. Bank holiday (conf. 0.14093848659504488) http://rdf.freebase.com/ns/m.014w0v
+7. Western Christian Holiday (conf. 0.14093848659504488) http://rdf.freebase.com/ns/m.02h78p7
+8. Western Christianity (conf. 0.14093848659504488) http://rdf.freebase.com/ns/m.0bljp
+9. It's the Easter Beagle, Charlie Brown (conf. 0.04090071714515595) http://en.wikipedia.org/wiki/It's_the_Easter_Beagle,_Charlie_Brown
+10. Ascension of Jesus (conf. 0.027032337822358737) http://rdf.freebase.com/ns/m.0g3f9
+11. World Cup 2014 (conf. 0.022696489376373002)
+12. 2014-06-13 (conf. 0.017214023503814336)
+13. 2014-06-14 (conf. 0.017214023503814336)
+14. 2014-06-15 (conf. 0.017214023503814336)
+15. 2014-06-16 (conf. 0.017214023503814336)
+16. 2014-06-17 (conf. 0.017214023503814336)
+17. 2014-06-18 (conf. 0.017214023503814336)
+18. 2014-06-19 (conf. 0.017214023503814336)
+19. 2014-06-20 (conf. 0.017214023503814336)
+20. 2014-06-21 (conf. 0.017214023503814336)
+21. 2014-06-22 (conf. 0.017214023503814336)
+22. 2014-06-23 (conf. 0.017214023503814336)
+23. 2014-06-24 (conf. 0.017214023503814336)
+24. 2014-06-25 (conf. 0.017214023503814336)
+25. 2014-06-26 (conf. 0.017214023503814336)
+26. 2014-06-28 (conf. 0.017214023503814336)
+
+
+Duration: 1 min 1 sec
+
+
+
+*****************************************
+Query 16
+Question: When was the first flight of the Wright brothers?
+Answer: 
+1. 1871-08-19 (conf. 0.6607488220928479)
+2. 1912-05-30 (conf. 0.4659535174391961)
+3. 1948-01-30 (conf. 0.43337433827575)
+4. Outer Banks (conf. 0.4117424087476013) http://rdf.freebase.com/ns/m.08fkxg http://en.wikipedia.org/wiki/Outer_Banks
+5. 1948 (conf. 0.3485095738393031)
+6. 1871 (conf. 0.276326537243643)
+7. 1867-04-16 (conf. 0.2663116710343822)
+8. 2009-07-28 (conf. 0.17614935707291984)
+9. 1944 (conf. 0.11360582128068729)
+10. Alan Burnett (conf. 0.10281627547068099) http://dbpedia.org/resource/Alan_Burnett http://rdf.freebase.com/ns/m.0dbpyd
+11. Lauren Montgomery (conf. 0.07548209095620365) http://dbpedia.org/resource/Lauren_Montgomery http://rdf.freebase.com/ns/m.04cs0w1
+12. Business Operation (conf. 0.054323840612231736) http://rdf.freebase.com/ns/business.business_operation
+13. Name source (conf. 0.054323840612231736) http://rdf.freebase.com/ns/symbols.name_source
+14. 2003-05-14 (conf. 0.051944017582441604)
+15. Belmont Park (conf. 0.051590099958676486) http://dbpedia.org/resource/Belmont_Park
+16. Elmont, New York (conf. 0.051590099958676486) http://dbpedia.org/resource/Elmont,_New_York
+17. United States (conf. 0.051590099958676486) http://dbpedia.org/resource/United_States
+18. First Flight Airport (conf. 0.025504947227081593) http://en.wikipedia.org/wiki/First_Flight_Airport
+19. Dutch people (conf. 0.017803313296999534) http://dbpedia.org/resource/Dutch_people
+20. English American (conf. 0.017803313296999534) http://dbpedia.org/resource/English_American
+21. Swiss American (conf. 0.017803313296999534) http://dbpedia.org/resource/Swiss_American
+22. 1978 (conf. 0.016473087707185672)
+23. n/79/077414 (conf. 0.014675277197941376)
+24. n/79/077415 (conf. 0.014675277197941376)
+25. Wright Brothers National Memorial (conf. 0.014269241166713588) http://dbpedia.org/resource/Wright_Brothers_National_Memorial http://en.wikipedia.org/wiki/Wright_Brothers_National_Memorial
+26. Green Lantern: First Flight (conf. 0.014016602449814675) http://rdf.freebase.com/ns/m.0g4fby6
+
+
+Duration: 1 min 31 sec
+
+
+
+*****************************************
+Query 17
+Question: When was the Halley's Comet discovered?
+Answer: 
+1. 1705 (conf. 0.979466352439553)
+2. 1758 (conf. 0.945948610847438)
+3. Eta Aquariids (conf. 0.4930986883119488) http://rdf.freebase.com/ns/m.05_gbv
+4. AnimatedOrbitOf1PHalley.gif (conf. 0.4057610672780792)
+5. Orionid12n.jpg (conf. 0.4057610672780792)
+6. Orbit of Halley's Comet  set against the orbits of the outer planets (conf. 0.2331986690075435)
+7. Orionid meteor originating from Halley's Comet striking the sky below the Milky Way and to the right of Venus. (conf. 0.2331986690075435)
+8. Alexis Clairaut (conf. 0.15866471361882972) http://en.wikipedia.org/wiki/Alexis_Clairaut
+9. Comet Encke (conf. 0.0978109988817552) http://en.wikipedia.org/wiki/Comet_Encke
+10. Heliocentric orbit (conf. 0.08877805535517279) http://rdf.freebase.com/ns/m.06q2bd
+11. Solar System (conf. 0.08877805535517279) http://rdf.freebase.com/ns/m.06p5g
+12. List of Halley-type comets (conf. 0.07342796055637513) http://en.wikipedia.org/wiki/List_of_Halley-type_comets
+13. Historical astronomy (conf. 0.06856737623477205) http://rdf.freebase.com/ns/m.06qmcz
+14. Comets in fiction (conf. 0.05273612464403036) http://en.wikipedia.org/wiki/Comets_in_fiction
+15. 26P/Grigg–Skjellerup (conf. 0.0507429468201508) http://en.wikipedia.org/wiki/26P/Grigg–Skjellerup
+16. 1P/Halley (conf. 0.03328596149771949)
+17. Heidelberg University (conf. 0.027926998417828867) http://en.wikipedia.org/wiki/Heidelberg_University
+18. Werner Landgraf (conf. 0.027926998417828867) http://en.wikipedia.org/wiki/Werner_Landgraf
+19. Comet nucleus (conf. 0.024966984509608735) http://en.wikipedia.org/wiki/Comet_nucleus
+20. History of physics (conf. 0.024966984509608735) http://en.wikipedia.org/wiki/History_of_physics
+21. Naming of comets (conf. 0.02404552575812622) http://en.wikipedia.org/wiki/Naming_of_comets
+22. Observational history of comets (conf. 0.02404552575812622) http://en.wikipedia.org/wiki/Observational_history_of_comets
+23. The Adventures of Mark Twain (conf. 0.02404552575812622) http://en.wikipedia.org/wiki/The_Adventures_of_Mark_Twain_(1985_film)
+24. Great January Comet of 1910 (conf. 0.02298799087736526) http://en.wikipedia.org/wiki/Great_January_Comet_of_1910
+25. Max Wolf (conf. 0.021694419800424136) http://en.wikipedia.org/wiki/Max_Wolf
+26. Edmond Halley (conf. 0.019012986048048502) http://rdf.freebase.com/ns/m.0bsbf http://dbpedia.org/resource/Edmond_Halley
+
+
+Duration: 0 min 46 sec
+
+
+
+*****************************************
+Query 18
+Question: When did Mike Tyson win the title?
+Answer: 
+1. 1966-06-30 (conf. 0.9145134404945364)
+2. 1966 (conf. 0.7212484931298156)
+3. 1986 (conf. 0.44254071444803156)
+4. 1988 (conf. 0.18696435023652758)
+5. 50 (conf. 0.09349343943958531)
+6. 1989 (conf. 0.024739897098218652)
+7. African American (conf. 0.01826998118628459) http://rdf.freebase.com/ns/m.0x67
+8. Michael Moorer vs. George Foreman (conf. 0.016002679452933235) http://en.wikipedia.org/wiki/Michael_Moorer_vs._George_Foreman
+9. Punch-Out!! (conf. 0.015854864809711287) http://en.wikipedia.org/wiki/Punch-Out!!_(NES)
+10. Buster Douglas vs. Evander Holyfield (conf. 0.015517969049168669) http://en.wikipedia.org/wiki/Buster_Douglas_vs._Evander_Holyfield
+11. Mike Tyson vs. Pinklon Thomas (conf. 0.015459109351701724) http://en.wikipedia.org/wiki/Mike_Tyson_vs._Pinklon_Thomas
+12. Trevor Berbick vs. Mike Tyson (conf. 0.014285144055544787) http://en.wikipedia.org/wiki/Trevor_Berbick_vs._Mike_Tyson
+13. Mike Tyson vs. James Smith (conf. 0.013676208126259694) http://en.wikipedia.org/wiki/Mike_Tyson_vs._James_Smith
+14. José Torres (conf. 0.013190410683212644) http://en.wikipedia.org/wiki/José_Torres
+15. Octavio Meyran (conf. 0.01075866334675001) http://en.wikipedia.org/wiki/Octavio_Meyran
+16. Sharmell Sullivan-Huffman (conf. 0.01075866334675001) http://en.wikipedia.org/wiki/Sharmell_Sullivan-Huffman
+17. Mikey Lorna Tyson (conf. 0.007821807924765285) http://rdf.freebase.com/ns/m.05m5xlc
+18. Orthodox stance (conf. 0.006740974382473048) http://rdf.freebase.com/ns/m.02rtf4p
+19. Amir Tyson (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.05m5xk_
+20. D'Amato Tyson (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.0j1653s
+21. Lorna Smith (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.03q9p2r
+22. Miguel Leon Tyson (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.05m5xl5
+23. Milan Tyson (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.0j1653b
+24. Morocco Tyson (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.0j1653k
+25. Rayna Tyson (conf. 0.006281613368314271) http://rdf.freebase.com/ns/m.05m5xkt
+26. Exodus Tyson (conf. 0.005345677350074907) http://rdf.freebase.com/ns/m.0j16534
+
+
+Duration: 0 min 54 sec
+
+
+
+*****************************************
+Query 19
+Question: When was the University of Michigan founded?
+Answer: 
+1. 1817 (conf. 0.9789525343223987)
+2. 1985-86 Tanner Lectures on Human Values, University of Michigan (conf. 0.6296423967810348) http://rdf.freebase.com/ns/m.0dh0sj4
+3. 1990-91 Tanner Lecture on Human Values, University of Michigan (conf. 0.6296423967810348) http://rdf.freebase.com/ns/m.0dg_0l0
+4. Lake Monoun (conf. 0.601515331643426) http://en.wikipedia.org/wiki/Lake_Monoun
+5. University of Michigan School of Information (conf. 0.30982084451937775) http://rdf.freebase.com/ns/m.0cs5mv
+6. Vulval vestibule (conf. 0.1086208008184668) http://en.wikipedia.org/wiki/Vulval_vestibule
+7. Inter-Cooperative Council at the University of Michigan (conf. 0.10789772465103042) http://en.wikipedia.org/wiki/Inter-Cooperative_Council_at_the_University_of_Michigan
+8. Juntunen Site (conf. 0.09407731683704344) http://en.wikipedia.org/wiki/Juntunen_Site
+9. President of the University of Michigan (conf. 0.08767679896621752) http://en.wikipedia.org/wiki/President_of_the_University_of_Michigan
+10. Alumni Center, University of Michigan (conf. 0.06408424027381618) http://rdf.freebase.com/ns/m.075zjyf
+11. Seal of the University of Michigan (conf. 0.02571505986390261)
+12. Articles and topics related to University of Michigan (conf. 0.02432423843592692)
+13. University of Michigan–Dearborn (conf. 0.021788640599933396) http://rdf.freebase.com/ns/m.03gsyj
+14. University of Michigan Department of Anthropology (conf. 0.020189886113090753) http://rdf.freebase.com/ns/m.0cmll25
+15. University of Michigan Department of Economics (conf. 0.020189886113090753) http://rdf.freebase.com/ns/m.0dgsvvx
+16. University of Michigan Department of History (conf. 0.020189886113090753) http://rdf.freebase.com/ns/m.0cl_jdj
+17. University of Michigan College of Literature, Science, and the Arts (conf. 0.019643168506393742) http://rdf.freebase.com/ns/m.08mhjd
+18. University of Michigan Health System (conf. 0.019643168506393742) http://rdf.freebase.com/ns/m.08mhmx
+19. University of Michigan Law School (conf. 0.019643168506393742) http://rdf.freebase.com/ns/m.04gxp2
+20. University of Michigan School of Music, Theatre & Dance (conf. 0.019643168506393742) http://rdf.freebase.com/ns/m.06xkq9
+21. University of Michigan School of Public Health (conf. 0.019643168506393742) http://rdf.freebase.com/ns/m.03d4jsh
+22. University of Michigan College of Pharmacy (conf. 0.01867831675778052) http://rdf.freebase.com/ns/m.026tm0r
+23. University of Michigan School of Dentistry (conf. 0.01867831675778052) http://rdf.freebase.com/ns/m.0bmb8x4
+24. University of Michigan Athletic Hall of Honor (conf. 0.015236209604502015) http://en.wikipedia.org/wiki/University_of_Michigan_Athletic_Hall_of_Honor
+25. University of Michigan Museum of Art (conf. 0.014523789880490147) http://rdf.freebase.com/ns/m.0f13b3
+26. University of Michigan Museum of Natural History (conf. 0.014523789880490147) http://rdf.freebase.com/ns/m.0cmdh4w
+
+
+Duration: 1 min 27 sec
+
+
+
+*****************************************
+Query 20
+Question: When did Hawaii become a state?
+Answer: 
+1. Mexico 1821 (conf. 0.8955203845831542) http://rdf.freebase.com/ns/m.0bt_x1n
+2. 1959-08-21 (conf. 0.8908490295651328)
+3. Lieutenant Governor of Hawaii (conf. 0.7935491320978145) http://rdf.freebase.com/ns/m.03dxr2 http://en.wikipedia.org/wiki/Lieutenant_Governor_of_Hawaii
+4. 2008 (conf. 0.5309810100351419)
+5. University of Hawaii at Hilo (conf. 0.34621083106513917) http://rdf.freebase.com/ns/m.0308mr
+6. University of Hawaii at Manoa (conf. 0.07530781464325975) http://rdf.freebase.com/ns/m.02_7kp
+7. Seal of Hawaii (conf. 0.041629834966372146) http://dbpedia.org/resource/Seal_of_Hawaii
+8. List of Hawaii tornadoes (conf. 0.033376500374447504) http://en.wikipedia.org/wiki/List_of_Hawaii_tornadoes
+9. Hawaii Aloha (conf. 0.02942520066394193) http://en.wikipedia.org/wiki/Hawaii_Aloha
+10. Democratic Party of Hawaii (conf. 0.028292254810277903) http://en.wikipedia.org/wiki/Democratic_Party_of_Hawaii
+11. Coat of Arms of the Kingdom of Hawaii.svg (conf. 0.026397674784694212)
+12. Flag of Hawaii.svg (conf. 0.026397674784694212)
+13. The Aloha State , Paradise, The Islands of Aloha (conf. 0.026397674784694212)
+14. Environment of Hawaii (conf. 0.02607272209941812) http://en.wikipedia.org/wiki/Environment_of_Hawaii
+15. United States Senate election in Hawaii, 2010 (conf. 0.023909323520504865) http://rdf.freebase.com/ns/m.04n5stt
+16. List of people on the postage stamps of Hawaii (conf. 0.02228232912178549) http://en.wikipedia.org/wiki/List_of_people_on_the_postage_stamps_of_Hawaii
+17. Constitution of Hawaii (conf. 0.02036750016225259) http://en.wikipedia.org/wiki/Constitution_of_Hawaii
+18. Seal of the State of Hawaii.svg (conf. 0.017102049336717707)
+19. Hawaii in United States   .svg (conf. 0.01680291847223109)
+20. Hawaii–Aleutian Standard Time (conf. 0.01680291847223109) http://dbpedia.org/resource/Hawaii%E2%80%93Aleutian_Standard_Time
+21. Kea'iwa Heiau State Recreation Area (conf. 0.015878599573437308) http://rdf.freebase.com/ns/m.05t7jd
+22. www.hawaii.gov (conf. 0.01586173180718626)
+23. State of Hawaii (conf. 0.015798012606586895)
+24. Kekaha Kai State Park (conf. 0.011760053933631498) http://rdf.freebase.com/ns/m.056rhqr
+25. Wailua River State Park (conf. 0.010998390664377508) http://rdf.freebase.com/ns/m.0c2k7x
+26. Hawaii State Legislature (conf. 0.010204929846928123) http://rdf.freebase.com/ns/m.0273rg http://dbpedia.org/resource/Hawaii_State_Legislature
+
+
+Duration: 2 min 33 sec
+
+
+
+*****************************************
+Query 21
+Question: Where is Steve Jobs buried?
+Answer: 
+1. Alta Mesa Memorial Park (conf. 0.958571416380355) http://rdf.freebase.com/ns/m.0h967g4
+2. San Francisco (conf. 0.7880336071829551) http://rdf.freebase.com/ns/m.0d6lp http://dbpedia.org/resource/San_Francisco
+3. Palo Alto (conf. 0.33508455037322005) http://rdf.freebase.com/ns/m.0f04c
+4. Options: The Secret Life of Steve Jobs (conf. 0.3343786348287984) http://rdf.freebase.com/ns/m.03h96nd
+5. California (conf. 0.11005229898233614) http://dbpedia.org/resource/California
+6. The Second Coming of Steve Jobs (conf. 0.09710556115248882) http://rdf.freebase.com/ns/m.03jl1c
+7. Paul Rand (conf. 0.07625894984490554) http://en.wikipedia.org/wiki/Paul_Rand
+8. http://www.msnbc.msn.com/id/15262121/site/newsweek/ (conf. 0.0705515957318327)
+9. Apple Inc. (conf. 0.03308351514744019) http://rdf.freebase.com/ns/m.0k8z http://dbpedia.org/resource/Apple_Inc.
+10. Palo Alto, California (conf. 0.03265026904608995) http://dbpedia.org/resource/Palo_Alto,_California
+11. Palo Alto, California, United States (conf. 0.02920240294790718)
+12. Anything Anything with Rich Russo (conf. 0.02842230543217911) http://en.wikipedia.org/wiki/Anything_Anything_with_Rich_Russo
+13. Janelle Monáe (conf. 0.02705022865724735) http://en.wikipedia.org/wiki/Janelle_Monáe
+14. Kate Winslet (conf. 0.02705022865724735) http://en.wikipedia.org/wiki/Kate_Winslet
+15. The Kids in the Hall (conf. 0.026994226659515556) http://en.wikipedia.org/wiki/The_Kids_in_the_Hall
+16. Silicon Valley (conf. 0.026960889456481077) http://rdf.freebase.com/ns/m.06pw6
+17. Palo Alto, California, US (conf. 0.025196593733322406)
+18. Alan Turing (conf. 0.024858641621058566) http://en.wikipedia.org/wiki/Alan_Turing
+19. Steve Jobs signature.svg (conf. 0.024478022861262615)
+20. Steve Jobs on computer graphics (conf. 0.023457522883731676)
+21. Steve Jobs on computer graphics. Interview excerpt from 1995. (conf. 0.023457522883731676)
+22. Steve jobs the end of an era (conf. 0.023457522883731676)
+23. Fake Steve Jobs (conf. 0.01686233035252254) http://rdf.freebase.com/ns/m.02k_zk9
+24. Reed College (conf. 0.016251628902739117) http://dbpedia.org/resource/Reed_College
+25. United States of America (conf. 0.012388913291968541) http://rdf.freebase.com/ns/m.09c7w0
+26. San Francisco, United States (conf. 0.008404424873372543)
+
+
+Duration: 0 min 41 sec
+
+
+
+*****************************************
+Query 22
+Question: Where was Jack Ma born?
+Answer: 
+1. Hangzhou (conf. 0.8951643080602034) http://rdf.freebase.com/ns/m.014vm4 http://dbpedia.org/resource/Hangzhou
+2. Ma Yun (conf. 0.8231494863496461)
+3. China (conf. 0.6820899370956395) http://rdf.freebase.com/ns/m.0d05w3 http://dbpedia.org/resource/China
+4. Alibaba Group (conf. 0.356653898586306) http://rdf.freebase.com/ns/m.07s6ctl http://dbpedia.org/resource/Alibaba_Group
+5. Zhejiang (conf. 0.27504656791132737) http://rdf.freebase.com/ns/m.0ny1p http://dbpedia.org/resource/Zhejiang
+6. Male (conf. 0.09281172750180411) http://rdf.freebase.com/ns/m.05zppz
+7. Hangzhou, Zhejiang, China (conf. 0.0897307430723499)
+8. Alibaba.com (conf. 0.06501350912065706) http://rdf.freebase.com/ns/m.07chpp
+9. Alibaba: The Inside Story Behind Jack Ma and the Creation of the World's Biggest Online Marketplace (conf. 0.046712399461736075) http://rdf.freebase.com/ns/m.05y10m1
+10. Mǎ Yún (conf. 0.0382968934519028)
+11. Hangzhou Normal University (conf. 0.03735575274027103) http://dbpedia.org/resource/Hangzhou_Normal_University
+12. Jack Ma, 2008 at World Economic Forum (conf. 0.031700254025557636)
+13. Andrew Ballen (conf. 0.027738404565089136) http://en.wikipedia.org/wiki/Andrew_Ballen
+14. Kris Wu (conf. 0.027738404565089136) http://en.wikipedia.org/wiki/Kris_Wu
+15. Steve Tappin (conf. 0.027738404565089136) http://en.wikipedia.org/wiki/Steve_Tappin
+16. Yuri Milner (conf. 0.027738404565089136) http://en.wikipedia.org/wiki/Yuri_Milner
+17. Min-Liang Tan (conf. 0.02634350017429883) http://en.wikipedia.org/wiki/Min-Liang_Tan
+18. Kikka Hanazawa (conf. 0.0256345097277642) http://en.wikipedia.org/wiki/Kikka_Hanazawa
+19. Sandro Salsano (conf. 0.0256345097277642) http://en.wikipedia.org/wiki/Sandro_Salsano
+20. Jet Li (conf. 0.025545491321176502) http://en.wikipedia.org/wiki/Jet_Li
+21. Emily Chang (conf. 0.0238070850055819) http://en.wikipedia.org/wiki/Emily_Chang_(journalist)
+22. Michael Evans (conf. 0.0238070850055819) http://en.wikipedia.org/wiki/Michael_Evans_(rower)
+23. Former Chairman and CEO, Alibaba Group (conf. 0.01939533144839353)
+24. Chinese internet entrepreneur (conf. 0.017643497114199845)
+25. Ma, Jack (conf. 0.01415296587728887)
+26. Jack Ma (conf. 0.01308022766899421) http://en.wikipedia.org/wiki/Jack_Ma
+
+
+Duration: 0 min 26 sec
+
+
+
+*****************************************
+Query 23
+Question: Where was the first KFC opened?
+Answer: 
+1. Anthony B. Richmond (conf. 0.7141575885094686) http://rdf.freebase.com/ns/m.03hltjb http://dbpedia.org/resource/Anthony_B._Richmond
+2. United States of America (conf. 0.5202371884388687) http://rdf.freebase.com/ns/m.09c7w0
+3. Zachery Ty Bryan (conf. 0.4675738246949511) http://dbpedia.org/resource/Zachery_Ty_Bryan
+4. United States (conf. 0.39540530033138244)
+5. Guildford, New South Wales (conf. 0.22928073843979377) http://en.wikipedia.org/wiki/Guildford,_New_South_Wales
+6. Caravan Pictures (conf. 0.11633675497743165) http://dbpedia.org/resource/Caravan_Pictures http://rdf.freebase.com/ns/m.05s57l
+7. Walt Disney Pictures (conf. 0.10607106376319095) http://dbpedia.org/resource/Walt_Disney_Pictures http://rdf.freebase.com/ns/m.01795t
+8. English Language (conf. 0.0374443158288638) http://rdf.freebase.com/ns/m.02h40lc
+9. Harry Keramidas (conf. 0.026551026450549402) http://rdf.freebase.com/ns/m.0jvbbn http://dbpedia.org/resource/Harry_Keramidas
+10. List of countries with KFC franchises (conf. 0.02350475820794083) http://en.wikipedia.org/wiki/List_of_countries_with_KFC_franchises
+11. David M. Evans (conf. 0.022037258146827624) http://dbpedia.org/resource/David_M._Evans http://rdf.freebase.com/ns/m.0df7lz
+12. Roger Birnbaum (conf. 0.022037258146827624) http://dbpedia.org/resource/Roger_Birnbaum http://rdf.freebase.com/ns/m.03h304l
+13. Lusaka (conf. 0.02081152952564163) http://en.wikipedia.org/wiki/Lusaka
+14. Walt Disney Studios Motion Pictures (conf. 0.02057141166104601) http://dbpedia.org/resource/Walt_Disney_Studios_Motion_Pictures
+15. Theatrical release poster (conf. 0.019738912706963933)
+16. Richard Gibbs (conf. 0.018574671982624906) http://dbpedia.org/resource/Richard_Gibbs http://rdf.freebase.com/ns/m.078q2z
+17. James Naughton (conf. 0.017838319755993072) http://dbpedia.org/resource/James_Naughton
+18. Tim Kelleher (conf. 0.017838319755993072) http://dbpedia.org/resource/Tim_Kelleher_(actor)
+19. Brock Pierce (conf. 0.01656504087968392) http://dbpedia.org/resource/Brock_Pierce
+20. The Walt Disney Company (conf. 0.016134696273134554) http://rdf.freebase.com/ns/m.09b3v
+21. He's young. He's wild. He's fun. And he's the one protecting the president's son. (conf. 0.013955510865925641)
+22. The First Kid (conf. 0.013060491399084703) http://rdf.freebase.com/ns/m.01g2_bk
+23. Judi Giovanni (conf. 0.01216999652767273) http://rdf.freebase.com/ns/m.0gj3d0g
+24. List of The First 48 episodes (conf. 0.011290521134675836)
+25. After the First 48 (conf. 0.01055445171057013) http://dbpedia.org/resource/After_the_First_48
+
+
+Duration: 0 min 47 sec
+
+
+
+*****************************************
+Query 24
+Question: Where are the Headquarters of Facebook located?
+Answer: 
+1. California (conf. 0.7578453923110702) http://dbpedia.org/resource/California
+2. Menlo Park, California (conf. 0.7480902995002375) http://dbpedia.org/resource/Menlo_Park,_California
+3. United States (conf. 0.5917327227814937) http://dbpedia.org/resource/United_States
+4. Menlo Park, California, US (conf. 0.37352896229954097)
+5. Mark Zuckerberg (conf. 0.19567992571309367) http://dbpedia.org/resource/Mark_Zuckerberg http://rdf.freebase.com/ns/m.086dny
+6. Oculus VR (conf. 0.08282814087025715) http://en.wikipedia.org/wiki/Oculus_VR http://dbpedia.org/resource/Oculus_VR
+7. Facebook, Inc. (conf. 0.08212588489335923) http://rdf.freebase.com/ns/m.0hmyfsv
+8. Notes on the State of Southern Poetry: Crossings (Part 1) (conf. 0.06352454176406391) http://rdf.freebase.com/ns/m.0gwrfb2
+9. The Accidental Billionaires (conf. 0.06352454176406391) http://rdf.freebase.com/ns/m.0c03d7y
+10. The Clare People (conf. 0.03340845501801864) http://en.wikipedia.org/wiki/The_Clare_People
+11. U2opia Mobile (conf. 0.02884338697569978) http://en.wikipedia.org/wiki/U2opia_Mobile
+12. Social networking service (conf. 0.025727339077165904) http://rdf.freebase.com/ns/m.06h0c8 http://dbpedia.org/resource/Social_networking_service
+13. History of Facebook (conf. 0.02472084326375027) http://en.wikipedia.org/wiki/History_of_Facebook
+14. Facebook Application Development (conf. 0.02296442016490895) http://rdf.freebase.com/ns/m.04b8swt
+15. Facebook's login/signup screen (conf. 0.019495243193818956)
+16. Rankan Mageguild (conf. 0.019382212584084534) http://rdf.freebase.com/ns/m.0c5x4c5
+17. Sanctuary Mageguild (conf. 0.019382212584084534) http://rdf.freebase.com/ns/m.0cm6x4l
+18. Lady Gaga (conf. 0.019315043774201894)
+19. Facebook Home (conf. 0.01812864522690364) http://rdf.freebase.com/ns/m.0sgh3qz
+20. Sheryl Sandberg (conf. 0.01596555990821594) http://dbpedia.org/resource/Sheryl_Sandberg
+21. Unless you get out of Facebook and into someone's face, you really have not acted. (conf. 0.015742135700031683)
+22. Public company (conf. 0.015062989229214204) http://dbpedia.org/resource/Public_company
+23. Social Network (Consumer) (conf. 0.014905944959762987) http://rdf.freebase.com/ns/m.0clyr23
+24. Social software (conf. 0.014905944959762987) http://rdf.freebase.com/ns/m.01gdp5
+25. Thomas Friedman, 2012 (conf. 0.013280002190862172)
+26. Developers.facebook.com (conf. 0.012858135985930642) http://rdf.freebase.com/ns/m.02k9b2h
+
+
+Duration: 0 min 48 sec
+
+
+
+*****************************************
+Query 25
+Question: Where does Barack Obama live?
+Answer: 
+1. White House (conf. 0.873224292283349) http://rdf.freebase.com/ns/m.081sq http://dbpedia.org/resource/White_House
+2. Honolulu (conf. 0.8487772668136812) http://rdf.freebase.com/ns/m.02hrh0_ http://dbpedia.org/resource/Honolulu
+3. Chicago (conf. 0.725998227894565) http://rdf.freebase.com/ns/m.01_d4 http://dbpedia.org/resource/Chicago
+4. Washington, D.C. (conf. 0.6403867172294805) http://rdf.freebase.com/ns/m.0rh6k
+5. New York City (conf. 0.0649084271415912) http://rdf.freebase.com/ns/m.02_286
+6. Dishonorable Disclosures (conf. 0.017940221103098106) http://en.wikipedia.org/wiki/Dishonorable_Disclosures
+7. Barack Obama religion conspiracy theories (conf. 0.017216899749024104) http://en.wikipedia.org/wiki/Barack_Obama_religion_conspiracy_theories
+8. Barack H. Obama: The Unauthorized Biography (conf. 0.01529634239520876) http://rdf.freebase.com/ns/m.05pwndb
+9. Hyde Park, Chicago (conf. 0.014716255007369035) http://en.wikipedia.org/wiki/Hyde_Park,_Chicago
+10. Barack Obama standing in front of a wooden writing desk and two flagpoles. (conf. 0.009663900832691362)
+11. Dear James Baldwin (in lieu of Dear Barack Obama) (conf. 0.00809559219047398) http://rdf.freebase.com/ns/m.0hj91lf
+12. Yes We Can: A Biography of President Barack Obama (conf. 0.007927275560544468) http://rdf.freebase.com/ns/m.04ylp2k
+13. Barack Obama and the Jim Crow Media (conf. 0.007748425630892636) http://rdf.freebase.com/ns/m.0hpwlvs
+14. Barack Obama Extends Historical Legacy "Astride the Promise of Change" (conf. 0.007587271779366627) http://rdf.freebase.com/ns/m.0bjbmz1
+15. Obama - The Postmodern Coup (conf. 0.007493876216849494) http://rdf.freebase.com/ns/m.05pwncn
+16. Obama, the Tea Party, and the Art of Political Persuasions Part 1 (conf. 0.007493876216849494) http://rdf.freebase.com/ns/m.0dkbpnn
+17. Obama, the Tea Party, and the Art of Political Persuasions Part 2 (conf. 0.007493876216849494) http://rdf.freebase.com/ns/m.0dkbpsk
+18. President Barack Obama and the Message Beyond the Photograph (conf. 0.00715568303634724) http://rdf.freebase.com/ns/m.0gnm9v8
+19. The Case Against Barack Obama: The Unlikely Rise and Unexamined Agenda of the Media's Favorite Candidate (conf. 0.00715568303634724) http://rdf.freebase.com/ns/m.04jch1n
+20. What Death of Osama Bin Laden Indicates About Barack Obama's Leadership (conf. 0.00715568303634724) http://rdf.freebase.com/ns/m.0gllw3x
+21. Countdown of 10 Great Moments in 2010 Part 7 Barack Obama and The NUL (conf. 0.007006770151445892) http://rdf.freebase.com/ns/m.0g4qdpr
+22. Why Race Mattered in Barack Obama's Re-election (conf. 0.007006770151445892) http://rdf.freebase.com/ns/m.0ngrr35
+23. Barack Obama in comics (conf. 0.006454213331006029) http://rdf.freebase.com/ns/m.05f34xs
+24. U.S. Senator Barack Obama Podcast (conf. 0.005881310466302001) http://rdf.freebase.com/ns/m.03cgnwp
+25. United States of America (conf. 0.004958323217014149) http://rdf.freebase.com/ns/m.09c7w0
+26. Barack Obama, Sr. (conf. 0.00256160339618678) http://rdf.freebase.com/ns/m.03qccxj http://dbpedia.org/resource/Barack_Obama,_Sr.
+
+
+Duration: 1 min 3 sec
+
+
+
+*****************************************
+Query 26
+Question: Where will the 2016 Summer Olympics be held?
+Answer: 
+1. Rio de Janeiro (conf. 0.976587927919345) http://rdf.freebase.com/ns/m.06gmr
+2. 2015–16 Fencing World Cup (conf. 0.48501523871831576) http://en.wikipedia.org/wiki/2015–16_Fencing_World_Cup
+3. 306 (conf. 0.47876852466308534)
+4. Summer Olympic Games (conf. 0.42426554358230023) http://rdf.freebase.com/ns/m.06vvk
+5. 2016 Women's Rugby Sevens Final Olympic Qualification Tournament (conf. 0.3755646909381528) http://en.wikipedia.org/wiki/2016_Women's_Rugby_Sevens_Final_Olympic_Qualification_Tournament
+6. 2015 ARFU Women's Sevens Championships (conf. 0.13366013653722078) http://en.wikipedia.org/wiki/2015_ARFU_Women's_Sevens_Championships
+7. 2015 NACRA Men's Sevens Championships (conf. 0.13366013653722078) http://en.wikipedia.org/wiki/2015_NACRA_Men's_Sevens_Championships
+8. 2015 NACRA Women's Sevens Championships (conf. 0.13366013653722078) http://en.wikipedia.org/wiki/2015_NACRA_Women's_Sevens_Championships
+9. 2015 Rugby Africa Men's Sevens Championships (conf. 0.13366013653722078) http://en.wikipedia.org/wiki/2015_Rugby_Africa_Men's_Sevens_Championships
+10. 2015 Rugby Africa Women's Sevens Championships (conf. 0.13366013653722078) http://en.wikipedia.org/wiki/2015_Rugby_Africa_Women's_Sevens_Championships
+11. 2016 Men's Rugby Sevens Final Olympic Qualification Tournament (conf. 0.0761442061819853) http://en.wikipedia.org/wiki/2016_Men's_Rugby_Sevens_Final_Olympic_Qualification_Tournament
+12. XXXI Olympiad (conf. 0.07300115883492776)
+13. Live your passion (conf. 0.05610039268871185)
+14. Athletics at the 2016 Summer Olympics (conf. 0.05345405558590942) http://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics
+15. 2015 ARFU Men's Sevens Championships (conf. 0.0355277492902288) http://en.wikipedia.org/wiki/2015_ARFU_Men's_Sevens_Championships
+16. 2015 CONSUR Men's Sevens Championships (conf. 0.0355277492902288) http://en.wikipedia.org/wiki/2015_CONSUR_Men's_Sevens_Championships
+17. 2015 CONSUR Women's Sevens Championships (conf. 0.0355277492902288) http://en.wikipedia.org/wiki/2015_CONSUR_Women's_Sevens_Championships
+18. Rebeca Andrade (conf. 0.029211192613673467) http://en.wikipedia.org/wiki/Rebeca_Andrade
+19. 2015 FIVB Volleyball World League (conf. 0.02690506730271908) http://en.wikipedia.org/wiki/2015_FIVB_Volleyball_World_League
+20. 2015 Rugby Europe Women's Sevens Championships (conf. 0.02690506730271908) http://en.wikipedia.org/wiki/2015_Rugby_Europe_Women's_Sevens_Championships
+21. Kitty Chiller (conf. 0.02690506730271908) http://en.wikipedia.org/wiki/Kitty_Chiller
+22. Handball at the 2016 Summer Olympics (conf. 0.024398156018710454) http://en.wikipedia.org/wiki/Handball_at_the_2016_Summer_Olympics
+23. 2015 Rugby Europe Men's Sevens Championships (conf. 0.0242682924017496) http://en.wikipedia.org/wiki/2015_Rugby_Europe_Men's_Sevens_Championships
+24. Volleyball at the 2016 Summer Olympics – Women's qualification (conf. 0.019474036658377852) http://en.wikipedia.org/wiki/Volleyball_at_the_2016_Summer_Olympics_–_Women's_qualification
+25. Scott Morgan (conf. 0.018033837424593503) http://en.wikipedia.org/wiki/Scott_Morgan_(gymnast)
+26. The 2016 Rio Olympic Games (conf. 0.015094176778874608)
+
+
+Duration: 0 min 38 sec
+
+
+
+*****************************************
+Query 27
+Question: Where did ISIS come from?
+Answer: 
+1. DC Comics (conf. 0.5637617022603718) http://dbpedia.org/resource/DC_Comics
+2. Linda Hamilton (conf. 0.40957876757801576) http://dbpedia.org/resource/Linda_Hamilton
+3. 10 (conf. 0.3829354973632555)
+4. British Columbia (conf. 0.11444025792693695) http://dbpedia.org/resource/British_Columbia
+5. "Downloaded" (conf. 0.09072892889981879)
+6. "Chuck Versus the Ring: Part II" (conf. 0.08695400154696746)
+7. Dr. Devon Woodcomb (conf. 0.07928679480365139)
+8. Canada (conf. 0.05583515952900819) http://dbpedia.org/resource/Canada
+9. 2001-10-16 (conf. 0.05562781532926075)
+10. Isis River (conf. 0.050999330446856166) http://en.wikipedia.org/wiki/Isis_River_(Queensland)
+11. United States (conf. 0.04655856586883597) http://dbpedia.org/resource/United_States
+12. 218 (conf. 0.044068247926423235)
+13. Abydos, Egypt (conf. 0.036709233040876935) http://dbpedia.org/resource/Abydos,_Egypt
+14. Philae (conf. 0.03592287560227416) http://dbpedia.org/resource/Philae
+15. The Secrets of Isis (conf. 0.020953427009612703) http://en.wikipedia.org/wiki/The_Secrets_of_Isis
+16. HMS Isis (conf. 0.0193042498074085) http://en.wikipedia.org/wiki/HMS_Isis
+17. 42 Isis (conf. 0.017746222984976433) http://en.wikipedia.org/wiki/42_Isis
+18. Linda Hamilton as Mary Elizabeth Bartowski (conf. 0.016831026541099556)
+19. Charles Irving Bartowski (conf. 0.016301104234825472)
+20. Central Intelligence Agency (conf. 0.014949176832733287) http://dbpedia.org/resource/Central_Intelligence_Agency
+21. —Mark Snow on creating music for each episode (conf. 0.01409365040353431)
+22. Devon Woodcomb (conf. 0.013206691117618768) http://dbpedia.org/resource/Devon_Woodcomb
+23. Smallville - Season 10 (conf. 0.01149721077084024)
+24. List of Smallville episodes (conf. 0.011478587054442628)
+25. The goddess Isis portrayed as a woman, wearing a headdress shaped like a throne and with an Ankh in her hand (conf. 0.009898668890022437)
+26. Sarah Walker (conf. 0.009821834252411663) http://dbpedia.org/resource/Sarah_Walker_(Chuck)
+
+
+Duration: 1 min 13 sec
+
+
+
+*****************************************
+Query 28
+Question: Where is the River Nile located?
+Answer: 
+
+Duration: 0 min 3 sec
+
+
+
+*****************************************
+Query 29
+Question: Where is an adults-only Club Med?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 30
+Question: Where did Christopher Columbus die?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 31
+Question: What was the number one song on the Billboard Top 100 in 2014?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 32
+Question: What is the most watched video on YouTube of all time?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 33
+Question: What nationality is Ted Cruz?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 34
+Question: What did Ludwig van Beethoven compose?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 35
+Question: What is the last book of the Bible?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 36
+Question: What is the total length of the Golden Gate Bridge?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 37
+Question: What is the most populated city in the world?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 38
+Question: What is the homosexual residential area in San Francisco called?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 39
+Question: What is the Avogadro's Constant?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 40
+Question: What sport does David Beckham play?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 41
+Question: How many weeks are there in a year?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 42
+Question: How many passengers does Bay Area Rapid Transit serve annually?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 43
+Question: How many people died in World War 2?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 44
+Question: How many employees does Google have?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 45
+Question: How many cups are in a quart?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 46
+Question: How much is 1 dollar to RMB (Chinese Yuan)?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 47
+Question: How much water is there in the Lake Erie?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 48
+Question: How much does Earth weigh?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 49
+Question: How often does a woman have a period?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
+*****************************************
+Query 50
+Question: How fast does a cheetah run?
+Answer: 
+
+Duration: 0 min 0 sec
+
+
+
