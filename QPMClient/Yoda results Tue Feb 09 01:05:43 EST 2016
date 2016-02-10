@@ -1,0 +1,1042 @@
+*****************************************
+Query 1
+Question: Who founded Google?
+Answer: 
+1. Menlo Park, California (conf. 0.7709729200190856) http://dbpedia.org/resource/Menlo_Park,_California
+2. Larry Page (conf. 0.7499476297184634) http://rdf.freebase.com/ns/m.0gjpq
+3. Sergey Brin (conf. 0.7086947063574718) http://rdf.freebase.com/ns/m.0gjq6
+4. Jerry Drake (conf. 0.37787278645621886) http://en.wikipedia.org/wiki/Jerry_Drake_(American_football)
+5. Konrad Seppelt (conf. 0.3703659982007071) http://en.wikipedia.org/wiki/Konrad_Seppelt
+6. Wesley Chan (conf. 0.08273702532625994) http://en.wikipedia.org/wiki/Wesley_Chan
+7. Google Inc. (conf. 0.04423156442628643)
+8. Google Search homepage (conf. 0.04057519593937312)
+9. Google Insights for Search (conf. 0.04003099378677459) http://en.wikipedia.org/wiki/Google_Insights_for_Search
+10. Craig Nevill-Manning (conf. 0.03573115993713736) http://en.wikipedia.org/wiki/Craig_Nevill-Manning
+11. Simons Institute for the Theory of Computing (conf. 0.03573115993713736) http://en.wikipedia.org/wiki/Simons_Institute_for_the_Theory_of_Computing
+12. Google, Inc. (conf. 0.034962969063612306)
+13. See list of Google products (conf. 0.03245940974272096)
+14. Google Voice Search (conf. 0.029691103941407792) http://en.wikipedia.org/wiki/Google_Voice_Search
+15. List of Google products (conf. 0.025469181270522473) http://dbpedia.org/resource/List_of_Google_products
+16. Perfect 10, Inc. v. Google, Inc. (conf. 0.025308344665824517) http://en.wikipedia.org/wiki/Perfect_10,_Inc._v._Google,_Inc.
+17. google.stanford.edu (conf. 0.02428511041474896) http://google.stanford.edu
+18. Google website (conf. 0.015163461370886337)
+19. Yes, by arrangement or ipv6.google.com (conf. 0.012839997914051157)
+20. google.com (conf. 0.01244728931201745) http://google.com
+21. Google Docs (conf. 0.011223184011358696) http://rdf.freebase.com/ns/m.0dm258
+22. Google Friend Connect (conf. 0.010249063465791122) http://rdf.freebase.com/ns/m.0462q85
+23. Google Fusion Tables (conf. 0.010249063465791122) http://rdf.freebase.com/ns/m.0ggbh_2
+24. Google Questions and Answers (conf. 0.009458415259018188) http://rdf.freebase.com/ns/m.02vlw5j
+25. Google.by (conf. 0.009458415259018188) http://rdf.freebase.com/ns/m.0h1tpn
+26. Google Search (conf. 0.005127496823376054) http://rdf.freebase.com/ns/m.0387r
+
+
+Duration: 0 min 46 sec
+
+
+
+*****************************************
+Query 2
+Question: Who launched Facebook?
+Answer: 
+1. Facebook, Inc. (conf. 0.9293943521119422) http://rdf.freebase.com/ns/m.0hmyfsv
+2. Mark Zuckerberg (conf. 0.618522807153414) http://dbpedia.org/resource/Mark_Zuckerberg http://rdf.freebase.com/ns/m.086dny
+3. Social networking service (conf. 0.5712034776996726) http://rdf.freebase.com/ns/m.06h0c8 http://dbpedia.org/resource/Social_networking_service
+4. Oculus VR (conf. 0.20995660629804472) http://dbpedia.org/resource/Oculus_VR
+5. Sheryl Sandberg (conf. 0.20386723321216615) http://dbpedia.org/resource/Sheryl_Sandberg
+6. Public company (conf. 0.06501046984912225) http://dbpedia.org/resource/Public_company
+7. Chairman (conf. 0.04432042722501555) http://dbpedia.org/resource/Chairman
+8. Facebook's login/signup screen (conf. 0.03321074713979627)
+9. United States (conf. 0.0271810751611449) http://dbpedia.org/resource/United_States
+10. Facebook Home (conf. 0.023744880403480318) http://rdf.freebase.com/ns/m.0sgh3qz
+11. Unless you get out of Facebook and into someone's face, you really have not acted. (conf. 0.022622300519470874)
+12. Velim, Goa (conf. 0.021895036962981083) http://en.wikipedia.org/wiki/Velim,_Goa
+13. Facebook Platform (conf. 0.021262947805207974) http://en.wikipedia.org/wiki/Facebook_Platform
+14. Dragon City (conf. 0.020452071391476687) http://en.wikipedia.org/wiki/Dragon_City
+15. Internet.org (conf. 0.020452071391476687) http://en.wikipedia.org/wiki/Internet.org
+16. SNAP Interactive (conf. 0.020452071391476687) http://en.wikipedia.org/wiki/SNAP_Interactive
+17. Chief executive officer (conf. 0.01882256312952711) http://dbpedia.org/resource/Chief_executive_officer
+18. Chief operating officer (conf. 0.01882256312952711) http://dbpedia.org/resource/Chief_operating_officer
+19. Menlo Park, California (conf. 0.015274818136949121) http://dbpedia.org/resource/Menlo_Park,_California
+20. Mark ZuckerbergEduardo SaverinAndrew McCollumDustin MoskovitzChris Hughes (conf. 0.014925928050645727)
+21. CatLab Interactive (conf. 0.014213928512576716) http://en.wikipedia.org/wiki/CatLab_Interactive
+22. Star Arcade (conf. 0.014213928512576716) http://en.wikipedia.org/wiki/Star_Arcade
+23. Akamon Entertainment (conf. 0.012115777240597186) http://en.wikipedia.org/wiki/Akamon_Entertainment
+24. Menlo Park, California, US (conf. 0.01183022292823385)
+25. Developers.facebook.com (conf. 0.008924707090572104) http://rdf.freebase.com/ns/m.02k9b2h
+26. Thomas Friedman, 2012 (conf. 0.0071380854455837806)
+
+
+Duration: 0 min 35 sec
+
+
+
+*****************************************
+Query 3
+Question: Who created Amazon?
+Answer: 
+1. Jeff Bezos (conf. 0.9600878116090837) http://dbpedia.org/resource/Jeff_Bezos http://rdf.freebase.com/ns/m.011z69
+2. Amazon Kindle (conf. 0.7209830308229621) http://dbpedia.org/resource/Amazon_Kindle http://en.wikipedia.org/wiki/Amazon_Kindle
+3. Gerry Conway (conf. 0.4306261342963215) http://rdf.freebase.com/ns/m.02qnbs http://dbpedia.org/resource/Gerry_Conway
+4. Shelley Reynolds (conf. 0.3359696561932468) http://rdf.freebase.com/ns/m.030rh4s
+5. Jim Mooney (conf. 0.3161899573054467) http://rdf.freebase.com/ns/m.0839bn http://dbpedia.org/resource/Jim_Mooney
+6. Michelle Wilson (conf. 0.07439856997230787) http://rdf.freebase.com/ns/m.03wtv41 http://rdf.freebase.com/ns/m.030rh2k
+7. Diego Piacentini (conf. 0.060736170392338244) http://rdf.freebase.com/ns/m.030rh58
+8. Andrew Jassy (conf. 0.060082301650471036) http://rdf.freebase.com/ns/m.030rh75
+9. Jeffrey Blackburn (conf. 0.060082301650471036) http://rdf.freebase.com/ns/m.030rh8h
+10. Fire Phone (conf. 0.0357959908591149) http://rdf.freebase.com/ns/m.010wykjy http://en.wikipedia.org/wiki/Fire_Phone
+11. Amazon Studios (conf. 0.029156794635733743) http://dbpedia.org/resource/Amazon_Studios
+12. Coordination of the Indigenous Organizations of the Brazilian Amazon (conf. 0.02767482864660709) http://en.wikipedia.org/wiki/Coordination_of_the_Indigenous_Organizations_of_the_Brazilian_Amazon
+13. Joy Covey (conf. 0.02396025247409626) http://rdf.freebase.com/ns/m.0ncz467
+14. Jeffrey A. Wilke (conf. 0.023692316244515947) http://rdf.freebase.com/ns/m.03wrqmr
+15. Marc Onetto (conf. 0.023692316244515947) http://rdf.freebase.com/ns/m.030rh5x
+16. Amazon Appstore (conf. 0.021663878609645373) http://rdf.freebase.com/ns/m.0gkzps_ http://dbpedia.org/resource/Amazon_Appstore
+17. Amazon Instant Video (conf. 0.021663878609645373) http://rdf.freebase.com/ns/m.0gvlgh http://dbpedia.org/resource/Amazon_Instant_Video
+18. Amazon Instant Video UK (conf. 0.021356380578284755) http://dbpedia.org/resource/Amazon_Instant_Video_UK
+19. a2z, A9.com, Amazon Web Services, Alexa Internet, Audible.com, Digital Photography Review, Goodreads, Internet Movie Database, Junglee.com, Zappos (conf. 0.01845165862918126)
+20. Save the Amazon Rainforest Organisation (conf. 0.015087488384273257) http://en.wikipedia.org/wiki/Save_the_Amazon_Rainforest_Organisation
+21. AMAZON.COM INC Common Stock (conf. 0.01445410839773078) http://rdf.freebase.com/ns/m.07zl90c
+22. Amazon.com: Get Big Fast - Inside the Revolutionary Business Model That Changed the World (conf. 0.013997129403084129) http://rdf.freebase.com/ns/m.073wnb1
+23. Col Needham (conf. 0.013218555742343076) http://rdf.freebase.com/ns/m.01h3md
+24. Douglas Boake (conf. 0.013218555742343076) http://rdf.freebase.com/ns/m.02_7ssg
+25. Amazon Web Services (conf. 0.0116652513751467) http://rdf.freebase.com/ns/m.05nrgx http://dbpedia.org/resource/Amazon_Web_Services
+26. Amazon Publishing (conf. 0.010827741421803656) http://rdf.freebase.com/ns/m.0hgrcd2 http://en.wikipedia.org/wiki/Amazon_Publishing
+
+
+Duration: 1 min 23 sec
+
+
+
+*****************************************
+Query 4
+Question: Who is the vice president of the United States?
+Answer: 
+1. John Adams (conf. 0.9459619030636612) http://dbpedia.org/resource/John_Adams
+2. Joe Biden (conf. 0.9314119283237811) http://dbpedia.org/resource/Joe_Biden
+3. Office of the Vice President of the United States (conf. 0.7824860315541706) http://en.wikipedia.org/wiki/Office_of_the_Vice_President_of_the_United_States http://dbpedia.org/resource/Office_of_the_Vice_President_of_the_United_States
+4. Flag of the Vice President of the United States (conf. 0.5819985366438577) http://dbpedia.org/resource/Flag_of_the_Vice_President_of_the_United_States
+5. Dick Cheney (conf. 0.3707765150015626) http://rdf.freebase.com/ns/m.02gvdfv
+6. Seal of the Vice President of the United States (conf. 0.30995985242588114) http://dbpedia.org/resource/Seal_of_the_Vice_President_of_the_United_States
+7. United States of America (conf. 0.1939309876643842) http://rdf.freebase.com/ns/m.09c7w0
+8. James B. Cranfill (conf. 0.1400388897045349) http://en.wikipedia.org/wiki/James_B._Cranfill
+9. Benjamin Fitzpatrick (conf. 0.1301563571038823) http://en.wikipedia.org/wiki/Benjamin_Fitzpatrick
+10. Cabinet of the United States (conf. 0.12516887962182277) http://dbpedia.org/resource/Cabinet_of_the_United_States
+11. John C. Calhoun II (conf. 0.08954224299578342) http://en.wikipedia.org/wiki/John_C._Calhoun_II
+12. List of actors who played Vice President of the United States (conf. 0.08232662195894629) http://en.wikipedia.org/wiki/List_of_actors_who_played_Vice_President_of_the_United_States
+13. Marine Technology Society (conf. 0.06216645093744434) http://en.wikipedia.org/wiki/Marine_Technology_Society
+14. Valentine Remmel (conf. 0.06125163031105543) http://en.wikipedia.org/wiki/Valentine_Remmel
+15. Christina López (conf. 0.036703222031222525) http://en.wikipedia.org/wiki/Christina_López
+16. John Bartow Prevost (conf. 0.036703222031222525) http://en.wikipedia.org/wiki/John_Bartow_Prevost
+17. United States Constitution (conf. 0.035996021611617274) http://dbpedia.org/resource/United_States_Constitution
+18. Jefferson, North Carolina (conf. 0.03435140746903382) http://en.wikipedia.org/wiki/Jefferson,_North_Carolina
+19. United States National Security Council (conf. 0.02847703318131583) http://dbpedia.org/resource/United_States_National_Security_Council
+20. Lois Irene Marshall (conf. 0.026876806065905225) http://en.wikipedia.org/wiki/Lois_Irene_Marshall
+21. George McGill (conf. 0.025080921833259964) http://en.wikipedia.org/wiki/George_McGill
+22. List of members of the Aztec Club of 1847 (conf. 0.02229104511795572) http://en.wikipedia.org/wiki/List_of_members_of_the_Aztec_Club_of_1847
+23. Maine gubernatorial election, 1848 (conf. 0.02229104511795572) http://en.wikipedia.org/wiki/Maine_gubernatorial_election,_1848
+24. Wisconsin's 1st congressional district (conf. 0.02229104511795572) http://en.wikipedia.org/wiki/Wisconsin's_1st_congressional_district
+25. Living Presidents of the United States (conf. 0.020702784078951094) http://en.wikipedia.org/wiki/Living_Presidents_of_the_United_States
+26. Washington, D.C., U.S. (conf. 0.015523164139847348)
+
+
+Duration: 0 min 44 sec
+
+
+
+*****************************************
+Query 5
+Question: Who is the president of France?
+Answer: 
+1. Nicolas Sarkozy (conf. 0.9932122373901275) http://rdf.freebase.com/ns/m.03t2h42
+2. Context name (conf. 0.6059102028271296) http://rdf.freebase.com/ns/base.schemastaging.context_name
+3. Government Office or Title (conf. 0.5326492267042908) http://rdf.freebase.com/ns/government.government_office_or_title
+4. Building Occupant (conf. 0.5135874038864185) http://rdf.freebase.com/ns/architecture.building_occupant
+5. François Hollande (conf. 0.4666627821663467) http://dbpedia.org/resource/Fran%C3%A7ois_Hollande
+6. European Council (conf. 0.1747735063763753) http://dbpedia.org/resource/European_Council
+7. President of the French Republic (conf. 0.1412402325447628)
+8. Cabinet of France (conf. 0.13446347196723699) http://dbpedia.org/resource/Cabinet_of_France
+9. Gaston Doumergue (conf. 0.13375859302832224) http://en.wikipedia.org/wiki/Gaston_Doumergue
+10. Brice Lalonde (conf. 0.06937001799613596) http://en.wikipedia.org/wiki/Brice_Lalonde
+11. Président de la République française (conf. 0.06436550803878373)
+12. Renewable once consecutively (conf. 0.06101515864541775)
+13. Armoiries république française.svg (conf. 0.052578987829792555)
+14. Constitution of the Fifth Republic (conf. 0.0384430081649223)
+15. Raymond-Max Aubert (conf. 0.03697608119072629) http://en.wikipedia.org/wiki/Raymond-Max_Aubert
+16. Politics of Andorra (conf. 0.030636516689151377) http://en.wikipedia.org/wiki/Politics_of_Andorra
+17. Jean Pelletier (conf. 0.028495852157023115) http://en.wikipedia.org/wiki/Jean_Pelletier
+18. Jean-Paul Schroeder (conf. 0.02804342298016167) http://en.wikipedia.org/wiki/Jean-Paul_Schroeder
+19. Jacqueline Auriol (conf. 0.02744781951684128) http://en.wikipedia.org/wiki/Jacqueline_Auriol
+20. List of longest-serving G8 leaders (conf. 0.026538623156170924) http://en.wikipedia.org/wiki/List_of_longest-serving_G8_leaders
+21. Napoleon III (conf. 0.024583070131332346) http://dbpedia.org/resource/Napoleon_III
+22. Interprofessional Guaranteed Minimum Wage (conf. 0.024438176834856495) http://en.wikipedia.org/wiki/Interprofessional_Guaranteed_Minimum_Wage
+23. Five years (conf. 0.023263370569710826)
+24. Élysée Palace (conf. 0.02305816903965115) http://dbpedia.org/resource/%C3%89lys%C3%A9e_Palace
+25. Frédéric Mitterrand (conf. 0.022390424357446422) http://en.wikipedia.org/wiki/Frédéric_Mitterrand
+26. Current reigning monarchs by length of reign (conf. 0.02084109876001176) http://en.wikipedia.org/wiki/Current_reigning_monarchs_by_length_of_reign
+
+
+Duration: 0 min 35 sec
+
+
+
+*****************************************
+Query 6
+Question: Who is the president of China?
+Answer: 
+1. Jiang Zemin (conf. 0.9276878404186093) http://dbpedia.org/resource/Jiang_Zemin
+2. Xi Jinping (conf. 0.9034747037257053) http://dbpedia.org/resource/Xi_Jinping
+3. Hu Jintao (conf. 0.5342868548850964) http://rdf.freebase.com/ns/m.02b_6vq http://en.wikipedia.org/wiki/Hu_Jintao
+4. Zeng Qinghong (conf. 0.23511926925664228) http://dbpedia.org/resource/Zeng_Qinghong
+5. Vice President of the People's Republic of China (conf. 0.2291076075263337) http://rdf.freebase.com/ns/m.0cz8xz http://dbpedia.org/resource/Vice_President_of_the_People's_Republic_of_China
+6. Wen Jiabao (conf. 0.09646740556522651) http://dbpedia.org/resource/Wen_Jiabao
+7. Wu Bangguo (conf. 0.07660059651187942) http://dbpedia.org/resource/Wu_Bangguo
+8. Jia Qinglin (conf. 0.051865772461229705) http://dbpedia.org/resource/Jia_Qinglin
+9. President of the People's Republic of China (conf. 0.04020620992277434) http://rdf.freebase.com/ns/m.012s_1 http://dbpedia.org/resource/President_of_the_People's_Republic_of_China
+10. Li Xiannian (conf. 0.03746125936444558) http://dbpedia.org/resource/Li_Xiannian http://en.wikipedia.org/wiki/Li_Xiannian
+11. Liu Yongqing (conf. 0.03286191163485317) http://dbpedia.org/resource/Liu_Yongqing
+12. Hú Jǐntāo (conf. 0.028370160560085247)
+13. Hu Jintao Sign.svg (conf. 0.02751757799448095)
+14. Articles related to Hu Jintao (conf. 0.027012618625289316)
+15. Li Wenrui (conf. 0.02114237256934414) http://rdf.freebase.com/ns/m.01062r8k
+16. Spouse of the President of the People's Republic of China (conf. 0.01971338783182532) http://en.wikipedia.org/wiki/Spouse_of_the_President_of_the_People's_Republic_of_China
+17. Song Defu (conf. 0.018227878824205575) http://dbpedia.org/resource/Song_Defu
+18. Li Changchun (conf. 0.018165527998047843) http://dbpedia.org/resource/Li_Changchun
+19. Mao Zedong (conf. 0.017614748681165394) http://dbpedia.org/resource/Mao_Zedong
+20. Lü Zushan (conf. 0.01751672813025031) http://en.wikipedia.org/wiki/Lü_Zushan
+21. Soong Ching-ling (conf. 0.017370359636804562) http://en.wikipedia.org/wiki/Soong_Ching-ling
+22. William Lawton (conf. 0.016461426525342177) http://en.wikipedia.org/wiki/William_Lawton
+23. Frederick Howard Taylor (conf. 0.01514614821418707) http://en.wikipedia.org/wiki/Frederick_Howard_Taylor
+24. Zhang Ping (conf. 0.01514614821418707) http://en.wikipedia.org/wiki/Zhang_Ping_(writer)
+25. Lin Sen (conf. 0.01453725010048211) http://en.wikipedia.org/wiki/Lin_Sen
+26. Wang Zhaoguo (conf. 0.011967191977419394) http://dbpedia.org/resource/Wang_Zhaoguo
+
+
+Duration: 0 min 55 sec
+
+
+
+*****************************************
+Query 7
+Question: Who is the father of C++?
+Answer: 
+1. Latin Capital Letter C (conf. 0.885150285354167)
+2. &#160; Latin Small Letter C (conf. 0.8097032304841252)
+3. –·–· (conf. 0.7844555910032401)
+4. Rudolf Jansen (conf. 0.5351451967207322) http://en.wikipedia.org/wiki/Rudolf_Jansen
+5. Moses Farnum House (conf. 0.26794243282600694) http://en.wikipedia.org/wiki/Moses_Farnum_House
+6. Christopher Derrick (conf. 0.2516753395625762) http://en.wikipedia.org/wiki/Christopher_Derrick
+7. Imtiaz Ahmed (conf. 0.2516753395625762) http://en.wikipedia.org/wiki/Imtiaz_Ahmed_(brigadier)
+8. Kelly Garrett (conf. 0.2516753395625762) http://en.wikipedia.org/wiki/Kelly_Garrett_(actress)
+9. Charlie (conf. 0.2369621885362058)
+10. PL/I (conf. 0.1887692759165484) http://rdf.freebase.com/ns/m.05xjv
+11. Norma Bonniwell (conf. 0.09411652847475814) http://en.wikipedia.org/wiki/Norma_Bonniwell
+12. William J. Street (conf. 0.08244455513767641) http://en.wikipedia.org/wiki/William_J._Street
+13. Christopher Hatton, 1st Viscount Hatton (conf. 0.061163714546554254) http://en.wikipedia.org/wiki/Christopher_Hatton,_1st_Viscount_Hatton
+14. Frank S. Kedzie (conf. 0.061163714546554254) http://en.wikipedia.org/wiki/Frank_S._Kedzie
+15. John Levee (conf. 0.061163714546554254) http://en.wikipedia.org/wiki/John_Levee
+16. Chemical elements (conf. 0.05866217171961338)
+17. Episcopal Church of the Good Shepherd (conf. 0.057228765205943874) http://en.wikipedia.org/wiki/Episcopal_Church_of_the_Good_Shepherd_(Berkeley,_California)
+18. Wikijunior:The Elements/Carbon (conf. 0.0504504043832065)
+19. Dharti Mata (conf. 0.04101777619735148) http://en.wikipedia.org/wiki/Dharti_Mata_(film)
+20. Clifton A. Hall (conf. 0.031323957937749516) http://en.wikipedia.org/wiki/Clifton_A._Hall
+21. T. D. S. A. Dissanayake (conf. 0.030441706728282295) http://en.wikipedia.org/wiki/T._D._S._A._Dissanayake
+22. Emily Cranz (conf. 0.030175142689970715) http://en.wikipedia.org/wiki/Emily_Cranz
+23. Nathaniel Wyeth (conf. 0.02948838252717597) http://en.wikipedia.org/wiki/Nathaniel_Wyeth_(inventor)
+24. Richard Bergenheim (conf. 0.029111255418619163) http://en.wikipedia.org/wiki/Richard_Bergenheim
+25. Shlomo Benado (conf. 0.029111255418619163) http://en.wikipedia.org/wiki/Shlomo_Benado
+26. James De Wolf Perry (conf. 0.020876636120250324) http://en.wikipedia.org/wiki/James_De_Wolf_Perry
+
+
+Duration: 1 min 2 sec
+
+
+
+*****************************************
+Query 8
+Question: Who invented Java?
+Answer: 
+1. James Gosling (conf. 0.9675913036970091) http://en.wikipedia.org/wiki/James_Gosling http://rdf.freebase.com/ns/m.0dn1_
+2. If They Tell You I Fell (conf. 0.6784751458397263) http://en.wikipedia.org/wiki/If_They_Tell_You_I_Fell
+3. Danny Lange (conf. 0.3810327580025545) http://en.wikipedia.org/wiki/Danny_Lange
+4. Jawa- (conf. 0.2684448732059678)
+5. Java Topography.png (conf. 0.2087747126297394)
+6. Mike Cowlishaw (conf. 0.1959854412150333) http://en.wikipedia.org/wiki/Mike_Cowlishaw
+7. Bubble Bobble (conf. 0.08484503008108156) http://rdf.freebase.com/ns/m.02hlrsy
+8. Yohoho! Puzzle Pirates (conf. 0.08484503008108156) http://rdf.freebase.com/ns/m.040tmd5
+9. Donald Green (conf. 0.07305870090749893) http://en.wikipedia.org/wiki/Donald_Green
+10. Walter B. Woodbury (conf. 0.07305870090749893) http://en.wikipedia.org/wiki/Walter_B._Woodbury
+11. Oracle Corporation (conf. 0.07282000531538821) http://rdf.freebase.com/ns/m.05njw
+12. Sun Microsystems (conf. 0.07282000531538821) http://rdf.freebase.com/ns/m.06py2
+13. Object Pascal (conf. 0.05519704360669405) http://rdf.freebase.com/ns/m.02yjg_
+14. UCSD Pascal (conf. 0.05519704360669405) http://rdf.freebase.com/ns/m.07vj7
+15. Topography of Java (conf. 0.04013372402109059)
+16. Coffee cup sleeve (conf. 0.025783796546852894) http://en.wikipedia.org/wiki/Coffee_cup_sleeve
+17. Framework for integrated test (conf. 0.025783796546852894) http://en.wikipedia.org/wiki/Framework_for_integrated_test
+18. Carl Norden (conf. 0.025272108244442818) http://en.wikipedia.org/wiki/Carl_Norden
+19. Lightweight Portable Security (conf. 0.023741635271309004) http://en.wikipedia.org/wiki/Lightweight_Portable_Security
+20. Michael Deering (conf. 0.021577362260539357) http://en.wikipedia.org/wiki/Michael_Deering
+21. Victor Berge (conf. 0.021577362260539357) http://en.wikipedia.org/wiki/Victor_Berge
+22. Java Sea (conf. 0.02127023281799511) http://rdf.freebase.com/ns/m.02c_13
+23. Generic Java (conf. 0.010263884330054656) http://rdf.freebase.com/ns/m.02jy2q
+24. Central Java (conf. 0.009509047669618128) http://dbpedia.org/resource/Central_Java
+25. East Java (conf. 0.009509047669618128) http://dbpedia.org/resource/East_Java
+26. West Java (conf. 0.009509047669618128) http://dbpedia.org/resource/West_Java
+
+
+Duration: 0 min 48 sec
+
+
+
+*****************************************
+Query 9
+Question: Who created Python?
+Answer: 
+1. William Zabka (conf. 0.8028436628435401) http://rdf.freebase.com/ns/m.038nt1 http://dbpedia.org/resource/William_Zabka
+2. Dan Nielsen (conf. 0.6920994887962558) http://rdf.freebase.com/ns/m.03f80d7
+3. Alex Jolig (conf. 0.26993606063246506) http://rdf.freebase.com/ns/m.047sn1f http://dbpedia.org/resource/Alex_Jolig
+4. Richard Smith (conf. 0.1903500882613602) http://rdf.freebase.com/ns/m.0njht5y
+5. Monty Python's The Meaning of Life (conf. 0.18254681118015947) http://en.wikipedia.org/wiki/Monty_Python's_The_Meaning_of_Life_(video_game)
+6. The Brand New Monty Python Bok (conf. 0.05185249662482751) http://en.wikipedia.org/wiki/The_Brand_New_Monty_Python_Bok
+7. Jonathan Miller (conf. 0.041086668322133785) http://dbpedia.org/resource/Jonathan_Miller
+8. Jenny McCarthy (conf. 0.03873498292033044) http://rdf.freebase.com/ns/m.02t_99
+9. John Franklin (conf. 0.03873498292033044) http://rdf.freebase.com/ns/m.06hw0m
+10. Monty Python and the Holy Grail (conf. 0.030958585221185952)
+11. Monty Python's Flying Circus (conf. 0.028433905810364167) http://rdf.freebase.com/ns/m.0c0_6
+12. Monty Python's Fliegender Zirkus (conf. 0.02777375580149982) http://en.wikipedia.org/wiki/Monty_Python's_Fliegender_Zirkus
+13. Monty Python Live at the Hollywood Bowl (conf. 0.02551787472783342)
+14. Monty Python's Life of Brian (conf. 0.02551787472783342)
+15. Phillip Roth (conf. 0.02253622979776288)
+16. Indian python, Python molurus (conf. 0.021726915946092752)
+17. Graham Chapman (conf. 0.021299605752242448) http://dbpedia.org/resource/Graham_Chapman
+18. Dudley Moore (conf. 0.018936851325260788) http://dbpedia.org/resource/Dudley_Moore
+19. Peter Cook (conf. 0.018936851325260788) http://dbpedia.org/resource/Peter_Cook
+20. Peter Sellers (conf. 0.018936851325260788) http://dbpedia.org/resource/Peter_Sellers
+21. Monty Python & the Quest for the Holy Grail (conf. 0.016832846889586195) http://en.wikipedia.org/wiki/Monty_Python_&_the_Quest_for_the_Holy_Grail
+22. Learning Python (conf. 0.01516689646601327) http://rdf.freebase.com/ns/m.0518xhh
+23. Programming Python (conf. 0.01516689646601327) http://rdf.freebase.com/ns/m.04ymf2d
+24. Monty Python's First Farewell Tour (conf. 0.013425446469077488) http://rdf.freebase.com/ns/m.0l69q76
+25. Monty Python's First Farewell Tour of Canada (conf. 0.013425446469077488) http://rdf.freebase.com/ns/m.0l69x5h
+26. Monty Python's Complete Waste of Time (conf. 0.007102102285148903) http://rdf.freebase.com/ns/m.0dhwhd http://en.wikipedia.org/wiki/Monty_Python's_Complete_Waste_of_Time
+
+
+Duration: 1 min 14 sec
+
+
+
+*****************************************
+Query 10
+Question: Who designed the first car?
+Answer: 
+1. Tracy Chapman (conf. 0.8826132427297279) http://rdf.freebase.com/ns/m.016s0m http://dbpedia.org/resource/Tracy_Chapman http://dbpedia.org/resource/Tracy_Chapman_(album)
+2. Henri Julien (conf. 0.49741077314493853) http://dbpedia.org/resource/Henri_Julien_(motor_sports)
+3. William Howard (conf. 0.3585560070349243) http://en.wikipedia.org/wiki/William_Howard_(engineer)
+4. Automobiles Gonfaronnaises Sportives (conf. 0.19401697910566834) http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives
+5. David Kershenbaum (conf. 0.17306240223621672) http://dbpedia.org/resource/David_Kershenbaum
+6. Christian Vanderpleyn (conf. 0.12710885633400987)
+7. Ivan Capelli (conf. 0.12710885633400987)
+8. Olivier Grouillard (conf. 0.12710885633400987)
+9. Roberto Moreno (conf. 0.12710885633400987)
+10. Yannick Dalmas (conf. 0.12710885633400987)
+11. Andrew Thorby (conf. 0.0441272623183649) http://en.wikipedia.org/wiki/Andrew_Thorby
+12. Patrizio Cantù (conf. 0.0360067802545599)
+13. Charles Brady King (conf. 0.03590314034236948) http://en.wikipedia.org/wiki/Charles_Brady_King
+14. Virgil Exner (conf. 0.03265026904609) http://en.wikipedia.org/wiki/Virgil_Exner
+15. Micro Cars (conf. 0.02917718235312703) http://en.wikipedia.org/wiki/Micro_Cars
+16. Richard A. Teague (conf. 0.02917718235312703) http://en.wikipedia.org/wiki/Richard_A._Teague
+17. Fabrizio Barbazza (conf. 0.027711987187830113)
+18. Gabriele Tarquini (conf. 0.027711987187830113)
+19. Pascal Fabre (conf. 0.027711987187830113)
+20. Philippe Streiff (conf. 0.027711987187830113)
+21. Stefan Johansson (conf. 0.027711987187830113)
+22. Rory Byrne (conf. 0.027067340951222398) http://en.wikipedia.org/wiki/Rory_Byrne
+23. Bonnie Raitt (conf. 0.02042384284756266) http://dbpedia.org/resource/Bonnie_Raitt
+24. Dion Graham (conf. 0.018421618066039765)
+25. List of The First 48 episodes (conf. 0.01705437557334234)
+26. After the First 48 (conf. 0.01602868209223699) http://dbpedia.org/resource/After_the_First_48
+
+
+Duration: 1 min 3 sec
+
+
+
+*****************************************
+Query 11
+Question: Who is the richest person in the world?
+Answer: 
+1. Ranked list (conf. 0.966755394590951) http://rdf.freebase.com/ns/m.059wg_5 http://rdf.freebase.com/ns/award.ranked_list
+2. Website Category (conf. 0.7683687333353463) http://rdf.freebase.com/ns/m.02h7kvm http://rdf.freebase.com/ns/internet.website_category
+3. Bobby Murphy (conf. 0.7239625260969625) http://en.wikipedia.org/wiki/Bobby_Murphy_(businessman)
+4. Nathan Blecharczyk (conf. 0.7235566649166018) http://en.wikipedia.org/wiki/Nathan_Blecharczyk
+5. API (conf. 0.6782744180024167) http://rdf.freebase.com/ns/internet.api
+6. Topic (conf. 0.22317532640168325) http://rdf.freebase.com/ns/common.topic
+7. John Franklyn Mars (conf. 0.1460046846995603) http://en.wikipedia.org/wiki/John_Franklyn_Mars
+8. Internet Protocol (conf. 0.10220721663865809) http://rdf.freebase.com/ns/computer.internet_protocol
+9. Américo Amorim (conf. 0.09016376449326106) http://en.wikipedia.org/wiki/Américo_Amorim
+10. Bahaa Hariri (conf. 0.09016376449326106) http://en.wikipedia.org/wiki/Bahaa_Hariri
+11. Cyrus S. Poonawalla (conf. 0.09016376449326106) http://en.wikipedia.org/wiki/Cyrus_S._Poonawalla
+12. Ding Shijia (conf. 0.07878092321368636) http://en.wikipedia.org/wiki/Ding_Shijia
+13. Mofatraj Munot (conf. 0.07878092321368636) http://en.wikipedia.org/wiki/Mofatraj_Munot
+14. Suat Günsel (conf. 0.07878092321368636) http://en.wikipedia.org/wiki/Suat_Günsel
+15. Dieter Schwarz (conf. 0.07228372149963745) http://en.wikipedia.org/wiki/Dieter_Schwarz
+16. Carlos Slim Domit (conf. 0.06486837972974702) http://en.wikipedia.org/wiki/Carlos_Slim_Domit
+17. Al-Futtaim Group (conf. 0.05571561117597994) http://en.wikipedia.org/wiki/Al-Futtaim_Group
+18. Alexander Putilov (conf. 0.05571561117597994) http://en.wikipedia.org/wiki/Alexander_Putilov
+19. Jayme Garfinkel (conf. 0.05571561117597994) http://en.wikipedia.org/wiki/Jayme_Garfinkel
+20. Lee Shau-kee (conf. 0.05571561117597994) http://en.wikipedia.org/wiki/Lee_Shau-kee
+21. Samih Sawiris (conf. 0.05571561117597994) http://en.wikipedia.org/wiki/Samih_Sawiris
+22. Thomas Schmidheiny (conf. 0.05571561117597994) http://en.wikipedia.org/wiki/Thomas_Schmidheiny
+23. The World's Billionaires (conf. 0.04404340013109824)
+24. The World's Billionaires 2015 (conf. 0.04037324883093079) http://en.wikipedia.org/wiki/The_World's_Billionaires_2015
+25. Stefan Persson (conf. 0.038804671683265464) http://en.wikipedia.org/wiki/Stefan_Persson_(magnate)
+26. S. Robson Walton (conf. 0.026861117853833116) http://en.wikipedia.org/wiki/S._Robson_Walton
+
+
+Duration: 0 min 45 sec
+
+
+
+*****************************************
+Query 12
+Question: Who is the greatest philanthropist of all time?
+Answer: 
+1. Tom Gries (conf. 0.9663460966410797) http://rdf.freebase.com/ns/m.0k832j
+2. Mark Burnett (conf. 0.6492975629650627) http://en.wikipedia.org/wiki/Mark_Burnett
+3. Ali Farrell (conf. 0.5707135479640535) http://rdf.freebase.com/ns/m.090tg0z
+4. Aaron Kaufman (conf. 0.5538461270432424) http://rdf.freebase.com/ns/m.07y_9ws
+5. David Porter (conf. 0.3768788920702522) http://en.wikipedia.org/wiki/David_Porter_(musician)
+6. Blair Hull (conf. 0.3214978045777732) http://en.wikipedia.org/wiki/Blair_Hull
+7. Arthur Brisbane (conf. 0.2907143844019031) http://en.wikipedia.org/wiki/Arthur_Brisbane
+8. W. Randall Jones (conf. 0.18770728604932305) http://en.wikipedia.org/wiki/W._Randall_Jones
+9. John Bailey (conf. 0.16144481656614482) http://rdf.freebase.com/ns/m.0280mv7
+10. Harry Stradling Jr. (conf. 0.15951421495211027) http://rdf.freebase.com/ns/m.0jsqw2
+11. Laura Hyman (conf. 0.15951421495211027) http://rdf.freebase.com/ns/m.09dw3ky
+12. Allan Savory (conf. 0.1562212557991035) http://en.wikipedia.org/wiki/Allan_Savory
+13. Mark Schultz (conf. 0.1351948675696191) http://en.wikipedia.org/wiki/Mark_Schultz_(wrestler)
+14. Anthony Callie (conf. 0.13406593930455352) http://rdf.freebase.com/ns/m.07y_9yg
+15. Cara Silverman (conf. 0.13406593930455352) http://rdf.freebase.com/ns/m.09850zr
+16. Doug Dey (conf. 0.13406593930455352) http://rdf.freebase.com/ns/m.07y_9xx
+17. Laura Rosenthal (conf. 0.13406593930455352) http://rdf.freebase.com/ns/m.090tg13
+18. Ron Hartenbaum (conf. 0.13406593930455352) http://rdf.freebase.com/ns/m.07y_9y4
+19. Muhammad Ali (conf. 0.12978884821067702) http://rdf.freebase.com/ns/m.0h353
+20. Gerry Goffin (conf. 0.11850574960719328) http://rdf.freebase.com/ns/m.02zljk
+21. Linda Creed (conf. 0.11850574960719328) http://rdf.freebase.com/ns/m.03j1q2s
+22. Judy Rhee (conf. 0.11734387072210851) http://rdf.freebase.com/ns/m.09dzl3x
+23. Lynette Howell (conf. 0.11156471327361812) http://rdf.freebase.com/ns/m.0jz2nh
+24. Christophe Beck (conf. 0.09831957665316941) http://rdf.freebase.com/ns/m.03c_8t
+25. Lee Holdridge (conf. 0.09831957665316941) http://rdf.freebase.com/ns/m.04f0r88
+26. John Marshall (conf. 0.09378369594997034) http://rdf.freebase.com/ns/m.026mp8j
+
+
+Duration: 1 min 4 sec
+
+
+
+*****************************************
+Query 13
+Question: Who discovered America?
+Answer: 
+1. Paramount Pictures (conf. 0.686290368878969) http://rdf.freebase.com/ns/m.05qd_ http://dbpedia.org/resource/Paramount_Pictures
+2. United States of America (conf. 0.6416523404502068) http://rdf.freebase.com/ns/m.09c7w0
+3. Trey Parker (conf. 0.32783641317980317) http://rdf.freebase.com/ns/m.01_x6v http://dbpedia.org/resource/Trey_Parker
+4. Scott Rudin (conf. 0.2941969067169896) http://rdf.freebase.com/ns/m.0fvf9q http://dbpedia.org/resource/Scott_Rudin
+5. Matt Stone (conf. 0.226689922471599) http://rdf.freebase.com/ns/m.01_x6d http://dbpedia.org/resource/Matt_Stone
+6. Phil Hendrie (conf. 0.15993295606983268) http://rdf.freebase.com/ns/m.025sfj http://dbpedia.org/resource/Phil_Hendrie
+7. Chris Staples (conf. 0.12378264691598433) http://en.wikipedia.org/wiki/Chris_Staples
+8. Maurice LaMarche (conf. 0.08949985933957098) http://rdf.freebase.com/ns/m.02wrhj http://dbpedia.org/resource/Maurice_LaMarche
+9. Daran Norris (conf. 0.06960861521289227) http://rdf.freebase.com/ns/m.0490sl http://dbpedia.org/resource/Daran_Norris
+10. Kristen Miller (conf. 0.06960861521289227) http://rdf.freebase.com/ns/m.068j87 http://dbpedia.org/resource/Kristen_Miller
+11. Pam Brady (conf. 0.06668473389340689) http://rdf.freebase.com/ns/m.0k3l9h http://dbpedia.org/resource/Pam_Brady
+12. Thomas M. Vogt (conf. 0.06161488234890864) http://rdf.freebase.com/ns/m.0dbwpkn http://dbpedia.org/resource/Thomas_M._Vogt
+13. Harry Gregson-Williams (conf. 0.054184788459890255) http://rdf.freebase.com/ns/m.04pf4r http://dbpedia.org/resource/Harry_Gregson-Williams
+14. Washington, D.C. (conf. 0.043370071941129726) http://dbpedia.org/resource/Washington,_D.C. http://rdf.freebase.com/ns/m.0rh6k
+15. America One Television Network (conf. 0.035792884671477745)
+16. How I Discovered America (conf. 0.03322680478393668) http://en.wikipedia.org/wiki/How_I_Discovered_America
+17. John Roberts (conf. 0.03038391052054387) http://dbpedia.org/resource/John_Roberts
+18. America Georgine Ferrera (conf. 0.03016051382505088)
+19. Chief Justice of the United States (conf. 0.02951558256009721) http://dbpedia.org/resource/Chief_Justice_of_the_United_States
+20. President of the United States (conf. 0.02951558256009721) http://dbpedia.org/resource/President_of_the_United_States
+21. Vice President of the United States (conf. 0.02951558256009721) http://dbpedia.org/resource/Vice_President_of_the_United_States
+22. Awards for America Ferrera (conf. 0.02469385474294995)
+23. Main theme of the 2004 film Team America: World Police. (conf. 0.02239940064329067)
+24. Flag of the United States.svg (conf. 0.021949284131850048)
+25. John Evans (conf. 0.02000182872486292) http://en.wikipedia.org/wiki/John_Evans_(explorer)
+26. Bill Pope (conf. 0.017428659557529664) http://rdf.freebase.com/ns/m.0ctsk9 http://dbpedia.org/resource/Bill_Pope
+
+
+Duration: 1 min 16 sec
+
+
+
+*****************************************
+Query 14
+Question: Who discovered neutron?
+Answer: 
+1. James Chadwick (conf. 0.8941511784521534) http://dbpedia.org/resource/James_Chadwick
+2. Baryon (conf. 0.5517571889821089) http://rdf.freebase.com/ns/m.01gmm http://dbpedia.org/resource/Baryon
+3. Marv Wolfman (conf. 0.5415546765309935) http://rdf.freebase.com/ns/m.02gn9g
+4. J·T−1 (conf. 0.5265532449741683)
+5. Neutron (conf. 0.43599631344741485) http://en.wikipedia.org/wiki/Neutron
+6. John R. Dunning (conf. 0.22824333164450655) http://en.wikipedia.org/wiki/John_R._Dunning
+7. Pupin Hall (conf. 0.18768136697108478) http://en.wikipedia.org/wiki/Pupin_Hall
+8. Joe Staton (conf. 0.11575410797056898) http://rdf.freebase.com/ns/m.08tp7x
+9. Ernest Rutherford (conf. 0.0880880144092794) http://dbpedia.org/resource/Ernest_Rutherford
+10. , , (conf. 0.07498186905251907)
+11. I = (conf. 0.07498186905251907)
+12. Andrzej Sołtan (conf. 0.06132124209884818) http://en.wikipedia.org/wiki/Andrzej_Sołtan
+13. DC Universe (conf. 0.04133044688484438) http://rdf.freebase.com/ns/m.01q_ks
+14. The quark structure of the neutron. (conf. 0.037334182548226756)
+15. Neutron star (conf. 0.03459204570014879) http://en.wikipedia.org/wiki/Neutron_star
+16. Compact star (conf. 0.03326473055414977) http://en.wikipedia.org/wiki/Compact_star
+17. Strong interaction (conf. 0.029802221741770094) http://dbpedia.org/resource/Strong_interaction
+18. Weak interaction (conf. 0.029802221741770094) http://dbpedia.org/resource/Weak_interaction
+19. Norman Feather (conf. 0.029118322198055734) http://en.wikipedia.org/wiki/Norman_Feather
+20. Neutron radiation (conf. 0.028081062133954737) http://en.wikipedia.org/wiki/Neutron_radiation
+21. Neutron scattering (conf. 0.027047860091827265) http://en.wikipedia.org/wiki/Neutron_scattering
+22. Millisecond pulsar (conf. 0.02410779270459151) http://en.wikipedia.org/wiki/Millisecond_pulsar
+23. Neutron imaging (conf. 0.022385171577197292) http://en.wikipedia.org/wiki/Neutron_imaging
+24. Magic number (conf. 0.022195352131812295) http://en.wikipedia.org/wiki/Magic_number_(physics)
+25. Neutron magnetic moment (conf. 0.021399058818522648) http://en.wikipedia.org/wiki/Neutron_magnetic_moment
+26. The World Set Free (conf. 0.019219995662757648) http://en.wikipedia.org/wiki/The_World_Set_Free
+
+
+Duration: 0 min 25 sec
+
+
+
+*****************************************
+Query 15
+Question: Who successful predicted the regular protein secondary structures?
+Answer: 
+1.  (conf. 0.9863801427384539)
+2. Alzheimer's disease (conf. 0.8940110223427304) http://en.wikipedia.org/wiki/Alzheimer's_disease
+3. Partial androgen insensitivity syndrome (conf. 0.8832148946273012) http://en.wikipedia.org/wiki/Partial_androgen_insensitivity_syndrome
+4. Limb-girdle muscular dystrophy (conf. 0.8058744740212177) http://en.wikipedia.org/wiki/Limb-girdle_muscular_dystrophy
+5. Protein (conf. 0.5815605748881268) http://en.wikipedia.org/wiki/Protein
+6. Protein structure prediction (conf. 0.21756605465023715) http://en.wikipedia.org/wiki/Protein_structure_prediction
+7. External morphology of Lepidoptera (conf. 0.1936029229515327) http://en.wikipedia.org/wiki/External_morphology_of_Lepidoptera
+8. Sexual conflict (conf. 0.18409034340527414) http://en.wikipedia.org/wiki/Sexual_conflict
+9. Abdominal aortic aneurysm (conf. 0.1741657004536378) http://en.wikipedia.org/wiki/Abdominal_aortic_aneurysm
+10. Reduced muscle mass, strength and performance in space (conf. 0.1741657004536378) http://en.wikipedia.org/wiki/Reduced_muscle_mass,_strength_and_performance_in_space
+11. Neuromuscular junction disease (conf. 0.17014965556228898) http://en.wikipedia.org/wiki/Neuromuscular_junction_disease
+12. Biological neuron model (conf. 0.16979272078418728) http://en.wikipedia.org/wiki/Biological_neuron_model
+13. DNA nanotechnology (conf. 0.16979272078418728) http://en.wikipedia.org/wiki/DNA_nanotechnology
+14. History of molecular biology (conf. 0.16979272078418728) http://en.wikipedia.org/wiki/History_of_molecular_biology
+15. Short linear motif (conf. 0.16979272078418728) http://en.wikipedia.org/wiki/Short_linear_motif
+16. Alpha helix (conf. 0.16562496473970853) http://en.wikipedia.org/wiki/Alpha_helix
+17. Intelligent Systems for Molecular Biology (conf. 0.16562496473970853) http://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology
+18. X-ray crystallography (conf. 0.16562496473970853) http://en.wikipedia.org/wiki/X-ray_crystallography
+19. Evolution (conf. 0.1117710454026156) http://en.wikipedia.org/wiki/Evolution
+20. Peafowl (conf. 0.10524236070186915) http://en.wikipedia.org/wiki/Peafowl
+21. Rosalind Franklin (conf. 0.06845760838383662) http://en.wikipedia.org/wiki/Rosalind_Franklin
+
+
+Duration: 0 min 30 sec
+
+
+
+*****************************************
+Query 16
+Question: Who first identified and isolated DNA?
+Answer: 
+1. DNA (conf. 0.891185015009044) http://en.wikipedia.org/wiki/DNA
+2. Arnold Kransdorff (conf. 0.7332242164031519) http://en.wikipedia.org/wiki/Arnold_Kransdorff
+3. Kara DioGuardi (conf. 0.3828433461697341) http://rdf.freebase.com/ns/m.04pjg2
+4. John Shanks (conf. 0.28651367589859317) http://rdf.freebase.com/ns/m.04pk_p
+5. Restriction site associated DNA markers (conf. 0.25217286948120277) http://en.wikipedia.org/wiki/Restriction_site_associated_DNA_markers
+6. Martin Gilbert (conf. 0.23823564020364585) http://dbpedia.org/resource/Martin_Gilbert_(businessman)
+7. Norwich park and ride (conf. 0.12948758648869557) http://rdf.freebase.com/ns/m.053zyhk
+8. Mosaic of services offered by First Group in Europe and North America.jpg (conf. 0.12617205562324943)
+9. O'Bryan (conf. 0.067087291927609) http://rdf.freebase.com/ns/m.03f7qn7
+10. bus, coach, rail, tram & yellow school bus (conf. 0.057180765390288144)
+11. FirstGroup plc (conf. 0.04547995343862601)
+12. FirstGroup operates bus, coach, rail & tram services in the United Kingdom, Denmark, United States, Canada & Ireland (conf. 0.04393490059275795)
+13. www.firstgroup.com (conf. 0.042550270729075045) http://www.firstgroup.com
+14. Y-DNA haplogroups by ethnic group (conf. 0.036392301675285864) http://en.wikipedia.org/wiki/Y-DNA_haplogroups_by_ethnic_group
+15. Tim O'Toole (conf. 0.03502341496577167) http://dbpedia.org/resource/Tim_O'Toole_(businessman)
+16. World War I (conf. 0.0325276295075281)
+17. DNA sequencing (conf. 0.028986026218192806) http://en.wikipedia.org/wiki/DNA_sequencing
+18. Recombinant DNA (conf. 0.02530735797126545) http://en.wikipedia.org/wiki/Recombinant_DNA
+19. Publicly owned (conf. 0.0248768286184204)
+20. Haplogroup G-M201 (conf. 0.02241582977806462) http://en.wikipedia.org/wiki/Haplogroup_G-M201
+21. DNA database (conf. 0.022317431293535212) http://en.wikipedia.org/wiki/DNA_database
+22. DNA nanoball sequencing (conf. 0.022317431293535212) http://en.wikipedia.org/wiki/DNA_nanoball_sequencing
+23. no (conf. 0.017829561810496285)
+24. FIRSTGROUP PLC Common Stock (conf. 0.016868299467844027) http://rdf.freebase.com/ns/m.0ckx6ky
+25. Horrible Histories: Frightful First World War - The Exhibition (conf. 0.011576924162528753) http://rdf.freebase.com/ns/m.04lqfg7
+26. David Gates (conf. 0.011296550770213227) http://rdf.freebase.com/ns/m.015kgk
+
+
+Duration: 0 min 56 sec
+
+
+
+*****************************************
+Query 17
+Question: Who is the author of the Harry Potter series?
+Answer: 
+1. J. K. Rowling (conf. 0.9855387102707182) http://rdf.freebase.com/ns/m.042xh http://dbpedia.org/resource/J._K._Rowling
+2. Yusuf Khass Hajib (conf. 0.849609680475642) http://rdf.freebase.com/ns/m.05ncnn
+3. Elsie J. Oxenham (conf. 0.301072272258597) http://rdf.freebase.com/ns/m.0268tj5 http://dbpedia.org/resource/Elsie_J._Oxenham
+4. Robbie Coltrane (conf. 0.27583488137083473) http://en.wikipedia.org/wiki/Robbie_Coltrane
+5. Arthur A. Levine Books (conf. 0.16264516380984734) http://dbpedia.org/resource/Arthur_A._Levine_Books
+6. Harry Potter and the Chamber of Secrets (conf. 0.03176262485314988) http://rdf.freebase.com/ns/m.015pln http://rdf.freebase.com/ns/m.031778
+7. Harry Potter and the Goblet of Fire (conf. 0.03176262485314988) http://rdf.freebase.com/ns/m.01m5g_ http://rdf.freebase.com/ns/m.031786
+8. Harry Potter and the Half-Blood Prince (conf. 0.03176262485314988) http://rdf.freebase.com/ns/m.06_rf9 http://rdf.freebase.com/ns/m.03hxsv
+9. Harry Potter and the Order of the Phoenix (conf. 0.03176262485314988) http://rdf.freebase.com/ns/m.014jst http://rdf.freebase.com/ns/m.031hcx
+10. Harry Potter and the Prisoner of Azkaban (conf. 0.03176262485314988) http://rdf.freebase.com/ns/m.01lr1g http://rdf.freebase.com/ns/m.03177r
+11. The Harry Potter logo was first used for the American edition of the novel series , and then the film series. (conf. 0.02917265055462326)
+12. Harry Potter and the Deathly Hallows (conf. 0.02681958714461368) http://rdf.freebase.com/ns/m.03bkkv
+13. Harry Potter: The Exhibition (conf. 0.024780222578315043) http://rdf.freebase.com/ns/m.050_4mf
+14. Harry Potter and the Deathly Hallows - Part I (conf. 0.024175170459394744) http://rdf.freebase.com/ns/m.02pth35
+15. The Harry Potter Lexicon (conf. 0.023890893695597163) http://en.wikipedia.org/wiki/The_Harry_Potter_Lexicon
+16. Harry Potter and the Deathly Hallows – Part 2 (conf. 0.021922465769691157) http://rdf.freebase.com/ns/m.0gvsynb
+17. Harry Potter and the Forbidden Journey (conf. 0.02183451262162769) http://rdf.freebase.com/ns/m.07sbx84
+18. Bloomsbury Publishing (conf. 0.021335490293440312) http://dbpedia.org/resource/Bloomsbury_Publishing
+19. Jessica Mitford (conf. 0.020733826330526426) http://en.wikipedia.org/wiki/Jessica_Mitford
+20. Matthew Lewis (conf. 0.020733826330526426) http://en.wikipedia.org/wiki/Matthew_Lewis_(actor)
+21. United Kingdom (conf. 0.02062184265163474) http://dbpedia.org/resource/United_Kingdom
+22. Harry Potter literary series (conf. 0.020358922285510277) http://rdf.freebase.com/ns/m.078ffw
+23. Harry Potter and the Philosopher's Stone (conf. 0.019693493162104923) http://rdf.freebase.com/ns/m.0c_vk http://rdf.freebase.com/ns/m.03176f
+24. "The Power Of Love" - Author - Robert Ernest Price (conf. 0.019625844414140902) http://rdf.freebase.com/ns/m.0hgv9fs
+25. J. J. Woods – Author - The Forgotten Covenant (conf. 0.019625844414140902) http://rdf.freebase.com/ns/m.0d0jzb2
+26. Leisha Kelly – author- "House on Malcolm Street" (conf. 0.019625844414140902) http://rdf.freebase.com/ns/m.0hhw_83
+
+
+Duration: 1 min 28 sec
+
+
+
+*****************************************
+Query 18
+Question: Who is the author of the Canterbury Tales?
+Answer: 
+1. Margaret Frazer (conf. 0.7502831513808776) http://en.wikipedia.org/wiki/Margaret_Frazer
+2. Written Work (conf. 0.7250742495626775) http://rdf.freebase.com/ns/book.written_work
+3. Translated Work (conf. 0.7225975322961574) http://rdf.freebase.com/ns/book.translated_work
+4. Adapted Work (conf. 0.6964485916956022) http://rdf.freebase.com/ns/media_common.adapted_work
+5. Published Work (conf. 0.6585036335265896) http://rdf.freebase.com/ns/book.published_work
+6. Sir Gawain and the Green Knight (conf. 0.27654055653939347) http://en.wikipedia.org/wiki/Sir_Gawain_and_the_Green_Knight
+7. Middle Ages (conf. 0.15249344011745733) http://rdf.freebase.com/ns/m.04rjz
+8. Alma Redemptoris Mater (conf. 0.12126799860039798) http://en.wikipedia.org/wiki/Alma_Redemptoris_Mater
+9. Canterbury Cathedral (conf. 0.10259233615116015) http://rdf.freebase.com/ns/m.0jmv3
+10. The Knight (conf. 0.08814265310244646) http://rdf.freebase.com/ns/m.0j3sw52
+11. The Narrator (conf. 0.08814265310244646) http://rdf.freebase.com/ns/m.0j3sw4f
+12. The Pardoner (conf. 0.08814265310244646) http://rdf.freebase.com/ns/m.0j3sw59
+13. Ezra Winter, Canterbury tales mural , Library of Congress John Adams Building, Washington, D.C. This mural is located on the west wall of the North Reading Room, and features the Miller, Host, Knight, Squire, Yeoman, Doctor, Chaucer, Man of Law, Clerk, Manciple, Sailor, Prioress, Nun and three Priests; the other pilgrims appear on the east wall mural. (conf. 0.08022181886239557)
+14. The Miller (conf. 0.07959686914882176) http://rdf.freebase.com/ns/m.0j3sw4n
+15. Barbara Cohen (conf. 0.06153918361225073) http://en.wikipedia.org/wiki/Barbara_Cohen
+16. Author David Kerr - The Ol' Turkey Hunter (conf. 0.05689141357559516) http://rdf.freebase.com/ns/m.0hj1f1k
+17. Sir Peter Buckton (conf. 0.030011109166991942) http://en.wikipedia.org/wiki/Sir_Peter_Buckton
+18. Jim MacCool (conf. 0.027254681359215174) http://en.wikipedia.org/wiki/Jim_MacCool
+19. Wolfgang Clemen (conf. 0.027254681359215174) http://en.wikipedia.org/wiki/Wolfgang_Clemen
+20. Authority figures in comedy (conf. 0.026382001802158498) http://en.wikipedia.org/wiki/Authority_figures_in_comedy
+21. The Pilgrims (conf. 0.026382001802158498) http://en.wikipedia.org/wiki/The_Pilgrims_(Canterbury_Tales)
+22. The Canterbury Tales and Other Poems (conf. 0.023001021017037798)
+23. William Lipscomb (conf. 0.021613915884681437) http://en.wikipedia.org/wiki/William_Lipscomb_(writer)
+24. "The Power Of Love" - Author - Robert Ernest Price (conf. 0.014936959421944658) http://rdf.freebase.com/ns/m.0hgv9fs
+25. J. J. Woods – Author - The Forgotten Covenant (conf. 0.014936959421944658) http://rdf.freebase.com/ns/m.0d0jzb2
+26. Leisha Kelly – author- "House on Malcolm Street" (conf. 0.014936959421944658) http://rdf.freebase.com/ns/m.0hhw_83
+
+
+Duration: 0 min 44 sec
+
+
+
+*****************************************
+Query 19
+Question: Who wrote A Brief History of Time?
+Answer: 
+1. Stephen Hawking (conf. 0.9732832125490293) http://dbpedia.org/resource/Stephen_Hawking http://rdf.freebase.com/ns/m.01tdnyh http://en.wikipedia.org/wiki/Stephen_Hawking
+2. Literary criticism (conf. 0.3998339574409334) http://rdf.freebase.com/ns/m.0dh53
+3. 1988 (conf. 0.3801887868262819)
+4. 256 (conf. 0.25056203707088315)
+5. Popular science (conf. 0.16021799279800458) http://rdf.freebase.com/ns/m.01p4b_ http://dbpedia.org/resource/Popular_science
+6. 978-0-553-10953-5 (conf. 0.1384162280350182)
+7. Cosmology (conf. 0.12692589782276298) http://rdf.freebase.com/ns/m.06242s
+8. Physics (conf. 0.12692589782276298) http://rdf.freebase.com/ns/m.05qjt
+9. Science (conf. 0.12692589782276298) http://rdf.freebase.com/ns/m.06mq7
+10. Carl Sagan (conf. 0.09698375964488579) http://en.wikipedia.org/wiki/Carl_Sagan
+11.  (conf. 0.0969102191007498)
+12. QB981 .H377 1998 (conf. 0.07992275667342923)
+13. Black Holes and Baby Universes and Other Essays (conf. 0.07415310077894893) http://dbpedia.org/resource/Black_Holes_and_Baby_Universes_and_Other_Essays
+14. Dal Big Bang ai buchi neri (conf. 0.03934573483588058) http://rdf.freebase.com/ns/m.04kcj_p
+15. English Language (conf. 0.03792919199532357) http://rdf.freebase.com/ns/m.02h40lc
+16. Vanessa Carlton (conf. 0.024203495507220164) http://en.wikipedia.org/wiki/Vanessa_Carlton
+17. The Large Scale Structure of Space-Time (conf. 0.02387643948904915) http://en.wikipedia.org/wiki/The_Large_Scale_Structure_of_Space-Time
+18. Theory of everything (conf. 0.02313397946238993) http://en.wikipedia.org/wiki/Theory_of_everything_(philosophy) http://en.wikipedia.org/wiki/The_Theory_of_Everything_(2014_film)
+19. Search for extraterrestrial intelligence (conf. 0.022826167182331988) http://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence
+20. 523.1 21 (conf. 0.022307614690250676)
+21. Ayin and Yesh (conf. 0.019668797104277477) http://en.wikipedia.org/wiki/Ayin_and_Yesh
+22. The Grand Design (conf. 0.019668797104277477) http://en.wikipedia.org/wiki/The_Grand_Design_(book)
+23. Book (conf. 0.013883724764269995)
+24. A Brief History of Time (conf. 0.013104131094749689) http://en.wikipedia.org/wiki/A_Brief_History_of_Time
+25. John Gribbin (conf. 0.00931420288999594) http://en.wikipedia.org/wiki/John_Gribbin
+
+
+Duration: 0 min 39 sec
+
+
+
+*****************************************
+Query 20
+Question: Who wrote the Declaration of Independence?
+Answer: 
+1. Benjamin Franklin (conf. 0.7729919227742947) http://rdf.freebase.com/ns/m.019fz
+2. John Adams (conf. 0.7172787281364496) http://rdf.freebase.com/ns/m.03_js
+3. Thomas Jefferson (conf. 0.7172787281364496) http://rdf.freebase.com/ns/m.07cbs
+4. Roger Sherman (conf. 0.6467818017139028) http://rdf.freebase.com/ns/m.01mp_3
+5. Robert R. Livingston (conf. 0.5887554857189085) http://rdf.freebase.com/ns/m.01bjgf
+6. June–July 1776 (conf. 0.18755028910443727)
+7. Lee Resolution (conf. 0.12485713321285627) http://en.wikipedia.org/wiki/Lee_Resolution
+8. Elizabeth Schultz Rigg (conf. 0.1161816130887204) http://en.wikipedia.org/wiki/Elizabeth_Schultz_Rigg
+9. Thomas Jefferson et al. (conf. 0.10261627608330803)
+10. John Morton (conf. 0.08665753004752931) http://en.wikipedia.org/wiki/John_Morton_(politician)
+11. Believe me, dear Sir: there is not in the British empire a man who more cordially loves a union with Great Britain than I do. But, by the God that made me, I will cease to exist before I yield to a connection on such terms as the British Parliament propose; and in this, I think I speak the sentiments of America. (conf. 0.08480466269403134)
+12. Silence Dogood (conf. 0.06747007977622115) http://en.wikipedia.org/wiki/Silence_Dogood
+13. Valeriy Marchenko (conf. 0.06747007977622115) http://en.wikipedia.org/wiki/Valeriy_Marchenko
+14. Mark M. Boatner III (conf. 0.06690164859117574) http://en.wikipedia.org/wiki/Mark_M._Boatner_III
+15. Jani Minga (conf. 0.06277026261937568) http://en.wikipedia.org/wiki/Jani_Minga
+16. John Murray Carnochan (conf. 0.062238784410313094) http://en.wikipedia.org/wiki/John_Murray_Carnochan
+17. Engrossed copy: National Archives (conf. 0.058905061767088276)
+18. Abraham Lincoln, 1858 (conf. 0.05228536177972402)
+19. Boaz Mahune (conf. 0.04439545806647686) http://en.wikipedia.org/wiki/Boaz_Mahune
+20. United States Declaration of Independence (conf. 0.04304966682748593) http://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+21. [T]here is no reason in the world why the negro is not entitled to all the natural rights enumerated in the Declaration of Independence, the right to life, liberty, and the pursuit of happiness. I hold that he is as much entitled to these as the white man. (conf. 0.04123941180711419)
+22. Button Gwinnett (conf. 0.0325008909883268) http://en.wikipedia.org/wiki/Button_Gwinnett
+23. Joaquín Camacho (conf. 0.0325008909883268) http://en.wikipedia.org/wiki/Joaquín_Camacho
+24. Mecklenburg Declaration of Independence (conf. 0.02750152632890295) http://en.wikipedia.org/wiki/Mecklenburg_Declaration_of_Independence
+25. Natural and legal rights (conf. 0.027047070614828153) http://en.wikipedia.org/wiki/Natural_and_legal_rights
+26. All men are created equal (conf. 0.024844101352969706) http://en.wikipedia.org/wiki/All_men_are_created_equal
+
+
+Duration: 0 min 41 sec
+
+
+
+*****************************************
+Query 21
+Question: Who composed Für Elise?
+Answer: 
+1. A minor (conf. 0.7603506691069) http://rdf.freebase.com/ns/m.06d8td
+2. Ludwig van Beethoven (conf. 0.7031687270047904) http://rdf.freebase.com/ns/m.04k15
+3. 1810-04-27 (conf. 0.5380893126356531)
+4. Bagatelle (conf. 0.45412265026525883) http://rdf.freebase.com/ns/m.083yyt
+5. music (conf. 0.11040341680217705)
+6.  (conf. 0.07372446816886509)
+7. Fur Elise.ogg (conf. 0.052571516165573186)
+8. Für Elise, WoO 59 (conf. 0.04917489080015712)
+9. Bagatelle in A minor (conf. 0.040106766594207297)
+10. e4d0LOuP4Uw (conf. 0.03877111663119542)
+11. "Für Elise", for piano and orchestra (conf. 0.028606518723268932)
+12. "Für Elise" (conf. 0.027682902470339412)
+
+
+Duration: 0 min 11 sec
+
+
+
+*****************************************
+Query 22
+Question: Who composed Piano Concerto No.5?
+Answer: 
+1. F major (conf. 0.8681790031014638) http://rdf.freebase.com/ns/m.069wy0
+2. G major (conf. 0.8681790031014638) http://rdf.freebase.com/ns/m.063syc
+3. Camille Saint-Saëns (conf. 0.8175764150895158) http://rdf.freebase.com/ns/m.0d1sm
+4. Sergei Prokofiev (conf. 0.8129590253003387) http://rdf.freebase.com/ns/m.06wvj
+5. Wolfgang Amadeus Mozart (conf. 0.7816167527126856) http://rdf.freebase.com/ns/m.082db
+6. D major (conf. 0.3591726232460744) http://rdf.freebase.com/ns/m.069vcw
+7. E-flat major (conf. 0.3591726232460744) http://rdf.freebase.com/ns/m.069wz7
+8. Philip Cogan (conf. 0.17965936812387687) http://en.wikipedia.org/wiki/Philip_Cogan
+9. Friedrich Schneider (conf. 0.15709321781837182) http://en.wikipedia.org/wiki/Friedrich_Schneider
+10. 1896 (conf. 0.1008671041439029)
+11. Olli Mustonen (conf. 0.09348242220770703) http://en.wikipedia.org/wiki/Olli_Mustonen
+12. Anton Sistermans (conf. 0.06928356042198933) http://en.wikipedia.org/wiki/Anton_Sistermans
+13. Felicja Blumental (conf. 0.06928356042198933) http://en.wikipedia.org/wiki/Felicja_Blumental
+14. Richard Kastle (conf. 0.06068655821467556) http://en.wikipedia.org/wiki/Richard_Kastle
+15. Hans Haym (conf. 0.056105158661590424) http://en.wikipedia.org/wiki/Hans_Haym
+16. Donna Amato (conf. 0.053719295274577084) http://en.wikipedia.org/wiki/Donna_Amato
+17. Ludwig van Beethoven (conf. 0.049950717035365994) http://rdf.freebase.com/ns/m.04k15
+18. Rondo for Piano and Orchestra in D major (conf. 0.026781507025317723) http://en.wikipedia.org/wiki/Rondo_for_Piano_and_Orchestra_in_D_major_(Mozart)
+19. Georg Goltermann (conf. 0.02663048931968912) http://en.wikipedia.org/wiki/Georg_Goltermann
+20. Johann Baptist Cramer (conf. 0.02663048931968912) http://en.wikipedia.org/wiki/Johann_Baptist_Cramer
+21. Joseph Kalichstein (conf. 0.02663048931968912) http://en.wikipedia.org/wiki/Joseph_Kalichstein
+22. Joseph Wölfl (conf. 0.02663048931968912) http://en.wikipedia.org/wiki/Joseph_Wölfl
+23. Alfred Brendel discography (conf. 0.025570146890131533) http://en.wikipedia.org/wiki/Alfred_Brendel_discography
+24. Clarinet Concerto No. 1 (conf. 0.024447238034120602) http://en.wikipedia.org/wiki/Clarinet_Concerto_No._1_(Weber)
+25. Adagio from the Piano Concerto No. 5 in E-flat major, Op. 73 "The Emperor" (conf. 0.01735193512152769) http://rdf.freebase.com/ns/m.0_j616n
+26. Piano Concerto No. 5 (conf. 0.011822860323509222) http://en.wikipedia.org/wiki/Piano_Concerto_No._5 http://en.wikipedia.org/wiki/Piano_Concerto_No._5_(Mozart) http://en.wikipedia.org/wiki/Piano_Concerto_No._5_(Prokofiev) http://en.wikipedia.org/wiki/Piano_Concerto_No._5_(Saint-Saëns)
+
+
+Duration: 0 min 30 sec
+
+
+
+*****************************************
+Query 23
+Question: Who presented the Twin Earth thought experiment?
+Answer: 
+1.  (conf. 0.7780041205781278)
+2. Twin Earth thought experiment (conf. 0.6864797982031962) http://en.wikipedia.org/wiki/Twin_Earth_thought_experiment
+3. Hilary Putnam (conf. 0.29364279914335867) http://en.wikipedia.org/wiki/Hilary_Putnam
+4. Thought experiment (conf. 0.11161428191370272) http://en.wikipedia.org/wiki/Thought_experiment
+5. Functionalism (conf. 0.08752413914416533) http://en.wikipedia.org/wiki/Functionalism_(philosophy_of_mind)
+6. Causal theory of reference (conf. 0.06169993031900159) http://en.wikipedia.org/wiki/Causal_theory_of_reference
+7. Semantic externalism (conf. 0.03768002124768302) http://en.wikipedia.org/wiki/Semantic_externalism
+8. Philosophy of mind (conf. 0.027647932420107234) http://en.wikipedia.org/wiki/Philosophy_of_mind
+
+
+Duration: 0 min 24 sec
+
+
+
+*****************************************
+Query 24
+Question: Who led the Confederate Army in the US Civil War?
+Answer: 
+1. Jefferson Davis (conf. 0.9473285795543057) http://dbpedia.org/resource/Jefferson_Davis
+2. Judah P. Benjamin (conf. 0.45898064826069696) http://dbpedia.org/resource/Judah_P._Benjamin
+3. Abraham Lincoln (conf. 0.3897752597456641) http://dbpedia.org/resource/Abraham_Lincoln
+4. Robert E. Lee (conf. 0.29881502265313187) http://dbpedia.org/resource/Robert_E._Lee
+5. David Farragut (conf. 0.13949544027933358) http://dbpedia.org/resource/David_Farragut
+6. Joseph E. Johnston (conf. 0.13132236427607) http://dbpedia.org/resource/Joseph_E._Johnston
+7. Raphael Semmes (conf. 0.13132236427607) http://dbpedia.org/resource/Raphael_Semmes
+8. Ulysses S. Grant (conf. 0.09211858963468006) http://dbpedia.org/resource/Ulysses_S._Grant
+9. American Civil War (conf. 0.09009651900267895) http://dbpedia.org/resource/American_Civil_War
+10. William Tecumseh Sherman (conf. 0.08683260699235924) http://dbpedia.org/resource/William_Tecumseh_Sherman
+11. Edwin M. Stanton (conf. 0.07333888279993309) http://dbpedia.org/resource/Edwin_M._Stanton
+12. Atlantic Ocean (conf. 0.04628808788677302) http://rdf.freebase.com/ns/m.0j3b http://dbpedia.org/resource/Atlantic_Ocean
+13. Northeastern United States (conf. 0.04628808788677302) http://rdf.freebase.com/ns/m.027rjr http://dbpedia.org/resource/Northeastern_United_States
+14. Military leadership in the American Civil War (conf. 0.030081928388123617) http://dbpedia.org/resource/Military_leadership_in_the_American_Civil_War
+15. John Ritchie (conf. 0.029784011285685266) http://en.wikipedia.org/wiki/John_Ritchie_(American_Civil_War)
+16. * Dissolution of the Confederacy (conf. 0.028950864629143033)
+17. * Lincoln assassinated five days after Lee's surrender (conf. 0.028950864629143033)
+18. * Slavery abolished (conf. 0.028950864629143033)
+19. * Territorial integrity preserved (conf. 0.028950864629143033)
+20. Union victory (conf. 0.028950864629143033)
+21. William T. Sherman (conf. 0.02829143006785527)
+22. David Dixon Porter (conf. 0.023557376332099134) http://dbpedia.org/resource/David_Dixon_Porter
+23. Jefferson Davis to Howell Cobb, Confederate States of America – Message to Congress, March 1861 (conf. 0.02342387277904576)
+24. Grant and Lee in War and Peace (conf. 0.02080113907616863) http://rdf.freebase.com/ns/m.059b37g
+25. Winslow Homer and the Civil War: Recent Acquisitions (conf. 0.02080113907616863) http://rdf.freebase.com/ns/m.052tv54
+26. Manet and the American Civil War: The Battle of U.S.S. "Kearsarge" and C.S.S. "Alabama" (conf. 0.015332081236792975) http://rdf.freebase.com/ns/m.05782q4
+
+
+Duration: 1 min 42 sec
+
+
+
+*****************************************
+Query 25
+Question: Who led the Cuban Revolution in 1961?
+Answer: 
+1. 26th of July Movement (conf. 0.8467769998406056) http://en.wikipedia.org/wiki/26th_of_July_Movement
+2. *Establishment of a socialist state and Communist government, led by Fidel Castro (conf. 0.6318084630939694)
+3. Eulogio Cantillo (conf. 0.437117958951879) http://dbpedia.org/resource/Eulogio_Cantillo
+4. Che Guevara (conf. 0.3768788920702522) http://dbpedia.org/resource/Che_Guevara
+5. Fulgencio Batista (conf. 0.23559797587075984) http://dbpedia.org/resource/Fulgencio_Batista
+6. Camilo Cienfuegos (conf. 0.21946154241263088) http://dbpedia.org/resource/Camilo_Cienfuegos
+7. Frank País (conf. 0.18795747027534823) http://dbpedia.org/resource/Frank_Pa%C3%ADs
+8. Juan Almeida Bosque (conf. 0.18795747027534823) http://dbpedia.org/resource/Juan_Almeida_Bosque
+9. *Overthrow of Fulgencio Batista's government (conf. 0.1833390266361395)
+10. *United States embargo (conf. 0.1833390266361395)
+11. 26th of July Movement victory (conf. 0.1833390266361395)
+12. Fidel Castro (conf. 0.07500753613624264) http://dbpedia.org/resource/Fidel_Castro
+13. Raúl Castro (conf. 0.07500753613624264) http://dbpedia.org/resource/Ra%C3%BAl_Castro
+14. Diario de la Marina (conf. 0.07163793904668181) http://en.wikipedia.org/wiki/Diario_de_la_Marina
+15. Supported by: (conf. 0.07027014740319315)
+16. Alfredo Abon Lee (conf. 0.06873233375602479) http://dbpedia.org/resource/Alfredo_Abon_Lee
+17. Cuban Revolution (conf. 0.051244783476165276) http://en.wikipedia.org/wiki/Cuban_Revolution
+18. Juan Bosch (conf. 0.043759237148093794) http://en.wikipedia.org/wiki/Juan_Bosch
+19. Francisco Aruca (conf. 0.030679013231518604) http://en.wikipedia.org/wiki/Francisco_Aruca
+20. Rini Templeton (conf. 0.030679013231518604) http://en.wikipedia.org/wiki/Rini_Templeton
+21. Rubén López Sabariego (conf. 0.030679013231518604) http://en.wikipedia.org/wiki/Rubén_López_Sabariego
+22. Vittorio Garatti (conf. 0.030679013231518604) http://en.wikipedia.org/wiki/Vittorio_Garatti
+23. Herb Kaplow (conf. 0.02955312987739746) http://en.wikipedia.org/wiki/Herb_Kaplow
+24. Guillermo Cabrera Infante (conf. 0.029248648311218012) http://en.wikipedia.org/wiki/Guillermo_Cabrera_Infante
+25. Ricardo Porro (conf. 0.029248648311218012) http://en.wikipedia.org/wiki/Ricardo_Porro
+26. Tamara Bunke (conf. 0.028463756462458113) http://en.wikipedia.org/wiki/Tamara_Bunke
+
+
+Duration: 0 min 42 sec
+
+
+
+*****************************************
+Query 26
+Question: Who is the first emperor of the Roman Empire?
+Answer: 
+1. Justinian I (conf. 0.8607967118338481) http://dbpedia.org/resource/Justinian_I
+2. Constantine the Great (conf. 0.7642121547196647) http://dbpedia.org/resource/Constantine_the_Great
+3. Theodosius I (conf. 0.6274430504966504) http://dbpedia.org/resource/Theodosius_I
+4. Augustus (conf. 0.5102368193180584) http://dbpedia.org/resource/Augustus
+5. Diocletian (conf. 0.47836676423174274) http://dbpedia.org/resource/Diocletian
+6. Trajan (conf. 0.11299600721907094) http://dbpedia.org/resource/Trajan
+7. Lady Zhao (conf. 0.04454716011988328) http://dbpedia.org/resource/Lady_Zhao http://rdf.freebase.com/ns/m.0n48z1k
+8. Elizabeth Alexander (conf. 0.0253799799429909) http://en.wikipedia.org/wiki/Elizabeth_Alexander_(poet)
+9. The Twelve Caesars (conf. 0.01780208929344143) http://en.wikipedia.org/wiki/The_Twelve_Caesars
+10. Julia the Elder (conf. 0.01730136663579806) http://en.wikipedia.org/wiki/Julia_the_Elder
+11. Roman Empire Trajan 117AD.png (conf. 0.01487235648143845)
+12. The Roman Empire at its greatest extent in 117 AD (conf. 0.01487235648143845)
+13. Crown Prince Fusu (conf. 0.013575809230271109)
+14. Senate of the Roman Empire (conf. 0.013497425122329366) http://dbpedia.org/resource/Senate_of_the_Roman_Empire
+15. Zhao Zheng (conf. 0.013295998132596545)
+16. Byzantine Empire (conf. 0.013088233749589645)
+17. Romulus Augustulus (conf. 0.012815431382556043) http://dbpedia.org/resource/Romulus_Augustulus
+18. The History of the Decline and Fall of the Roman Empire: Vol. 1 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wdv0b
+19. The History of the Decline and Fall of the Roman Empire: Vol. 2 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wdv0g
+20. The History of the Decline and Fall of the Roman Empire: Vol. 3 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wdv0s
+21. The History of the Decline and Fall of the Roman Empire: Vol. 4 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wdv0x
+22. The History of the Decline and Fall of the Roman Empire: Vol. 5 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wdv12
+23. The History of the Decline and Fall of the Roman Empire: Vol. 6 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wdv1c
+24. The History of the Decline and Fall of the Roman Empire: Vol. 7 (conf. 0.012474854278323252) http://rdf.freebase.com/ns/m.06wfcl6
+25. The Roman Empire and Its Germanic Peoples (conf. 0.012245967653250277) http://rdf.freebase.com/ns/m.06n3j5g
+26. Constitution of the Roman Empire (conf. 0.00652208967926433) http://dbpedia.org/resource/Constitution_of_the_Roman_Empire
+
+
+Duration: 1 min 27 sec
+
+
+
+*****************************************
+Query 27
+Question: Who is the first emperor of India?
+Answer: 
+1. Queen Victoria (conf. 0.8486899651074823) http://dbpedia.org/resource/Queen_Victoria
+2. Lady Zhao (conf. 0.8103956419170465) http://dbpedia.org/resource/Lady_Zhao http://rdf.freebase.com/ns/m.0n48z1k
+3. King Zhuangxiang of Qin (conf. 0.548859334599286) http://rdf.freebase.com/ns/m.02jt_j http://dbpedia.org/resource/King_Zhuangxiang_of_Qin
+4. Bhumanyu (conf. 0.24651857881221392) http://en.wikipedia.org/wiki/Bhumanyu
+5. n/50/47932 (conf. 0.14013766981497996)
+6. Mausoleum of the First Qin Emperor (conf. 0.13162496325933257) http://dbpedia.org/resource/Mausoleum_of_the_First_Qin_Emperor
+7. Dravidian architecture (conf. 0.030424592684318526) http://en.wikipedia.org/wiki/Dravidian_architecture
+8. First Emperor of the Qin (conf. 0.028763382101864462)
+9. First emperor of a unified China (conf. 0.028763382101864462)
+10. Chao Cheng (conf. 0.028538238999687153)
+11. Zhao Zheng (conf. 0.028292804651527736)
+12. Chinese surname (conf. 0.02676665440497777) http://dbpedia.org/resource/Chinese_surname
+13. Family name (conf. 0.02676665440497777) http://dbpedia.org/resource/Family_name
+14. Given name: Zheng (conf. 0.02676665440497777)
+15. Qin Shi Huangdi (conf. 0.02676665440497777)
+16. Crown Prince Fusu (conf. 0.02676639390420432)
+17. Head of state (conf. 0.025274325347759183) http://en.wikipedia.org/wiki/Head_of_state
+18. November / December 260 BC (conf. 0.02457180264010187)
+19. King Zheng of Qin (conf. 0.02402933861123662)
+20. Shi Huangdi in small seal script (conf. 0.02402933861123662)
+21. Ying Zheng (conf. 0.02402933861123662)
+22. Prince Gao (conf. 0.023241340238449457)
+23. George VI (conf. 0.01973194816747461) http://dbpedia.org/resource/George_VI
+24. King-Emperor George VI (conf. 0.01973194816747461)
+25. King of Qin (conf. 0.018035077069684925)
+26. Buckingham Palace (conf. 0.01577719121581753) http://dbpedia.org/resource/Buckingham_Palace
+
+
+Duration: 0 min 27 sec
+
+
+
+*****************************************
+Query 28
+Question: Who is the last emperor of china?
+Answer: 
+1. Jeremy Thomas (conf. 0.9244100910579803) http://dbpedia.org/resource/Jeremy_Thomas http://rdf.freebase.com/ns/m.09d5d5
+2. Mark Peploe (conf. 0.5873965056003692) http://dbpedia.org/resource/Mark_Peploe http://rdf.freebase.com/ns/m.0k627z
+3. Awards won by The Last Emperor (conf. 0.5476061068468926)
+4. Cong Su (conf. 0.41792264394911244) http://dbpedia.org/resource/Cong_Su http://rdf.freebase.com/ns/m.08mvw9
+5. David Byrne (conf. 0.27151750185238294) http://dbpedia.org/resource/David_Byrne http://rdf.freebase.com/ns/m.0l12d
+6. John Lone (conf. 0.20250887392178815) http://dbpedia.org/resource/John_Lone http://rdf.freebase.com/ns/m.03r3qv
+7. Bruno Cesari (conf. 0.1862373201784486) http://rdf.freebase.com/ns/m.09rp409
+8. Peter O'Toole (conf. 0.14834801613015514) http://dbpedia.org/resource/Peter_O'Toole http://rdf.freebase.com/ns/m.0h0jz
+9. James Acheson (conf. 0.1329645860524632) http://rdf.freebase.com/ns/m.07lxjp
+10. Bill Rowe (conf. 0.11992643367443571) http://rdf.freebase.com/ns/m.0h97xds
+11. Ivan Sharrock (conf. 0.11992643367443571) http://rdf.freebase.com/ns/m.09882b5
+12. Franco Giovalé (conf. 0.10493389456953965) http://rdf.freebase.com/ns/m.0c1p3yq
+13. Joyce Herlihy (conf. 0.10493389456953965) http://rdf.freebase.com/ns/m.0c4dzz2
+14. Les Wiggins (conf. 0.07395150932445094) http://rdf.freebase.com/ns/m.0c1dvl4
+15. Chunpu Wang (conf. 0.06595468739498574) http://rdf.freebase.com/ns/m.0h5w715
+16. John Daly (conf. 0.06595468739498574) http://rdf.freebase.com/ns/m.04ybg17
+17. Joan Chen (conf. 0.06486049431431788) http://dbpedia.org/resource/Joan_Chen
+18. Victor Wong (conf. 0.06486049431431788) http://dbpedia.org/resource/Victor_Wong_(actor_born_1927)
+19. Vivian Wu (conf. 0.05207566137472601) http://rdf.freebase.com/ns/m.0700nr
+20. border|22x20px 12th Qing Emperor of China (conf. 0.034401863681689564)
+21. Princess Yunying (conf. 0.03401959063565343) http://en.wikipedia.org/wiki/Princess_Yunying_(1913–92)
+22. Zhang Jian (conf. 0.03401959063565343) http://en.wikipedia.org/wiki/Zhang_Jian_(politician)
+23. Reginald Johnston (conf. 0.030515580933469805) http://en.wikipedia.org/wiki/Reginald_Johnston
+24. William John Francis Jenner (conf. 0.029183698009781937) http://en.wikipedia.org/wiki/William_John_Francis_Jenner
+25. (as Emperor of China) (conf. 0.01514182296708166)
+26. Bernardo Bertolucci (conf. 0.012740374558021812) http://dbpedia.org/resource/Bernardo_Bertolucci http://rdf.freebase.com/ns/m.0dbbz
+
+
+Duration: 1 min 29 sec
+
+
+
+*****************************************
+Query 29
+Question: Who is the last leader of the Soviet Union?
+Answer: 
+1. Joseph Stalin (conf. 0.9693033175832854) http://rdf.freebase.com/ns/m.03_lf
+2. Vladimir Lenin (conf. 0.8792697483706187) http://rdf.freebase.com/ns/m.05wh0sh
+3. Nikita Khrushchev (conf. 0.7516633004374681) http://rdf.freebase.com/ns/m.0bphp
+4. Mikhail Gorbachev (conf. 0.6557300258211765) http://rdf.freebase.com/ns/m.058md
+5. Leonid Brezhnev (conf. 0.34516584351492624) http://rdf.freebase.com/ns/m.0d8xy
+6. General Secretary of the Communist Party of the Soviet Union (conf. 0.32694677998062266) http://rdf.freebase.com/ns/m.01_8cy http://dbpedia.org/resource/General_Secretary_of_the_Communist_Party_of_the_Soviet_Union
+7. Vladimir Ivashko (conf. 0.141214763263557) http://rdf.freebase.com/ns/m.01_5h2
+8. Ivan Konev (conf. 0.06492360262299998) http://rdf.freebase.com/ns/m.03jm_h
+9. List of flag bearers for the Soviet Union at the Olympics (conf. 0.05013659545119678) http://en.wikipedia.org/wiki/List_of_flag_bearers_for_the_Soviet_Union_at_the_Olympics
+10. Stalin and Nikolai Yezhov, head of the NKVD. After Yezhov was executed, he was edited out of the image. (conf. 0.04692258577184883)
+11. Mikhail Kalinin (conf. 0.04563649090565185)
+12. Ivan Silayev (conf. 0.042966526883335854)
+13. Semyon Timoshenko (conf. 0.04228138885748092) http://rdf.freebase.com/ns/m.01qj_f
+14. Georgy Zhukov (conf. 0.037534886955721776) http://rdf.freebase.com/ns/m.09py7
+15. 1922 (conf. 0.03466592557306347)
+16. 1991 (conf. 0.03466592557306347)
+17. Premier of the Soviet Union (conf. 0.0209462481800166) http://dbpedia.org/resource/Premier_of_the_Soviet_Union
+18. List of heads of state of the Soviet Union (conf. 0.020281085612323776) http://dbpedia.org/resource/List_of_heads_of_state_of_the_Soviet_Union
+19. Irina Strakhova (conf. 0.017479936962031824) http://en.wikipedia.org/wiki/Irina_Strakhova
+20. Anatoli Krikun (conf. 0.016498543734964816) http://en.wikipedia.org/wiki/Anatoli_Krikun
+21. Yuri Andropov (conf. 0.01417782310123775) http://rdf.freebase.com/ns/m.0d8t4
+22. Flag of the Soviet Union.svg (conf. 0.013467100015086367)
+23. Issa Pliyev (conf. 0.013147395671673296) http://rdf.freebase.com/ns/m.04jkcv
+24. Kirill Meretskov (conf. 0.013147395671673296) http://rdf.freebase.com/ns/m.03wsy7
+25. Kliment Voroshilov (conf. 0.013147395671673296) http://rdf.freebase.com/ns/m.04dqf
+26. Nikolai Fyodorovich Vatutin (conf. 0.013147395671673296) http://rdf.freebase.com/ns/m.038hwg
+
+
+Duration: 1 min 21 sec
+
+
+
+*****************************************
+Query 30
+Question: Who gave America its name?
+Answer: 
+1. United States of America (conf. 0.8909287383838849) http://rdf.freebase.com/ns/m.09c7w0
+2. Phil Hendrie (conf. 0.2532039182241268) http://dbpedia.org/resource/Phil_Hendrie http://rdf.freebase.com/ns/m.025sfj
+3. Trey Parker (conf. 0.17885019548584238) http://dbpedia.org/resource/Trey_Parker http://rdf.freebase.com/ns/m.01_x6v
+4. Scott Rudin (conf. 0.1758694490423331) http://dbpedia.org/resource/Scott_Rudin http://rdf.freebase.com/ns/m.0fvf9q
+5. Matt Stone (conf. 0.1252608899568204) http://dbpedia.org/resource/Matt_Stone http://rdf.freebase.com/ns/m.01_x6d
+6. Myra Landau (conf. 0.06131145746751215) http://en.wikipedia.org/wiki/Myra_Landau
+7. Daran Norris (conf. 0.04723797665796199) http://dbpedia.org/resource/Daran_Norris http://rdf.freebase.com/ns/m.0490sl
+8. Kristen Miller (conf. 0.04723797665796199) http://dbpedia.org/resource/Kristen_Miller http://rdf.freebase.com/ns/m.068j87
+9. Maurice LaMarche (conf. 0.040077133464611815) http://dbpedia.org/resource/Maurice_LaMarche http://rdf.freebase.com/ns/m.02wrhj
+10. Main theme of the 2004 film Team America: World Police. (conf. 0.030624936620041735)
+11. Pam Brady (conf. 0.029187381396494013) http://dbpedia.org/resource/Pam_Brady http://rdf.freebase.com/ns/m.0k3l9h
+12. Awards for America Ferrera (conf. 0.02859568332295792)
+13. America Georgine Ferrera (conf. 0.02814800616565612)
+14. Everyday America (conf. 0.026905067302719108) http://en.wikipedia.org/wiki/Everyday_America
+15. Flag of the United States.svg (conf. 0.025199541308308822)
+16. John Bill Ricketts (conf. 0.024326611805806433) http://en.wikipedia.org/wiki/John_Bill_Ricketts
+17. Does not include insular areas and United States Minor Outlying Islands, which have their own ISO 3166 codes. (conf. 0.02418437255224709)
+18. Great Seal of the United States .svg (conf. 0.02418437255224709)
+19. Harry Gregson-Williams - "Team America March" (conf. 0.02312629711656159)
+20. John Roberts (conf. 0.022110436630368577) http://dbpedia.org/resource/John_Roberts
+21. Whether the United States or China is larger has been disputed. The figure given is from the U.S. Central Intelligence Agency's The World Factbook. Other sources give smaller figures. All authoritative calculations of the country's size include only the 50 states and the District of Columbia, not the territories. (conf. 0.02150022829659001)
+22. Lisa Stewart (conf. 0.02105315326309528) http://en.wikipedia.org/wiki/Lisa_Stewart_(album)
+23. —Trey Parker on the clashes between him and Stone and the MPAA (conf. 0.019294786284269977)
+24. Team america march.ogg (conf. 0.018612627655781405)
+25. Projection of North America with the United States in green (conf. 0.018494449659379963)
+26. Bill Pope (conf. 0.014335076878073038) http://dbpedia.org/resource/Bill_Pope http://rdf.freebase.com/ns/m.0ctsk9
+
+
+Duration: 0 min 46 sec
+
+
+
