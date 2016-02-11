@@ -34,6 +34,7 @@ public class QPMClient {
 	 
 		// initialize thrift objects
 		TTransport transport = new TSocket("clarity08.eecs.umich.edu", port);
+		//TTransport transport = new TSocket("localhost", port);
 		TProtocol protocol = new TBinaryProtocol(new TFramedTransport(transport));
 		QPM.Client client = new QPM.Client(protocol);
 		try {
