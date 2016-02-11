@@ -1,4 +1,4 @@
-JAVA PROFILE 1.0.1, created Tue Feb  9 00:35:12 2016
+JAVA PROFILE 1.0.1, created Wed Feb 10 11:02:36 2016
 
 Copyright (c) 2003, 2005, Oracle and/or its affiliates. All rights reserved.
 
@@ -90,45 +90,2816 @@ Ctrl-\ (on Solaris) or by typing Ctrl-Break (on Win32).
 --------
 
 THREAD START (obj=50000189, id = 200001, name="main", group="main")
-THREAD START (obj=50000dd7, id = 200004, name="process reaper", group="system")
-THREAD START (obj=50001093, id = 200005, name="File lock request listener", group="main")
-THREAD START (obj=50001771, id = 200006, name="Run command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java'", group="main")
-THREAD START (obj=50001774, id = 200007, name="DisconnectableInputStream source reader", group="main")
-THREAD START (obj=50001778, id = 200008, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java'", group="main")
-THREAD START (obj=50001779, id = 200009, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java' Thread 2", group="main")
-THREAD START (obj=5000177a, id = 200010, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java' Thread 3", group="main")
-THREAD START (obj=50001785, id = 200012, name="SIGINT handler", group="system")
-THREAD START (obj=50001789, id = 200013, name="Thread-1", group="main")
-THREAD START (obj=5000178a, id = 200014, name="Thread-0", group="main")
-THREAD START (obj=5000178b, id = 200015, name="gradle-shutdown-hook", group="main")
-THREAD END (id = 200014)
-THREAD END (id = 200013)
-THREAD END (id = 200015)
-THREAD END (id = 200012)
-TRACE 301135:
-	java.io.FileInputStream.readBytes(FileInputStream.java:Unknown line)
-	java.io.FileInputStream.read(FileInputStream.java:255)
-	java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
-TRACE 300766:
+THREAD START (obj=50000de1, id = 200004, name="process reaper", group="system")
+THREAD START (obj=500010a1, id = 200005, name="File lock request listener", group="main")
+THREAD START (obj=50001bd2, id = 200006, name="Thread-0", group="main")
+THREAD END (id = 200006)
+THREAD START (obj=50001bd3, id = 200007, name="Thread-1", group="main")
+THREAD END (id = 200007)
+THREAD END (id = 200001)
+THREAD END (id = 200002)
+TRACE 300802:
 	java.net.PlainDatagramSocketImpl.receive0(PlainDatagramSocketImpl.java:Unknown line)
 	java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:144)
 	java.net.DatagramSocket.receive(DatagramSocket.java:812)
 	org.gradle.cache.internal.FileLockCommunicator.receive(FileLockCommunicator.java:60)
-TRACE 301134:
-	java.lang.UNIXProcess.waitForProcessExit(UNIXProcess.java:Unknown line)
-	java.lang.UNIXProcess.lambda$initStreams$268(UNIXProcess.java:290)
-	java.lang.UNIXProcess$$Lambda$7.164714495.run(<Unknown Source>:Unknown line)
-	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-TRACE 300228:
+TRACE 300083:
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+TRACE 300292:
+	java.lang.Throwable.fillInStackTrace(Throwable.java:Unknown line)
+	java.lang.Throwable.fillInStackTrace(Throwable.java:783)
+	java.lang.Throwable.<init>(Throwable.java:287)
+	java.lang.Exception.<init>(Exception.java:84)
+TRACE 300285:
+	java.util.zip.ZipFile.getEntry(ZipFile.java:Unknown line)
+	java.util.zip.ZipFile.getEntry(ZipFile.java:311)
+	java.util.jar.JarFile.getEntry(JarFile.java:240)
+	java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+TRACE 301409:
+	java.net.SocketInputStream.socketRead0(SocketInputStream.java:Unknown line)
+	java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	java.net.SocketInputStream.read(SocketInputStream.java:170)
+	java.net.SocketInputStream.read(SocketInputStream.java:141)
+TRACE 300466:
+	java.util.zip.Inflater.inflateBytes(Inflater.java:Unknown line)
+	java.util.zip.Inflater.inflate(Inflater.java:259)
+	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+	sun.misc.Resource.getBytes(Resource.java:124)
+TRACE 300991:
+	java.lang.Class.getDeclaredField(Class.java:2070)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationAction(AnnotationProcessingTaskFactory.java:325)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationActions(AnnotationProcessingTaskFactory.java:312)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachActions(AnnotationProcessingTaskFactory.java:302)
+TRACE 300503:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:436)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300992:
+	java.lang.Throwable.fillInStackTrace(Throwable.java:Unknown line)
+	java.lang.Throwable.fillInStackTrace(Throwable.java:783)
+	java.lang.Throwable.<init>(Throwable.java:265)
+	java.lang.Exception.<init>(Exception.java:66)
+TRACE 300086:
+	java.lang.ClassLoader.findBootstrapClass(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findBootstrapClassOrNull(ClassLoader.java:1012)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:413)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300731:
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	java.lang.Class.getConstructors(Class.java:1651)
+	org.gradle.internal.reflect.DirectInstantiator.newInstance(DirectInstantiator.java:28)
+TRACE 300737:
+	java.util.zip.ZipCoder.getBytes(ZipCoder.java:86)
+	java.util.zip.ZipFile.getEntry(ZipFile.java:311)
+	java.util.jar.JarFile.getEntry(JarFile.java:240)
+	java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+TRACE 300513:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300502:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+TRACE 300459:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300977:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300533:
+	java.lang.Class.getDeclaredMethods0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	java.lang.Class.getMethods(Class.java:1615)
+TRACE 300736:
+	java.lang.Class.getDeclaredMethods0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	java.lang.Class.getDeclaredMethods(Class.java:1975)
+	org.gradle.api.internal.AbstractClassGenerator.inspectType(AbstractClassGenerator.java:255)
+TRACE 300797:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:436)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.FilteringClassLoader.loadClass(FilteringClassLoader.java:71)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300530:
+	java.lang.ClassLoader.checkCerts(ClassLoader.java:884)
+	java.lang.ClassLoader.preDefineClass(ClassLoader.java:665)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:758)
+	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+TRACE 300611:
+	java.util.zip.ZipFile.getEntryCrc(ZipFile.java:Unknown line)
+	java.util.zip.ZipFile.getZipEntry(ZipFile.java:571)
+	java.util.zip.ZipFile.getEntry(ZipFile.java:313)
+	java.util.jar.JarFile.getEntry(JarFile.java:240)
+TRACE 300304:
+	java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300287:
+	java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300543:
+	java.lang.ClassLoader.findLoadedClass0(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1035)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:406)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300547:
+	java.lang.String.intern(String.java:Unknown line)
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.getOrPutMethods(MetaMethodIndex.java:227)
+	groovy.lang.MetaClassImpl.addMetaMethodToIndex(MetaClassImpl.java:2909)
+	groovy.lang.MetaClassImpl.populateMethods(MetaClassImpl.java:365)
+TRACE 300950:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300966:
+	java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300474:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+TRACE 300725:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	sun.reflect.annotation.AnnotationParser.annotationForMap(AnnotationParser.java:303)
+	sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:293)
+	sun.reflect.annotation.AnnotationParser.parseAnnotation(AnnotationParser.java:226)
+TRACE 300955:
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	sun.reflect.GeneratedMethodAccessor3.invoke(<Unknown Source>:Unknown line)
+TRACE 300809:
+	sun.misc.URLClassPath.getNextLoader(URLClassPath.java:457)
+	sun.misc.URLClassPath.getResource(URLClassPath.java:211)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+TRACE 301058:
+	java.lang.System.identityHashCode(System.java:Unknown line)
+	org.codehaus.groovy.util.AbstractConcurrentMapBase.hash(AbstractConcurrentMapBase.java:54)
+	org.codehaus.groovy.util.AbstractConcurrentMap.getOrPut(AbstractConcurrentMap.java:34)
+	org.codehaus.groovy.reflection.ClassInfo.getClassInfo(ClassInfo.java:104)
+TRACE 300920:
+	java.lang.Object.clone(Object.java:Unknown line)
+	sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:100)
+	java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:284)
+	java.lang.reflect.Method.getGenericParameterTypes(Method.java:282)
+TRACE 300486:
+	java.io.UnixFileSystem.list(UnixFileSystem.java:Unknown line)
+	java.io.File.list(File.java:1122)
+	java.io.File.listFiles(File.java:1207)
+	org.gradle.api.internal.classpath.DefaultModuleRegistry.findModuleJar(DefaultModuleRegistry.java:216)
+TRACE 300978:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:42)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:348)
+TRACE 300789:
+	java.lang.Class.getDeclaredMethods0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	java.lang.Class.getDeclaredMethods(Class.java:1975)
+	org.codehaus.groovy.reflection.CachedClass$3$1.run(CachedClass.java:84)
+TRACE 300979:
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	org.codehaus.groovy.reflection.CachedClass$2$1.run(CachedClass.java:69)
+TRACE 300579:
+	java.lang.ClassLoader.findLoadedClass0(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1035)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:406)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300993:
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.addInputsAndOutputs(AnnotationProcessingTaskFactory.java:252)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory.createTask(AnnotationProcessingTaskFactory.java:117)
+	org.gradle.api.internal.project.taskfactory.DependencyAutoWireTaskFactory.createTask(DependencyAutoWireTaskFactory.java:39)
+	org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:52)
+TRACE 301392:
+	java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:Unknown line)
+	java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+TRACE 300971:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300734:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:264)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:75)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+TRACE 301001:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+TRACE 301138:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.FilteringClassLoader.loadClass(FilteringClassLoader.java:71)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301045:
+	java.lang.Class.isAssignableFrom(Class.java:Unknown line)
+	java.beans.Introspector.isAssignable(Introspector.java:835)
+	java.beans.Introspector.processPropertyDescriptors(Introspector.java:705)
+	java.beans.Introspector.getTargetPropertyInfo(Introspector.java:553)
+TRACE 300581:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300970:
+	java.beans.Introspector.<init>(Introspector.java:413)
+	java.beans.Introspector.getBeanInfo(Introspector.java:173)
+	java.beans.Introspector.getBeanInfo(Introspector.java:260)
+	java.beans.Introspector.<init>(Introspector.java:407)
+TRACE 301087:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+TRACE 301089:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.reflect.Method.getParameterTypes(Method.java:264)
+	org.gradle.api.internal.coerce.TypeCoercingMethodArgumentsTransformer$1.transform(TypeCoercingMethodArgumentsTransformer.java:51)
+	org.gradle.api.internal.coerce.TypeCoercingMethodArgumentsTransformer$1.transform(TypeCoercingMethodArgumentsTransformer.java:49)
+TRACE 301013:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:37)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+TRACE 300792:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:348)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+TRACE 301033:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.util.Arrays$ArrayList.toArray(Arrays.java:3823)
+	java.util.ArrayList.addAll(ArrayList.java:577)
+	org.codehaus.groovy.reflection.CachedClass.getNewMetaMethods(CachedClass.java:329)
+TRACE 301122:
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	java.lang.Class.getConstructor0(Class.java:3075)
+	java.lang.Class.newInstance(Class.java:412)
+TRACE 300291:
+	java.util.zip.Inflater.reset(Inflater.java:Unknown line)
+	java.util.zip.Inflater.reset(Inflater.java:352)
+	java.util.zip.ZipFile.releaseInflater(ZipFile.java:463)
+	java.util.zip.ZipFile.access$100(ZipFile.java:61)
+TRACE 301022:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:436)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300748:
+	java.lang.Class.isArray(Class.java:Unknown line)
+	java.lang.Class.getTypeName(Class.java:1345)
+	java.lang.reflect.Method.specificToGenericStringHeader(Method.java:420)
+	java.lang.reflect.Executable.sharedToGenericString(Executable.java:163)
+TRACE 300964:
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+TRACE 300525:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:348)
+	sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+TRACE 301125:
+	java.util.jar.JarFile.getInputStream(JarFile.java:445)
+	sun.misc.URLClassPath$JarLoader$2.getInputStream(URLClassPath.java:940)
+	sun.misc.Resource.cachedInputStream(Resource.java:77)
+	sun.misc.Resource.getByteBuffer(Resource.java:160)
+TRACE 300796:
+	java.lang.Class.getSuperclass(Class.java:Unknown line)
+	org.codehaus.groovy.reflection.CachedClass$4.initValue(CachedClass.java:131)
+	org.codehaus.groovy.reflection.CachedClass$4.initValue(CachedClass.java:128)
+	org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+TRACE 300995:
+	java.lang.StringBuilder.append(StringBuilder.java:136)
+	java.lang.StringBuilder.append(StringBuilder.java:76)
+	java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:457)
+	java.lang.StringBuilder.append(StringBuilder.java:166)
+TRACE 300959:
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:68)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301349:
+	sun.security.provider.SHA2.implCompress(SHA2.java:193)
+	sun.security.provider.DigestBase.implCompressMultiBlock(DigestBase.java:140)
+	sun.security.provider.DigestBase.engineUpdate(DigestBase.java:127)
+	java.security.MessageDigest$Delegate.engineUpdate(MessageDigest.java:584)
+TRACE 300514:
+	java.lang.Package.getSystemPackage0(Package.java:Unknown line)
+	java.lang.Package.getSystemPackage(Package.java:544)
+	java.lang.ClassLoader.getPackage(ClassLoader.java:1622)
+	java.lang.ClassLoader.getPackage(ClassLoader.java:1620)
+TRACE 301019:
+	org.gradle.api.internal.DefaultNamedDomainObjectCollection.getByName(DefaultNamedDomainObjectCollection.java:190)
+	org.gradle.api.internal.tasks.DefaultTaskCollection.getByName(DefaultTaskCollection.java:34)
+	org.gradle.api.plugins.JavaPlugin.configureTest(JavaPlugin.java:142)
+	org.gradle.api.plugins.JavaPlugin.apply(JavaPlugin.java:72)
+TRACE 300949:
+	java.util.Date.normalize(Date.java:1220)
+	java.util.Date.normalize(Date.java:1204)
+	java.util.Date.getTimeImpl(Date.java:890)
+	java.util.Date.<init>(Date.java:256)
+TRACE 300617:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301363:
+	sun.security.provider.SHA2.implCompress(SHA2.java:207)
+	sun.security.provider.DigestBase.implCompressMultiBlock(DigestBase.java:140)
+	sun.security.provider.DigestBase.engineUpdate(DigestBase.java:127)
+	java.security.MessageDigest$Delegate.engineUpdate(MessageDigest.java:584)
+TRACE 300742:
+	java.lang.Class.isInterface(Class.java:Unknown line)
+	java.lang.reflect.Method.isDefault(Method.java:547)
+	java.lang.reflect.Method.toGenericString(Method.java:414)
+	java.beans.MethodRef.set(MethodRef.java:46)
+TRACE 300786:
+	java.util.zip.ZipFile.getEntry(ZipFile.java:Unknown line)
+	java.util.zip.ZipFile.getInputStream(ZipFile.java:356)
+	java.util.jar.JarFile.getInputStream(JarFile.java:447)
+	sun.misc.URLClassPath$JarLoader$2.getInputStream(URLClassPath.java:940)
+TRACE 301118:
+	java.lang.ClassLoader.findBootstrapClass(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findBootstrapClassOrNull(ClassLoader.java:1012)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:413)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300744:
+	sun.misc.PerfCounter.get(PerfCounter.java:83)
+	sun.misc.PerfCounter.add(PerfCounter.java:97)
+	sun.misc.PerfCounter.addElapsedTimeFrom(PerfCounter.java:119)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:466)
+TRACE 301075:
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	java.lang.Class.getConstructor0(Class.java:3075)
+	java.lang.Class.getConstructor(Class.java:1825)
+TRACE 301081:
+	com.tkruse.gradle.groovysh.ApplicationShellTaskExtension_Decorated.<init>(<Unknown Source>:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+TRACE 301082:
+	groovy.lang.MetaClassImpl$1MOPIter.decomposeMopName(MetaClassImpl.java:575)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:545)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:615)
+TRACE 301083:
+	org.gradle.api.internal.tasks.DefaultTaskInputs$7.<init>(DefaultTaskInputs.java:151)
+	org.gradle.api.internal.tasks.DefaultTaskInputs.property(DefaultTaskInputs.java:151)
+	org.gradle.api.internal.project.taskfactory.InputPropertyAnnotationHandler$1.update(InputPropertyAnnotationHandler.java:32)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.addInputsAndOutputs(AnnotationProcessingTaskFactory.java:258)
+TRACE 301084:
+	org.gradle.api.internal.DefaultDomainObjectCollection.size(DefaultDomainObjectCollection.java:242)
+	java.util.AbstractCollection.toArray(AbstractCollection.java:136)
+	java.util.LinkedList.addAll(LinkedList.java:408)
+	java.util.LinkedList.addAll(LinkedList.java:387)
+TRACE 301085:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	java.net.URLClassLoader.findResource(URLClassLoader.java:566)
+	java.lang.ClassLoader.getResource(ClassLoader.java:1093)
+	org.gradle.internal.classloader.MultiParentClassLoader.getResource(MultiParentClassLoader.java:95)
+TRACE 301086:
+	org.objectweb.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+	org.objectweb.asm.MethodWriter.visitLdcInsn(<Unknown Source>:Unknown line)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.applyConventionMappingToSetter(AsmBackedClassGenerator.java:803)
+TRACE 301088:
+	java.lang.Class.isAssignableFrom(Class.java:Unknown line)
+	groovy.lang.MetaClassImpl.inheritStaticInterfaceFields(MetaClassImpl.java:2343)
+	groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2247)
+	groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+TRACE 301090:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301092:
+	java.util.Arrays.copyOf(Arrays.java:3181)
+	java.util.ArrayList.grow(ArrayList.java:261)
+	java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:235)
+	java.util.ArrayList.ensureCapacityInternal(ArrayList.java:227)
+TRACE 301093:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.Class.getInterfaces(Class.java:856)
+	groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3477)
+	groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3461)
+TRACE 301094:
+	org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:225)
+	org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:129)
+	org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:147)
+	org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
+TRACE 301095:
+	java.lang.Throwable.<init>(Throwable.java:227)
+	java.lang.Exception.<init>(Exception.java:54)
+	java.lang.RuntimeException.<init>(RuntimeException.java:51)
+	groovy.lang.GroovyRuntimeException.<init>(GroovyRuntimeException.java:32)
+TRACE 301096:
+	org.gradle.internal.typeconversion.JustReturningParser.parseNotation(JustReturningParser.java:34)
+	org.gradle.internal.typeconversion.NotationParserBuilder$NotationParserToNotationConverterAdapter.convert(NotationParserBuilder.java:158)
+	org.gradle.internal.typeconversion.CompositeNotationConverter.convert(CompositeNotationConverter.java:32)
+	org.gradle.internal.typeconversion.NotationConverterToNotationParserAdapter.parseNotation(NotationConverterToNotationParserAdapter.java:30)
+TRACE 301097:
+	org.apache.commons.collections.map.AbstractReferenceMap.purgeBeforeWrite(AbstractReferenceMap.java:346)
+	org.apache.commons.collections.map.AbstractReferenceMap.put(AbstractReferenceMap.java:255)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:197)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+TRACE 301098:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.reflect.Method.getParameterTypes(Method.java:264)
+	org.codehaus.groovy.reflection.CachedMethod.compareToMethod(CachedMethod.java:184)
+	org.codehaus.groovy.reflection.CachedMethod.compareTo(CachedMethod.java:139)
+TRACE 301099:
+	java.lang.Throwable.<init>(Throwable.java:265)
+	java.lang.Exception.<init>(Exception.java:66)
+	java.lang.ReflectiveOperationException.<init>(ReflectiveOperationException.java:56)
+	java.lang.NoSuchFieldException.<init>(NoSuchFieldException.java:50)
+TRACE 301100:
+	java.util.regex.Pattern$BmpCharProperty.match(Pattern.java:3797)
+	java.util.regex.Pattern$Curly.match(Pattern.java:4227)
+	java.util.regex.Pattern$GroupHead.match(Pattern.java:4658)
+	java.util.regex.Pattern$Branch.match(Pattern.java:4604)
+TRACE 301101:
+	java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2708)
+	java.util.Formatter.parse(Formatter.java:2560)
+	java.util.Formatter.format(Formatter.java:2501)
+	java.util.Formatter.format(Formatter.java:2455)
+TRACE 301102:
+	sun.reflect.generics.tree.ClassSignature.getFormalTypeParameters(ClassSignature.java:50)
+	sun.reflect.generics.repository.GenericDeclRepository.getTypeParameters(GenericDeclRepository.java:71)
+	java.lang.Class.getTypeParameters(Class.java:715)
+	sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments(ParameterizedTypeImpl.java:55)
+TRACE 301103:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	com.sun.org.apache.xerces.internal.utils.SecuritySupport.getContextClassLoader(SecuritySupport.java:58)
+	com.sun.org.apache.xerces.internal.utils.ObjectFactory.findClassLoader(ObjectFactory.java:84)
+	com.sun.org.apache.xerces.internal.utils.ObjectFactory.newInstance(ObjectFactory.java:144)
+TRACE 301104:
+	groovyjarjarasm.asm.ByteVector.putUTF8(<Unknown Source>:Unknown line)
+	groovyjarjarasm.asm.ClassWriter.newUTF8(<Unknown Source>:Unknown line)
+	groovyjarjarasm.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+	groovyjarjarasm.asm.ClassWriter.newNameType(<Unknown Source>:Unknown line)
+TRACE 301105:
+	sun.reflect.ByteVectorImpl.<init>(ByteVectorImpl.java:36)
+	sun.reflect.ByteVectorImpl.<init>(ByteVectorImpl.java:33)
+	sun.reflect.ByteVectorFactory.create(ByteVectorFactory.java:30)
+	sun.reflect.ClassFileAssembler.<init>(ClassFileAssembler.java:33)
+TRACE 301106:
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.copyNonPrivateNonNewMetaMethods(MetaMethodIndex.java:364)
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.copyNonPrivateNonNewMetaMethods(MetaMethodIndex.java:340)
+	groovy.lang.MetaClassImpl.connectMultimethods(MetaClassImpl.java:645)
+	groovy.lang.MetaClassImpl.fillMethodIndex(MetaClassImpl.java:346)
+TRACE 301107:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:42)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	com.tkruse.gradle.groovysh.ApplicationShellTask.setSourceSetName(ApplicationShellTask.groovy:58)
+TRACE 301108:
+	org.gradle.api.internal.BeanDynamicObject.getProperty(BeanDynamicObject.java:107)
+	org.gradle.api.internal.CompositeDynamicObject.getProperty(CompositeDynamicObject.java:85)
+	org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getProperty(<Unknown Source>:Unknown line)
+	org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+TRACE 301109:
+	java.lang.Class.forName(Class.java:264)
+	groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:146)
+	groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:141)
+	org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:209)
+TRACE 301110:
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301111:
+	org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:215)
+	org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:255)
+	org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(InvokerHelper.java:859)
+TRACE 301112:
+	java.lang.Class.isPrimitive(Class.java:Unknown line)
+	groovyjarjarasm.asm.Type.a(<Unknown Source>:Unknown line)
+	groovyjarjarasm.asm.Type.getDescriptor(<Unknown Source>:Unknown line)
+	org.codehaus.groovy.classgen.asm.BytecodeHelper.getTypeDescription(BytecodeHelper.java:93)
+TRACE 301113:
+	com.google.common.collect.Iterables.iterators(Iterables.java:508)
+	com.google.common.collect.Iterables.access$100(Iterables.java:60)
+	com.google.common.collect.Iterables$2.iterator(Iterables.java:498)
+	org.gradle.execution.taskgraph.TaskInfo.allDependenciesComplete(TaskInfo.java:133)
+TRACE 301114:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.service.scopes.TaskExecutionServices.createTaskExecuter(TaskExecutionServices.java:42)
+TRACE 301115:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:264)
+	java.net.URL.getURLStreamHandler(URL.java:1168)
+	java.net.URL.<init>(URL.java:592)
+TRACE 301116:
+	java.util.Formatter.parse(Formatter.java:2571)
+	java.util.Formatter.format(Formatter.java:2501)
+	java.util.Formatter.format(Formatter.java:2455)
+	java.lang.String.format(String.java:2928)
+TRACE 301117:
+	java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1031)
+	java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1535)
+	java.lang.ClassLoader.checkCerts(ClassLoader.java:892)
+	java.lang.ClassLoader.preDefineClass(ClassLoader.java:665)
+TRACE 301119:
+	org.codehaus.groovy.util.FastArray$1.get(FastArray.java:113)
+	java.util.AbstractList$Itr.next(AbstractList.java:358)
+	org.codehaus.groovy.runtime.MethodClosure.<init>(MethodClosure.java:46)
+	groovyx.net.http.EncoderRegistry.buildDefaultEncoderMap(EncoderRegistry.java:351)
+TRACE 301120:
+	groovyx.net.http.ParserRegistry.<clinit>(ParserRegistry.java:115)
+	groovyx.net.http.HTTPBuilder.<init>(HTTPBuilder.java:194)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+TRACE 301121:
+	org.apache.xml.resolver.CatalogManager.getPrivateCatalog(CatalogManager.java:676)
+	org.apache.xml.resolver.CatalogManager.getCatalog(CatalogManager.java:722)
+	org.apache.xml.resolver.tools.CatalogResolver.initializeCatalogs(CatalogResolver.java:93)
+	org.apache.xml.resolver.tools.CatalogResolver.<init>(CatalogResolver.java:88)
+TRACE 301123:
+	org.apache.xerces.jaxp.SAXParserImpl.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.jaxp.SAXParserFactoryImpl.newSAXParser(<Unknown Source>:Unknown line)
+	org.apache.xml.resolver.readers.SAXCatalogReader.readCatalog(SAXCatalogReader.java:245)
+	org.apache.xml.resolver.Catalog.parseCatalog(Catalog.java:681)
+TRACE 301124:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:42)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+TRACE 301126:
+	org.apache.xerces.impl.XMLEntityManager.setScannerVersion(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLEntityManager.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLEntityManager.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XML11Configuration.<init>(<Unknown Source>:Unknown line)
+TRACE 301127:
+	org.apache.xerces.parsers.XML11Configuration.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XIncludeAwareParserConfiguration.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XIncludeAwareParserConfiguration.<init>(<Unknown Source>:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+TRACE 301128:
+	org.apache.xerces.impl.dtd.XMLDTDValidator.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.dtd.XMLNSDTDValidator.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XML11Configuration.<init>(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XIncludeAwareParserConfiguration.<init>(<Unknown Source>:Unknown line)
+TRACE 301129:
+	org.apache.xerces.util.XMLChar.<clinit>(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLEntityScanner.skipDeclSpaces(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XML11Configuration.parse(<Unknown Source>:Unknown line)
+TRACE 301130:
+	org.apache.xerces.impl.dtd.XMLDTDValidator.doctypeDecl(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDocumentScannerImpl.scanDoctypeDecl(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(<Unknown Source>:Unknown line)
+TRACE 301131:
+	org.apache.xerces.util.SymbolTable.addSymbol(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDTDScannerImpl.startPE(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDTDScannerImpl.skipSeparator(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDTDScannerImpl.scanAttlistDecl(<Unknown Source>:Unknown line)
+TRACE 301132:
+	org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(<Unknown Source>:Unknown line)
+	org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XML11Configuration.parse(<Unknown Source>:Unknown line)
+	org.apache.xerces.parsers.XML11Configuration.parse(<Unknown Source>:Unknown line)
+TRACE 301133:
+	net.sf.json.util.CycleDetectionStrategy.<clinit>(CycleDetectionStrategy.java:36)
+	net.sf.json.JsonConfig.<clinit>(JsonConfig.java:65)
+	net.sf.json.JSONObject.putAll(JSONObject.java:2538)
+	groovyx.net.http.EncoderRegistry.encodeJSON(EncoderRegistry.java:302)
+TRACE 300732:
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.hasUsableImplementation(CachedSAMClass.java:130)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.hasUsableImplementation(CachedSAMClass.java:132)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.hasUsableImplementation(CachedSAMClass.java:132)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.getSAMMethod(CachedSAMClass.java:187)
+TRACE 300733:
+	java.lang.String.indexOf(String.java:1706)
+	groovy.lang.MetaClassImpl$1MOPIter.decomposeMopName(MetaClassImpl.java:573)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:545)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+TRACE 301136:
+	sun.misc.URLClassPath.getLoader(URLClassPath.java:472)
+	sun.misc.URLClassPath.getNextLoader(URLClassPath.java:457)
+	sun.misc.URLClassPath.getResource(URLClassPath.java:211)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+TRACE 301137:
+	com.google.common.collect.MapMakerInternalMap$Segment.setValue(MapMakerInternalMap.java:2160)
+	com.google.common.collect.MapMakerInternalMap$Segment.put(MapMakerInternalMap.java:2552)
+	com.google.common.collect.MapMakerInternalMap.putIfAbsent(MapMakerInternalMap.java:3510)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:43)
+TRACE 301139:
+	groovyx.net.http.HTTPBuilder.createClient(HTTPBuilder.java:858)
+	groovyx.net.http.HTTPBuilder.getClient(HTTPBuilder.java:842)
+	groovyx.net.http.HTTPBuilder.doRequest(HTTPBuilder.java:515)
+	groovyx.net.http.HTTPBuilder.doRequest(HTTPBuilder.java:434)
+TRACE 300735:
+	org.gradle.api.internal.artifacts.component.DefaultComponentIdentifierFactory.createComponentIdentifier(DefaultComponentIdentifierFactory.java:30)
+	org.gradle.api.internal.artifacts.ivyservice.ShortcircuitEmptyConfigsArtifactDependencyResolver.resolve(ShortcircuitEmptyConfigsArtifactDependencyResolver.java:51)
+	org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingArtifactDependencyResolver.resolve(ErrorHandlingArtifactDependencyResolver.java:47)
+	org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:46)
+TRACE 300738:
+	org.gradle.runtime.jvm.internal.JvmPluginServiceRegistry.registerProjectServices(JvmPluginServiceRegistry.java:49)
+	org.gradle.internal.service.scopes.ProjectScopeServices$1.execute(ProjectScopeServices.java:75)
+	org.gradle.internal.service.scopes.ProjectScopeServices$1.execute(ProjectScopeServices.java:70)
+	org.gradle.internal.service.DefaultServiceRegistry.register(DefaultServiceRegistry.java:196)
+TRACE 300739:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory.<init>(AnnotationProcessingTaskFactory.java:66)
+TRACE 300740:
+	sun.reflect.Reflection.getCallerClass(Reflection.java:Unknown line)
+	java.lang.Class.getDeclaredMethod(Class.java:2127)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.mixInGroovyObject(AsmBackedClassGenerator.java:495)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:104)
+TRACE 300741:
+	java.net.URLClassLoader$1.run(URLClassLoader.java:364)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+TRACE 300743:
+	sun.reflect.generics.parser.SignatureParser.parseIdentifier(SignatureParser.java:269)
+	sun.reflect.generics.parser.SignatureParser.parsePackageNameAndSimpleClassTypeSignature(SignatureParser.java:336)
+	sun.reflect.generics.parser.SignatureParser.parseClassTypeSignature(SignatureParser.java:310)
+	sun.reflect.generics.parser.SignatureParser.parseFieldTypeSignature(SignatureParser.java:289)
+TRACE 300745:
+	org.gradle.api.internal.artifacts.ivyservice.projectmodule.DefaultProjectPublicationRegistry.<init>(DefaultProjectPublicationRegistry.java:24)
+	org.gradle.api.internal.artifacts.DependencyManagementBuildScopeServices.createProjectPublicationRegistry(DependencyManagementBuildScopeServices.java:243)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+TRACE 301152:
+	sun.security.util.DerValue.toByteArray(DerValue.java:831)
+	sun.security.pkcs.ContentInfo.<init>(ContentInfo.java:136)
+	sun.security.pkcs.PKCS7.parse(PKCS7.java:181)
+	sun.security.pkcs.PKCS7.parse(PKCS7.java:154)
+TRACE 300746:
+	org.gradle.plugins.ide.internal.tooling.ToolingRegistrationAction.execute(ToolingRegistrationAction.java:33)
+	org.gradle.plugins.ide.internal.tooling.ToolingRegistrationAction.execute(ToolingRegistrationAction.java:25)
+	org.gradle.configuration.project.PluginsProjectConfigureActions.execute(PluginsProjectConfigureActions.java:31)
+	org.gradle.configuration.project.PluginsProjectConfigureActions.execute(PluginsProjectConfigureActions.java:22)
+TRACE 300747:
+	org.gradle.plugins.ide.internal.tooling.ToolingRegistrationAction.execute(ToolingRegistrationAction.java:38)
+	org.gradle.plugins.ide.internal.tooling.ToolingRegistrationAction.execute(ToolingRegistrationAction.java:25)
+	org.gradle.configuration.project.PluginsProjectConfigureActions.execute(PluginsProjectConfigureActions.java:31)
+	org.gradle.configuration.project.PluginsProjectConfigureActions.execute(PluginsProjectConfigureActions.java:22)
+TRACE 300749:
+	java.lang.Class.isArray(Class.java:Unknown line)
+	org.codehaus.groovy.reflection.CachedClass.<init>(CachedClass.java:222)
+	org.codehaus.groovy.reflection.ClassInfo.createCachedClass(ClassInfo.java:316)
+	org.codehaus.groovy.reflection.ClassInfo.access$400(ClassInfo.java:37)
+TRACE 300750:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.getDeclaredFields0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+TRACE 300751:
+	org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	org.gradle.api.plugins.HelpTasksPlugin.apply(HelpTasksPlugin.groovy:32)
+	org.gradle.api.plugins.HelpTasksPlugin.apply(HelpTasksPlugin.groovy:Unknown line)
+	org.gradle.api.internal.plugins.DefaultPluginContainer.providePlugin(DefaultPluginContainer.java:188)
+TRACE 300752:
+	org.codehaus.groovy.reflection.SunClassLoader.loadMagic(SunClassLoader.java:66)
+	org.codehaus.groovy.reflection.SunClassLoader.<init>(SunClassLoader.java:62)
+	org.codehaus.groovy.reflection.SunClassLoader$1.run(SunClassLoader.java:44)
+	org.codehaus.groovy.reflection.SunClassLoader$1.run(SunClassLoader.java:41)
+TRACE 300753:
+	groovyjarjarasm.asm.MethodWriter.visitVarInsn(<Unknown Source>:Unknown line)
+	org.codehaus.groovy.reflection.SunClassLoader.loadMagic(SunClassLoader.java:70)
+	org.codehaus.groovy.reflection.SunClassLoader.<init>(SunClassLoader.java:62)
+	org.codehaus.groovy.reflection.SunClassLoader$1.run(SunClassLoader.java:44)
+TRACE 300600:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:264)
+	com.sun.proxy.$Proxy11.<clinit>(<Unknown Source>:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+TRACE 300756:
+	org.gradle.api.plugins.HelpTasksPlugin.apply(HelpTasksPlugin.groovy:48)
+	org.gradle.api.plugins.HelpTasksPlugin.apply(HelpTasksPlugin.groovy:Unknown line)
+	org.gradle.api.internal.plugins.DefaultPluginContainer.providePlugin(DefaultPluginContainer.java:188)
+	org.gradle.api.internal.plugins.DefaultPluginContainer.addPluginInternal(DefaultPluginContainer.java:137)
+TRACE 300757:
+	java.beans.Introspector.getTargetEventInfo(Introspector.java:956)
+	java.beans.Introspector.getBeanInfo(Introspector.java:427)
+	java.beans.Introspector.getBeanInfo(Introspector.java:173)
+	groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3245)
+TRACE 300601:
+	org.gradle.internal.resource.transport.http.JavaSystemPropertiesHttpProxySettings.<init>(JavaSystemPropertiesHttpProxySettings.java:41)
+	org.gradle.internal.resource.transport.http.JavaSystemPropertiesHttpProxySettings.<init>(JavaSystemPropertiesHttpProxySettings.java:35)
+	org.gradle.internal.resource.transport.http.DefaultHttpSettings.<init>(DefaultHttpSettings.java:23)
+	org.gradle.plugin.use.internal.PluginUsePluginServiceRegistry$BuildScopeServices.createPluginResolutionServiceClient(PluginUsePluginServiceRegistry.java:62)
+TRACE 300602:
+	org.gradle.cache.internal.DefaultCacheAccess.newCache(DefaultCacheAccess.java:319)
+	org.gradle.cache.internal.DefaultCacheAccess.newCache(DefaultCacheAccess.java:42)
+	org.gradle.cache.internal.DefaultPersistentDirectoryStore.createCache(DefaultPersistentDirectoryStore.java:94)
+	org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.createCache(DefaultCacheFactory.java:167)
+TRACE 300159:
+	sun.net.www.protocol.jar.Handler.openConnection(Handler.java:41)
+	java.net.URL.openConnection(URL.java:972)
+	java.net.URLClassLoader.getResourceAsStream(URLClassLoader.java:237)
+	java.lang.Class.getResourceAsStream(Class.java:2223)
+TRACE 300604:
+	groovy.lang.MetaClassImpl$1MOPIter.processFastArray(MetaClassImpl.java:590)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:535)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:615)
+TRACE 300511:
+	java.io.UnixFileSystem.getBooleanAttributes0(UnixFileSystem.java:Unknown line)
+	java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:242)
+	java.io.File.exists(File.java:819)
+	org.gradle.api.internal.classpath.EffectiveClassPath.addClasspathFile(EffectiveClassPath.java:62)
+TRACE 300606:
+	com.sun.beans.TypeResolver.resolve(TypeResolver.java:157)
+	com.sun.beans.TypeResolver.resolveInClass(TypeResolver.java:81)
+	java.beans.FeatureDescriptor.getReturnType(FeatureDescriptor.java:370)
+	java.beans.PropertyDescriptor.findPropertyType(PropertyDescriptor.java:646)
+TRACE 300607:
+	groovy.lang.MetaClassImpl.applyStrayPropertyMethods(MetaClassImpl.java:2391)
+	groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2253)
+	groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+TRACE 300765:
+	sun.net.www.MimeEntry.setImageFileName(MimeEntry.java:162)
+	sun.net.www.MimeTable.fill(MimeTable.java:353)
+	sun.net.www.MimeTable.parse(MimeTable.java:339)
+	sun.net.www.MimeTable.parse(MimeTable.java:316)
+TRACE 300608:
+	org.gradle.internal.service.DefaultServiceRegistry$SingletonService.getService(DefaultServiceRegistry.java:494)
+	org.gradle.internal.service.DefaultServiceRegistry$OwnServices.getService(DefaultServiceRegistry.java:388)
+	org.gradle.internal.service.DefaultServiceRegistry$CompositeProvider.getService(DefaultServiceRegistry.java:796)
+	org.gradle.internal.service.DefaultServiceRegistry$DefaultLookupContext.find(DefaultServiceRegistry.java:986)
+TRACE 300767:
+	org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$CacheInitializer.<init>(FileCacheBackedScriptClassCompiler.java:88)
+	org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$CacheInitializer.<init>(FileCacheBackedScriptClassCompiler.java:81)
+	org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler.compile(FileCacheBackedScriptClassCompiler.java:58)
+	org.gradle.groovy.scripts.internal.ShortCircuitEmptyScriptCompiler.compile(ShortCircuitEmptyScriptCompiler.java:35)
+TRACE 301175:
+	sun.security.x509.CertificateX509Key.<init>(CertificateX509Key.java:75)
+	sun.security.x509.X509CertInfo.parse(X509CertInfo.java:667)
+	sun.security.x509.X509CertInfo.<init>(X509CertInfo.java:167)
+	sun.security.x509.X509CertImpl.parse(X509CertImpl.java:1806)
+TRACE 300609:
+	org.gradle.internal.service.scopes.GradleScopeServices.createBuildExecuter(GradleScopeServices.java:73)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+TRACE 300512:
+	org.gradle.internal.service.DefaultServiceRegistry.findDecoratorMethods(DefaultServiceRegistry.java:186)
+	org.gradle.internal.service.DefaultServiceRegistry.findProviderMethods(DefaultServiceRegistry.java:116)
+	org.gradle.internal.service.DefaultServiceRegistry.<init>(DefaultServiceRegistry.java:94)
+	org.gradle.internal.service.DefaultServiceRegistry.<init>(DefaultServiceRegistry.java:79)
+TRACE 300612:
+	java.lang.ThreadLocal.get(ThreadLocal.java:161)
+	java.lang.StringCoding.deref(StringCoding.java:63)
+	java.lang.StringCoding.encode(StringCoding.java:330)
+	java.lang.String.getBytes(String.java:906)
+TRACE 300613:
+	org.gradle.internal.service.scopes.SettingsScopeServices.createProjectDescriptorRegistry(SettingsScopeServices.java:53)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+TRACE 300614:
+	org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:57)
+	org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+TRACE 300615:
+	java.lang.Object.<init>(Object.java:37)
+	java.io.InputStream.<init>(InputStream.java:45)
+	java.util.zip.ZipFile$ZipFileInputStream.<init>(ZipFile.java:695)
+	java.util.zip.ZipFile.getInputStream(ZipFile.java:361)
+TRACE 300616:
+	org.gradle.api.internal.artifacts.DependencyManagementBuildScopeServices.createArtifactRevisionIdFileStore(DependencyManagementBuildScopeServices.java:144)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+TRACE 300618:
+	org.gradle.mvn3.org.codehaus.plexus.interpolation.os.Os.setValidFamilies(Os.java:144)
+	org.gradle.mvn3.org.codehaus.plexus.interpolation.os.Os.<clinit>(Os.java:100)
+	org.gradle.mvn3.org.codehaus.plexus.interpolation.os.OperatingSystemUtils.getSystemEnvVars(OperatingSystemUtils.java:73)
+	org.gradle.mvn3.org.codehaus.plexus.interpolation.EnvarBasedValueSource.getEnvars(EnvarBasedValueSource.java:74)
+TRACE 300515:
+	java.lang.Class.getDeclaredMethods0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	java.lang.Class.getDeclaredMethods(Class.java:1975)
+	org.gradle.internal.service.DefaultServiceRegistry.findDecoratorMethods(DefaultServiceRegistry.java:175)
+TRACE 300781:
+	java.lang.ClassLoader$NativeLibrary.find(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findNative(ClassLoader.java:1959)
+	java.net.NetworkInterface.isUp0(NetworkInterface.java:Unknown line)
+	java.net.NetworkInterface.isUp(NetworkInterface.java:387)
+TRACE 300300:
+	java.util.zip.ZipFile.open(ZipFile.java:Unknown line)
+	java.util.zip.ZipFile.<init>(ZipFile.java:220)
+	java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	java.util.jar.JarFile.<init>(JarFile.java:166)
+TRACE 300410:
+	java.lang.ClassLoader.checkCerts(ClassLoader.java:885)
+	java.lang.ClassLoader.preDefineClass(ClassLoader.java:665)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:758)
+	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+TRACE 300301:
+	ch.qos.logback.core.ContextBase.<init>(ContextBase.java:32)
+	ch.qos.logback.classic.LoggerContext.<init>(LoggerContext.java:65)
+	org.slf4j.impl.StaticLoggerBinder.<init>(StaticLoggerBinder.java:59)
+	org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:50)
+TRACE 300234:
+	org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:44)
+	org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+TRACE 301194:
+	sun.security.x509.KeyUsageExtension.<init>(KeyUsageExtension.java:155)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+TRACE 300454:
+	java.io.FileOutputStream.writeBytes(FileOutputStream.java:Unknown line)
+	java.io.FileOutputStream.write(FileOutputStream.java:326)
+	com.sun.jna.Native.loadNativeLibraryFromJar(Native.java:747)
+	com.sun.jna.Native.loadNativeLibrary(Native.java:685)
+TRACE 300212:
+	java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:717)
+	java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:420)
+	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	sun.misc.Resource.getBytes(Resource.java:124)
+TRACE 300790:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.reflect.Method.getParameterTypes(Method.java:264)
+	java.beans.Introspector.getTargetPropertyInfo(Introspector.java:497)
+	java.beans.Introspector.getBeanInfo(Introspector.java:428)
+TRACE 300791:
+	org.codehaus.groovy.reflection.ClassInfo.createCachedClass(ClassInfo.java:278)
+	org.codehaus.groovy.reflection.ClassInfo.access$400(ClassInfo.java:37)
+	org.codehaus.groovy.reflection.ClassInfo$LazyCachedClassRef.initValue(ClassInfo.java:484)
+	org.codehaus.groovy.reflection.ClassInfo$LazyCachedClassRef.initValue(ClassInfo.java:475)
+TRACE 300793:
+	java.lang.reflect.Constructor.getFactory(Constructor.java:77)
+	java.lang.reflect.Constructor.getGenericInfo(Constructor.java:88)
+	java.lang.reflect.Constructor.getTypeParameters(Constructor.java:205)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.signature(AsmBackedClassGenerator.java:151)
+TRACE 300456:
+	java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1070)
+	java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1535)
+	java.lang.ClassLoader.getClassLoadingLock(ClassLoader.java:463)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:404)
+TRACE 300795:
+	java.lang.reflect.Executable.declaredAnnotations(Executable.java:598)
+	java.lang.reflect.Executable.declaredAnnotations(Executable.java:600)
+	java.lang.reflect.Executable.getAnnotation(Executable.java:572)
+	java.lang.reflect.Method.getAnnotation(Method.java:621)
+TRACE 300798:
+	java.util.concurrent.ConcurrentHashMap.transfer(ConcurrentHashMap.java:2497)
+	java.util.concurrent.ConcurrentHashMap.addCount(ConcurrentHashMap.java:2288)
+	java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1070)
+	java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1535)
+TRACE 300799:
+	sun.reflect.annotation.AnnotationParser.parseSig(AnnotationParser.java:436)
+	sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:241)
+	sun.reflect.annotation.AnnotationParser.parseAnnotation(AnnotationParser.java:226)
+	sun.reflect.annotation.AnnotationParser.parseParameterAnnotations2(AnnotationParser.java:184)
+TRACE 300338:
+	ch.qos.logback.classic.BasicConfigurator.configure(BasicConfigurator.java:44)
+	ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:150)
+	org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:85)
+	org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
+TRACE 301210:
+	sun.security.x509.AVAKeyword.<clinit>(AVA.java:1350)
+	sun.security.x509.AVA.toKeyword(AVA.java:663)
+	sun.security.x509.AVA.toRFC2253CanonicalString(AVA.java:871)
+	sun.security.x509.RDN.toRFC2253StringInternal(RDN.java:441)
+TRACE 300801:
+	java.lang.ThreadLocal$ThreadLocalMap.access$100(ThreadLocal.java:298)
+	java.lang.ThreadLocal.set(ThreadLocal.java:203)
+	java.lang.StringCoding.set(StringCoding.java:70)
+	java.lang.StringCoding.encode(StringCoding.java:342)
+TRACE 300803:
+	org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.getIvy(DefaultIvyContextManager.java:86)
+	org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:58)
+	org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultDependencyResolver.resolve(DefaultDependencyResolver.java:86)
+TRACE 300339:
+	sun.net.www.ParseUtil.canonizeString(ParseUtil.java:230)
+	sun.net.www.protocol.jar.Handler.parseURL(Handler.java:160)
+	java.net.URL.<init>(URL.java:615)
+	java.net.URL.<init>(URL.java:483)
+TRACE 300805:
+	org.apache.ivy.Ivy.bind(Ivy.java:280)
+	org.apache.ivy.Ivy.newInstance(Ivy.java:200)
+	org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.getIvy(DefaultIvyContextManager.java:86)
+	org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:58)
+TRACE 300806:
+	org.gradle.internal.resource.transport.http.HttpTransport.<init>(HttpTransport.java:45)
+	org.gradle.api.internal.artifacts.repositories.transport.RepositoryTransportFactory.createHttpTransport(RepositoryTransportFactory.java:57)
+	org.gradle.api.internal.artifacts.repositories.transport.RepositoryTransportFactory.createTransport(RepositoryTransportFactory.java:83)
+	org.gradle.api.internal.artifacts.repositories.transport.RepositoryTransportFactory.createTransport(RepositoryTransportFactory.java:71)
+TRACE 300807:
+	ch.qos.logback.classic.LoggerContext.getLogger(LoggerContext.java:132)
+	ch.qos.logback.classic.LoggerContext.getLogger(LoggerContext.java:45)
+	org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:270)
+	org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:281)
+TRACE 300808:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ResolveIvyFactory.create(ResolveIvyFactory.java:91)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultDependencyResolver$1.execute(DefaultDependencyResolver.java:88)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultDependencyResolver$1.execute(DefaultDependencyResolver.java:86)
+	org.gradle.internal.Transformers$3.transform(Transformers.java:131)
+TRACE 301221:
+	sun.security.rsa.RSAKeyFactory.toRSAKey(RSAKeyFactory.java:106)
+	sun.security.rsa.RSASignature.engineInitVerify(RSASignature.java:90)
+	java.security.Signature$Delegate.init(Signature.java:1149)
+	java.security.Signature$Delegate.chooseProvider(Signature.java:1112)
+TRACE 300811:
+	org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.<init>(DefaultModuleDescriptor.java:198)
+	org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.<init>(DefaultModuleDescriptor.java:247)
+	org.gradle.api.internal.artifacts.ivyservice.moduleconverter.DefaultModuleDescriptorFactory.createModuleDescriptor(DefaultModuleDescriptorFactory.java:24)
+	org.gradle.api.internal.artifacts.ivyservice.moduleconverter.ResolveLocalComponentFactory.convert(ResolveLocalComponentFactory.java:55)
+TRACE 300812:
+	org.gradle.api.internal.artifacts.metadata.AbstractModuleDescriptorBackedMetaData.populateConfigurationFromDescriptor(AbstractModuleDescriptorBackedMetaData.java:147)
+	org.gradle.api.internal.artifacts.metadata.AbstractModuleDescriptorBackedMetaData.getConfiguration(AbstractModuleDescriptorBackedMetaData.java:132)
+	org.gradle.api.internal.artifacts.metadata.AbstractModuleDescriptorBackedMetaData.getConfiguration(AbstractModuleDescriptorBackedMetaData.java:27)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ConfigurationNode.<init>(DependencyGraphBuilder.java:627)
+TRACE 300813:
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:105)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolveDependencyGraph(DependencyGraphBuilder.java:90)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:80)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultDependencyResolver$1.execute(DefaultDependencyResolver.java:120)
+TRACE 300814:
+	org.gradle.cache.internal.DefaultCacheAccess.doCreateCache(DefaultCacheAccess.java:337)
+	org.gradle.cache.internal.DefaultCacheAccess$3.create(DefaultCacheAccess.java:315)
+	org.gradle.cache.internal.DefaultCacheAccess$3.create(DefaultCacheAccess.java:313)
+	org.gradle.cache.internal.DefaultMultiProcessSafePersistentIndexedCache$5.run(DefaultMultiProcessSafePersistentIndexedCache.java:93)
+TRACE 300815:
+	org.gradle.cache.internal.btree.BTreePersistentIndexedCache$HeaderBlock.<init>(BTreePersistentIndexedCache.java:312)
+	org.gradle.cache.internal.btree.BTreePersistentIndexedCache$HeaderBlock.<init>(BTreePersistentIndexedCache.java:308)
+	org.gradle.cache.internal.btree.BTreePersistentIndexedCache$1.create(BTreePersistentIndexedCache.java:92)
+	org.gradle.cache.internal.btree.FreeListBlockStore$2.create(FreeListBlockStore.java:50)
+TRACE 300816:
+	org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:372)
+	org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:230)
+	org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:94)
+	org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:84)
+TRACE 300817:
+	org.gradle.messaging.serialize.kryo.KryoBackedEncoder.<init>(KryoBackedEncoder.java:35)
+	org.gradle.messaging.serialize.kryo.KryoBackedEncoder.<init>(KryoBackedEncoder.java:31)
+	org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:454)
+	org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.get(BTreePersistentIndexedCache.java:444)
+TRACE 300526:
+	org.objectweb.asm.ClassWriter.visitMethod(<Unknown Source>:Unknown line)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.addGetter(AsmBackedClassGenerator.java:522)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.addGetter(AsmBackedClassGenerator.java:518)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.mixInDynamicAware(AsmBackedClassGenerator.java:287)
+TRACE 300527:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.reflect.Method.getParameterTypes(Method.java:264)
+	org.objectweb.asm.Type.getMethodDescriptor(<Unknown Source>:Unknown line)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.addDynamicMethods(AsmBackedClassGenerator.java:569)
+TRACE 300528:
+	sun.net.www.protocol.file.Handler.hostsEqual(Handler.java:130)
+	java.net.URLStreamHandler.sameFile(URLStreamHandler.java:412)
+	java.net.URLStreamHandler.equals(URLStreamHandler.java:333)
+	java.net.URL.equals(URL.java:863)
+TRACE 300529:
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+TRACE 301234:
+	java.io.UnixFileSystem.getBooleanAttributes0(UnixFileSystem.java:Unknown line)
+	java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:242)
+	java.io.File.exists(File.java:819)
+	java.io.UnixFileSystem.canonicalize(UnixFileSystem.java:183)
+TRACE 300824:
+	java.util.Formatter$FormatSpecifier.index(Formatter.java:2623)
+	java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2708)
+	java.util.Formatter.parse(Formatter.java:2560)
+	java.util.Formatter.format(Formatter.java:2501)
+TRACE 300825:
+	java.lang.ClassLoader.addClass(ClassLoader.java:263)
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+TRACE 300826:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser.createParser(IvyXmlModuleDescriptorParser.java:92)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser.doParseDescriptor(IvyXmlModuleDescriptorParser.java:87)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.AbstractModuleDescriptorParser.parseDescriptor(AbstractModuleDescriptorParser.java:44)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.AbstractModuleDescriptorParser.parseMetaData(AbstractModuleDescriptorParser.java:31)
+TRACE 300827:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.<init>(IvyXmlModuleDescriptorParser.java:143)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.<init>(IvyXmlModuleDescriptorParser.java:457)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser.createParser(IvyXmlModuleDescriptorParser.java:92)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser.doParseDescriptor(IvyXmlModuleDescriptorParser.java:87)
+TRACE 300532:
+	java.util.zip.Inflater.inflateBytes(Inflater.java:Unknown line)
+	java.util.zip.Inflater.inflate(Inflater.java:259)
+	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+	java.io.FilterInputStream.read(FilterInputStream.java:133)
+TRACE 300534:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.Class.getInterfaces(Class.java:856)
+	java.lang.Class.privateGetPublicMethods(Class.java:2910)
+	java.lang.Class.getMethods(Class.java:1615)
+TRACE 301243:
+	java.lang.Class.isPrimitive(Class.java:Unknown line)
+	sun.invoke.util.VerifyAccess.isTypeVisible(VerifyAccess.java:190)
+	sun.invoke.util.VerifyAccess.isTypeVisible(VerifyAccess.java:215)
+	java.lang.invoke.MemberName.checkForTypeAlias(MemberName.java:794)
+TRACE 300535:
+	java.lang.Class.getDeclaredMethods0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	java.lang.Class.privateGetPublicMethods(Class.java:2911)
+TRACE 300642:
+	java.lang.Class.getDeclaredClasses0(Class.java:Unknown line)
+	java.lang.Class.getDeclaredClasses(Class.java:1867)
+	java.lang.invoke.BoundMethodHandle$SpeciesData.<clinit>(BoundMethodHandle.java:433)
+	java.lang.invoke.BoundMethodHandle.<clinit>(BoundMethodHandle.java:829)
+TRACE 300340:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:436)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 300461:
+	java.lang.Object.<init>(Object.java:37)
+	java.io.InputStream.<init>(InputStream.java:45)
+	java.io.FilterInputStream.<init>(FilterInputStream.java:61)
+	java.util.zip.InflaterInputStream.<init>(InflaterInputStream.java:81)
+TRACE 300462:
+	org.gradle.api.internal.classpath.DefaultModuleRegistry.<init>(DefaultModuleRegistry.java:61)
+	org.gradle.api.internal.classpath.DefaultModuleRegistry.<init>(DefaultModuleRegistry.java:55)
+	org.gradle.StartParameter.<init>(StartParameter.java:98)
+	org.gradle.launcher.cli.BuildActionsFactory.createAction(BuildActionsFactory.java:114)
+TRACE 300539:
+	java.lang.Thread.currentThread(Thread.java:Unknown line)
+	org.codehaus.groovy.reflection.ClassInfo$ThreadLocalMapHandler.get(ClassInfo.java:459)
+	org.codehaus.groovy.reflection.ClassInfo.getLocalClassInfoMap(ClassInfo.java:110)
+	org.codehaus.groovy.reflection.ClassInfo.getClassInfo(ClassInfo.java:102)
+TRACE 300540:
+	java.lang.Class.getDeclaredMethods0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	java.lang.Class.getDeclaredMethods(Class.java:1975)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass$1.run(CachedSAMClass.java:100)
+TRACE 300541:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.Class.getInterfaces(Class.java:856)
+	org.codehaus.groovy.reflection.CachedClass$8.initValue(CachedClass.java:197)
+	org.codehaus.groovy.reflection.CachedClass$8.initValue(CachedClass.java:190)
+TRACE 300542:
+	org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:94)
+	org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:71)
+	groovy.lang.GroovySystem.<clinit>(GroovySystem.java:33)
+	org.codehaus.groovy.runtime.InvokerHelper.<clinit>(InvokerHelper.java:61)
+TRACE 300544:
+	java.util.LinkedList.linkLast(LinkedList.java:141)
+	java.util.LinkedList.add(LinkedList.java:338)
+	org.codehaus.groovy.runtime.m12n.SimpleExtensionModule.createMetaMethods(SimpleExtensionModule.java:121)
+	org.codehaus.groovy.runtime.m12n.SimpleExtensionModule.getMetaMethods(SimpleExtensionModule.java:99)
+TRACE 300545:
+	org.codehaus.groovy.reflection.CachedClass$8.initValue(CachedClass.java:206)
+	org.codehaus.groovy.reflection.CachedClass$8.initValue(CachedClass.java:190)
+	org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+TRACE 300546:
+	java.util.zip.Inflater.inflate(Inflater.java:257)
+	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+	sun.misc.Resource.getBytes(Resource.java:124)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:462)
+TRACE 300845:
+	com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.<init>(SAXParserImpl.java:136)
+	com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl.newSAXParser(SAXParserFactoryImpl.java:81)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$ParserHelper.newSAXParser(IvyXmlModuleDescriptorParser.java:1226)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$ParserHelper.parse(IvyXmlModuleDescriptorParser.java:1267)
+TRACE 300548:
+	java.util.Arrays.binarySearch(Arrays.java:2482)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:513)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:618)
+TRACE 300463:
+	java.io.UnixFileSystem.compare(UnixFileSystem.java:305)
+	java.io.File.compareTo(File.java:2093)
+	java.io.File.equals(File.java:2112)
+	java.util.ArrayList.indexOf(ArrayList.java:317)
+TRACE 300658:
+	sun.misc.Unsafe.defineAnonymousClass(Unsafe.java:Unknown line)
+	java.lang.invoke.InvokerBytecodeGenerator.loadAndInitializeInvokerClass(InvokerBytecodeGenerator.java:282)
+	java.lang.invoke.InvokerBytecodeGenerator.loadMethod(InvokerBytecodeGenerator.java:274)
+	java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(InvokerBytecodeGenerator.java:616)
+TRACE 300659:
+	java.lang.invoke.LambdaForm.signatureType(LambdaForm.java:534)
+	java.lang.invoke.LambdaForm.methodType(LambdaForm.java:503)
+	java.lang.invoke.LambdaForm.compileToBytecode(LambdaForm.java:623)
+	java.lang.invoke.LambdaForm.prepare(LambdaForm.java:610)
+TRACE 300465:
+	org.gradle.internal.nativeplatform.filesystem.GenericFileSystem.createFile(GenericFileSystem.java:94)
+	org.gradle.internal.nativeplatform.filesystem.GenericFileSystem.<init>(GenericFileSystem.java:79)
+	org.gradle.internal.nativeplatform.filesystem.FileSystemServices.createFileSystem(FileSystemServices.java:48)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+TRACE 301265:
+	java.util.Arrays.equals(Arrays.java:2696)
+	sun.security.util.ObjectIdentifier.equals(ObjectIdentifier.java:343)
+	java.util.HashMap.getNode(HashMap.java:571)
+	java.util.HashMap.get(HashMap.java:556)
+TRACE 300018:
+	sun.nio.cs.UTF_8$Encoder.encode(UTF_8.java:709)
+	java.lang.StringCoding$StringEncoder.encode(StringCoding.java:304)
+	java.lang.StringCoding.encode(StringCoding.java:344)
+	java.lang.String.getBytes(String.java:906)
+TRACE 300177:
+	sun.misc.FloatingDecimal.<clinit>(FloatingDecimal.java:248)
+	java.lang.Double.toString(Double.java:204)
+	java.lang.String.valueOf(String.java:3129)
+	java.security.Provider.putId(Provider.java:688)
+TRACE 301269:
+	sun.security.util.DerOutputStream.putLength(DerOutputStream.java:523)
+	sun.security.util.DerValue.encode(DerValue.java:398)
+	sun.security.util.DerValue.toByteArray(DerValue.java:833)
+	sun.security.x509.RDN.<init>(RDN.java:238)
+TRACE 301270:
+	java.lang.Object.clone(Object.java:Unknown line)
+	sun.security.util.DerInputBuffer.dup(DerInputBuffer.java:55)
+	sun.security.util.DerValue.<init>(DerValue.java:278)
+	sun.security.util.DerInputStream.getDerValue(DerInputStream.java:417)
+TRACE 300060:
+	java.lang.Math.max(Math.java:1252)
+	java.util.jar.JarFile.match(JarFile.java:537)
+	java.util.jar.JarFile.checkForSpecialAttributes(JarFile.java:556)
+	java.util.jar.JarFile.hasClassPathAttribute(JarFile.java:518)
+TRACE 301272:
+	sun.security.util.DerValue.toDerInputStream(DerValue.java:845)
+	sun.security.x509.Extension.<init>(Extension.java:77)
+	sun.security.x509.CertificateExtensions.init(CertificateExtensions.java:87)
+	sun.security.x509.CertificateExtensions.<init>(CertificateExtensions.java:78)
+TRACE 301273:
+	sun.reflect.Reflection.getCallerClass(Reflection.java:Unknown line)
+	java.lang.Class.getConstructor(Class.java:1824)
+	java.security.Provider$Service.newInstance(Provider.java:1594)
+	java.security.KeyFactory.nextSpi(KeyFactory.java:297)
+TRACE 300856:
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setScannerVersion(XMLEntityManager.java:566)
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.<init>(XMLEntityManager.java:409)
+	com.sun.org.apache.xerces.internal.parsers.XML11Configuration.<init>(XML11Configuration.java:553)
+	com.sun.org.apache.xerces.internal.parsers.XIncludeAwareParserConfiguration.<init>(XIncludeAwareParserConfiguration.java:130)
+TRACE 301275:
+	java.util.Hashtable.containsKey(Hashtable.java:335)
+	sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:734)
+	sun.security.provider.JavaKeyStore$JKS.engineLoad(JavaKeyStore.java:55)
+	java.security.KeyStore.load(KeyStore.java:1445)
+TRACE 300239:
+	java.io.UnixFileSystem.getLastModifiedTime(UnixFileSystem.java:Unknown line)
+	java.io.File.lastModified(File.java:943)
+	java.util.zip.ZipFile.<init>(ZipFile.java:220)
+	java.util.zip.ZipFile.<init>(ZipFile.java:150)
+TRACE 300240:
+	java.net.URI$Parser.scan(URI.java:2949)
+	java.net.URI$Parser.parseHierarchical(URI.java:3104)
+	java.net.URI$Parser.parse(URI.java:3053)
+	java.net.URI.<init>(URI.java:673)
+TRACE 300241:
+	java.util.Date.getCalendarSystem(Date.java:1288)
+	java.util.Date.normalize(Date.java:1261)
+	java.util.Date.normalize(Date.java:1204)
+	java.util.Date.getTimeImpl(Date.java:890)
+TRACE 300668:
+	java.lang.invoke.MethodHandleNatives.resolve(MethodHandleNatives.java:Unknown line)
+	java.lang.invoke.MemberName$Factory.resolve(MemberName.java:962)
+	java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:987)
+	java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:1382)
+TRACE 300669:
+	jdk.internal.org.objectweb.asm.Type.getType(Type.java:511)
+	jdk.internal.org.objectweb.asm.Type.getArgumentTypes(Type.java:373)
+	jdk.internal.org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1471)
+	java.lang.invoke.InvokerBytecodeGenerator.classFileEpilogue(InvokerBytecodeGenerator.java:317)
+TRACE 300242:
+	sun.util.calendar.BaseCalendar$Date.getCachedJan1(BaseCalendar.java:181)
+	sun.util.calendar.BaseCalendar.getCalendarDateFromFixedDate(BaseCalendar.java:426)
+	sun.util.calendar.AbstractCalendar.getCalendarDate(AbstractCalendar.java:165)
+	sun.util.calendar.Gregorian.getCalendarDate(Gregorian.java:73)
+TRACE 301283:
+	org.apache.http.impl.conn.BasicClientConnectionManager.createConnectionOperator(BasicClientConnectionManager.java:129)
+	org.apache.http.impl.conn.BasicClientConnectionManager.<init>(BasicClientConnectionManager.java:108)
+	org.apache.http.impl.client.AbstractHttpClient.createClientConnectionManager(AbstractHttpClient.java:345)
+	org.apache.http.impl.client.AbstractHttpClient.getConnectionManager(AbstractHttpClient.java:484)
+TRACE 301284:
+	java.util.jar.Attributes.get(Attributes.java:97)
+	java.util.jar.Attributes.getValue(Attributes.java:133)
+	java.net.URLClassLoader.isSealed(URLClassLoader.java:549)
+	java.net.URLClassLoader.getAndVerifyPackage(URLClassLoader.java:405)
+TRACE 301285:
+	org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:825)
+	org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:220)
+	org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:164)
+TRACE 301286:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:436)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+TRACE 301287:
+	org.apache.http.impl.client.DefaultHttpClient.createHttpProcessor(DefaultHttpClient.java:218)
+	org.apache.http.impl.client.AbstractHttpClient.getHttpProcessor(AbstractHttpClient.java:718)
+	org.apache.http.impl.client.AbstractHttpClient.getProtocolProcessor(AbstractHttpClient.java:726)
+	org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:829)
+TRACE 301288:
+	java.util.zip.ZipFile.getEntry(ZipFile.java:310)
+	java.util.jar.JarFile.getEntry(JarFile.java:240)
+	java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+	sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1005)
+TRACE 301289:
+	org.gradle.internal.classloader.FilteringClassLoader.loadClass(FilteringClassLoader.java:77)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301290:
+	org.apache.http.impl.conn.DefaultClientConnectionOperator.createConnection(DefaultClientConnectionOperator.java:132)
+	org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:169)
+	org.apache.http.impl.conn.BasicClientConnectionManager$1.getConnection(BasicClientConnectionManager.java:144)
+	org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:423)
+TRACE 300260:
 	java.util.zip.ZipFile.read(ZipFile.java:Unknown line)
 	java.util.zip.ZipFile.access$1400(ZipFile.java:61)
 	java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:717)
 	java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:420)
-CPU SAMPLES BEGIN (total = 1232259) Tue Feb  9 08:22:27 2016
+TRACE 300674:
+	jdk.internal.org.objectweb.asm.Type.getArgumentTypes(Type.java:369)
+	jdk.internal.org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1471)
+	java.lang.invoke.InvokerBytecodeGenerator.classFileEpilogue(InvokerBytecodeGenerator.java:317)
+	java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes(InvokerBytecodeGenerator.java:698)
+TRACE 300388:
+	sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+TRACE 301295:
+	java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:Unknown line)
+	java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+TRACE 300478:
+	java.util.jar.Attributes.read(Attributes.java:394)
+	java.util.jar.Manifest.read(Manifest.java:199)
+	java.util.jar.Manifest.<init>(Manifest.java:69)
+	java.util.jar.JarFile.getManifestFromReference(JarFile.java:194)
+TRACE 300677:
+	java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:299)
+	java.lang.invoke.LambdaForm$DMH.73688220.invokeStatic_L6_L(LambdaForm$DMH:Unknown line)
+	java.lang.invoke.LambdaForm$BMH.1228798862.reinvoke(LambdaForm$BMH:Unknown line)
+	java.lang.invoke.LambdaForm$MH.1818449913.invoke_MT(LambdaForm$MH:Unknown line)
+TRACE 300479:
+	org.gradle.internal.service.scopes.GlobalScopeServices.createPluginModuleRegistry(GlobalScopeServices.java:107)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+TRACE 300480:
+	java.lang.String.subSequence(String.java:1991)
+	java.util.regex.Matcher.getSubSequence(Matcher.java:1294)
+	java.util.regex.Matcher.group(Matcher.java:541)
+	java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2709)
+TRACE 300262:
+	org.gradle.messaging.dispatch.ProxyDispatchAdapter.<init>(ProxyDispatchAdapter.java:36)
+	org.gradle.listener.ListenerBroadcast.<init>(ListenerBroadcast.java:41)
+	org.gradle.logging.internal.OutputEventRenderer.<init>(OutputEventRenderer.java:33)
+	org.gradle.logging.LoggingServiceRegistry$CommandLineLogging.createOutputEventRenderer(LoggingServiceRegistry.java:151)
+TRACE 300282:
+	java.lang.reflect.Proxy.defineClass0(Proxy.java:Unknown line)
+	java.lang.reflect.Proxy.access$300(Proxy.java:228)
+	java.lang.reflect.Proxy$ProxyClassFactory.apply(Proxy.java:642)
+	java.lang.reflect.Proxy$ProxyClassFactory.apply(Proxy.java:557)
+TRACE 300045:
+	sun.util.calendar.ZoneInfoFile.load(ZoneInfoFile.java:328)
+	sun.util.calendar.ZoneInfoFile.access$000(ZoneInfoFile.java:61)
+	sun.util.calendar.ZoneInfoFile$1.run(ZoneInfoFile.java:258)
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+TRACE 300284:
+	java.util.HashMap.resize(HashMap.java:737)
+	java.util.HashMap.putVal(HashMap.java:662)
+	java.util.HashMap.put(HashMap.java:611)
+	sun.misc.ProxyGenerator$ConstantPool.getValue(ProxyGenerator.java:1888)
+TRACE 300876:
+	com.sun.org.apache.xerces.internal.parsers.XML11Configuration.<init>(XML11Configuration.java:574)
+	com.sun.org.apache.xerces.internal.parsers.XIncludeAwareParserConfiguration.<init>(XIncludeAwareParserConfiguration.java:130)
+	com.sun.org.apache.xerces.internal.parsers.XIncludeAwareParserConfiguration.<init>(XIncludeAwareParserConfiguration.java:91)
+	com.sun.org.apache.xerces.internal.parsers.SAXParser.<init>(SAXParser.java:111)
+TRACE 300485:
+	java.util.zip.ZipInputStream.readLOC(ZipInputStream.java:305)
+	java.util.zip.ZipInputStream.getNextEntry(ZipInputStream.java:122)
+	java.util.jar.JarInputStream.<init>(JarInputStream.java:83)
+	java.lang.Package.loadManifest(Package.java:611)
+TRACE 300686:
+	java.lang.invoke.LambdaForm.compileToBytecode(LambdaForm.java:623)
+	java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(DirectMethodHandle.java:248)
+	java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:188)
+	java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:177)
+TRACE 300487:
+	sun.nio.cs.UTF_8$Encoder.implReplaceWith(UTF_8.java:698)
+	java.nio.charset.CharsetEncoder.replaceWith(CharsetEncoder.java:303)
+	java.nio.charset.CharsetEncoder.<init>(CharsetEncoder.java:207)
+	java.nio.charset.CharsetEncoder.<init>(CharsetEncoder.java:233)
+TRACE 300489:
+	com.google.common.collect.MapMakerInternalMap.hash(MapMakerInternalMap.java:1851)
+	com.google.common.collect.MapMakerInternalMap.get(MapMakerInternalMap.java:3433)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:33)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301311:
+	sun.security.ssl.SignatureAndHashAlgorithm.<clinit>(SignatureAndHashAlgorithm.java:432)
+	sun.security.ssl.SSLSessionImpl.<init>(SSLSessionImpl.java:179)
+	sun.security.ssl.SSLSessionImpl.<init>(SSLSessionImpl.java:147)
+	sun.security.ssl.SSLSessionImpl.<clinit>(SSLSessionImpl.java:79)
+TRACE 300490:
+	java.util.zip.Inflater.inflateBytes(Inflater.java:Unknown line)
+	java.util.zip.Inflater.inflate(Inflater.java:259)
+	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+	sun.misc.IOUtils.readFully(IOUtils.java:65)
+TRACE 300577:
+	java.lang.reflect.Proxy.isProxyClass(Proxy.java:791)
+	sun.reflect.misc.ReflectUtil.isNonPublicProxyClass(ReflectUtil.java:289)
+	sun.reflect.misc.ReflectUtil.checkPackageAccess(ReflectUtil.java:165)
+	sun.reflect.misc.ReflectUtil.isPackageAccessible(ReflectUtil.java:195)
+TRACE 300578:
+	java.lang.Character.isUpperCase(Character.java:5519)
+	java.lang.Character.isUpperCase(Character.java:5488)
+	java.beans.Introspector.decapitalize(Introspector.java:288)
+	java.beans.PropertyDescriptor.<init>(PropertyDescriptor.java:158)
+TRACE 301315:
+	sun.security.ssl.CipherSuite$BulkCipher.isAvailable(CipherSuite.java:548)
+	sun.security.ssl.CipherSuite$BulkCipher.isAvailable(CipherSuite.java:527)
+	sun.security.ssl.CipherSuite.isAvailable(CipherSuite.java:194)
+	sun.security.ssl.SSLContextImpl.getApplicableCipherSuiteList(SSLContextImpl.java:346)
+TRACE 300286:
+	java.util.zip.ZipFile.getEntryTime(ZipFile.java:Unknown line)
+	java.util.zip.ZipFile.getZipEntry(ZipFile.java:570)
+	java.util.zip.ZipFile.getEntry(ZipFile.java:313)
+	java.util.jar.JarFile.getEntry(JarFile.java:240)
+TRACE 300288:
+	java.lang.Thread.currentThread(Thread.java:Unknown line)
+	java.lang.Thread.interrupted(Thread.java:944)
+	sun.misc.Resource.getBytes(Resource.java:96)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:462)
+TRACE 300289:
+	org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:186)
+	org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+TRACE 300323:
+	java.util.Vector.addElement(Vector.java:619)
+	sun.security.provider.PolicyParser$GrantEntry.add(PolicyParser.java:964)
+	sun.security.provider.PolicyParser.parseGrantEntry(PolicyParser.java:558)
+	sun.security.provider.PolicyParser.read(PolicyParser.java:197)
+TRACE 301323:
+	java.io.StreamTokenizer.<init>(StreamTokenizer.java:71)
+	java.io.StreamTokenizer.<init>(StreamTokenizer.java:246)
+	javax.crypto.CryptoPolicyParser.read(CryptoPolicyParser.java:105)
+	javax.crypto.CryptoPermissions.load(CryptoPermissions.java:102)
+TRACE 300700:
+	sun.invoke.util.BytecodeDescriptor.unparseMethod(BytecodeDescriptor.java:117)
+	sun.invoke.util.BytecodeDescriptor.unparse(BytecodeDescriptor.java:104)
+	java.lang.invoke.MethodType.toMethodDescriptorString(MethodType.java:1090)
+	java.lang.invoke.InnerClassLambdaMetafactory.<init>(InnerClassLambdaMetafactory.java:160)
+TRACE 300290:
+	org.gradle.cli.CommandLineParser.parse(CommandLineParser.java:92)
+	org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:192)
+	org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+TRACE 300293:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.logging.internal.DefaultLoggingManager.<init>(DefaultLoggingManager.java:42)
+	org.gradle.logging.internal.DefaultLoggingManagerFactory.create(DefaultLoggingManagerFactory.java:36)
+TRACE 300442:
+	sun.util.calendar.BaseCalendar.getCalendarDateFromFixedDate(BaseCalendar.java:420)
+	sun.util.calendar.AbstractCalendar.getCalendarDate(AbstractCalendar.java:165)
+	sun.util.calendar.Gregorian.getCalendarDate(Gregorian.java:73)
+	sun.util.calendar.Gregorian.getCalendarDate(Gregorian.java:37)
+TRACE 300228:
+	sun.reflect.ReflectionFactory.newMethodAccessor(ReflectionFactory.java:159)
+	java.lang.reflect.Method.acquireMethodAccessor(Method.java:563)
+	java.lang.reflect.Method.invoke(Method.java:495)
+	org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+TRACE 300708:
+	org.gradle.mvn3.org.codehaus.plexus.util.xml.pull.MXParser.setNameStart(MXParser.java:3139)
+	org.gradle.mvn3.org.codehaus.plexus.util.xml.pull.MXParser.<clinit>(MXParser.java:3146)
+	org.gradle.mvn3.org.apache.maven.settings.io.xpp3.SettingsXpp3Reader.read(SettingsXpp3Reader.java:1707)
+	org.gradle.mvn3.org.apache.maven.settings.io.DefaultSettingsReader.read(DefaultSettingsReader.java:69)
+TRACE 301333:
+	java.util.Base64$Decoder.outLength(Base64.java:672)
+	java.util.Base64$Decoder.decode(Base64.java:525)
+	java.util.Base64$Decoder.decode(Base64.java:549)
+	sun.security.provider.X509Factory.readOneBlock(X509Factory.java:636)
+TRACE 300709:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.strategy.ExactVersionMatcher.<clinit>(ExactVersionMatcher.java:29)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.strategy.ResolverStrategy.<init>(ResolverStrategy.java:30)
+TRACE 300710:
+	org.objectweb.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.newNameType(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+TRACE 300711:
+	java.lang.Integer.parseInt(Integer.java:541)
+	java.lang.Integer.valueOf(Integer.java:766)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:546)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+TRACE 300504:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.service.DefaultServiceRegistry$ParentServices.wrap(DefaultServiceRegistry.java:863)
+TRACE 301339:
+	java.math.BigInteger.squareToLen(BigInteger.java:1940)
+	java.math.BigInteger.oddModPow(BigInteger.java:2716)
+	java.math.BigInteger.modPow(BigInteger.java:2459)
+	sun.security.provider.DSA.generateV(DSA.java:345)
+TRACE 301340:
+	java.math.BigInteger.oddModPow(BigInteger.java:2717)
+	java.math.BigInteger.modPow(BigInteger.java:2459)
+	sun.security.provider.DSA.generateV(DSA.java:346)
+	sun.security.provider.DSA.engineVerify(DSA.java:275)
+TRACE 300907:
+	com.sun.org.apache.xerces.internal.util.URI.<clinit>(URI.java:161)
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemIdStrictOff(XMLEntityManager.java:2161)
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId(XMLEntityManager.java:2046)
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:612)
+TRACE 300444:
+	org.gradle.internal.nativeplatform.services.NativeServices.initialize(NativeServices.java:67)
+	org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:203)
+	org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+TRACE 301343:
+	java.util.zip.ZipFile.close(ZipFile.java:Unknown line)
+	java.util.zip.ZipFile.close(ZipFile.java:643)
+	javax.crypto.JceSecurity.loadPolicies(JceSecurity.java:321)
+	javax.crypto.JceSecurity.setupJurisdictionPolicies(JceSecurity.java:267)
+TRACE 300715:
+	java.lang.Class$MethodArray.addIfNotPresent(Class.java:2758)
+	java.lang.Class$MethodArray.addAllIfNotPresent(Class.java:2771)
+	java.lang.Class.privateGetPublicMethods(Class.java:2940)
+	java.lang.Class.getMethods(Class.java:1615)
+TRACE 300229:
+	java.lang.ClassLoader.getPackage(ClassLoader.java:1616)
+	java.net.URLClassLoader.getAndVerifyPackage(URLClassLoader.java:393)
+	java.net.URLClassLoader.definePackageInternal(URLClassLoader.java:419)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:451)
+TRACE 300717:
+	org.gradle.internal.service.DefaultServiceRegistry$FactoryService.bind(DefaultServiceRegistry.java:568)
+	org.gradle.internal.service.DefaultServiceRegistry$SingletonService.prepare(DefaultServiceRegistry.java:484)
+	org.gradle.internal.service.DefaultServiceRegistry$SingletonService.getService(DefaultServiceRegistry.java:497)
+	org.gradle.internal.service.DefaultServiceRegistry$OwnServices.getService(DefaultServiceRegistry.java:388)
+TRACE 300718:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:436)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+TRACE 300719:
+	java.util.WeakHashMap.get(WeakHashMap.java:395)
+	java.beans.ThreadGroupContext.getBeanInfo(ThreadGroupContext.java:93)
+	java.beans.Introspector.getBeanInfo(Introspector.java:170)
+	groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3245)
+TRACE 300720:
+	java.lang.Object.clone(Object.java:Unknown line)
+	sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.getActualTypeArguments(ParameterizedTypeImpl.java:115)
+	com.sun.beans.TypeResolver.prepare(TypeResolver.java:302)
+	com.sun.beans.TypeResolver.prepare(TypeResolver.java:313)
+TRACE 300721:
+	org.gradle.api.internal.artifacts.DependencyManagementBuildScopeServices.createDependencyFactory(DependencyManagementBuildScopeServices.java:91)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+TRACE 300722:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.Class.getInterfaces(Class.java:856)
+	sun.reflect.annotation.AnnotationInvocationHandler.<init>(AnnotationInvocationHandler.java:47)
+	sun.reflect.annotation.AnnotationParser$1.run(AnnotationParser.java:306)
+TRACE 300723:
+	sun.reflect.ReflectionFactory.newConstructorAccessor(ReflectionFactory.java:182)
+	java.lang.reflect.Constructor.acquireConstructorAccessor(Constructor.java:459)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:419)
+	java.lang.Class.newInstance(Class.java:442)
+TRACE 301354:
+	sun.security.validator.SimpleValidator.engineValidate(SimpleValidator.java:155)
+	sun.security.validator.Validator.validate(Validator.java:260)
+	sun.security.validator.Validator.validate(Validator.java:236)
+	sun.security.validator.Validator.validate(Validator.java:205)
+TRACE 300724:
+	sun.reflect.generics.factory.CoreReflectionFactory.<init>(CoreReflectionFactory.java:51)
+	sun.reflect.generics.factory.CoreReflectionFactory.make(CoreReflectionFactory.java:89)
+	sun.reflect.annotation.AnnotationParser.parseSig(AnnotationParser.java:437)
+	sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:241)
+TRACE 300919:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.endElement(IvyXmlModuleDescriptorParser.java:1138)
+	com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+TRACE 300921:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainDependencyResolver.findLatestModule(RepositoryChainDependencyResolver.java:142)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainDependencyResolver.findLatestModule(RepositoryChainDependencyResolver.java:97)
+TRACE 300922:
+	org.gradle.api.internal.artifacts.ivyservice.dynamicversions.SingleFileBackedModuleVersionsCache.createKey(SingleFileBackedModuleVersionsCache.java:69)
+	org.gradle.api.internal.artifacts.ivyservice.dynamicversions.SingleFileBackedModuleVersionsCache.getCachedModuleResolution(SingleFileBackedModuleVersionsCache.java:61)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.listModuleVersionsFromCache(CachingModuleComponentRepository.java:118)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.listModuleVersions(CachingModuleComponentRepository.java:112)
+TRACE 300923:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.DefaultModuleVersionListing$DefaultAvailableVersion.hashCode(DefaultModuleVersionListing.java:73)
+	java.util.HashMap.hash(HashMap.java:338)
+	java.util.HashMap.put(HashMap.java:611)
+	java.util.HashSet.add(HashSet.java:219)
+TRACE 300924:
+	java.io.FileDescriptor.closeAll(FileDescriptor.java:195)
+	java.io.FileInputStream.close(FileInputStream.java:326)
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.close(XMLEntityManager.java:3007)
+	com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.close(UTF8Reader.java:664)
+TRACE 300925:
+	java.util.Arrays$ArrayList.indexOf(Arrays.java:3859)
+	java.util.Arrays$ArrayList.contains(Arrays.java:3868)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.getExtraAttributes(IvyXmlModuleDescriptorParser.java:1189)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.dependencyStarted(IvyXmlModuleDescriptorParser.java:859)
+TRACE 301364:
+	sun.security.x509.CertificateExtensions.hasUnsupportedCriticalExtension(CertificateExtensions.java:287)
+	sun.security.x509.X509CertImpl.hasUnsupportedCriticalExtension(X509CertImpl.java:1257)
+	sun.security.pkcs.SignerInfo.verify(SignerInfo.java:358)
+	sun.security.pkcs.PKCS7.verify(PKCS7.java:579)
+TRACE 301365:
+	sun.nio.cs.ISO_8859_1$Encoder.implReplaceWith(ISO_8859_1.java:235)
+	java.nio.charset.CharsetEncoder.replaceWith(CharsetEncoder.java:303)
+	java.nio.charset.CharsetEncoder.<init>(CharsetEncoder.java:207)
+	java.nio.charset.CharsetEncoder.<init>(CharsetEncoder.java:233)
+TRACE 301366:
+	sun.security.provider.SHA2$SHA256.<init>(SHA2.java:260)
+	sun.reflect.GeneratedConstructorAccessor20.newInstance(<Unknown Source>:Unknown line)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+TRACE 301367:
+	sun.misc.Unsafe.putInt(Unsafe.java:Unknown line)
+	sun.security.provider.ByteArrayAccess.i2bBig(ByteArrayAccess.java:325)
+	sun.security.provider.SHA2.implDigest(SHA2.java:104)
+	sun.security.provider.DigestBase.engineDigest(DigestBase.java:181)
+TRACE 301368:
+	sun.security.provider.SHA2.implCompress(SHA2.java:189)
+	sun.security.provider.DigestBase.implCompressMultiBlock(DigestBase.java:140)
+	sun.security.provider.DigestBase.engineUpdate(DigestBase.java:127)
+	java.security.MessageDigest$Delegate.engineUpdate(MessageDigest.java:584)
+TRACE 301369:
+	sun.net.www.protocol.jar.URLJarFile.close(URLJarFile.java:164)
+	javax.crypto.JarVerifier.verifySingleJar(JarVerifier.java:528)
+	javax.crypto.JarVerifier.verifyJars(JarVerifier.java:322)
+	javax.crypto.JarVerifier.verify(JarVerifier.java:250)
+TRACE 300926:
+	java.math.MutableBigInteger.copyAndShift(MutableBigInteger.java:1465)
+	java.math.MutableBigInteger.divideMagnitude(MutableBigInteger.java:1494)
+	java.math.MutableBigInteger.divideKnuth(MutableBigInteger.java:1227)
+	java.math.MutableBigInteger.divide(MutableBigInteger.java:1153)
+TRACE 301371:
+	sun.security.provider.SHA2$SHA256.<init>(SHA2.java:260)
+	sun.reflect.GeneratedConstructorAccessor20.newInstance(<Unknown Source>:Unknown line)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+TRACE 301372:
+	com.sun.crypto.provider.AESCrypt.<clinit>(AESCrypt.java:222)
+	com.sun.crypto.provider.AESCipher.<init>(AESCipher.java:180)
+	com.sun.crypto.provider.AESCipher$General.<init>(AESCipher.java:54)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+TRACE 301373:
+	com.sun.crypto.provider.AESCrypt.mul4(AESCrypt.java:331)
+	com.sun.crypto.provider.AESCrypt.<clinit>(AESCrypt.java:295)
+	com.sun.crypto.provider.AESCipher.<init>(AESCipher.java:180)
+	com.sun.crypto.provider.AESCipher$General.<init>(AESCipher.java:54)
+TRACE 301374:
+	com.sun.crypto.provider.AESCrypt.<clinit>(AESCrypt.java:290)
+	com.sun.crypto.provider.AESCipher.<init>(AESCipher.java:180)
+	com.sun.crypto.provider.AESCipher$General.<init>(AESCipher.java:54)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+TRACE 301375:
+	java.util.zip.Inflater.inflateBytes(Inflater.java:Unknown line)
+	java.util.zip.Inflater.inflate(Inflater.java:259)
+	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+	java.util.jar.JarVerifier$VerifierStream.read(JarVerifier.java:478)
+TRACE 300927:
+	java.lang.StringCoding.encode(StringCoding.java:332)
+	java.lang.StringCoding.encode(StringCoding.java:387)
+	java.lang.String.getBytes(String.java:946)
+	org.gradle.internal.hash.HashUtil.createHash(HashUtil.java:28)
+TRACE 300928:
+	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setFeature(XMLEntityManager.java:1613)
+	com.sun.org.apache.xerces.internal.parsers.XML11Configuration.setFeature(XML11Configuration.java:917)
+	com.sun.org.apache.xerces.internal.parsers.XIncludeAwareParserConfiguration.setFeature(XIncludeAwareParserConfiguration.java:294)
+	com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.setFeature(AbstractSAXParser.java:1527)
+TRACE 300929:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.replaceConfigurationWildcards(IvyXmlModuleDescriptorParser.java:407)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.parseDepsConfs(IvyXmlModuleDescriptorParser.java:197)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.parseDepsConfs(IvyXmlModuleDescriptorParser.java:187)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.parseDepsConfs(IvyXmlModuleDescriptorParser.java:177)
+TRACE 300930:
+	com.sun.org.apache.xerces.internal.util.XMLStringBuffer.<init>(XMLStringBuffer.java:118)
+	com.sun.org.apache.xerces.internal.util.XMLStringBuffer.<init>(XMLStringBuffer.java:109)
+	com.sun.org.apache.xerces.internal.impl.XMLScanner.<init>(XMLScanner.java:231)
+	com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.<init>(XMLDocumentFragmentScannerImpl.java:412)
+TRACE 300931:
+	java.util.Calendar.clear(Calendar.java:1984)
+	java.text.CalendarBuilder.establish(CalendarBuilder.java:114)
+	java.text.SimpleDateFormat.parse(SimpleDateFormat.java:1532)
+	java.text.DateFormat.parse(DateFormat.java:364)
+TRACE 300932:
+	com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces(XMLEntityScanner.java:1513)
+	com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1374)
+	com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+TRACE 300933:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.startElement(IvyXmlModuleDescriptorParser.java:516)
+	com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+TRACE 300934:
+	java.lang.Boolean.parseBoolean(Boolean.java:122)
+	java.lang.Boolean.valueOf(Boolean.java:163)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.dependencyStarted(IvyXmlModuleDescriptorParser.java:846)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.startElement(IvyXmlModuleDescriptorParser.java:557)
+TRACE 300935:
+	java.lang.StringCoding.encode(StringCoding.java:344)
+	java.lang.StringCoding.encode(StringCoding.java:387)
+	java.lang.String.getBytes(String.java:946)
+	org.gradle.internal.hash.HashUtil.createHash(HashUtil.java:28)
+TRACE 300936:
+	org.apache.ivy.core.module.id.ModuleRevisionId.equals(ModuleRevisionId.java:237)
+	java.util.WeakHashMap.eq(WeakHashMap.java:287)
+	java.util.WeakHashMap.get(WeakHashMap.java:401)
+	org.apache.ivy.core.module.id.ModuleRevisionId.intern(ModuleRevisionId.java:163)
+TRACE 300937:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.confStarted(IvyXmlModuleDescriptorParser.java:793)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.startElement(IvyXmlModuleDescriptorParser.java:559)
+	com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+TRACE 300938:
+	java.io.FileInputStream.close0(FileInputStream.java:Unknown line)
+	java.io.FileInputStream.access$000(FileInputStream.java:49)
+	java.io.FileInputStream$1.close(FileInputStream.java:328)
+	java.io.FileDescriptor.closeAll(FileDescriptor.java:212)
+TRACE 300939:
+	com.esotericsoftware.kryo.io.Output.writeString(Output.java:337)
+	org.gradle.messaging.serialize.kryo.KryoBackedEncoder.writeString(KryoBackedEncoder.java:70)
+	org.gradle.api.internal.artifacts.ModuleVersionIdentifierSerializer.write(ModuleVersionIdentifierSerializer.java:29)
+	org.gradle.api.internal.artifacts.ResolvedConfigurationIdentifierSerializer.write(ResolvedConfigurationIdentifierSerializer.java:36)
+TRACE 300940:
+	java.util.Formatter.format(Formatter.java:2504)
+	java.util.Formatter.format(Formatter.java:2455)
+	java.lang.String.format(String.java:2928)
+	org.gradle.api.internal.artifacts.component.DefaultModuleComponentSelector.<init>(DefaultModuleComponentSelector.java:32)
+TRACE 300941:
+	org.gradle.api.internal.artifacts.metadata.DefaultMavenModuleVersionMetaData.getComponentId(DefaultMavenModuleVersionMetaData.java:27)
+	org.gradle.api.internal.artifacts.metadata.AbstractModuleVersionMetaData.artifact(AbstractModuleVersionMetaData.java:84)
+	org.gradle.api.internal.artifacts.metadata.DefaultMavenModuleVersionMetaData.artifact(DefaultMavenModuleVersionMetaData.java:27)
+	org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver$MavenLocalRepositoryAccess.resolveConfigurationArtifacts(MavenResolver.java:190)
+TRACE 300942:
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository.artifactCacheKey(CachingModuleComponentRepository.java:348)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository.access$1200(CachingModuleComponentRepository.java:48)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:242)
+	org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:238)
+TRACE 300943:
+	sun.security.provider.ByteArrayAccess.i2bLittle(ByteArrayAccess.java:190)
+	sun.security.provider.MD5.implDigest(MD5.java:107)
+	sun.security.provider.DigestBase.engineDigest(DigestBase.java:181)
+	sun.security.provider.DigestBase.engineDigest(DigestBase.java:160)
+TRACE 300944:
+	com.google.common.base.Platform.systemNanoTime(Platform.java:34)
+	com.google.common.base.Ticker$1.read(Ticker.java:60)
+	com.google.common.base.Stopwatch.start(Stopwatch.java:159)
+	com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3520)
+TRACE 300945:
+	java.io.UnixFileSystem.canonicalize0(UnixFileSystem.java:Unknown line)
+	java.io.UnixFileSystem.canonicalize(UnixFileSystem.java:172)
+	java.io.File.getCanonicalPath(File.java:618)
+	java.io.File.getCanonicalFile(File.java:643)
+TRACE 300946:
+	java.io.UnixFileSystem.getBooleanAttributes0(UnixFileSystem.java:Unknown line)
+	java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:242)
+	java.io.File.exists(File.java:819)
+	sun.misc.FileURLMapper.exists(FileURLMapper.java:78)
+TRACE 301397:
+	sun.security.ssl.SSLSocketImpl.initHandshaker(SSLSocketImpl.java:1329)
+	sun.security.ssl.SSLSocketImpl.doneConnect(SSLSocketImpl.java:690)
+	sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:669)
+	org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:532)
+TRACE 300947:
+	groovy.lang.MetaClassImpl.applyStrayPropertyMethods(MetaClassImpl.java:2398)
+	groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2253)
+	groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+TRACE 300948:
+	sun.misc.URLClassPath.getResource(URLClassPath.java:211)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+TRACE 300952:
+	java.beans.PropertyChangeSupport.addPropertyChangeListener(PropertyChangeSupport.java:110)
+	groovy.util.ObservableList.addPropertyChangeListener(ObservableList.java:445)
+	org.gradle.api.internal.AbstractTask.<init>(AbstractTask.java:127)
+	org.gradle.api.internal.AbstractTask.<init>(AbstractTask.java:100)
+TRACE 300953:
+	org.codehaus.groovy.reflection.CachedClass.<init>(CachedClass.java:228)
+	org.codehaus.groovy.reflection.ClassInfo.createCachedClass(ClassInfo.java:316)
+	org.codehaus.groovy.reflection.ClassInfo.access$400(ClassInfo.java:37)
+	org.codehaus.groovy.reflection.ClassInfo$LazyCachedClassRef.initValue(ClassInfo.java:484)
+TRACE 300954:
+	java.beans.Introspector.processPropertyDescriptors(Introspector.java:652)
+	java.beans.Introspector.getTargetPropertyInfo(Introspector.java:553)
+	java.beans.Introspector.getBeanInfo(Introspector.java:428)
+	java.beans.Introspector.getBeanInfo(Introspector.java:173)
+TRACE 300956:
+	org.objectweb.asm.ClassWriter.newUTF8(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.a(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.newClass(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.visit(<Unknown Source>:Unknown line)
+TRACE 300957:
+	org.gradle.api.internal.ThreadGlobalInstantiator.set(ThreadGlobalInstantiator.java:50)
+	org.gradle.api.internal.ClassGeneratorBackedInstantiator.newInstance(ClassGeneratorBackedInstantiator.java:38)
+	org.gradle.api.internal.tasks.DefaultTaskCollection.filtered(DefaultTaskCollection.java:52)
+	org.gradle.api.internal.tasks.DefaultTaskCollection.withType(DefaultTaskCollection.java:57)
+TRACE 300958:
+	java.util.Formatter$FormatSpecifier.checkBadFlags(Formatter.java:2995)
+	java.util.Formatter$FormatSpecifier.checkGeneral(Formatter.java:2955)
+	java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2725)
+	java.util.Formatter.parse(Formatter.java:2560)
+TRACE 300960:
+	org.codehaus.groovy.reflection.ClassInfo.isValidWeakMetaClass(ClassInfo.java:229)
+	org.codehaus.groovy.reflection.ClassInfo.isValidWeakMetaClass(ClassInfo.java:221)
+	org.codehaus.groovy.reflection.ClassInfo.getMetaClassForClass(ClassInfo.java:191)
+	org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:236)
+TRACE 300961:
+	java.lang.reflect.ReflectAccess.copyMethod(ReflectAccess.java:140)
+	sun.reflect.ReflectionFactory.copyMethod(ReflectionFactory.java:302)
+	java.lang.Class.copyMethods(Class.java:3124)
+	java.lang.Class.getMethods(Class.java:1615)
+TRACE 300962:
+	sun.misc.Resource.getBytes(Resource.java:100)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:462)
+	java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+TRACE 300963:
+	com.google.common.collect.ImmutableSet.builder(ImmutableSet.java:437)
+	org.gradle.model.internal.inspect.ModelRuleInspector.getDeclaredSources(ModelRuleInspector.java:128)
+	org.gradle.api.internal.plugins.PluginModelRuleExtractor.execute(PluginModelRuleExtractor.java:37)
+	org.gradle.api.internal.plugins.PluginModelRuleExtractor.execute(PluginModelRuleExtractor.java:27)
+TRACE 301416:
+	sun.text.normalizer.NormalizerBase.normalize(NormalizerBase.java:1608)
+	sun.text.normalizer.NormalizerBase.normalize(NormalizerBase.java:1593)
+	java.text.Normalizer.normalize(Normalizer.java:160)
+	sun.security.x509.AVA.toRFC2253CanonicalString(AVA.java:999)
+TRACE 300965:
+	com.google.common.reflect.TypeToken.isAssignable(TypeToken.java:747)
+	com.google.common.reflect.TypeToken.isAssignableFrom(TypeToken.java:423)
+	com.google.common.reflect.TypeToken.isAssignableFrom(TypeToken.java:418)
+	org.gradle.model.internal.core.ModelType.isAssignableFrom(ModelType.java:100)
+TRACE 300967:
+	java.lang.reflect.AccessibleObject.setAccessible(AccessibleObject.java:129)
+	org.codehaus.groovy.reflection.CachedConstructor$1.run(CachedConstructor.java:41)
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	org.codehaus.groovy.reflection.CachedConstructor.<init>(CachedConstructor.java:39)
+TRACE 300968:
+	java.lang.ClassLoader.preDefineClass(ClassLoader.java:653)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:758)
+	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+TRACE 301422:
+	sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:93)
+	sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:79)
+	java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+	sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:347)
+TRACE 300969:
+	java.util.Formatter.toString(Formatter.java:2355)
+	java.lang.String.format(String.java:2928)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:68)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301424:
+	sun.security.x509.X509CertImpl.get(X509CertImpl.java:662)
+	sun.security.x509.X509CertImpl.getExtensionValue(X509CertImpl.java:1413)
+	sun.security.provider.certpath.AdaptableX509CertSelector.matchSubjectKeyID(AdaptableX509CertSelector.java:223)
+	sun.security.provider.certpath.AdaptableX509CertSelector.match(AdaptableX509CertSelector.java:167)
+TRACE 301425:
+	java.io.ByteArrayOutputStream.<init>(ByteArrayOutputStream.java:62)
+	sun.security.util.DerOutputStream.<init>(DerOutputStream.java:66)
+	sun.security.x509.X509CertImpl.getExtensionValue(X509CertImpl.java:1430)
+	sun.security.provider.certpath.AdaptableX509CertSelector.matchSubjectKeyID(AdaptableX509CertSelector.java:223)
+TRACE 300972:
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:75)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+	org.gradle.api.internal.ClassGeneratorBackedInstantiator.newInstance(ClassGeneratorBackedInstantiator.java:36)
+	org.gradle.api.internal.project.taskfactory.TaskFactory$1.call(TaskFactory.java:124)
+TRACE 300973:
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	java.lang.Class.getConstructors(Class.java:1651)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:186)
+TRACE 301430:
+	sun.security.provider.certpath.PolicyChecker.<clinit>(PolicyChecker.java:74)
+	sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:183)
+	sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:140)
+	sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:79)
+TRACE 300974:
+	org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>(DefaultSourceDirectorySet.java:34)
+	org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>(DefaultSourceDirectorySet.java:48)
+	org.gradle.api.internal.tasks.DefaultSourceSet.<init>(DefaultSourceSet.java:49)
+	org.gradle.api.internal.tasks.DefaultSourceSet_Decorated.<init>(<Unknown Source>:Unknown line)
+TRACE 300975:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+TRACE 300976:
+	java.lang.Object.hashCode(Object.java:Unknown line)
+	java.util.HashMap.hash(HashMap.java:338)
+	java.util.HashMap.put(HashMap.java:611)
+	java.util.HashSet.add(HashSet.java:219)
+TRACE 301436:
+	sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:223)
+	sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:140)
+	sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:79)
+	java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+TRACE 300980:
+	java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:444)
+	java.lang.StringBuffer.append(StringBuffer.java:312)
+	java.lang.StringBuffer.append(StringBuffer.java:97)
+	java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:459)
+TRACE 300981:
+	java.lang.Class.isAssignableFrom(Class.java:Unknown line)
+	java.lang.reflect.Proxy.isProxyClass(Proxy.java:791)
+	sun.reflect.misc.ReflectUtil.isNonPublicProxyClass(ReflectUtil.java:289)
+	sun.reflect.misc.ReflectUtil.checkPackageAccess(ReflectUtil.java:165)
+TRACE 300982:
+	org.objectweb.asm.MethodWriter.visitInsn(<Unknown Source>:Unknown line)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.applyConventionMappingToGetter(AsmBackedClassGenerator.java:777)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:147)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+TRACE 300983:
+	org.gradle.api.internal.jvm.DefaultClassDirectoryBinarySpec.<init>(DefaultClassDirectoryBinarySpec.java:41)
+	org.gradle.api.internal.jvm.DefaultClassDirectoryBinarySpec_Decorated.<init>(<Unknown Source>:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+TRACE 301442:
+	sun.security.ec.ECKeyPairGenerator.generateECKeyPair(ECKeyPairGenerator.java:Unknown line)
+	sun.security.ec.ECKeyPairGenerator.generateKeyPair(ECKeyPairGenerator.java:128)
+	java.security.KeyPairGenerator$Delegate.generateKeyPair(KeyPairGenerator.java:703)
+	sun.security.ssl.ECDHCrypt.<init>(ECDHCrypt.java:77)
+TRACE 300984:
+	java.net.URLStreamHandler.setURL(URLStreamHandler.java:537)
+	java.net.URLStreamHandler.setURL(URLStreamHandler.java:587)
+	sun.net.www.protocol.jar.Handler.parseURL(Handler.java:163)
+	java.net.URL.<init>(URL.java:615)
+TRACE 300985:
+	java.nio.Bits.getInt(Bits.java:242)
+	java.nio.HeapByteBuffer.getInt(HeapByteBuffer.java:361)
+	sun.reflect.annotation.AnnotationParser.skipMemberValue(AnnotationParser.java:820)
+	sun.reflect.annotation.AnnotationParser.skipMemberValue(AnnotationParser.java:809)
+TRACE 300986:
+	java.lang.Class.forName(Class.java:348)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	com.sun.beans.finder.InstanceFinder.instantiate(InstanceFinder.java:93)
+TRACE 300987:
+	java.lang.System.nanoTime(System.java:Unknown line)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+TRACE 300988:
+	sun.reflect.generics.parser.SignatureParser.parseIdentifier(SignatureParser.java:269)
+	sun.reflect.generics.parser.SignatureParser.parsePackageNameAndSimpleClassTypeSignature(SignatureParser.java:328)
+	sun.reflect.generics.parser.SignatureParser.parseClassTypeSignature(SignatureParser.java:310)
+	sun.reflect.generics.parser.SignatureParser.parseFieldTypeSignature(SignatureParser.java:289)
+TRACE 300989:
+	java.util.regex.Matcher.getTextLength(Matcher.java:1283)
+	java.util.regex.Matcher.find(Matcher.java:660)
+	java.util.Formatter.parse(Formatter.java:2549)
+	java.util.Formatter.format(Formatter.java:2501)
+TRACE 300990:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:43)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301450:
+	javax.crypto.Cipher$Transform.<init>(Cipher.java:366)
+	javax.crypto.Cipher.getTransforms(Cipher.java:450)
+	javax.crypto.Cipher.getInstance(Cipher.java:503)
+	sun.security.ssl.JsseJce.getCipher(JsseJce.java:229)
+TRACE 300994:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.gradle.api.internal.project.taskfactory.NestedBeanPropertyAnnotationHandler$1.update(NestedBeanPropertyAnnotationHandler.java:38)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.addInputsAndOutputs(AnnotationProcessingTaskFactory.java:258)
+TRACE 301456:
+	javax.naming.directory.BasicAttributes.put(BasicAttributes.java:177)
+	javax.naming.ldap.Rdn.toAttributes(Rdn.java:410)
+	org.apache.http.conn.ssl.DefaultHostnameVerifier.extractCN(DefaultHostnameVerifier.java:242)
+	org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:139)
+TRACE 301457:
+	org.gradle.internal.classloader.FilteringClassLoader.loadClass(FilteringClassLoader.java:77)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 300996:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.reflect.Method.getParameterTypes(Method.java:264)
+	java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:286)
+	java.lang.reflect.Method.getGenericParameterTypes(Method.java:282)
+TRACE 301459:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:42)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.apache.http.impl.auth.HttpAuthenticator.isAuthenticationRequested(HttpAuthenticator.java:83)
+TRACE 300997:
+	groovy.lang.MetaClassImpl.applyStrayPropertyMethods(MetaClassImpl.java:2383)
+	groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2252)
+	groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+TRACE 300998:
+	org.gradle.api.internal.project.taskfactory.InputDirectoryPropertyAnnotationHandler.getAnnotationType(InputDirectoryPropertyAnnotationHandler.java:41)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationAction(AnnotationProcessingTaskFactory.java:318)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationActions(AnnotationProcessingTaskFactory.java:312)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachActions(AnnotationProcessingTaskFactory.java:302)
+TRACE 301462:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	org.cyberneko.html.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2094)
+TRACE 301463:
+	groovy.util.XmlSlurper.startElement(XmlSlurper.java:397)
+	org.apache.xerces.parsers.AbstractSAXParser.startElement(<Unknown Source>:Unknown line)
+	org.cyberneko.html.HTMLTagBalancer.callStartElement(HTMLTagBalancer.java:1141)
+	org.cyberneko.html.HTMLTagBalancer.startElement(HTMLTagBalancer.java:746)
+TRACE 301464:
+	org.apache.tools.ant.Project.fireBuildFinished(Project.java:2090)
+	org.gradle.api.internal.project.ant.BasicAntBuilder.close(BasicAntBuilder.java:100)
+	org.gradle.internal.concurrent.CompositeStoppable$2.stop(CompositeStoppable.java:83)
+	org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:98)
+TRACE 301465:
+	java.io.UnixFileSystem.delete0(UnixFileSystem.java:Unknown line)
+	java.io.UnixFileSystem.delete(UnixFileSystem.java:265)
+	java.io.File.delete(File.java:1041)
+	org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.DefaultBinaryStore.close(DefaultBinaryStore.java:85)
+TRACE 300999:
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:107)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+	org.gradle.api.internal.project.taskfactory.TaskFactory.createTaskObject(TaskFactory.java:116)
+	org.gradle.api.internal.project.taskfactory.TaskFactory.createTask(TaskFactory.java:81)
+TRACE 301000:
+	org.gradle.external.javadoc.StandardJavadocDocletOptions.<init>(StandardJavadocDocletOptions.java:53)
+	org.gradle.external.javadoc.StandardJavadocDocletOptions.<init>(StandardJavadocDocletOptions.java:34)
+	org.gradle.api.tasks.javadoc.Javadoc.<init>(Javadoc.java:80)
+	org.gradle.api.tasks.javadoc.Javadoc_Decorated.<init>(<Unknown Source>:Unknown line)
+TRACE 301002:
+	org.gradle.api.internal.AbstractClassGenerator.inspectType(AbstractClassGenerator.java:255)
+	org.gradle.api.internal.AbstractClassGenerator.inspectType(AbstractClassGenerator.java:210)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:91)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+TRACE 301003:
+	java.lang.Class.getDeclaredConstructors0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	org.gradle.api.internal.DependencyInjectingInstantiator.selectConstructor(DependencyInjectingInstantiator.java:83)
+TRACE 300726:
+	java.lang.Thread.currentThread(Thread.java:Unknown line)
+	java.beans.ThreadGroupContext.getContext(ThreadGroupContext.java:57)
+	java.beans.Introspector.findExplicitBeanInfo(Introspector.java:448)
+	java.beans.Introspector.<init>(Introspector.java:398)
+TRACE 301005:
+	org.gradle.api.internal.tasks.testing.logging.DefaultTestLogging.<init>(DefaultTestLogging.java:34)
+	org.gradle.api.internal.tasks.testing.logging.DefaultTestLogging_Decorated.<init>(<Unknown Source>:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+TRACE 300100:
+	sun.misc.Unsafe.compareAndSwapLong(Unsafe.java:Unknown line)
+	java.util.concurrent.ConcurrentHashMap.addCount(ConcurrentHashMap.java:2259)
+	java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1070)
+	java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1535)
+TRACE 301007:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+TRACE 301008:
+	org.gradle.api.internal.AbstractClassGenerator.inspectType(AbstractClassGenerator.java:256)
+	org.gradle.api.internal.AbstractClassGenerator.inspectType(AbstractClassGenerator.java:210)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:91)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+TRACE 301009:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.FilteringClassLoader.loadClass(FilteringClassLoader.java:80)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+TRACE 301010:
+	org.gradle.api.internal.BeanDynamicObject.determineDelegate(BeanDynamicObject.java:58)
+	org.gradle.api.internal.BeanDynamicObject.<init>(BeanDynamicObject.java:54)
+	org.gradle.api.internal.BeanDynamicObject.<init>(BeanDynamicObject.java:47)
+	org.gradle.api.internal.BeanDynamicObject.<init>(BeanDynamicObject.java:43)
+TRACE 301011:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.FilteringClassLoader.loadClass(FilteringClassLoader.java:80)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301012:
+	java.lang.Class.access$300(Class.java:119)
+	java.lang.Class$MethodArray.matchesNameAndDescriptor(Class.java:2820)
+	java.lang.Class$MethodArray.removeByNameAndDescriptor(Class.java:2805)
+	java.lang.Class.privateGetPublicMethods(Class.java:2925)
+TRACE 301014:
+	java.lang.StringBuilder.append(StringBuilder.java:136)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:548)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:615)
+TRACE 301015:
+	com.sun.beans.TypeResolver.resolve(TypeResolver.java:218)
+	com.sun.beans.TypeResolver.resolve(TypeResolver.java:169)
+	com.sun.beans.TypeResolver.resolveInClass(TypeResolver.java:81)
+	java.beans.FeatureDescriptor.getReturnType(FeatureDescriptor.java:370)
+TRACE 301016:
+	java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:121)
+	java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:622)
+	java.lang.StringBuilder.append(StringBuilder.java:202)
+	java.lang.reflect.Method.specificToGenericStringHeader(Method.java:421)
+TRACE 301017:
+	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:61)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+TRACE 301018:
+	org.gradle.api.plugins.JavaPlugin.configureTest(JavaPlugin.java:142)
+	org.gradle.api.plugins.JavaPlugin.apply(JavaPlugin.java:72)
+	org.gradle.api.plugins.JavaPlugin.apply(JavaPlugin.java:46)
+	org.gradle.api.internal.plugins.DefaultPluginContainer.providePlugin(DefaultPluginContainer.java:188)
+TRACE 301020:
+	org.objectweb.asm.ClassWriter.newUTF8(<Unknown Source>:Unknown line)
+	org.objectweb.asm.FieldWriter.<init>(<Unknown Source>:Unknown line)
+	org.objectweb.asm.ClassWriter.visitField(<Unknown Source>:Unknown line)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.addConventionProperty(AsmBackedClassGenerator.java:721)
+TRACE 301021:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.reflect.Method.getParameterTypes(Method.java:264)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.hasUsableImplementation(CachedSAMClass.java:126)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.getSAMMethod(CachedSAMClass.java:187)
+TRACE 301023:
+	java.lang.Object.hashCode(Object.java:Unknown line)
+	org.codehaus.groovy.util.SingleKeyHashMap.getOrPut(SingleKeyHashMap.java:56)
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.getHeader(MetaMethodIndex.java:242)
+	groovy.lang.MetaClassImpl.applyStrayPropertyMethods(MetaClassImpl.java:2381)
+TRACE 301024:
+	org.codehaus.groovy.util.SingleKeyHashMap.getOrPut(SingleKeyHashMap.java:60)
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.getHeader(MetaMethodIndex.java:242)
+	groovy.lang.MetaClassImpl.addInterfaceMethods(MetaClassImpl.java:413)
+	groovy.lang.MetaClassImpl.fillMethodIndex(MetaClassImpl.java:338)
+TRACE 301025:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:348)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:103)
+TRACE 301026:
+	org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getTaskDependencyFromProjectDependency(DefaultConfiguration.java:262)
+	org.gradle.api.plugins.JavaPlugin.addDependsOnTaskInOtherProjects(JavaPlugin.java:175)
+	org.gradle.api.plugins.JavaPlugin.configureBuild(JavaPlugin.java:116)
+	org.gradle.api.plugins.JavaPlugin.apply(JavaPlugin.java:74)
+TRACE 301027:
+	java.lang.Class.isAssignableFrom(Class.java:Unknown line)
+	org.codehaus.groovy.reflection.ReflectionCache.isAssignableFrom(ReflectionCache.java:74)
+	org.codehaus.groovy.reflection.CachedClass.<init>(CachedClass.java:229)
+	org.codehaus.groovy.reflection.ClassInfo.createCachedClass(ClassInfo.java:316)
+TRACE 301028:
+	java.util.TreeMap.values(TreeMap.java:858)
+	java.beans.Introspector.getTargetPropertyInfo(Introspector.java:557)
+	java.beans.Introspector.getBeanInfo(Introspector.java:428)
+	java.beans.Introspector.getBeanInfo(Introspector.java:173)
+TRACE 301029:
+	java.beans.BeanDescriptor.<init>(BeanDescriptor.java:66)
+	java.beans.Introspector.getTargetBeanDescriptor(Introspector.java:1295)
+	java.beans.Introspector.getBeanInfo(Introspector.java:425)
+	java.beans.Introspector.getBeanInfo(Introspector.java:173)
+TRACE 301030:
+	org.gradle.api.internal.AbstractClassGenerator$MethodSet.iterator(AbstractClassGenerator.java:425)
+	org.gradle.api.internal.AbstractClassGenerator.generateUnderLock(AbstractClassGenerator.java:135)
+	org.gradle.api.internal.AbstractClassGenerator.generate(AbstractClassGenerator.java:60)
+	org.gradle.api.internal.project.taskfactory.TaskFactory.createTaskObject(TaskFactory.java:116)
+TRACE 301031:
+	java.beans.BeanDescriptor.<init>(BeanDescriptor.java:67)
+	java.beans.Introspector.getTargetBeanDescriptor(Introspector.java:1295)
+	java.beans.Introspector.getBeanInfo(Introspector.java:425)
+	java.beans.Introspector.getBeanInfo(Introspector.java:173)
+TRACE 301032:
+	sun.reflect.Reflection.getCallerClass(Reflection.java:Unknown line)
+	java.lang.Class.forName(Class.java:263)
+	groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:146)
+	groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:141)
+TRACE 301034:
+	sun.reflect.ConstructorAccessorImpl.<init>(ConstructorAccessorImpl.java:34)
+	sun.reflect.NativeConstructorAccessorImpl.<init>(NativeConstructorAccessorImpl.java:39)
+	sun.reflect.ReflectionFactory.newConstructorAccessor(ReflectionFactory.java:192)
+	java.lang.reflect.Constructor.acquireConstructorAccessor(Constructor.java:459)
+TRACE 301035:
+	java.util.LinkedHashMap.get(LinkedHashMap.java:440)
+	java.lang.reflect.Executable.getAnnotation(Executable.java:572)
+	java.lang.reflect.Method.getAnnotation(Method.java:621)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory.attachTaskAction(AnnotationProcessingTaskFactory.java:150)
+TRACE 301036:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:348)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:103)
+	com.sun.beans.finder.InstanceFinder.instantiate(InstanceFinder.java:93)
+TRACE 301037:
+	org.gradle.api.plugins.ApplicationPlugin.addCreateScriptsTask(ApplicationPlugin.groovy:81)
+	org.gradle.api.plugins.ApplicationPlugin.apply(ApplicationPlugin.groovy:51)
+	org.gradle.api.plugins.ApplicationPlugin.apply(ApplicationPlugin.groovy:Unknown line)
+	org.gradle.api.internal.plugins.DefaultPluginContainer.providePlugin(DefaultPluginContainer.java:188)
+TRACE 301038:
+	org.gradle.api.plugins.ApplicationPlugin.configureDistSpec(ApplicationPlugin.groovy:130)
+	org.gradle.api.plugins.ApplicationPlugin.this$2$configureDistSpec(ApplicationPlugin.groovy:Unknown line)
+	org.gradle.api.plugins.ApplicationPlugin$this$2$configureDistSpec.callCurrent(<Unknown Source>:Unknown line)
+	org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+TRACE 300013:
+	sun.misc.URLClassPath.getLoader(URLClassPath.java:485)
+	sun.misc.URLClassPath.getNextLoader(URLClassPath.java:457)
+	sun.misc.URLClassPath.getResource(URLClassPath.java:211)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+TRACE 301040:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.forName0(Class.java:Unknown line)
+TRACE 301041:
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:70)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	com.sun.beans.finder.InstanceFinder.instantiate(InstanceFinder.java:93)
+	com.sun.beans.finder.InstanceFinder.find(InstanceFinder.java:66)
+TRACE 301042:
+	java.lang.ClassLoader.findLoadedClass0(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1035)
+	org.codehaus.groovy.reflection.ClassLoaderForClassArtifacts.loadClass(ClassLoaderForClassArtifacts.java:47)
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+TRACE 301043:
+	java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:121)
+	java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:569)
+	java.lang.StringBuffer.append(StringBuffer.java:369)
+	org.objectweb.asm.Type.a(<Unknown Source>:Unknown line)
+TRACE 301044:
+	org.gradle.api.plugins.ApplicationPlugin.addArchiveTask(ApplicationPlugin.groovy:121)
+	org.gradle.api.plugins.ApplicationPlugin.addDistZipTask(ApplicationPlugin.groovy:108)
+	org.gradle.api.plugins.ApplicationPlugin.apply(ApplicationPlugin.groovy:56)
+	org.gradle.api.plugins.ApplicationPlugin.apply(ApplicationPlugin.groovy:Unknown line)
+TRACE 301046:
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:43)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.forName0(Class.java:Unknown line)
+TRACE 301047:
+	java.lang.ClassLoader.findLoadedClass0(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1035)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:406)
+	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
+TRACE 301048:
+	java.util.regex.Matcher.replaceAll(Matcher.java:956)
+	java.lang.String.replaceAll(String.java:2211)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.<init>(AsmBackedClassGenerator.java:77)
+	org.gradle.api.internal.AsmBackedClassGenerator$ClassBuilderImpl.<init>(AsmBackedClassGenerator.java:45)
+TRACE 301049:
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:541)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:615)
+	groovy.lang.MetaClassImpl.fillMethodIndex(MetaClassImpl.java:349)
+TRACE 301050:
+	java.lang.Object.clone(Object.java:Unknown line)
+	sun.reflect.generics.repository.GenericDeclRepository.getTypeParameters(GenericDeclRepository.java:84)
+	java.lang.Class.getTypeParameters(Class.java:715)
+	com.sun.beans.TypeResolver.getActualType(TypeResolver.java:372)
+TRACE 301051:
+	org.gradle.plugins.ide.eclipse.model.EclipseProject.<init>(EclipseProject.groovy:143)
+	org.gradle.plugins.ide.eclipse.model.EclipseProject_Decorated.<init>(<Unknown Source>:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(NativeConstructorAccessorImpl.java:Unknown line)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+TRACE 301052:
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationAction(AnnotationProcessingTaskFactory.java:329)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationActions(AnnotationProcessingTaskFactory.java:312)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachActions(AnnotationProcessingTaskFactory.java:302)
+	org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory.getTaskClassInfo(AnnotationProcessingTaskFactory.java:130)
+TRACE 301053:
+	org.gradle.api.internal.BeanDynamicObject.getMetaClass(BeanDynamicObject.java:83)
+	org.gradle.api.internal.BeanDynamicObject.access$400(BeanDynamicObject.java:32)
+	org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.setProperty(BeanDynamicObject.java:167)
+	org.gradle.api.internal.BeanDynamicObject.setProperty(BeanDynamicObject.java:112)
+TRACE 301054:
+	org.gradle.plugins.ide.eclipse.model.EclipseProject.natures(EclipseProject.groovy:175)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:Unknown line)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+TRACE 301055:
+	java.lang.ClassLoader.loadClass(ClassLoader.java:415)
+	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:264)
+TRACE 301056:
+	org.gradle.plugins.ide.eclipse.EclipsePlugin$_configureEclipseJdt_closure5.$createCallSiteArray(EclipsePlugin.groovy:Unknown line)
+	org.gradle.plugins.ide.eclipse.EclipsePlugin$_configureEclipseJdt_closure5.$getCallSiteArray(EclipsePlugin.groovy:Unknown line)
+	org.gradle.plugins.ide.eclipse.EclipsePlugin$_configureEclipseJdt_closure5.__$swapInit(EclipsePlugin.groovy:Unknown line)
+	org.gradle.plugins.ide.eclipse.EclipsePlugin$_configureEclipseJdt_closure5.<clinit>(EclipsePlugin.groovy:Unknown line)
+TRACE 301057:
+	java.util.regex.Pattern$BmpCharProperty.match(Pattern.java:3798)
+	java.util.regex.Pattern$Start.match(Pattern.java:3461)
+	java.util.regex.Matcher.search(Matcher.java:1248)
+	java.util.regex.Matcher.find(Matcher.java:637)
+TRACE 301059:
+	java.lang.Class.forName(Class.java:348)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	java.beans.Introspector.findCustomizerClass(Introspector.java:1301)
+TRACE 301060:
+	java.lang.Class.getDeclaredFields0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	java.lang.Class.getDeclaredFields(Class.java:1916)
+	org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+TRACE 301061:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	org.codehaus.groovy.reflection.CachedClass$3.initValue(CachedClass.java:81)
+	org.codehaus.groovy.reflection.CachedClass$3.initValue(CachedClass.java:79)
+	org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+TRACE 301062:
+	java.security.AccessController.doPrivileged(AccessController.java:Unknown line)
+	org.codehaus.groovy.reflection.ClassLoaderForClassArtifacts.defineClassAndGetConstructor(ClassLoaderForClassArtifacts.java:72)
+	org.codehaus.groovy.runtime.callsite.CallSiteGenerator.compilePogoMethod(CallSiteGenerator.java:217)
+	org.codehaus.groovy.reflection.CachedMethod.createPogoMetaMethodSite(CachedMethod.java:228)
+TRACE 301063:
+	java.lang.Object.clone(Object.java:Unknown line)
+	java.lang.Class.getInterfaces(Class.java:856)
+	org.codehaus.groovy.runtime.MetaClassHelper.getMaximumInterfaceDistance(MetaClassHelper.java:252)
+	org.codehaus.groovy.runtime.MetaClassHelper.getMaximumInterfaceDistance(MetaClassHelper.java:255)
+TRACE 301064:
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:541)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:615)
+	groovy.lang.MetaClassImpl.fillMethodIndex(MetaClassImpl.java:349)
+TRACE 301065:
+	org.codehaus.groovy.util.SingleKeyHashMap.getOrPut(SingleKeyHashMap.java:56)
+	org.codehaus.groovy.util.SingleKeyHashMap.put(SingleKeyHashMap.java:41)
+	groovy.lang.MetaClassImpl.createMetaBeanProperty(MetaClassImpl.java:2456)
+	groovy.lang.MetaClassImpl.applyStrayPropertyMethods(MetaClassImpl.java:2398)
+TRACE 301066:
+	org.gradle.api.tasks.SourceSet$resources$0.call(<Unknown Source>:Unknown line)
+	org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+TRACE 301067:
+	org.codehaus.groovy.runtime.callsite.CallSiteGenerator.writeMethod(CallSiteGenerator.java:102)
+	org.codehaus.groovy.runtime.callsite.CallSiteGenerator.genCallXxxWithArray(CallSiteGenerator.java:135)
+	org.codehaus.groovy.runtime.callsite.CallSiteGenerator.genPogoMetaMethodSite(CallSiteGenerator.java:164)
+	org.codehaus.groovy.runtime.callsite.CallSiteGenerator.compilePogoMethod(CallSiteGenerator.java:215)
+TRACE 301068:
+	groovy.lang.MetaMethod.isPrivate(MetaMethod.java:193)
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.copyNonPrivateNonNewMetaMethods(MetaMethodIndex.java:362)
+	org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.copyNonPrivateNonNewMetaMethods(MetaMethodIndex.java:340)
+	groovy.lang.MetaClassImpl.connectMultimethods(MetaClassImpl.java:645)
+TRACE 301069:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:264)
+	groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:146)
+	groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:141)
+TRACE 301070:
+	org.gradle.util.CollectionUtils.join(CollectionUtils.java:489)
+	org.gradle.api.internal.file.AbstractFileResolver.normalise(AbstractFileResolver.java:109)
+	org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:60)
+TRACE 301071:
+	java.lang.Class.getModifiers(Class.java:Unknown line)
+	com.sun.beans.finder.MethodFinder.findAccessibleMethod(MethodFinder.java:137)
+	java.beans.Introspector.getPublicDeclaredMethods(Introspector.java:1344)
+	java.beans.Introspector.getTargetMethodInfo(Introspector.java:1197)
+TRACE 301072:
+	groovy.util.AntBuilder.createProject(AntBuilder.java:174)
+	groovy.util.AntBuilder.<init>(AntBuilder.java:80)
+	org.gradle.api.AntBuilder.<init>(AntBuilder.java:23)
+	org.gradle.api.internal.project.ant.BasicAntBuilder.<init>(BasicAntBuilder.java:33)
+TRACE 300729:
+	java.util.AbstractCollection.isEmpty(AbstractCollection.java:86)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.getSingleNonDuplicateMethod(CachedSAMClass.java:136)
+	org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.getSAMMethod(CachedSAMClass.java:189)
+	org.codehaus.groovy.reflection.ClassInfo.isSAM(ClassInfo.java:323)
+TRACE 300730:
+	org.apache.commons.collections.collection.CompositeCollection.getCollections(CompositeCollection.java:389)
+	org.gradle.api.internal.CompositeDomainObjectSet.addCollection(CompositeDomainObjectSet.java:85)
+	org.gradle.api.internal.CompositeDomainObjectSet.<init>(CompositeDomainObjectSet.java:46)
+	org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.<init>(DefaultConfiguration.java:91)
+TRACE 301076:
+	sun.misc.URLClassPath.getLoader(URLClassPath.java:467)
+	sun.misc.URLClassPath.getNextLoader(URLClassPath.java:457)
+	sun.misc.URLClassPath.getResource(URLClassPath.java:211)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+TRACE 301077:
+	groovy.lang.MetaMethod.getMopName(MetaMethod.java:282)
+	groovy.lang.MetaClassImpl$1MOPIter.methodNameAction(MetaClassImpl.java:512)
+	groovy.lang.MetaClassImpl$MethodIndexAction.iterate(MetaClassImpl.java:3666)
+	groovy.lang.MetaClassImpl.replaceWithMOPCalls(MetaClassImpl.java:618)
+TRACE 301078:
+	java.lang.Class.forName0(Class.java:Unknown line)
+	java.lang.Class.forName(Class.java:264)
+	com.tkruse.gradle.groovysh.DynamicInvokeHelper.class$(DynamicInvokeHelper.groovy:Unknown line)
+	com.tkruse.gradle.groovysh.DynamicInvokeHelper.$get$$class$com$tkruse$gradle$groovysh$BuildShellTaskExtension(DynamicInvokeHelper.groovy:Unknown line)
+TRACE 301079:
+	java.util.TimSort.mergeLo(TimSort.java:686)
+	java.util.TimSort.mergeAt(TimSort.java:510)
+	java.util.TimSort.mergeCollapse(TimSort.java:437)
+	java.util.TimSort.sort(TimSort.java:241)
+TRACE 301080:
+	sun.misc.URLClassPath.getLoader(URLClassPath.java:467)
+	sun.misc.URLClassPath.getNextLoader(URLClassPath.java:457)
+	sun.misc.URLClassPath.getResource(URLClassPath.java:211)
+	java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+CPU SAMPLES BEGIN (total = 1537) Wed Feb 10 11:02:47 2016
 rank   self  accum   count trace method
-   1 59.92% 59.92%  738319 301135 java.io.FileInputStream.readBytes
-   2 20.02% 79.94%  246750 300766 java.net.PlainDatagramSocketImpl.receive0
-   3 19.97% 99.91%  246128 301134 java.lang.UNIXProcess.waitForProcessExit
-   4  0.01% 99.93%     174 300228 java.util.zip.ZipFile.read
+   1 41.18% 41.18%     633 300802 java.net.PlainDatagramSocketImpl.receive0
+   2  7.09% 48.28%     109 300083 java.lang.ClassLoader.defineClass1
+   3  4.10% 52.37%      63 300292 java.lang.Throwable.fillInStackTrace
+   4  3.12% 55.50%      48 300285 java.util.zip.ZipFile.getEntry
+   5  1.56% 57.06%      24 301409 java.net.SocketInputStream.socketRead0
+   6  1.17% 58.23%      18 300466 java.util.zip.Inflater.inflateBytes
+   7  1.04% 59.27%      16 300991 java.lang.Class.getDeclaredField
+   8  0.91% 60.18%      14 300503 java.lang.ClassLoader.loadClass
+   9  0.85% 61.03%      13 300992 java.lang.Throwable.fillInStackTrace
+  10  0.78% 61.81%      12 300086 java.lang.ClassLoader.findBootstrapClass
+  11  0.52% 62.33%       8 300731 java.lang.Class.getDeclaredConstructors0
+  12  0.46% 62.78%       7 300737 java.util.zip.ZipCoder.getBytes
+  13  0.46% 63.24%       7 300513 java.lang.ClassLoader.loadClass
+  14  0.39% 63.63%       6 300502 java.lang.ClassLoader.loadClass
+  15  0.39% 64.02%       6 300459 java.security.AccessController.doPrivileged
+  16  0.39% 64.41%       6 300977 java.lang.ClassLoader.loadClass
+  17  0.33% 64.74%       5 300533 java.lang.Class.getDeclaredMethods0
+  18  0.33% 65.06%       5 300736 java.lang.Class.getDeclaredMethods0
+  19  0.33% 65.39%       5 300797 java.lang.ClassLoader.loadClass
+  20  0.33% 65.71%       5 300530 java.lang.ClassLoader.checkCerts
+  21  0.26% 65.97%       4 300611 java.util.zip.ZipFile.getEntryCrc
+  22  0.26% 66.23%       4 300304 java.net.URLClassLoader.findClass
+  23  0.26% 66.49%       4 300287 java.net.URLClassLoader.findClass
+  24  0.26% 66.75%       4 300543 java.lang.ClassLoader.findLoadedClass0
+  25  0.26% 67.01%       4 300547 java.lang.String.intern
+  26  0.26% 67.27%       4 300950 java.lang.ClassLoader.loadClass
+  27  0.26% 67.53%       4 300966 java.lang.ClassLoader.findClass
+  28  0.20% 67.73%       3 300474 java.lang.ClassLoader.loadClass
+  29  0.20% 67.92%       3 300725 java.security.AccessController.doPrivileged
+  30  0.20% 68.12%       3 300955 java.lang.ClassLoader.defineClass1
+  31  0.20% 68.31%       3 300809 sun.misc.URLClassPath.getNextLoader
+  32  0.20% 68.51%       3 301058 java.lang.System.identityHashCode
+  33  0.20% 68.71%       3 300920 java.lang.Object.clone
+  34  0.20% 68.90%       3 300486 java.io.UnixFileSystem.list
+  35  0.20% 69.10%       3 300978 org.gradle.internal.classloader.CachingClassLoader.loadClass
+  36  0.20% 69.29%       3 300789 java.lang.Class.getDeclaredMethods0
+  37  0.20% 69.49%       3 300979 java.lang.Class.getDeclaredConstructors0
+  38  0.20% 69.68%       3 300579 java.lang.ClassLoader.findLoadedClass0
+  39  0.20% 69.88%       3 300993 org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.addInputsAndOutputs
+  40  0.20% 70.07%       3 301392 java.net.PlainSocketImpl.socketConnect
+  41  0.13% 70.20%       2 300971 java.lang.ClassLoader.loadClass
+  42  0.13% 70.33%       2 300734 java.lang.Class.forName0
+  43  0.13% 70.46%       2 301001 java.lang.ClassLoader.loadClass
+  44  0.13% 70.59%       2 301138 java.lang.ClassLoader.loadClass
+  45  0.13% 70.72%       2 301045 java.lang.Class.isAssignableFrom
+  46  0.13% 70.85%       2 300581 java.security.AccessController.doPrivileged
+  47  0.13% 70.98%       2 300970 java.beans.Introspector.<init>
+  48  0.13% 71.11%       2 301087 java.lang.ClassLoader.loadClass
+  49  0.13% 71.24%       2 301089 java.lang.Object.clone
+  50  0.13% 71.37%       2 301013 org.gradle.internal.classloader.CachingClassLoader.loadClass
+  51  0.13% 71.50%       2 300792 java.lang.Class.forName0
+  52  0.13% 71.63%       2 301033 java.lang.Object.clone
+  53  0.13% 71.76%       2 301122 java.lang.Class.getDeclaredConstructors0
+  54  0.13% 71.89%       2 300291 java.util.zip.Inflater.reset
+  55  0.13% 72.02%       2 301022 java.lang.ClassLoader.loadClass
+  56  0.13% 72.15%       2 300748 java.lang.Class.isArray
+  57  0.13% 72.28%       2 300964 sun.reflect.NativeConstructorAccessorImpl.newInstance0
+  58  0.13% 72.41%       2 300525 java.lang.Class.forName0
+  59  0.13% 72.54%       2 301125 java.util.jar.JarFile.getInputStream
+  60  0.13% 72.67%       2 300796 java.lang.Class.getSuperclass
+  61  0.13% 72.80%       2 300995 java.lang.StringBuilder.append
+  62  0.13% 72.93%       2 300959 org.gradle.internal.classloader.MultiParentClassLoader.loadClass
+  63  0.13% 73.06%       2 301349 sun.security.provider.SHA2.implCompress
+  64  0.13% 73.19%       2 300514 java.lang.Package.getSystemPackage0
+  65  0.13% 73.32%       2 301019 org.gradle.api.internal.DefaultNamedDomainObjectCollection.getByName
+  66  0.13% 73.45%       2 300949 java.util.Date.normalize
+  67  0.13% 73.58%       2 300617 java.lang.ClassLoader.loadClass
+  68  0.13% 73.72%       2 301363 sun.security.provider.SHA2.implCompress
+  69  0.13% 73.85%       2 300742 java.lang.Class.isInterface
+  70  0.13% 73.98%       2 300786 java.util.zip.ZipFile.getEntry
+  71  0.13% 74.11%       2 301118 java.lang.ClassLoader.findBootstrapClass
+  72  0.13% 74.24%       2 300744 sun.misc.PerfCounter.get
+  73  0.13% 74.37%       2 301075 java.lang.Class.getDeclaredConstructors0
+  74  0.07% 74.43%       1 301081 com.tkruse.gradle.groovysh.ApplicationShellTaskExtension_Decorated.<init>
+  75  0.07% 74.50%       1 301082 groovy.lang.MetaClassImpl$1MOPIter.decomposeMopName
+  76  0.07% 74.56%       1 301083 org.gradle.api.internal.tasks.DefaultTaskInputs$7.<init>
+  77  0.07% 74.63%       1 301084 org.gradle.api.internal.DefaultDomainObjectCollection.size
+  78  0.07% 74.69%       1 301085 java.security.AccessController.doPrivileged
+  79  0.07% 74.76%       1 301086 org.objectweb.asm.ClassWriter.a
+  80  0.07% 74.82%       1 301088 java.lang.Class.isAssignableFrom
+  81  0.07% 74.89%       1 301090 org.gradle.internal.classloader.CachingClassLoader.loadClass
+  82  0.07% 74.95%       1 301092 java.util.Arrays.copyOf
+  83  0.07% 75.02%       1 301093 java.lang.Object.clone
+  84  0.07% 75.08%       1 301094 org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod
+  85  0.07% 75.15%       1 301095 java.lang.Throwable.<init>
+  86  0.07% 75.21%       1 301096 org.gradle.internal.typeconversion.JustReturningParser.parseNotation
+  87  0.07% 75.28%       1 301097 org.apache.commons.collections.map.AbstractReferenceMap.purgeBeforeWrite
+  88  0.07% 75.34%       1 301098 java.lang.Object.clone
+  89  0.07% 75.41%       1 301099 java.lang.Throwable.<init>
+  90  0.07% 75.47%       1 301100 java.util.regex.Pattern$BmpCharProperty.match
+  91  0.07% 75.54%       1 301101 java.util.Formatter$FormatSpecifier.<init>
+  92  0.07% 75.60%       1 301102 sun.reflect.generics.tree.ClassSignature.getFormalTypeParameters
+  93  0.07% 75.67%       1 301103 java.security.AccessController.doPrivileged
+  94  0.07% 75.73%       1 301104 groovyjarjarasm.asm.ByteVector.putUTF8
+  95  0.07% 75.80%       1 301105 sun.reflect.ByteVectorImpl.<init>
+  96  0.07% 75.86%       1 301106 org.codehaus.groovy.runtime.metaclass.MetaMethodIndex.copyNonPrivateNonNewMetaMethods
+  97  0.07% 75.93%       1 301107 org.gradle.internal.classloader.CachingClassLoader.loadClass
+  98  0.07% 75.99%       1 301108 org.gradle.api.internal.BeanDynamicObject.getProperty
+  99  0.07% 76.06%       1 301109 java.lang.Class.forName
+ 100  0.07% 76.12%       1 301110 org.gradle.internal.classloader.MultiParentClassLoader.loadClass
+ 101  0.07% 76.19%       1 301111 org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock
+ 102  0.07% 76.25%       1 301112 java.lang.Class.isPrimitive
+ 103  0.07% 76.32%       1 301113 com.google.common.collect.Iterables.iterators
+ 104  0.07% 76.38%       1 301114 java.lang.ClassLoader.loadClass
+ 105  0.07% 76.45%       1 301115 java.lang.Class.forName0
+ 106  0.07% 76.51%       1 301116 java.util.Formatter.parse
+ 107  0.07% 76.58%       1 301117 java.util.concurrent.ConcurrentHashMap.putVal
+ 108  0.07% 76.64%       1 301119 org.codehaus.groovy.util.FastArray$1.get
+ 109  0.07% 76.71%       1 301120 groovyx.net.http.ParserRegistry.<clinit>
+ 110  0.07% 76.77%       1 301121 org.apache.xml.resolver.CatalogManager.getPrivateCatalog
+ 111  0.07% 76.84%       1 301123 org.apache.xerces.jaxp.SAXParserImpl.<init>
+ 112  0.07% 76.90%       1 301124 org.gradle.internal.classloader.CachingClassLoader.loadClass
+ 113  0.07% 76.97%       1 301126 org.apache.xerces.impl.XMLEntityManager.setScannerVersion
+ 114  0.07% 77.03%       1 301127 org.apache.xerces.parsers.XML11Configuration.<init>
+ 115  0.07% 77.10%       1 301128 org.apache.xerces.impl.dtd.XMLDTDValidator.<init>
+ 116  0.07% 77.16%       1 301129 org.apache.xerces.util.XMLChar.<clinit>
+ 117  0.07% 77.23%       1 301130 org.apache.xerces.impl.dtd.XMLDTDValidator.doctypeDecl
+ 118  0.07% 77.29%       1 301131 org.apache.xerces.util.SymbolTable.addSymbol
+ 119  0.07% 77.36%       1 301132 org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch
+ 120  0.07% 77.42%       1 301133 net.sf.json.util.CycleDetectionStrategy.<clinit>
+ 121  0.07% 77.49%       1 300732 org.codehaus.groovy.reflection.stdclasses.CachedSAMClass.hasUsableImplementation
+ 122  0.07% 77.55%       1 300733 java.lang.String.indexOf
+ 123  0.07% 77.62%       1 301136 sun.misc.URLClassPath.getLoader
+ 124  0.07% 77.68%       1 301137 com.google.common.collect.MapMakerInternalMap$Segment.setValue
+ 125  0.07% 77.75%       1 301139 groovyx.net.http.HTTPBuilder.createClient
+ 126  0.07% 77.81%       1 300735 org.gradle.api.internal.artifacts.component.DefaultComponentIdentifierFactory.createComponentIdentifier
+ 127  0.07% 77.88%       1 300738 org.gradle.runtime.jvm.internal.JvmPluginServiceRegistry.registerProjectServices
+ 128  0.07% 77.94%       1 300739 java.lang.ClassLoader.loadClass
+ 129  0.07% 78.01%       1 300740 sun.reflect.Reflection.getCallerClass
+ 130  0.07% 78.07%       1 300741 java.net.URLClassLoader$1.run
+ 131  0.07% 78.14%       1 300743 sun.reflect.generics.parser.SignatureParser.parseIdentifier
+ 132  0.07% 78.20%       1 300745 org.gradle.api.internal.artifacts.ivyservice.projectmodule.DefaultProjectPublicationRegistry.<init>
+ 133  0.07% 78.27%       1 301152 sun.security.util.DerValue.toByteArray
+ 134  0.07% 78.33%       1 300746 org.gradle.plugins.ide.internal.tooling.ToolingRegistrationAction.execute
+ 135  0.07% 78.40%       1 300747 org.gradle.plugins.ide.internal.tooling.ToolingRegistrationAction.execute
+ 136  0.07% 78.46%       1 300749 java.lang.Class.isArray
+ 137  0.07% 78.53%       1 300750 java.lang.ClassLoader.loadClass
+ 138  0.07% 78.59%       1 300751 org.codehaus.groovy.runtime.callsite.AbstractCallSite.call
+ 139  0.07% 78.66%       1 300752 org.codehaus.groovy.reflection.SunClassLoader.loadMagic
+ 140  0.07% 78.72%       1 300753 groovyjarjarasm.asm.MethodWriter.visitVarInsn
+ 141  0.07% 78.79%       1 300600 java.lang.Class.forName0
+ 142  0.07% 78.85%       1 300756 org.gradle.api.plugins.HelpTasksPlugin.apply
+ 143  0.07% 78.92%       1 300757 java.beans.Introspector.getTargetEventInfo
+ 144  0.07% 78.99%       1 300601 org.gradle.internal.resource.transport.http.JavaSystemPropertiesHttpProxySettings.<init>
+ 145  0.07% 79.05%       1 300602 org.gradle.cache.internal.DefaultCacheAccess.newCache
+ 146  0.07% 79.12%       1 300159 sun.net.www.protocol.jar.Handler.openConnection
+ 147  0.07% 79.18%       1 300604 groovy.lang.MetaClassImpl$1MOPIter.processFastArray
+ 148  0.07% 79.25%       1 300511 java.io.UnixFileSystem.getBooleanAttributes0
+ 149  0.07% 79.31%       1 300606 com.sun.beans.TypeResolver.resolve
+ 150  0.07% 79.38%       1 300607 groovy.lang.MetaClassImpl.applyStrayPropertyMethods
+ 151  0.07% 79.44%       1 300765 sun.net.www.MimeEntry.setImageFileName
+ 152  0.07% 79.51%       1 300608 org.gradle.internal.service.DefaultServiceRegistry$SingletonService.getService
+ 153  0.07% 79.57%       1 300767 org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$CacheInitializer.<init>
+ 154  0.07% 79.64%       1 301175 sun.security.x509.CertificateX509Key.<init>
+ 155  0.07% 79.70%       1 300609 org.gradle.internal.service.scopes.GradleScopeServices.createBuildExecuter
+ 156  0.07% 79.77%       1 300512 org.gradle.internal.service.DefaultServiceRegistry.findDecoratorMethods
+ 157  0.07% 79.83%       1 300612 java.lang.ThreadLocal.get
+ 158  0.07% 79.90%       1 300613 org.gradle.internal.service.scopes.SettingsScopeServices.createProjectDescriptorRegistry
+ 159  0.07% 79.96%       1 300614 org.codehaus.groovy.reflection.CachedClass$1.initValue
+ 160  0.07% 80.03%       1 300615 java.lang.Object.<init>
+ 161  0.07% 80.09%       1 300616 org.gradle.api.internal.artifacts.DependencyManagementBuildScopeServices.createArtifactRevisionIdFileStore
+ 162  0.07% 80.16%       1 300618 org.gradle.mvn3.org.codehaus.plexus.interpolation.os.Os.setValidFamilies
+ 163  0.07% 80.22%       1 300515 java.lang.Class.getDeclaredMethods0
+ 164  0.07% 80.29%       1 300781 java.lang.ClassLoader$NativeLibrary.find
+ 165  0.07% 80.35%       1 300300 java.util.zip.ZipFile.open
+ 166  0.07% 80.42%       1 300410 java.lang.ClassLoader.checkCerts
+ 167  0.07% 80.48%       1 300301 ch.qos.logback.core.ContextBase.<init>
+ 168  0.07% 80.55%       1 300234 org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit
+ 169  0.07% 80.61%       1 301194 sun.security.x509.KeyUsageExtension.<init>
+ 170  0.07% 80.68%       1 300454 java.io.FileOutputStream.writeBytes
+ 171  0.07% 80.74%       1 300212 java.util.zip.ZipFile$ZipFileInputStream.read
+ 172  0.07% 80.81%       1 300790 java.lang.Object.clone
+ 173  0.07% 80.87%       1 300791 org.codehaus.groovy.reflection.ClassInfo.createCachedClass
+ 174  0.07% 80.94%       1 300793 java.lang.reflect.Constructor.getFactory
+ 175  0.07% 81.00%       1 300456 java.util.concurrent.ConcurrentHashMap.putVal
+ 176  0.07% 81.07%       1 300795 java.lang.reflect.Executable.declaredAnnotations
+ 177  0.07% 81.13%       1 300798 java.util.concurrent.ConcurrentHashMap.transfer
+ 178  0.07% 81.20%       1 300799 sun.reflect.annotation.AnnotationParser.parseSig
+ 179  0.07% 81.26%       1 300338 ch.qos.logback.classic.BasicConfigurator.configure
+ 180  0.07% 81.33%       1 301210 sun.security.x509.AVAKeyword.<clinit>
+ 181  0.07% 81.39%       1 300801 java.lang.ThreadLocal$ThreadLocalMap.access$100
+ 182  0.07% 81.46%       1 300803 org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.getIvy
+ 183  0.07% 81.52%       1 300339 sun.net.www.ParseUtil.canonizeString
+ 184  0.07% 81.59%       1 300805 org.apache.ivy.Ivy.bind
+ 185  0.07% 81.65%       1 300806 org.gradle.internal.resource.transport.http.HttpTransport.<init>
+ 186  0.07% 81.72%       1 300807 ch.qos.logback.classic.LoggerContext.getLogger
+ 187  0.07% 81.78%       1 300808 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ResolveIvyFactory.create
+ 188  0.07% 81.85%       1 301221 sun.security.rsa.RSAKeyFactory.toRSAKey
+ 189  0.07% 81.91%       1 300811 org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.<init>
+ 190  0.07% 81.98%       1 300812 org.gradle.api.internal.artifacts.metadata.AbstractModuleDescriptorBackedMetaData.populateConfigurationFromDescriptor
+ 191  0.07% 82.04%       1 300813 org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph
+ 192  0.07% 82.11%       1 300814 org.gradle.cache.internal.DefaultCacheAccess.doCreateCache
+ 193  0.07% 82.17%       1 300815 org.gradle.cache.internal.btree.BTreePersistentIndexedCache$HeaderBlock.<init>
+ 194  0.07% 82.24%       1 300816 org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read
+ 195  0.07% 82.30%       1 300817 org.gradle.messaging.serialize.kryo.KryoBackedEncoder.<init>
+ 196  0.07% 82.37%       1 300526 org.objectweb.asm.ClassWriter.visitMethod
+ 197  0.07% 82.43%       1 300527 java.lang.Object.clone
+ 198  0.07% 82.50%       1 300528 sun.net.www.protocol.file.Handler.hostsEqual
+ 199  0.07% 82.56%       1 300529 java.lang.ClassLoader.defineClass1
+ 200  0.07% 82.63%       1 301234 java.io.UnixFileSystem.getBooleanAttributes0
+ 201  0.07% 82.69%       1 300824 java.util.Formatter$FormatSpecifier.index
+ 202  0.07% 82.76%       1 300825 java.lang.ClassLoader.addClass
+ 203  0.07% 82.82%       1 300826 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser.createParser
+ 204  0.07% 82.89%       1 300827 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.<init>
+ 205  0.07% 82.95%       1 300532 java.util.zip.Inflater.inflateBytes
+ 206  0.07% 83.02%       1 300534 java.lang.Object.clone
+ 207  0.07% 83.08%       1 301243 java.lang.Class.isPrimitive
+ 208  0.07% 83.15%       1 300535 java.lang.Class.getDeclaredMethods0
+ 209  0.07% 83.21%       1 300642 java.lang.Class.getDeclaredClasses0
+ 210  0.07% 83.28%       1 300340 java.lang.ClassLoader.loadClass
+ 211  0.07% 83.34%       1 300461 java.lang.Object.<init>
+ 212  0.07% 83.41%       1 300462 org.gradle.api.internal.classpath.DefaultModuleRegistry.<init>
+ 213  0.07% 83.47%       1 300539 java.lang.Thread.currentThread
+ 214  0.07% 83.54%       1 300540 java.lang.Class.getDeclaredMethods0
+ 215  0.07% 83.60%       1 300541 java.lang.Object.clone
+ 216  0.07% 83.67%       1 300542 org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>
+ 217  0.07% 83.73%       1 300544 java.util.LinkedList.linkLast
+ 218  0.07% 83.80%       1 300545 org.codehaus.groovy.reflection.CachedClass$8.initValue
+ 219  0.07% 83.86%       1 300546 java.util.zip.Inflater.inflate
+ 220  0.07% 83.93%       1 300845 com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.<init>
+ 221  0.07% 83.99%       1 300548 java.util.Arrays.binarySearch
+ 222  0.07% 84.06%       1 300463 java.io.UnixFileSystem.compare
+ 223  0.07% 84.12%       1 300658 sun.misc.Unsafe.defineAnonymousClass
+ 224  0.07% 84.19%       1 300659 java.lang.invoke.LambdaForm.signatureType
+ 225  0.07% 84.26%       1 300465 org.gradle.internal.nativeplatform.filesystem.GenericFileSystem.createFile
+ 226  0.07% 84.32%       1 301265 java.util.Arrays.equals
+ 227  0.07% 84.39%       1 300018 sun.nio.cs.UTF_8$Encoder.encode
+ 228  0.07% 84.45%       1 300177 sun.misc.FloatingDecimal.<clinit>
+ 229  0.07% 84.52%       1 301269 sun.security.util.DerOutputStream.putLength
+ 230  0.07% 84.58%       1 301270 java.lang.Object.clone
+ 231  0.07% 84.65%       1 300060 java.lang.Math.max
+ 232  0.07% 84.71%       1 301272 sun.security.util.DerValue.toDerInputStream
+ 233  0.07% 84.78%       1 301273 sun.reflect.Reflection.getCallerClass
+ 234  0.07% 84.84%       1 300856 com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setScannerVersion
+ 235  0.07% 84.91%       1 301275 java.util.Hashtable.containsKey
+ 236  0.07% 84.97%       1 300239 java.io.UnixFileSystem.getLastModifiedTime
+ 237  0.07% 85.04%       1 300240 java.net.URI$Parser.scan
+ 238  0.07% 85.10%       1 300241 java.util.Date.getCalendarSystem
+ 239  0.07% 85.17%       1 300668 java.lang.invoke.MethodHandleNatives.resolve
+ 240  0.07% 85.23%       1 300669 jdk.internal.org.objectweb.asm.Type.getType
+ 241  0.07% 85.30%       1 300242 sun.util.calendar.BaseCalendar$Date.getCachedJan1
+ 242  0.07% 85.36%       1 301283 org.apache.http.impl.conn.BasicClientConnectionManager.createConnectionOperator
+ 243  0.07% 85.43%       1 301284 java.util.jar.Attributes.get
+ 244  0.07% 85.49%       1 301285 org.apache.http.impl.client.AbstractHttpClient.doExecute
+ 245  0.07% 85.56%       1 301286 java.lang.ClassLoader.loadClass
+ 246  0.07% 85.62%       1 301287 org.apache.http.impl.client.DefaultHttpClient.createHttpProcessor
+ 247  0.07% 85.69%       1 301288 java.util.zip.ZipFile.getEntry
+ 248  0.07% 85.75%       1 301289 org.gradle.internal.classloader.FilteringClassLoader.loadClass
+ 249  0.07% 85.82%       1 301290 org.apache.http.impl.conn.DefaultClientConnectionOperator.createConnection
+ 250  0.07% 85.88%       1 300260 java.util.zip.ZipFile.read
+ 251  0.07% 85.95%       1 300674 jdk.internal.org.objectweb.asm.Type.getArgumentTypes
+ 252  0.07% 86.01%       1 300388 sun.misc.URLClassPath.getResource
+ 253  0.07% 86.08%       1 301295 java.net.Inet6AddressImpl.lookupAllHostAddr
+ 254  0.07% 86.14%       1 300478 java.util.jar.Attributes.read
+ 255  0.07% 86.21%       1 300677 java.lang.invoke.LambdaMetafactory.metafactory
+ 256  0.07% 86.27%       1 300479 org.gradle.internal.service.scopes.GlobalScopeServices.createPluginModuleRegistry
+ 257  0.07% 86.34%       1 300480 java.lang.String.subSequence
+ 258  0.07% 86.40%       1 300262 org.gradle.messaging.dispatch.ProxyDispatchAdapter.<init>
+ 259  0.07% 86.47%       1 300282 java.lang.reflect.Proxy.defineClass0
+ 260  0.07% 86.53%       1 300045 sun.util.calendar.ZoneInfoFile.load
+ 261  0.07% 86.60%       1 300284 java.util.HashMap.resize
+ 262  0.07% 86.66%       1 300876 com.sun.org.apache.xerces.internal.parsers.XML11Configuration.<init>
+ 263  0.07% 86.73%       1 300485 java.util.zip.ZipInputStream.readLOC
+ 264  0.07% 86.79%       1 300686 java.lang.invoke.LambdaForm.compileToBytecode
+ 265  0.07% 86.86%       1 300487 sun.nio.cs.UTF_8$Encoder.implReplaceWith
+ 266  0.07% 86.92%       1 300489 com.google.common.collect.MapMakerInternalMap.hash
+ 267  0.07% 86.99%       1 301311 sun.security.ssl.SignatureAndHashAlgorithm.<clinit>
+ 268  0.07% 87.05%       1 300490 java.util.zip.Inflater.inflateBytes
+ 269  0.07% 87.12%       1 300577 java.lang.reflect.Proxy.isProxyClass
+ 270  0.07% 87.18%       1 300578 java.lang.Character.isUpperCase
+ 271  0.07% 87.25%       1 301315 sun.security.ssl.CipherSuite$BulkCipher.isAvailable
+ 272  0.07% 87.31%       1 300286 java.util.zip.ZipFile.getEntryTime
+ 273  0.07% 87.38%       1 300288 java.lang.Thread.currentThread
+ 274  0.07% 87.44%       1 300289 org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute
+ 275  0.07% 87.51%       1 300323 java.util.Vector.addElement
+ 276  0.07% 87.57%       1 301323 java.io.StreamTokenizer.<init>
+ 277  0.07% 87.64%       1 300700 sun.invoke.util.BytecodeDescriptor.unparseMethod
+ 278  0.07% 87.70%       1 300290 org.gradle.cli.CommandLineParser.parse
+ 279  0.07% 87.77%       1 300293 java.lang.ClassLoader.loadClass
+ 280  0.07% 87.83%       1 300442 sun.util.calendar.BaseCalendar.getCalendarDateFromFixedDate
+ 281  0.07% 87.90%       1 300228 sun.reflect.ReflectionFactory.newMethodAccessor
+ 282  0.07% 87.96%       1 300708 org.gradle.mvn3.org.codehaus.plexus.util.xml.pull.MXParser.setNameStart
+ 283  0.07% 88.03%       1 301333 java.util.Base64$Decoder.outLength
+ 284  0.07% 88.09%       1 300709 java.lang.ClassLoader.loadClass
+ 285  0.07% 88.16%       1 300710 org.objectweb.asm.ClassWriter.a
+ 286  0.07% 88.22%       1 300711 java.lang.Integer.parseInt
+ 287  0.07% 88.29%       1 300504 java.lang.ClassLoader.loadClass
+ 288  0.07% 88.35%       1 301339 java.math.BigInteger.squareToLen
+ 289  0.07% 88.42%       1 301340 java.math.BigInteger.oddModPow
+ 290  0.07% 88.48%       1 300907 com.sun.org.apache.xerces.internal.util.URI.<clinit>
+ 291  0.07% 88.55%       1 300444 org.gradle.internal.nativeplatform.services.NativeServices.initialize
+ 292  0.07% 88.61%       1 301343 java.util.zip.ZipFile.close
+ 293  0.07% 88.68%       1 300715 java.lang.Class$MethodArray.addIfNotPresent
+ 294  0.07% 88.74%       1 300229 java.lang.ClassLoader.getPackage
+ 295  0.07% 88.81%       1 300717 org.gradle.internal.service.DefaultServiceRegistry$FactoryService.bind
+ 296  0.07% 88.87%       1 300718 java.lang.ClassLoader.loadClass
+ 297  0.07% 88.94%       1 300719 java.util.WeakHashMap.get
+ 298  0.07% 89.00%       1 300720 java.lang.Object.clone
+ 299  0.07% 89.07%       1 300721 org.gradle.api.internal.artifacts.DependencyManagementBuildScopeServices.createDependencyFactory
+ 300  0.07% 89.13%       1 300722 java.lang.Object.clone
+ 301  0.07% 89.20%       1 300723 sun.reflect.ReflectionFactory.newConstructorAccessor
+ 302  0.07% 89.26%       1 301354 sun.security.validator.SimpleValidator.engineValidate
+ 303  0.07% 89.33%       1 300724 sun.reflect.generics.factory.CoreReflectionFactory.<init>
+ 304  0.07% 89.39%       1 300919 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.endElement
+ 305  0.07% 89.46%       1 300921 java.lang.ClassLoader.loadClass
+ 306  0.07% 89.53%       1 300922 org.gradle.api.internal.artifacts.ivyservice.dynamicversions.SingleFileBackedModuleVersionsCache.createKey
+ 307  0.07% 89.59%       1 300923 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.DefaultModuleVersionListing$DefaultAvailableVersion.hashCode
+ 308  0.07% 89.66%       1 300924 java.io.FileDescriptor.closeAll
+ 309  0.07% 89.72%       1 300925 java.util.Arrays$ArrayList.indexOf
+ 310  0.07% 89.79%       1 301364 sun.security.x509.CertificateExtensions.hasUnsupportedCriticalExtension
+ 311  0.07% 89.85%       1 301365 sun.nio.cs.ISO_8859_1$Encoder.implReplaceWith
+ 312  0.07% 89.92%       1 301366 sun.security.provider.SHA2$SHA256.<init>
+ 313  0.07% 89.98%       1 301367 sun.misc.Unsafe.putInt
+ 314  0.07% 90.05%       1 301368 sun.security.provider.SHA2.implCompress
+ 315  0.07% 90.11%       1 301369 sun.net.www.protocol.jar.URLJarFile.close
+ 316  0.07% 90.18%       1 300926 java.math.MutableBigInteger.copyAndShift
+ 317  0.07% 90.24%       1 301371 sun.security.provider.SHA2$SHA256.<init>
+ 318  0.07% 90.31%       1 301372 com.sun.crypto.provider.AESCrypt.<clinit>
+ 319  0.07% 90.37%       1 301373 com.sun.crypto.provider.AESCrypt.mul4
+ 320  0.07% 90.44%       1 301374 com.sun.crypto.provider.AESCrypt.<clinit>
+ 321  0.07% 90.50%       1 301375 java.util.zip.Inflater.inflateBytes
+ 322  0.07% 90.57%       1 300927 java.lang.StringCoding.encode
+ 323  0.07% 90.63%       1 300928 com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setFeature
+ 324  0.07% 90.70%       1 300929 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$AbstractParser.replaceConfigurationWildcards
+ 325  0.07% 90.76%       1 300930 com.sun.org.apache.xerces.internal.util.XMLStringBuffer.<init>
+ 326  0.07% 90.83%       1 300931 java.util.Calendar.clear
+ 327  0.07% 90.89%       1 300932 com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces
+ 328  0.07% 90.96%       1 300933 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.startElement
+ 329  0.07% 91.02%       1 300934 java.lang.Boolean.parseBoolean
+ 330  0.07% 91.09%       1 300935 java.lang.StringCoding.encode
+ 331  0.07% 91.15%       1 300936 org.apache.ivy.core.module.id.ModuleRevisionId.equals
+ 332  0.07% 91.22%       1 300937 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.parser.IvyXmlModuleDescriptorParser$Parser.confStarted
+ 333  0.07% 91.28%       1 300938 java.io.FileInputStream.close0
+ 334  0.07% 91.35%       1 300939 com.esotericsoftware.kryo.io.Output.writeString
+ 335  0.07% 91.41%       1 300940 java.util.Formatter.format
+ 336  0.07% 91.48%       1 300941 org.gradle.api.internal.artifacts.metadata.DefaultMavenModuleVersionMetaData.getComponentId
+ 337  0.07% 91.54%       1 300942 org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository.artifactCacheKey
+ 338  0.07% 91.61%       1 300943 sun.security.provider.ByteArrayAccess.i2bLittle
+ 339  0.07% 91.67%       1 300944 com.google.common.base.Platform.systemNanoTime
+ 340  0.07% 91.74%       1 300945 java.io.UnixFileSystem.canonicalize0
+ 341  0.07% 91.80%       1 300946 java.io.UnixFileSystem.getBooleanAttributes0
+ 342  0.07% 91.87%       1 301397 sun.security.ssl.SSLSocketImpl.initHandshaker
+ 343  0.07% 91.93%       1 300947 groovy.lang.MetaClassImpl.applyStrayPropertyMethods
+ 344  0.07% 92.00%       1 300948 sun.misc.URLClassPath.getResource
+ 345  0.07% 92.06%       1 300952 java.beans.PropertyChangeSupport.addPropertyChangeListener
+ 346  0.07% 92.13%       1 300953 org.codehaus.groovy.reflection.CachedClass.<init>
+ 347  0.07% 92.19%       1 300954 java.beans.Introspector.processPropertyDescriptors
+ 348  0.07% 92.26%       1 300956 org.objectweb.asm.ClassWriter.newUTF8
+ 349  0.07% 92.32%       1 300957 org.gradle.api.internal.ThreadGlobalInstantiator.set
+ 350  0.07% 92.39%       1 300958 java.util.Formatter$FormatSpecifier.checkBadFlags
+ 351  0.07% 92.45%       1 300960 org.codehaus.groovy.reflection.ClassInfo.isValidWeakMetaClass
+ 352  0.07% 92.52%       1 300961 java.lang.reflect.ReflectAccess.copyMethod
+ 353  0.07% 92.58%       1 300962 sun.misc.Resource.getBytes
+ 354  0.07% 92.65%       1 300963 com.google.common.collect.ImmutableSet.builder
+ 355  0.07% 92.71%       1 301416 sun.text.normalizer.NormalizerBase.normalize
+ 356  0.07% 92.78%       1 300965 com.google.common.reflect.TypeToken.isAssignable
+ 357  0.07% 92.84%       1 300967 java.lang.reflect.AccessibleObject.setAccessible
+ 358  0.07% 92.91%       1 300968 java.lang.ClassLoader.preDefineClass
+ 359  0.07% 92.97%       1 301422 sun.security.provider.certpath.PKIXCertPathValidator.validate
+ 360  0.07% 93.04%       1 300969 java.util.Formatter.toString
+ 361  0.07% 93.10%       1 301424 sun.security.x509.X509CertImpl.get
+ 362  0.07% 93.17%       1 301425 java.io.ByteArrayOutputStream.<init>
+ 363  0.07% 93.23%       1 300972 org.gradle.api.internal.AbstractClassGenerator.generateUnderLock
+ 364  0.07% 93.30%       1 300973 java.lang.Class.getDeclaredConstructors0
+ 365  0.07% 93.36%       1 301430 sun.security.provider.certpath.PolicyChecker.<clinit>
+ 366  0.07% 93.43%       1 300974 org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>
+ 367  0.07% 93.49%       1 300975 java.lang.ClassLoader.loadClass
+ 368  0.07% 93.56%       1 300976 java.lang.Object.hashCode
+ 369  0.07% 93.62%       1 301436 sun.security.provider.certpath.PKIXCertPathValidator.validate
+ 370  0.07% 93.69%       1 300980 java.lang.AbstractStringBuilder.append
+ 371  0.07% 93.75%       1 300981 java.lang.Class.isAssignableFrom
+ 372  0.07% 93.82%       1 300982 org.objectweb.asm.MethodWriter.visitInsn
+ 373  0.07% 93.88%       1 300983 org.gradle.api.internal.jvm.DefaultClassDirectoryBinarySpec.<init>
+ 374  0.07% 93.95%       1 301442 sun.security.ec.ECKeyPairGenerator.generateECKeyPair
+ 375  0.07% 94.01%       1 300984 java.net.URLStreamHandler.setURL
+ 376  0.07% 94.08%       1 300985 java.nio.Bits.getInt
+ 377  0.07% 94.14%       1 300986 java.lang.Class.forName
+ 378  0.07% 94.21%       1 300987 java.lang.System.nanoTime
+ 379  0.07% 94.27%       1 300988 sun.reflect.generics.parser.SignatureParser.parseIdentifier
+ 380  0.07% 94.34%       1 300989 java.util.regex.Matcher.getTextLength
+ 381  0.07% 94.40%       1 300990 org.gradle.internal.classloader.CachingClassLoader.loadClass
+ 382  0.07% 94.47%       1 301450 javax.crypto.Cipher$Transform.<init>
+ 383  0.07% 94.53%       1 300994 java.lang.ClassLoader.loadClass
+ 384  0.07% 94.60%       1 301456 javax.naming.directory.BasicAttributes.put
+ 385  0.07% 94.66%       1 301457 org.gradle.internal.classloader.FilteringClassLoader.loadClass
+ 386  0.07% 94.73%       1 300996 java.lang.Object.clone
+ 387  0.07% 94.80%       1 301459 org.gradle.internal.classloader.CachingClassLoader.loadClass
+ 388  0.07% 94.86%       1 300997 groovy.lang.MetaClassImpl.applyStrayPropertyMethods
+ 389  0.07% 94.93%       1 300998 org.gradle.api.internal.project.taskfactory.InputDirectoryPropertyAnnotationHandler.getAnnotationType
+ 390  0.07% 94.99%       1 301462 org.gradle.internal.classloader.CachingClassLoader.loadClass
+ 391  0.07% 95.06%       1 301463 groovy.util.XmlSlurper.startElement
+ 392  0.07% 95.12%       1 301464 org.apache.tools.ant.Project.fireBuildFinished
+ 393  0.07% 95.19%       1 301465 java.io.UnixFileSystem.delete0
+ 394  0.07% 95.25%       1 300999 org.gradle.api.internal.AbstractClassGenerator.generateUnderLock
+ 395  0.07% 95.32%       1 301000 org.gradle.external.javadoc.StandardJavadocDocletOptions.<init>
+ 396  0.07% 95.38%       1 301002 org.gradle.api.internal.AbstractClassGenerator.inspectType
+ 397  0.07% 95.45%       1 301003 java.lang.Class.getDeclaredConstructors0
+ 398  0.07% 95.51%       1 300726 java.lang.Thread.currentThread
+ 399  0.07% 95.58%       1 301005 org.gradle.api.internal.tasks.testing.logging.DefaultTestLogging.<init>
+ 400  0.07% 95.64%       1 300100 sun.misc.Unsafe.compareAndSwapLong
+ 401  0.07% 95.71%       1 301007 java.security.AccessController.doPrivileged
+ 402  0.07% 95.77%       1 301008 org.gradle.api.internal.AbstractClassGenerator.inspectType
+ 403  0.07% 95.84%       1 301009 java.lang.ClassLoader.loadClass
+ 404  0.07% 95.90%       1 301010 org.gradle.api.internal.BeanDynamicObject.determineDelegate
+ 405  0.07% 95.97%       1 301011 java.lang.ClassLoader.loadClass
+ 406  0.07% 96.03%       1 301012 java.lang.Class.access$300
+ 407  0.07% 96.10%       1 301014 java.lang.StringBuilder.append
+ 408  0.07% 96.16%       1 301015 com.sun.beans.TypeResolver.resolve
+ 409  0.07% 96.23%       1 301016 java.lang.AbstractStringBuilder.ensureCapacityInternal
+ 410  0.07% 96.29%       1 301017 org.gradle.internal.classloader.MultiParentClassLoader.loadClass
+ 411  0.07% 96.36%       1 301018 org.gradle.api.plugins.JavaPlugin.configureTest
+ 412  0.07% 96.42%       1 301020 org.objectweb.asm.ClassWriter.newUTF8
+ 413  0.07% 96.49%       1 301021 java.lang.Object.clone
+ 414  0.07% 96.55%       1 301023 java.lang.Object.hashCode
+ 415  0.07% 96.62%       1 301024 org.codehaus.groovy.util.SingleKeyHashMap.getOrPut
+ 416  0.07% 96.68%       1 301025 java.lang.ClassLoader.loadClass
+ 417  0.07% 96.75%       1 301026 org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getTaskDependencyFromProjectDependency
+ 418  0.07% 96.81%       1 301027 java.lang.Class.isAssignableFrom
+ 419  0.07% 96.88%       1 301028 java.util.TreeMap.values
+ 420  0.07% 96.94%       1 301029 java.beans.BeanDescriptor.<init>
+ 421  0.07% 97.01%       1 301030 org.gradle.api.internal.AbstractClassGenerator$MethodSet.iterator
+ 422  0.07% 97.07%       1 301031 java.beans.BeanDescriptor.<init>
+ 423  0.07% 97.14%       1 301032 sun.reflect.Reflection.getCallerClass
+ 424  0.07% 97.20%       1 301034 sun.reflect.ConstructorAccessorImpl.<init>
+ 425  0.07% 97.27%       1 301035 java.util.LinkedHashMap.get
+ 426  0.07% 97.33%       1 301036 java.lang.Class.forName0
+ 427  0.07% 97.40%       1 301037 org.gradle.api.plugins.ApplicationPlugin.addCreateScriptsTask
+ 428  0.07% 97.46%       1 301038 org.gradle.api.plugins.ApplicationPlugin.configureDistSpec
+ 429  0.07% 97.53%       1 300013 sun.misc.URLClassPath.getLoader
+ 430  0.07% 97.59%       1 301040 java.lang.ClassLoader.loadClass
+ 431  0.07% 97.66%       1 301041 com.sun.beans.finder.ClassFinder.findClass
+ 432  0.07% 97.72%       1 301042 java.lang.ClassLoader.findLoadedClass0
+ 433  0.07% 97.79%       1 301043 java.lang.AbstractStringBuilder.ensureCapacityInternal
+ 434  0.07% 97.85%       1 301044 org.gradle.api.plugins.ApplicationPlugin.addArchiveTask
+ 435  0.07% 97.92%       1 301046 org.gradle.internal.classloader.CachingClassLoader.loadClass
+ 436  0.07% 97.98%       1 301047 java.lang.ClassLoader.findLoadedClass0
+ 437  0.07% 98.05%       1 301048 java.util.regex.Matcher.replaceAll
+ 438  0.07% 98.11%       1 301049 groovy.lang.MetaClassImpl$1MOPIter.methodNameAction
+ 439  0.07% 98.18%       1 301050 java.lang.Object.clone
+ 440  0.07% 98.24%       1 301051 org.gradle.plugins.ide.eclipse.model.EclipseProject.<init>
+ 441  0.07% 98.31%       1 301052 org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$Validator.attachValidationAction
+ 442  0.07% 98.37%       1 301053 org.gradle.api.internal.BeanDynamicObject.getMetaClass
+ 443  0.07% 98.44%       1 301054 org.gradle.plugins.ide.eclipse.model.EclipseProject.natures
+ 444  0.07% 98.50%       1 301055 java.lang.ClassLoader.loadClass
+ 445  0.07% 98.57%       1 301056 org.gradle.plugins.ide.eclipse.EclipsePlugin$_configureEclipseJdt_closure5.$createCallSiteArray
+ 446  0.07% 98.63%       1 301057 java.util.regex.Pattern$BmpCharProperty.match
+ 447  0.07% 98.70%       1 301059 java.lang.Class.forName
+ 448  0.07% 98.76%       1 301060 java.lang.Class.getDeclaredFields0
+ 449  0.07% 98.83%       1 301061 java.security.AccessController.doPrivileged
+ 450  0.07% 98.89%       1 301062 java.security.AccessController.doPrivileged
+ 451  0.07% 98.96%       1 301063 java.lang.Object.clone
+ 452  0.07% 99.02%       1 301064 groovy.lang.MetaClassImpl$1MOPIter.methodNameAction
+ 453  0.07% 99.09%       1 301065 org.codehaus.groovy.util.SingleKeyHashMap.getOrPut
+ 454  0.07% 99.15%       1 301066 org.gradle.api.tasks.SourceSet$resources$0.call
+ 455  0.07% 99.22%       1 301067 org.codehaus.groovy.runtime.callsite.CallSiteGenerator.writeMethod
+ 456  0.07% 99.28%       1 301068 groovy.lang.MetaMethod.isPrivate
+ 457  0.07% 99.35%       1 301069 java.lang.Class.forName0
+ 458  0.07% 99.41%       1 301070 org.gradle.util.CollectionUtils.join
+ 459  0.07% 99.48%       1 301071 java.lang.Class.getModifiers
+ 460  0.07% 99.54%       1 301072 groovy.util.AntBuilder.createProject
+ 461  0.07% 99.61%       1 300729 java.util.AbstractCollection.isEmpty
+ 462  0.07% 99.67%       1 300730 org.apache.commons.collections.collection.CompositeCollection.getCollections
+ 463  0.07% 99.74%       1 301076 sun.misc.URLClassPath.getLoader
+ 464  0.07% 99.80%       1 301077 groovy.lang.MetaMethod.getMopName
+ 465  0.07% 99.87%       1 301078 java.lang.Class.forName0
+ 466  0.07% 99.93%       1 301079 java.util.TimSort.mergeLo
+ 467  0.07% 100.00%       1 301080 sun.misc.URLClassPath.getLoader
 CPU SAMPLES END
