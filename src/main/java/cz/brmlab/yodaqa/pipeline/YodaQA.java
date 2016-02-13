@@ -54,9 +54,10 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 			 * instructions on how to obtain an example one. */
 
 			//SolrNamedSource.register("guten", "data/guten", null);
-			SolrNamedSource.register("enwiki", "collection1", "http://clarity08.eecs.umich.edu:8983/solr/");
-			//SolrNamedSource.register("enwiki", "collection1", "http://enwiki.ailao.eu:8983/solr/"); // previously, connect to the author
-			//System.out.println("****************************connect to http://enwiki.ailao.eu:8983/solr/!");
+			//SolrNamedSource.register("enwiki", "collection1", "http://clarity08.eecs.umich.edu:8983/solr/");
+			//SolrNamedSource.register("enwiki", "collection1", "http://localhost:8983/solr/");
+			SolrNamedSource.register("enwiki", "collection1", "http://enwiki.ailao.eu:8983/solr/"); // previously, connect to the author
+			System.out.println("****************************connect to http://enwiki.ailao.eu:8983/solr/!");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.err.println("*** Exception caught during SolrNamedSource initialization. ***");
@@ -139,8 +140,8 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 
 			AnalysisEngineDescription answerCASMerger = AnalysisEngineFactory.createEngineDescription(
 					AnswerCASMerger.class,
-					//AnswerCASMerger.PARAM_ISLAST_BARRIER, 4,
-					AnswerCASMerger.PARAM_ISLAST_BARRIER, 7, // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+					AnswerCASMerger.PARAM_ISLAST_BARRIER, 4,
+					//AnswerCASMerger.PARAM_ISLAST_BARRIER, 7, // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 					AnswerCASMerger.PARAM_PHASE, 0,
 					ParallelEngineFactory.PARAM_NO_MULTIPROCESSING, 1);
 			builder.add(answerCASMerger);
@@ -290,12 +291,12 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 
 		/* Structured search: */
 		// uncomment............................................................................................................
-		AnalysisEngineDescription dbpOnt = DBpediaOntologyAnswerProducer.createEngineDescription();
-		builder.add(dbpOnt);
-		AnalysisEngineDescription dbpProp = DBpediaPropertyAnswerProducer.createEngineDescription();
-		builder.add(dbpProp);
-		AnalysisEngineDescription fbOnt = FreebaseOntologyAnswerProducer.createEngineDescription();
-		builder.add(fbOnt);
+		// AnalysisEngineDescription dbpOnt = DBpediaOntologyAnswerProducer.createEngineDescription();
+		// builder.add(dbpOnt);
+		// AnalysisEngineDescription dbpProp = DBpediaPropertyAnswerProducer.createEngineDescription();
+		// builder.add(dbpProp);
+		// AnalysisEngineDescription fbOnt = FreebaseOntologyAnswerProducer.createEngineDescription();
+		// builder.add(fbOnt);
 
 		/* Full-text search: */
 		/* XXX: These aggregates have "Solr" in name but do not

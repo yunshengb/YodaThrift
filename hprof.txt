@@ -1,4 +1,4 @@
-JAVA PROFILE 1.0.1, created Thu Feb 11 09:32:31 2016
+JAVA PROFILE 1.0.1, created Fri Feb 12 17:45:27 2016
 
 Copyright (c) 2003, 2005, Oracle and/or its affiliates. All rights reserved.
 
@@ -91,158 +91,75 @@ Ctrl-\ (on Solaris) or by typing Ctrl-Break (on Win32).
 
 THREAD START (obj=50000189, id = 200001, name="main", group="main")
 THREAD START (obj=50000de1, id = 200004, name="process reaper", group="system")
-THREAD START (obj=500011f4, id = 200005, name="File lock request listener", group="main")
-THREAD START (obj=50001cdc, id = 200006, name="Run command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java'", group="main")
-THREAD START (obj=50001cdf, id = 200007, name="DisconnectableInputStream source reader", group="main")
-THREAD START (obj=50001ce3, id = 200008, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java'", group="main")
-THREAD START (obj=50001ce4, id = 200009, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java' Thread 2", group="main")
-THREAD START (obj=50001ce5, id = 200010, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java' Thread 3", group="main")
-THREAD START (obj=50001ce7, id = 200012, name="SIGINT handler", group="system")
-THREAD START (obj=50001cec, id = 200014, name="gradle-shutdown-hook", group="main")
-THREAD START (obj=50001ced, id = 200015, name="Thread-0", group="main")
-THREAD START (obj=50001ceb, id = 200013, name="Thread-1", group="main")
+THREAD START (obj=500010a0, id = 200005, name="File lock request listener", group="main")
+THREAD START (obj=50001e83, id = 200006, name="Run command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java'", group="main")
+THREAD START (obj=50001e86, id = 200007, name="DisconnectableInputStream source reader", group="main")
+THREAD START (obj=50001e8a, id = 200008, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java'", group="main")
+THREAD START (obj=50001e8b, id = 200009, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java' Thread 2", group="main")
+THREAD START (obj=50001e8c, id = 200010, name="Forward streams with process: command '/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java' Thread 3", group="main")
+THREAD END (id = 200007)
+THREAD START (obj=50001e86, id = 200012, name="SIGHUP handler", group="system")
+THREAD START (obj=50001e93, id = 200015, name="Thread-0", group="main")
+THREAD START (obj=50001e91, id = 200013, name="Thread-1", group="main")
+THREAD START (obj=50001e92, id = 200014, name="gradle-shutdown-hook", group="main")
 THREAD END (id = 200015)
 THREAD END (id = 200013)
 THREAD END (id = 200014)
 THREAD END (id = 200012)
-TRACE 301438:
+TRACE 301840:
 	java.io.FileInputStream.readBytes(FileInputStream.java:Unknown line)
 	java.io.FileInputStream.read(FileInputStream.java:255)
 	java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
 	java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
-TRACE 300775:
+TRACE 300761:
 	java.net.PlainDatagramSocketImpl.receive0(PlainDatagramSocketImpl.java:Unknown line)
 	java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:144)
 	java.net.DatagramSocket.receive(DatagramSocket.java:812)
 	org.gradle.cache.internal.FileLockCommunicator.receive(FileLockCommunicator.java:60)
-TRACE 301437:
+TRACE 301838:
 	java.lang.UNIXProcess.waitForProcessExit(UNIXProcess.java:Unknown line)
 	java.lang.UNIXProcess.lambda$initStreams$268(UNIXProcess.java:290)
 	java.lang.UNIXProcess$$Lambda$7.1360541835.run(<Unknown Source>:Unknown line)
 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-TRACE 300228:
-	java.util.zip.ZipFile.read(ZipFile.java:Unknown line)
-	java.util.zip.ZipFile.access$1400(ZipFile.java:61)
-	java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:717)
-	java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:420)
-TRACE 300080:
-	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
-	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
-	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-	java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
-TRACE 300488:
-	java.lang.Throwable.fillInStackTrace(Throwable.java:Unknown line)
-	java.lang.Throwable.fillInStackTrace(Throwable.java:783)
-	java.lang.Throwable.<init>(Throwable.java:287)
-	java.lang.Exception.<init>(Exception.java:84)
-TRACE 301205:
-	com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable(Resolve.java:838)
-	com.sun.tools.javac.comp.Resolve.rawInstantiate(Resolve.java:579)
-	com.sun.tools.javac.comp.Resolve.selectBest(Resolve.java:1441)
-	com.sun.tools.javac.comp.Resolve.findMethodInScope(Resolve.java:1628)
-TRACE 301223:
+TRACE 301468:
 	com.sun.tools.javac.comp.Resolve.rawInstantiate(Resolve.java:579)
 	com.sun.tools.javac.comp.Resolve.selectBest(Resolve.java:1441)
 	com.sun.tools.javac.comp.Resolve.findMethodInScope(Resolve.java:1628)
 	com.sun.tools.javac.comp.Resolve.findMethod(Resolve.java:1699)
-TRACE 301229:
+TRACE 301491:
+	com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable(Resolve.java:838)
+	com.sun.tools.javac.comp.Resolve.rawInstantiate(Resolve.java:579)
+	com.sun.tools.javac.comp.Resolve.selectBest(Resolve.java:1441)
+	com.sun.tools.javac.comp.Resolve.findMethodInScope(Resolve.java:1628)
+TRACE 301511:
 	com.sun.tools.javac.comp.Resolve$MethodResultInfo.check(Resolve.java:1010)
 	com.sun.tools.javac.comp.Resolve$4.checkArg(Resolve.java:829)
 	com.sun.tools.javac.comp.Resolve$AbstractMethodCheck.argumentsAcceptable(Resolve.java:734)
 	com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable(Resolve.java:838)
-TRACE 300427:
-	java.util.zip.ZipFile.getEntry(ZipFile.java:Unknown line)
-	java.util.zip.ZipFile.getEntry(ZipFile.java:311)
-	java.util.jar.JarFile.getEntry(JarFile.java:240)
-	java.util.jar.JarFile.getJarEntry(JarFile.java:223)
-TRACE 301227:
-	com.sun.tools.javac.comp.Resolve$4.checkArg(Resolve.java:829)
-	com.sun.tools.javac.comp.Resolve$AbstractMethodCheck.argumentsAcceptable(Resolve.java:734)
-	com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable(Resolve.java:838)
-	com.sun.tools.javac.comp.Resolve.rawInstantiate(Resolve.java:579)
-TRACE 301218:
+TRACE 301499:
 	com.sun.tools.javac.comp.Resolve.selectBest(Resolve.java:1445)
 	com.sun.tools.javac.comp.Resolve.findMethodInScope(Resolve.java:1628)
 	com.sun.tools.javac.comp.Resolve.findMethod(Resolve.java:1699)
 	com.sun.tools.javac.comp.Resolve.findMethod(Resolve.java:1672)
-TRACE 300292:
-	java.util.zip.Inflater.inflateBytes(Inflater.java:Unknown line)
-	java.util.zip.Inflater.inflate(Inflater.java:259)
-	java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
-	sun.misc.Resource.getBytes(Resource.java:124)
-TRACE 300227:
-	java.util.zip.ZipFile.open(ZipFile.java:Unknown line)
-	java.util.zip.ZipFile.<init>(ZipFile.java:220)
-	java.util.zip.ZipFile.<init>(ZipFile.java:150)
-	java.util.jar.JarFile.<init>(JarFile.java:166)
-TRACE 301110:
-	java.io.FileInputStream.readBytes(FileInputStream.java:Unknown line)
-	java.io.FileInputStream.read(FileInputStream.java:255)
-	com.sun.tools.javac.util.BaseFileManager.makeByteBuffer(BaseFileManager.java:302)
-	com.sun.tools.javac.file.RegularFileObject.getCharContent(RegularFileObject.java:114)
-TRACE 301162:
-	java.io.RandomAccessFile.readBytes(RandomAccessFile.java:Unknown line)
-	java.io.RandomAccessFile.read(RandomAccessFile.java:377)
-	java.io.RandomAccessFile.readFully(RandomAccessFile.java:436)
-	java.io.RandomAccessFile.readFully(RandomAccessFile.java:416)
-TRACE 300888:
-	java.io.FileInputStream.read0(FileInputStream.java:Unknown line)
-	java.io.FileInputStream.read(FileInputStream.java:207)
-	com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.read(XMLEntityManager.java:2892)
-	com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:673)
-TRACE 301049:
-	java.io.UnixFileSystem.getBooleanAttributes0(UnixFileSystem.java:Unknown line)
-	java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:242)
-	java.io.File.exists(File.java:819)
-	org.gradle.internal.resource.local.PathKeyFileStore.get(PathKeyFileStore.java:192)
-TRACE 300083:
-	java.lang.ClassLoader.findBootstrapClass(ClassLoader.java:Unknown line)
-	java.lang.ClassLoader.findBootstrapClassOrNull(ClassLoader.java:1012)
-	java.lang.ClassLoader.loadClass(ClassLoader.java:413)
-	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
-TRACE 301211:
-	com.sun.tools.javac.code.Types.findDescriptorSymbol(Types.java:557)
-	com.sun.tools.javac.code.Types.isFunctionalInterface(Types.java:573)
-	com.sun.tools.javac.comp.Resolve$MostSpecificCheck$MostSpecificCheckContext.unrelatedFunctionalInterfaces(Resolve.java:1109)
-	com.sun.tools.javac.comp.Resolve$MostSpecificCheck$MostSpecificCheckContext.compatible(Resolve.java:1095)
-TRACE 301225:
-	com.sun.tools.javac.code.Types$DescriptorCache.findDescriptorInternal(Types.java:405)
-	com.sun.tools.javac.code.Types$DescriptorCache.get(Types.java:389)
-	com.sun.tools.javac.code.Types.findDescriptorSymbol(Types.java:557)
-	com.sun.tools.javac.code.Types.isFunctionalInterface(Types.java:573)
-TRACE 301213:
-	com.sun.tools.javac.code.Types$DescriptorCache.get(Types.java:389)
-	com.sun.tools.javac.code.Types.findDescriptorSymbol(Types.java:557)
-	com.sun.tools.javac.code.Types.isFunctionalInterface(Types.java:573)
-	com.sun.tools.javac.comp.Resolve$MostSpecificCheck$MostSpecificCheckContext.unrelatedFunctionalInterfaces(Resolve.java:1109)
-TRACE 300684:
-	java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	org.gradle.internal.classloader.MultiParentClassLoader.loadClass(MultiParentClassLoader.java:63)
-	java.lang.ClassLoader.loadClass(ClassLoader.java:411)
-	org.gradle.internal.classloader.CachingClassLoader.loadClass(CachingClassLoader.java:41)
-CPU SAMPLES BEGIN (total = 125626) Thu Feb 11 09:37:42 2016
+TRACE 301509:
+	com.sun.tools.javac.comp.Resolve$AbstractMethodCheck.argumentsAcceptable(Resolve.java:734)
+	com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable(Resolve.java:838)
+	com.sun.tools.javac.comp.Resolve.rawInstantiate(Resolve.java:579)
+	com.sun.tools.javac.comp.Resolve.selectBest(Resolve.java:1441)
+TRACE 300082:
+	java.lang.ClassLoader.defineClass1(ClassLoader.java:Unknown line)
+	java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+CPU SAMPLES BEGIN (total = 386095) Fri Feb 12 23:25:07 2016
 rank   self  accum   count trace method
-   1 58.45% 58.45%   73424 301438 java.io.FileInputStream.readBytes
-   2 20.58% 79.02%   25850 300775 java.net.PlainDatagramSocketImpl.receive0
-   3 19.49% 98.51%   24480 301437 java.lang.UNIXProcess.waitForProcessExit
-   4  0.17% 98.68%     215 300228 java.util.zip.ZipFile.read
-   5  0.06% 98.74%      77 300080 java.lang.ClassLoader.defineClass1
-   6  0.06% 98.80%      73 300488 java.lang.Throwable.fillInStackTrace
-   7  0.05% 98.85%      63 301205 com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable
-   8  0.04% 98.89%      53 301223 com.sun.tools.javac.comp.Resolve.rawInstantiate
-   9  0.04% 98.93%      53 301229 com.sun.tools.javac.comp.Resolve$MethodResultInfo.check
-  10  0.04% 98.97%      50 300427 java.util.zip.ZipFile.getEntry
-  11  0.04% 99.01%      49 301227 com.sun.tools.javac.comp.Resolve$4.checkArg
-  12  0.04% 99.05%      46 301218 com.sun.tools.javac.comp.Resolve.selectBest
-  13  0.03% 99.08%      33 300292 java.util.zip.Inflater.inflateBytes
-  14  0.02% 99.10%      29 300227 java.util.zip.ZipFile.open
-  15  0.02% 99.12%      29 301110 java.io.FileInputStream.readBytes
-  16  0.02% 99.15%      29 301162 java.io.RandomAccessFile.readBytes
-  17  0.02% 99.17%      26 300888 java.io.FileInputStream.read0
-  18  0.02% 99.19%      24 301049 java.io.UnixFileSystem.getBooleanAttributes0
-  19  0.02% 99.20%      22 300083 java.lang.ClassLoader.findBootstrapClass
-  20  0.02% 99.22%      20 301211 com.sun.tools.javac.code.Types.findDescriptorSymbol
-  21  0.01% 99.23%      16 301225 com.sun.tools.javac.code.Types$DescriptorCache.findDescriptorInternal
-  22  0.01% 99.24%      14 301213 com.sun.tools.javac.code.Types$DescriptorCache.get
-  23  0.01% 99.25%      14 300684 java.lang.ClassLoader.loadClass
+   1 59.39% 59.39%  229300 301840 java.io.FileInputStream.readBytes
+   2 20.28% 79.67%   78290 300761 java.net.PlainDatagramSocketImpl.receive0
+   3 19.80% 99.46%   76438 301838 java.lang.UNIXProcess.waitForProcessExit
+   4  0.03% 99.50%     132 301468 com.sun.tools.javac.comp.Resolve.rawInstantiate
+   5  0.03% 99.53%     128 301491 com.sun.tools.javac.comp.Resolve$4.argumentsAcceptable
+   6  0.03% 99.56%     120 301511 com.sun.tools.javac.comp.Resolve$MethodResultInfo.check
+   7  0.03% 99.59%     113 301499 com.sun.tools.javac.comp.Resolve.selectBest
+   8  0.03% 99.62%     103 301509 com.sun.tools.javac.comp.Resolve$AbstractMethodCheck.argumentsAcceptable
+   9  0.02% 99.64%      80 300082 java.lang.ClassLoader.defineClass1
 CPU SAMPLES END
