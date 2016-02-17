@@ -6,7 +6,8 @@ public abstract class DBpediaLookup extends CachedJenaLookup {
 	public DBpediaLookup() {
 		/* Replace the first URL below with http://dbpedia.org/sparql
 		 * to use the public DBpedia SPARQL endpoint. */
-		super("http://dbpedia.ailao.eu:3030/dbpedia/query",
+		super(//"http://dbpedia.ailao.eu:3030/dbpedia/query",
+				"http://clarity08.eecs.umich.edu:3030/dbpedia/query",
 			//"http://dbpedia.org/sparql",
 			// "http://localhost:3030/dbpedia/query", // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 			"PREFIX : <http://dbpedia.org/resource/>\n" +
@@ -14,6 +15,6 @@ public abstract class DBpediaLookup extends CachedJenaLookup {
 			"PREFIX dbpedia: <http://dbpedia.org/>\n" +
 			"PREFIX dbo: <http://dbpedia.org/ontology/>\n" +
 			"");
-		System.out.println("*************** DBpedia: http://dbpedia.ailao.eu:3030/dbpedia/query"); // !!!!!!!!!!!!!!!!
+		System.out.println("*************** DBpedia: http://clarity08.eecs.umich.edu:3030/dbpedia/query"); // !!!!!!!!!!!!!!!!
 	}
 }

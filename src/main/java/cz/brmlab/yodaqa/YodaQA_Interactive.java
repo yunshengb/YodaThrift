@@ -76,6 +76,7 @@ public class YodaQA_Interactive {
 			.processor(processor)	
 			.protocolFactory(new TBinaryProtocol.Factory())
 			.transportFactory(new TFramedTransport.Factory());
+			args.maxReadBufferBytes = 128;
 			TNonblockingServer server = new TNonblockingServer(args);
 			System.out.println("Starting Yoda at port " + port + "...");
 			System.out.println("You can run the client program now.");

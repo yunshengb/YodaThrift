@@ -231,6 +231,10 @@ public final class MultiCASPipeline implements QPM.Iface {
 			// This could be a CasMultiplier, but the UIMA interface doesn't specify. All we
 			// know is, this AE may output any number of CASes (including 0), and we need
 			// to use a different "process" interface
+
+			System.out.println("************************analysisEngines.size()########################");
+			System.out.println(analysisEngines.size());
+
 			CasIterator casIterator = analysisEngine.processAndOutputNewCASes(cas);
 			while( casIterator.hasNext() ) {
 				// Do one recursive call on the rest of the pipeline for each CAS
@@ -239,24 +243,8 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 
 
-				// System.out.println("############################################");
-				// System.out.println("############################################");
-				// System.out.println("############################################");
-				// System.out.println("############################################");
-				// System.out.println("********************************************");
-				// System.out.println("********************************************");
-				// System.out.println("############################################");
-				// System.out.println("############################################");
-				// System.out.println("############################################");
-				// System.out.println("####################runAnalysisEngines########################");
-				// System.out.println("####################analysisEngines########################");
-				// System.out.println(analysisEngines);
-				// System.out.println("####################index+1########################");
-				// System.out.println(index+1);
-				// System.out.println("####################newCAS########################");
-				// System.out.println(newCAS);
-				// System.out.println("####################analysisEngines.size()########################");
-				// System.out.println(analysisEngines.size());
+				System.out.println("####################analysisEngines.size()########################");
+				System.out.println(analysisEngines.size());
 
 
 				runAnalysisEngines(analysisEngines, index+1, newCAS);
