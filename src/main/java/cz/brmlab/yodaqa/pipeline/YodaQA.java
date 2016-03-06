@@ -54,10 +54,10 @@ public class YodaQA /* XXX: extends AggregateBuilder ? */ {
 			 * instructions on how to obtain an example one. */
 
 			//SolrNamedSource.register("guten", "data/guten", null);
-			SolrNamedSource.register("enwiki", "collection1", "http://clarity08.eecs.umich.edu:8983/solr/");
+			//SolrNamedSource.register("enwiki", "collection1", "http://clarity08.eecs.umich.edu:8983/solr/");
 			//SolrNamedSource.register("enwiki", "collection1", "http://localhost:8983/solr/");
-			//SolrNamedSource.register("enwiki", "collection1", "http://enwiki.ailao.eu:8983/solr/"); // previously, connect to the author
-			System.out.println("*************** Wikipedia: http://clarity08.eecs.umich.edu:8983/solr/");
+			SolrNamedSource.register("enwiki", "collection1", "http://enwiki.ailao.eu:8983/solr/"); // previously, connect to the author
+			System.out.println("*************** Wikipedia: http://enwiki.ailao.eu:8983/solr/");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.err.println("*** Exception caught during SolrNamedSource initialization. ***");

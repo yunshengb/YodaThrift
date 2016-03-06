@@ -142,6 +142,9 @@ public final class MultiCASPipeline implements QPM.Iface {
 			AnalysisEngineDescription ... analysisEngineDescriptions
 			) throws UIMAException, IOException {
 
+		System.out.println("****************************** analysisEngineDescriptions.length ******************************");
+		System.out.println(analysisEngineDescriptions.length);
+
 		/*
 		 * Create a merged type system for all components in the pipeline
 		 */
@@ -213,6 +216,7 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 	private static void runAnalysisEngines(List<AnalysisEngine> analysisEngines, int index, CAS cas)
 			throws AnalysisEngineProcessException {
+		System.out.println("####################runAnalysisEngines########################");
 		if( index >= analysisEngines.size() ) {
 			// base case, this CAS has been run through to the end of the pipeline
 			return;
@@ -232,10 +236,11 @@ public final class MultiCASPipeline implements QPM.Iface {
 			// know is, this AE may output any number of CASes (including 0), and we need
 			// to use a different "process" interface
 
-			System.out.println("************************analysisEngines.size()########################");
+			System.out.println("@@@************************analysisEngines.size()########################");
 			System.out.println(analysisEngines.size());
 
 			CasIterator casIterator = analysisEngine.processAndOutputNewCASes(cas);
+			System.out.println("@@@************************Here!########################");
 			while( casIterator.hasNext() ) {
 				// Do one recursive call on the rest of the pipeline for each CAS
 				// that the analysis engine produces.
@@ -243,7 +248,7 @@ public final class MultiCASPipeline implements QPM.Iface {
 
 
 
-				System.out.println("####################analysisEngines.size()########################");
+				System.out.println("$$$####################analysisEngines.size()########################");
 				System.out.println(analysisEngines.size());
 
 
@@ -258,6 +263,12 @@ public final class MultiCASPipeline implements QPM.Iface {
 		} else {
 			// Run the CAS through this AE, then run the rest of the pipeline
 			// recursively.
+		System.out.println("*******************************************************");
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+		System.out.println("$$$$$$$$$$$$$$$$$$$^^^^^^^^^^^^^^^^^^$$$$$$$$$$$$$$$$$$");
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+		System.out.println("$$$$$$$$$$$**********************************$$$$$$$$$$$");
 			analysisEngine.process(cas);
 			runAnalysisEngines(analysisEngines, index+1, cas);
 		}

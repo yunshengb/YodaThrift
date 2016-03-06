@@ -74,6 +74,14 @@ public class Solr implements Closeable {
 	public SolrDocumentList runQuery(String q, int results)
 			throws SolrServerException {
 		SolrQuery query = new SolrQuery();
+		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+		System.out.println("Solr, runQuery, q");
+		System.out.println(q);
+		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 		query.setQuery(escapeQuery(q));
 		query.setRows(results);
 		query.setFields("*", "score");
@@ -219,6 +227,7 @@ public class Solr implements Closeable {
 	public SolrDocumentList runIDQuery(Collection<Integer> IDs, int nResults,
 			Logger cLogger) throws SolrServerException {
 		String query = formulateIDQuery(IDs, cLogger);
+		System.out.println(query);
 		return runQuery(query, nResults);
 	}
 

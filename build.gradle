@@ -27,6 +27,18 @@ run {
   minHeapSize = "2048m"
   maxHeapSize = "3100m"
   systemProperties = System.getProperties()
+
+
+
+
+  if (System.getProperty('DEBUG', 'false') == 'true') {
+        jvmArgs '-Xdebug',
+            '-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=9009'
+  }
+
+
+
+  
 }
 
 sourceSets {
